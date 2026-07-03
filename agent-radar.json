@@ -4,12 +4,12 @@
     "schema_version": 1,
     "total_packs": 105,
     "total_tasks": 544,
-    "scoped_tasks": 103,
-    "latent_tasks": 441,
+    "scoped_tasks": 102,
+    "latent_tasks": 442,
     "status_counts": {
-      "scoped": 103,
+      "scoped": 102,
       "needs-triage": 439,
-      "needs-review": 2
+      "needs-review": 3
     },
     "owner_role_counts": {
       "literature-scout": 105,
@@ -19,7 +19,7 @@
       "field-reality-reviewer": 106
     },
     "scoped_role_counts": {
-      "literature-scout": 103
+      "literature-scout": 102
     },
     "reviewer_needed_counts": {
       "domain-reviewer": 225,
@@ -182,22 +182,6 @@
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       },
       {
-        "pack_id": "occupational-health/heat-stress-outdoor-workers-global",
-        "pack_title": "Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change",
-        "task_id": "source-inventory",
-        "title": "Inventory WBGT data sources, labor force distribution data, occupational health surveillance records, and heat-health epidemiology studies for LMICs",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "medium",
-        "done_condition": "At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering exposure metric, geographic grain, temporal coverage, LMIC data availability, and worker-population representation including informal sector coverage.",
-        "evidence_count": 6,
-        "downstream_tasks_unlocked": 5,
-        "downstream_high_risk_tasks": 4,
-        "problem_file": "problem-packs/occupational-health/heat-stress-outdoor-workers-global/problem.md",
-        "tasks_file": "problem-packs/occupational-health/heat-stress-outdoor-workers-global/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
-      },
-      {
         "pack_id": "public-health/antimicrobial-resistance-surveillance-global",
         "pack_title": "Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries",
         "task_id": "source-inventory",
@@ -227,6 +211,22 @@
         "downstream_high_risk_tasks": 4,
         "problem_file": "problem-packs/climate-health/malaria-early-warning-africa/problem.md",
         "tasks_file": "problem-packs/climate-health/malaria-early-warning-africa/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
+      },
+      {
+        "pack_id": "food-safety/aflatoxin-exposure-sub-saharan-africa",
+        "pack_title": "Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa",
+        "task_id": "source-inventory",
+        "title": "Inventory mycotoxin test data, climate suitability models, and post-harvest practice surveys for SSA aflatoxin risk mapping",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "medium",
+        "done_condition": "At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering contamination test method, geographic grain, crop specificity, sampling frame adequacy, and intervention-relevance.",
+        "evidence_count": 5,
+        "downstream_tasks_unlocked": 5,
+        "downstream_high_risk_tasks": 4,
+        "problem_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md",
+        "tasks_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/tasks.json",
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       }
     ],
@@ -294,28 +294,6 @@
         "evidence_count": 8,
         "problem_file": "problem-packs/biodiversity/deforestation-amazon/problem.md",
         "tasks_file": "problem-packs/biodiversity/deforestation-amazon/tasks.json"
-      },
-      {
-        "pack_id": "occupational-health/heat-stress-outdoor-workers-global",
-        "pack_title": "Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change",
-        "scoped_tasks": 1,
-        "downstream_tasks": 5,
-        "downstream_high_risk_tasks": 4,
-        "downstream_by_role": {
-          "data-cleaner": 1,
-          "implementation-planner": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "evidence_count": 6,
-        "problem_file": "problem-packs/occupational-health/heat-stress-outdoor-workers-global/problem.md",
-        "tasks_file": "problem-packs/occupational-health/heat-stress-outdoor-workers-global/tasks.json"
       },
       {
         "pack_id": "public-health/antimicrobial-resistance-surveillance-global",
@@ -492,6 +470,28 @@
         "evidence_count": 2,
         "problem_file": "problem-packs/public-health/child-mortality-inequality-global/problem.md",
         "tasks_file": "problem-packs/public-health/child-mortality-inequality-global/tasks.json"
+      },
+      {
+        "pack_id": "public-health/substandard-falsified-medicines-global",
+        "pack_title": "Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries",
+        "scoped_tasks": 1,
+        "downstream_tasks": 5,
+        "downstream_high_risk_tasks": 3,
+        "downstream_by_role": {
+          "implementation-planner": 2,
+          "data-cleaner": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_reviewers_needed": {
+          "domain-reviewer": 2,
+          "replicator": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "evidence_count": 4,
+        "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md",
+        "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json"
       }
     ],
     "reviewer_hotspots": [
@@ -507,6 +507,19 @@
         "downstream_high_risk_tasks": 4,
         "downstream_tasks": 6,
         "problem_file": "problem-packs/food-security/fisheries-overexploitation-west-africa/problem.md"
+      },
+      {
+        "pack_id": "occupational-health/heat-stress-outdoor-workers-global",
+        "pack_title": "Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change",
+        "downstream_reviewers_needed": {
+          "domain-reviewer": 3,
+          "replicator": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_high_risk_tasks": 4,
+        "downstream_tasks": 6,
+        "problem_file": "problem-packs/occupational-health/heat-stress-outdoor-workers-global/problem.md"
       },
       {
         "pack_id": "public-health/birth-registration-access-global",
@@ -625,19 +638,6 @@
         "problem_file": "problem-packs/food-security/locust-outbreak-east-africa/problem.md"
       },
       {
-        "pack_id": "occupational-health/heat-stress-outdoor-workers-global",
-        "pack_title": "Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change",
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_high_risk_tasks": 4,
-        "downstream_tasks": 5,
-        "problem_file": "problem-packs/occupational-health/heat-stress-outdoor-workers-global/problem.md"
-      },
-      {
         "pack_id": "public-health/antimicrobial-resistance-surveillance-global",
         "pack_title": "Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries",
         "downstream_reviewers_needed": {
@@ -657,7 +657,7 @@
         "scoped_tasks": 0,
         "latent_tasks": 127,
         "share_of_all_tasks": 0.233,
-        "share_of_latent_tasks": 0.288
+        "share_of_latent_tasks": 0.287
       },
       {
         "owner_role": "field-reality-reviewer",
@@ -682,10 +682,10 @@
       },
       {
         "owner_role": "literature-scout",
-        "scoped_tasks": 103,
-        "latent_tasks": 2,
+        "scoped_tasks": 102,
+        "latent_tasks": 3,
         "share_of_all_tasks": 0.193,
-        "share_of_latent_tasks": 0.005
+        "share_of_latent_tasks": 0.007
       }
     ]
   }

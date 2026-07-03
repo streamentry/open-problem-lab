@@ -123,5 +123,93 @@
       "The estimates do not separate acute heat injury from chronic heat-related illness, which have different surveillance requirements."
     ],
     "confidence": "medium"
+  },
+  {
+    "id": "era5-climate-reanalysis-wbgt-source",
+    "problem_id": "occupational-health/heat-stress-outdoor-workers-global",
+    "claim": "ERA5, the ECMWF fifth-generation atmospheric reanalysis, provides hourly estimates of temperature, humidity, and radiation at 0.25-degree global grid resolution from 1940 onward, and is used as a gridded input for WBGT derivation in occupational heat exposure studies, but it is not in itself a worker exposure dataset until combined with labor force spatial distributions and metabolic rate assumptions.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "ERA5 hourly data on single levels from 1940 to present",
+      "url": "https://doi.org/10.24381/cds.adbb2d47",
+      "doi": "10.24381/cds.adbb2d47",
+      "archive_url": "https://web.archive.org/web/2024/https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels"
+    },
+    "source_date": "2024-01-01",
+    "access_date": "2026-07-03",
+    "method": "Reviewed Copernicus Climate Data Store metadata for ERA5 single-levels: spatial resolution (0.25-degree), hourly temporal resolution, variables available for WBGT derivation (2m temperature, 2m dewpoint temperature, surface net shortwave and longwave radiation), documentation on data assimilation, and publication references to WBGT derivation workflows.",
+    "limitations": [
+      "ERA5 is an atmospheric reanalysis, not a workplace heat monitor; it does not capture local shading, ventilation, acclimatization, clothing, or work intensity.",
+      "0.25-degree cells, roughly 28 km at the equator, mask sub-grid variation in elevation, land use, and urban heat islands that matter for worker exposure.",
+      "Hourly output means peak heat exposure during day is inferable, but actual work timing and rest schedules are not part of the dataset.",
+      "WBGT must be derived from ERA5 variables using empirical formulas; different formulas can produce different threshold crossings.",
+      "Labor force data at sub-national grain needed to overlay worker populations onto ERA5 grid cells are not part of ERA5."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "merra2-climate-reanalysis-wbgt-source",
+    "problem_id": "occupational-health/heat-stress-outdoor-workers-global",
+    "claim": "MERRA-2, NASA's Modern-Era Retrospective analysis for Research and Applications version 2, provides global reanalysis data at 0.5-degree latitude by 0.625-degree longitude with hourly output from 1980 onward and is also used to derive WBGT and heat exposure metrics for occupational and health research.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "MERRA-2: Modern-Era Retrospective analysis for Research and Applications, version 2",
+      "url": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/",
+      "archive_url": "https://web.archive.org/web/2024/https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/"
+    },
+    "source_date": "2015-01-01",
+    "access_date": "2026-07-03",
+    "method": "Reviewed NASA GMAO MERRA-2 documentation for spatial resolution (0.5 x 0.625 degrees), temporal resolution (hourly), temporal coverage (1980-present), available variables for WBGT derivation, aerosol reanalysis improvements, and NASA EOSDIS data access pathways.",
+    "limitations": [
+      "MERRA-2 has coarser horizontal resolution than ERA5 (0.5 x 0.625 degrees versus 0.25 degrees), so it captures less local detail in mountainous or coastal work settings.",
+      "It is a reanalysis product, not a worker exposure record, and requires WBGT derivation plus labor-force overlay to assess occupational heat stress.",
+      "Aerosol corrections and radiation schemes may differ by region; cross-referencing with local station data is needed before using derived WBGT for operational local decisions.",
+      "Data access requires registration and the output format (HDF/netCDF) needs preprocessing for occupational health applications."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ilostat-employment-industry-global",
+    "problem_id": "occupational-health/heat-stress-outdoor-workers-global",
+    "claim": "ILOSTAT provides employment-by-industry and employment-status estimates (formal/informal distinction where available) for most ILO member states and some sub-national units, but coverage of informal employment is incomplete and geographic detail below national level is limited or modeled rather than directly collected.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "ILOSTAT database on employment and industrial composition by sex and economic activity",
+      "url": "https://ilostat.ilo.org/data/",
+      "archive_url": "https://web.archive.org/web/2024/https://ilostat.ilo.org/data/"
+    },
+    "source_date": "2024-01-01",
+    "access_date": "2026-07-03",
+    "method": "Reviewed ILOSTAT bulk download and browse interfaces for employment by economic activity (ISIC 4-digit), status in employment (employee, employer, own-account, contributing family worker), informal employment indicators where compiled, geographic coverage by country, and documentation of modeling methods and revisions.",
+    "limitations": [
+      "ILOSTAT employment-by-industry data are predominantly national; sub-national breakdowns are available for only a minority of countries.",
+      "Informal employment estimates depend on national labor force survey sophistication and are incomplete for many LMICs; sector-level informal work counts are especially scarce.",
+      "Industry classification (ISIC) may be inconsistently applied across countries, limiting comparability of agriculture, construction, and mining worker counts.",
+      "Labor force surveys often exclude certain groups (unpaid family workers, seasonal migrants, refugees), which can bias outdoor worker population estimates.",
+      "ILOSTAT does not directly link worker locations to climate grid cells, so exposure-outcome mapping still requires a spatial overlay with reanalysis data."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "lancet-countdown-heat-labor-2024",
+    "problem_id": "occupational-health/heat-stress-outdoor-workers-global",
+    "claim": "The 2024 Lancet Countdown report found that heat-related labor loss reached a record 490 billion potential work hours globally in 2023, with low HDI countries experiencing the highest exposure and that exposure is projected to worsen; this provides an aggregate annual framing metric but not sub-national, industry-specific work-hour loss data for individual LMICs.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Lancet Countdown 2024: The 2024 report of the Lancet Countdown on health and climate change",
+      "url": "https://lancetcountdown.org/2024-report/",
+      "archive_url": "https://web.archive.org/web/2024/https://lancetcountdown.org/2024-report/"
+    },
+    "source_date": "2024-10-29",
+    "access_date": "2026-07-03",
+    "method": "Reviewed Lancet Countdown 2024 indicator briefs and methods appendix for heat-related labor loss estimates, data sources (ERA5/MERRA-2, WBGT derivation), global potential work-hour loss figures, country-group comparisons by HDI, and stated limitations on sectoral and geographic attribution.",
+    "limitations": [
+      "Labor-loss estimates are global aggregate outputs from WBGT-population models, not direct measurements of worker downtime or injury.",
+      "Results are reported by HDI group or selected countries, not by sub-national district or province, so they cannot pinpoint high-burden LMIC regions.",
+      "The model assumes standard work intensity and does not capture local adaptations such as work-time shifting, rest breaks, or local norms of siesta.",
+      "Agriculture and construction are the dominant sectors modeled, but informal and part-time outdoor work is difficult to estimate accurately.",
+      "The 490 billion hour figure is sensitive to threshold assumptions (WBGT, work intensity) and is best treated as a modeled order of magnitude rather than a precise accounting metric."
+    ],
+    "confidence": "high"
   }
 ]
