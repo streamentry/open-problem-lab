@@ -1,0 +1,44 @@
+{
+  "id": "public-health/hearing-loss-care-access-global",
+  "title": "Hearing Loss Care Access And Hearing Aid Coverage Gaps In Low- And Middle-Income Countries",
+  "status": "scoped",
+  "domain": ["public-health"],
+  "region": ["global"],
+  "summary": "Build a verified evidence base documenting the gap between hearing care need and service coverage in LMICs, with sub-national grain where data permits, to support national health ministries and WHO member states in allocating ear and hearing care resources under NCD budgets.",
+  "why_it_matters": "WHO estimates 430 million people have disabling hearing loss, 80% in LMICs, with unaddressed hearing loss costing nearly US$1 trillion annually. An annual investment of less than US$1.40 per person could scale ear and hearing care services with a 16:1 return over 10 years. Yet this pack has not identified a standardized, reusable sub-national hearing aid coverage dataset that a health minister could use to target deployment of audiologists, hearing screening programs, or hearing aid provision across LMIC settings. A national health ministry deciding whether to include ear and hearing care in its essential service package needs to know: where is the need concentrated, what is the current coverage gap at sub-national level, and what is the cost-effectiveness of scaling hearing aid provision versus competing NCD interventions. Without verified sub-national coverage data, the allocation decision is easier to defer. This pack exists to make that decision evidence-based rather than evidence-absent.",
+  "success_metrics": [
+    {
+      "metric": "Evidence traceability",
+      "target": "Every accepted claim about hearing loss prevalence, coverage gap, or intervention cost-effectiveness links to a dated evidence record with method and limitations.",
+      "validation_method": "Run schema validation and reviewer spot-checks against evidence.json and evidence.md."
+    },
+    {
+      "metric": "Sub-national granularity",
+      "target": "At least three LMICs have documented hearing aid coverage or audiology workforce density data at national or sub-national level with explicit source and method.",
+      "validation_method": "Reviewer checks each country-level data point for source provenance, data collection method, year, and stated limitations."
+    },
+    {
+      "metric": "Decision-maker utility",
+      "target": "The pack names the specific allocation decision, the decision-maker, and the evidence gap that blocks the decision.",
+      "validation_method": "Field-reality reviewer confirms the named decision is real, the decision-maker is identifiable, and the evidence gap is genuinely what blocks action."
+    }
+  ],
+  "safety_level": "medium",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 2,
+    "replication_required": true,
+    "merge_gate": "Schema validation, domain review, safety review for any operational recommendation about hearing aid deployment or screening program design, and replication for quantitative coverage claims."
+  }
+}

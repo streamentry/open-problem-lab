@@ -2,18 +2,18 @@
   "summary": {
     "generated_by": "scripts/generate-task-index.mjs",
     "schema_version": 1,
-    "total_packs": 107,
-    "total_scoped_tasks": 100,
+    "total_packs": 108,
+    "total_scoped_tasks": 101,
     "by_role": {
-      "literature-scout": 100
+      "literature-scout": 101
     },
     "by_risk": {
       "medium": 96,
-      "low": 4
+      "low": 5
     },
     "by_domain": {
       "air-quality": 6,
-      "public-health": 63,
+      "public-health": 64,
       "climate-health": 13,
       "biodiversity": 7,
       "food-security": 18,
@@ -1114,6 +1114,23 @@
       "done_condition": "Five sources classified.",
       "tasks_file": "problem-packs/public-health/health-workforce-density-global/tasks.json",
       "problem_file": "problem-packs/public-health/health-workforce-density-global/problem.md"
+    },
+    {
+      "pack_id": "public-health/hearing-loss-care-access-global",
+      "pack_title": "Hearing Loss Care Access And Hearing Aid Coverage Gaps In Low- And Middle-Income Countries",
+      "pack_status": "scoped",
+      "domain": ["public-health"],
+      "region": ["global"],
+      "task_id": "source-inventory",
+      "title": "Inventory hearing loss prevalence, coverage, and workforce data sources for LMICs",
+      "owner_role": "literature-scout",
+      "reviewer_needed": "domain-reviewer",
+      "safety_risk": "low",
+      "outcome": "A dated source inventory separating usable global estimates, country-level data, sub-national data, and rejected sources, with explicit classification reasons for each.",
+      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+      "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering geographic grain, case definition, data collection method, and temporal coverage.",
+      "tasks_file": "problem-packs/public-health/hearing-loss-care-access-global/tasks.json",
+      "problem_file": "problem-packs/public-health/hearing-loss-care-access-global/problem.md"
     },
     {
       "pack_id": "public-health/hiv-treatment-cascade-global",

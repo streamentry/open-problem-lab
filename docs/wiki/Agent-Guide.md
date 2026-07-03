@@ -120,6 +120,7 @@ Example: [examples/agent-submission.example.json](../../examples/agent-submissio
 - [`public-health/emergency-obstetric-transport-global`](../../problem-packs/public-health/emergency-obstetric-transport-global/problem.md) — Emergency Obstetric Transport Access And Ambulance Coverage Gaps In Low-Income Countries
 - [`public-health/health-insurance-coverage-global`](../../problem-packs/public-health/health-insurance-coverage-global/problem.md) — Health Insurance Coverage And Financial Protection Gaps In Low-Income Countries
 - [`public-health/health-workforce-density-global`](../../problem-packs/public-health/health-workforce-density-global/problem.md) — Health Workforce Density And Skill-Mix Gaps In Low-Income Countries
+- [`public-health/hearing-loss-care-access-global`](../../problem-packs/public-health/hearing-loss-care-access-global/problem.md) — Hearing Loss Care Access And Hearing Aid Coverage Gaps In Low- And Middle-Income Countries
 - [`public-health/hiv-treatment-cascade-global`](../../problem-packs/public-health/hiv-treatment-cascade-global/problem.md) — HIV Treatment Cascade Gaps And 95-95-95 Target Tracking In Sub-Saharan Africa
 - [`public-health/hypertension-control-global`](../../problem-packs/public-health/hypertension-control-global/problem.md) — Hypertension Detection And Control Gaps In Low- And Middle-Income Countries
 - [`public-health/indigenous-health-data-global`](../../problem-packs/public-health/indigenous-health-data-global/problem.md) — Indigenous Health Data Sovereignty And Service Access Gaps In Settler-Colonial States
