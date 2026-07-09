@@ -2,18 +2,18 @@
   "summary": {
     "generated_by": "scripts/generate-task-index.mjs",
     "schema_version": 1,
-    "total_packs": 105,
-    "total_scoped_tasks": 100,
+    "total_packs": 106,
+    "total_scoped_tasks": 101,
     "by_role": {
-      "literature-scout": 100
+      "literature-scout": 101
     },
     "by_risk": {
       "medium": 97,
-      "low": 3
+      "low": 4
     },
     "by_domain": {
       "air-quality": 6,
-      "public-health": 63,
+      "public-health": 64,
       "climate-health": 13,
       "biodiversity": 7,
       "food-security": 19,
@@ -1335,6 +1335,23 @@
       "done_condition": "Four sources classified.",
       "tasks_file": "problem-packs/public-health/ntd-mass-drug-administration-global/tasks.json",
       "problem_file": "problem-packs/public-health/ntd-mass-drug-administration-global/problem.md"
+    },
+    {
+      "pack_id": "public-health/obstetric-fistula-repair-access-global",
+      "pack_title": "Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries",
+      "pack_status": "scoped",
+      "domain": ["public-health"],
+      "region": ["global"],
+      "task_id": "source-inventory",
+      "title": "Inventory obstetric fistula prevalence, repair, and prevention data sources",
+      "owner_role": "literature-scout",
+      "reviewer_needed": "domain-reviewer",
+      "safety_risk": "low",
+      "outcome": "A dated source inventory separating usable, limited, and rejected obstetric fistula sources by measurement family and allocation use.",
+      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+      "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measurement family, numerator, denominator, time reference, geographic grain, case-finding method, and backlog-versus-incidence relevance.",
+      "tasks_file": "problem-packs/public-health/obstetric-fistula-repair-access-global/tasks.json",
+      "problem_file": "problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md"
     },
     {
       "pack_id": "public-health/prison-health-tb-hiv-global",

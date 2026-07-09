@@ -1,0 +1,80 @@
+[
+  {
+    "id": "unfpa-obstetric-fistula-topic-2022",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "claim": "UNFPA estimates that about half a million women and girls across sub-Saharan Africa, Asia, the Arab States region, and Latin America and the Caribbean are living with obstetric fistula and frames the condition as caused by prolonged obstructed labour without timely high-quality medical treatment.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Obstetric fistula",
+      "url": "https://www.unfpa.org/obstetric-fistula"
+    },
+    "source_date": "2022-05-23",
+    "access_date": "2026-07-09",
+    "method": "Reviewed the UNFPA topic page for burden framing, mechanism, treatment-access barriers, prevention framing, campaign scope, and reported repairs supported by UNFPA.",
+    "limitations": [
+      "This is a global program framing page, not a country-level prevalence dataset.",
+      "The half-million estimate is not presented with a confidence interval or country breakdown on the page.",
+      "The page does not distinguish first repair need from recurrent, failed, or inoperable cases."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bmjgh-global-fistula-prevalence-2025",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "claim": "A 2025 BMJ Global Health modelling study estimated roughly 457,000 women ages 15-64 and 386,000 women ages 15-49 living with obstetric fistula in 2020 across 55 low- and middle-income countries targeted by the UNFPA Campaign to End Fistula.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Global, regional and national estimates of obstetric fistula prevalence",
+      "url": "https://doi.org/10.1136/bmjgh-2025-020877",
+      "doi": "10.1136/bmjgh-2025-020877"
+    },
+    "source_date": "2025-12-01",
+    "access_date": "2026-07-09",
+    "method": "Reviewed search-indexed abstract metadata and DOI record for the population, geography, estimate, and uncertainty range; treated the result as burden framing pending full source-inventory verification.",
+    "limitations": [
+      "The estimate is modelled, not a direct count of confirmed untreated cases.",
+      "The source date uses the journal issue month because the exact article publication day was not available from the accessed metadata.",
+      "The evidence does not by itself identify surgical capacity, case-finding barriers, or sub-national backlog."
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "plosone-fistula-repair-success-2024",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "claim": "A 2024 PLOS ONE systematic review and meta-analysis estimated pooled successful obstetric fistula surgical repair at 77.85 percent across included low- and middle-income country studies.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Proportions and determinants of successful surgical repair of obstetric fistula in low- and middle-income countries: A systematic review and meta-analysis",
+      "url": "https://doi.org/10.1371/journal.pone.0303020",
+      "doi": "10.1371/journal.pone.0303020"
+    },
+    "source_date": "2024-05-09",
+    "access_date": "2026-07-09",
+    "method": "Reviewed the PLOS ONE article metadata and abstract for publication date, DOI, scope, included setting type, and pooled repair-success estimate.",
+    "limitations": [
+      "A pooled repair-success estimate does not measure country-level surgical capacity or access.",
+      "Study populations are treated patients, not all women living with fistula.",
+      "Closure, continence, follow-up, recurrence, and reintegration outcomes may not be measured consistently across included studies."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "unfpa-secretary-general-fistula-report-2024",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "claim": "The 2024 UN Secretary-General report hosted by UNFPA frames obstetric fistula elimination as requiring action across prevention, treatment, social reintegration, and emerging obstacles such as humanitarian crises and climate change.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Intensifying efforts to end obstetric fistula within a decade: Report of the Secretary-General (A/79/112)",
+      "url": "https://www.unfpa.org/resources/intensifying-efforts-end-obstetric-fistula-within-decade-report-secretary-general-a79112"
+    },
+    "source_date": "2024-07-01",
+    "access_date": "2026-07-09",
+    "method": "Reviewed the UNFPA resource page metadata and description for publication authority, date, scope, and the policy dimensions named in the report summary.",
+    "limitations": [
+      "The resource page summary does not provide a machine-readable country dataset.",
+      "Policy recommendations are global and require country-level verification before operational use.",
+      "This source does not quantify repair backlog or surgical capacity by geography."
+    ],
+    "confidence": "high"
+  }
+]

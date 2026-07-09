@@ -1,0 +1,44 @@
+{
+  "id": "public-health/obstetric-fistula-repair-access-global",
+  "title": "Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries",
+  "status": "scoped",
+  "domain": ["public-health"],
+  "region": ["global"],
+  "summary": "Build a verified workflow for separating obstetric fistula repair backlog, incident prevention, and measurement artifacts so funders and maternal-newborn programs can decide where surgical repair capacity, referral strengthening, and prevalence measurement are each the right next move.",
+  "why_it_matters": "UNFPA estimates that about half a million women and girls live with obstetric fistula, while a recent global modelling study estimated roughly 457,000 women ages 15-64 living with fistula in 2020. That gap is not a rounding error for decision-makers: a foundation chair, UNFPA campaign lead, or ministry maternal-newborn director deciding whether to finance fistula repair camps, surgeon training, referral transport, or emergency obstetric care upgrades needs to know whether the binding constraint is untreated backlog, new incidence, surgical capacity, or bad measurement.",
+  "success_metrics": [
+    {
+      "metric": "Backlog-versus-incidence discipline",
+      "target": "Every accepted artifact states whether it is measuring prevalent untreated fistula, incident fistula, repair output, prevention capacity, or self-reported symptoms.",
+      "validation_method": "Schema validation and domain-reviewer check against evidence.json, datasets.md, and validation.md."
+    },
+    {
+      "metric": "Decision wedge clarity",
+      "target": "At least one reviewed artifact names a decision-maker and states which observed pattern would shift funding between repair backlog, surgical workforce, referral transport, and emergency obstetric care prevention.",
+      "validation_method": "Domain review and field-reality review before any operational output."
+    },
+    {
+      "metric": "Misuse prevention",
+      "target": "No country or facility ranking is accepted unless measurement grain, referral bias, case-mix, and reporting incentives are documented.",
+      "validation_method": "Red-team review and replication for any ranking or operational classification."
+    }
+  ],
+  "safety_level": "medium",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 2,
+    "replication_required": true,
+    "merge_gate": "Schema validation, domain review, source verification for changed evidence URLs, and replication for any quantitative backlog estimate, capacity comparison, or operational ranking."
+  }
+}

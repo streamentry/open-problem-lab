@@ -66,10 +66,10 @@
     "evidence_type": "dataset",
     "source": {
       "title": "International Waterbird Census — Wetlands International",
-      "url": "https://www.wetlands.org/what-we-do/international-waterbird-census/"
+      "url": "https://www.wetlands.org/tools/international-waterbird-census/"
     },
     "source_date": "2025-01-01",
-    "access_date": "2026-06-07",
+    "access_date": "2026-07-09",
     "method": "Reviewed IWC data-access documentation, site-coverage maps, and temporal-coverage assessment. Cross-referenced with eBird flyway coverage for migratory waterbirds.",
     "limitations": [
       "IWC site coverage is heavily biased toward European wetlands — Asian and African flyway coverage is sparser and less consistent across years.",

@@ -12,15 +12,15 @@ The question is not only whether a PR has been reviewed. The question is whether
 
 ## Routing levels
 
-| Route | Use when | Minimum reviewer |
-|---|---|---|
-| `general` | Docs structure, typo fixes, navigation, low-risk explanation. | Any maintainer or trusted contributor. |
-| `evidence` | Adds or changes evidence records, source interpretation, claim boundaries. | Reviewer comfortable with evidence quality and citation standards. |
-| `domain` | Makes a substantive claim inside a technical or field domain. | Domain-knowledgeable reviewer. |
-| `quantitative` | Adds metrics, rankings, model results, estimates, or statistical claims. | Reviewer who can inspect method and uncertainty. |
-| `field` | Implies real-world action, program design, implementation, or policy use. | Field-reality reviewer or practitioner-informed reviewer. |
-| `replication` | Claim is safety-sensitive, quantitative, or load-bearing. | Independent reviewer or reproduction artifact. |
-| `maintainer` | Changes schemas, workflows, governance, generated indexes, or acceptance gates. | Maintainer. |
+| Route          | Use when                                                                        | Minimum reviewer                                                   |
+| -------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| `general`      | Docs structure, typo fixes, navigation, low-risk explanation.                   | Any maintainer or trusted contributor.                             |
+| `evidence`     | Adds or changes evidence records, source interpretation, claim boundaries.      | Reviewer comfortable with evidence quality and citation standards. |
+| `domain`       | Makes a substantive claim inside a technical or field domain.                   | Domain-knowledgeable reviewer.                                     |
+| `quantitative` | Adds metrics, rankings, model results, estimates, or statistical claims.        | Reviewer who can inspect method and uncertainty.                   |
+| `field`        | Implies real-world action, program design, implementation, or policy use.       | Field-reality reviewer or practitioner-informed reviewer.          |
+| `replication`  | Claim is safety-sensitive, quantitative, or load-bearing.                       | Independent reviewer or reproduction artifact.                     |
+| `maintainer`   | Changes schemas, workflows, governance, generated indexes, or acceptance gates. | Maintainer.                                                        |
 
 ## Minimum routing note
 

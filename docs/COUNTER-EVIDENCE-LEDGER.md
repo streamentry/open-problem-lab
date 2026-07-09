@@ -54,13 +54,13 @@ Use this structure in the relevant problem pack or in a dedicated `counter-evide
 
 ## Status semantics
 
-| Status | Meaning |
-|---|---|
-| `unresolved` | The counter-evidence is plausible and still threatens the claim. |
-| `bounded` | The original claim may survive, but only within a narrower scope. |
-| `resolved` | Follow-up evidence addressed the objection without narrowing the claim. |
-| `accepted as limitation` | The claim remains useful, but the limitation must travel with it. |
-| `claim withdrawn` | The claim should no longer be treated as accepted knowledge. |
+| Status                   | Meaning                                                                 |
+| ------------------------ | ----------------------------------------------------------------------- |
+| `unresolved`             | The counter-evidence is plausible and still threatens the claim.        |
+| `bounded`                | The original claim may survive, but only within a narrower scope.       |
+| `resolved`               | Follow-up evidence addressed the objection without narrowing the claim. |
+| `accepted as limitation` | The claim remains useful, but the limitation must travel with it.       |
+| `claim withdrawn`        | The claim should no longer be treated as accepted knowledge.            |
 
 ## Reviewer rule
 

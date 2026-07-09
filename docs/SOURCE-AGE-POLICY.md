@@ -8,13 +8,13 @@ A source can be old and still valid. A source can be recent and still weak. The 
 
 Use the least strict class that honestly fits the claim.
 
-| Class | Meaning | Example refresh expectation |
-|---|---|---|
-| `stable` | Conceptual, historical, or physical background unlikely to change quickly. | Review when challenged or superseded. |
-| `slow-changing` | Structural facts, long-run datasets, institutional context. | Recheck when source is older than 24 months. |
-| `moderate-changing` | Program status, burden estimates, policy, funding, implementation landscape. | Recheck when source is older than 12 months. |
-| `fast-changing` | prices, active outbreaks, conflict, weather, current office holders, live service availability, recent regulations. | Recheck before use; stale after 30-90 days depending on domain. |
-| `snapshot` | A claim intentionally tied to a specific date or version. | Preserve date; do not silently generalize. |
+| Class               | Meaning                                                                                                             | Example refresh expectation                                     |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| `stable`            | Conceptual, historical, or physical background unlikely to change quickly.                                          | Review when challenged or superseded.                           |
+| `slow-changing`     | Structural facts, long-run datasets, institutional context.                                                         | Recheck when source is older than 24 months.                    |
+| `moderate-changing` | Program status, burden estimates, policy, funding, implementation landscape.                                        | Recheck when source is older than 12 months.                    |
+| `fast-changing`     | prices, active outbreaks, conflict, weather, current office holders, live service availability, recent regulations. | Recheck before use; stale after 30-90 days depending on domain. |
+| `snapshot`          | A claim intentionally tied to a specific date or version.                                                           | Preserve date; do not silently generalize.                      |
 
 ## Minimum citation note
 
