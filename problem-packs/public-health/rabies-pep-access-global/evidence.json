@@ -95,5 +95,100 @@
       "The source supports tractability framing but not a country ranking without replication."
     ],
     "confidence": "medium"
+  },
+  {
+    "id": "who-rabies-gho-topic-2026",
+    "problem_id": "public-health/rabies-pep-access-global",
+    "claim": "WHO's Global Health Observatory rabies topic page provides a country-level reported human rabies deaths indicator and explicitly warns that rabies deaths, vaccine access, and animal-population occurrence data are limited by under-reporting, misdiagnosis, and under-diagnosis.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "WHO Global Health Observatory: Rabies",
+      "url": "https://www.who.int/data/gho/data/themes/topics/rabies"
+    },
+    "source_date": "2026-07-09",
+    "access_date": "2026-07-09",
+    "method": "Reviewed the WHO GHO rabies topic page for available indicators and WHO's stated caveat about what reported rabies data can and cannot prove. Classified it as a reporting-cadence and burden-presence source, not a complete PEP access dataset.",
+    "limitations": [
+      "The indicator is reported human rabies deaths, not bite incidence, PEP demand, vaccine stock, RIG access, or completion.",
+      "WHO explicitly warns that rabies is under-reported and mis- or under-diagnosed, so low reported deaths cannot be treated as low exposure or sufficient PEP access.",
+      "The page is country-level and does not provide facility-tier or district access measures."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-afro-rabies-prevention-control-2026",
+    "problem_id": "public-health/rabies-pep-access-global",
+    "claim": "WHO's 2026 Weekly Epidemiological Record article on rabies prevention and control in the African Region states that robust human and animal surveillance, PEP risk-assessment decision trees, case investigation forms, and integrated bite case management are required to monitor progress toward ending dog-mediated human rabies deaths.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Rabies prevention and control in the WHO African Region",
+      "url": "https://www.who.int/publications/i/item/who-wer10119-78-86"
+    },
+    "source_date": "2026-06-12",
+    "access_date": "2026-07-09",
+    "method": "Reviewed the WHO publication page and WER summary for Africa-specific surveillance, PEP risk-assessment, IBCM, Gavi support, and One Health programme requirements. Classified it as a current programme-framing source rather than a country access dataset.",
+    "limitations": [
+      "Regional WHO article; it does not publish a facility-level inventory of vaccine, RIG, monoclonal antibody, or PEP completion availability.",
+      "It names tools and programme capacities but does not prove that countries are using them consistently.",
+      "It cannot distinguish procurement bottlenecks from triage, reporting, or dog-vaccination bottlenecks without country records."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-rabies-vaccination-immunization-page-2026",
+    "problem_id": "public-health/rabies-pep-access-global",
+    "claim": "WHO's rabies vaccination and immunization page classifies exposure categories and states that category III exposure requires immediate vaccination and rabies immunoglobulin, while intradermal vaccination is a safe, immunogenic, dose- and cost-sparing alternative to intramuscular vaccination.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Control of Neglected Tropical Diseases: Rabies vaccines",
+      "url": "https://www.who.int/teams/control-of-neglected-tropical-diseases/rabies/vaccinations-and-immunization"
+    },
+    "source_date": "2026-07-09",
+    "access_date": "2026-07-09",
+    "method": "Reviewed WHO's rabies vaccination and immunization page for the category I, II, and III exposure rules, RIG indication, and intradermal regimen statement. Used it to anchor the bite-risk and regimen-capacity components of the inventory.",
+    "limitations": [
+      "Guidance page, not a country implementation dataset.",
+      "It cannot prove that facilities can classify exposures correctly or administer RIG where category III exposure is indicated.",
+      "Operational use of clinical guidance requires domain review; this record is only for source classification."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "woah-wahis-rabies-animal-health-data-2026",
+    "problem_id": "public-health/rabies-pep-access-global",
+    "claim": "WOAH's WAHIS portal is the official animal-health reporting surface for WOAH-listed diseases and provides public access to domestic-animal, wildlife, emerging-disease, zoonosis, and historical animal-health reports relevant to dog-rabies context.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "World Animal Health Information System",
+      "url": "https://www.woah.org/en/what-we-do/animal-health-and-welfare/disease-data-collection/world-animal-health-information-system/"
+    },
+    "source_date": "2026-07-09",
+    "access_date": "2026-07-09",
+    "method": "Reviewed the WOAH WAHIS description for reporting mandate, public interface, early-warning, monitoring, annual reporting, and archive scope. Classified it as animal-rabies and dog-vaccination context that must be paired with human PEP data.",
+    "limitations": [
+      "WAHIS is an animal-health reporting system; it does not measure human bite victims, PEP access, RIG availability, or PEP completion.",
+      "Member reporting can vary in completeness, timeliness, and sub-national detail.",
+      "Animal rabies reports are context for human PEP demand, not proof of the binding human-health access bottleneck."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "cdc-rabies-status-by-country-2026",
+    "problem_id": "public-health/rabies-pep-access-global",
+    "claim": "CDC's 2026 rabies status-by-country page evaluates country rabies risk and access to high-quality PEP for US travel and animal-importation guidance, but it is not designed as a public allocation dataset for endemic-country PEP component gaps.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Rabies Status by Country",
+      "url": "https://www.cdc.gov/rabies/country-data/index.html"
+    },
+    "source_date": "2026-04-15",
+    "access_date": "2026-07-09",
+    "method": "Reviewed the CDC page's key points, stated use cases, and definitions of rabies status and surveillance robustness. Classified it as rejected for canonical PEP access ranking but useful as an external risk-classification comparator.",
+    "limitations": [
+      "The page is built for US traveler and importation recommendations, not for allocating endemic-country rabies programme resources.",
+      "It does not expose the component-level evidence needed to separate vaccine access, RIG access, bite-risk triage, reporting cadence, and dog-vaccination context.",
+      "A country risk category cannot substitute for source-level public records when screening PEP access bottlenecks."
+    ],
+    "confidence": "high"
   }
 ]
