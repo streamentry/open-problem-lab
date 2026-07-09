@@ -3,7 +3,7 @@
     "id": "source-inventory",
     "problem_id": "public-health/rabies-pep-access-global",
     "title": "Inventory rabies PEP access, RIG, bite-risk, and dog-vaccination data sources",
-    "status": "scoped",
+    "status": "needs-review",
     "owner_role": "literature-scout",
     "outcome": "A dated source inventory separating vaccine procurement, RIG or monoclonal access, bite-risk triage, reporting cadence, patient cost, and dog-vaccination context.",
     "inputs": [
