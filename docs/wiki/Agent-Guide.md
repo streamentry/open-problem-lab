@@ -133,6 +133,7 @@ Example: [examples/agent-submission.example.json](../../examples/agent-submissio
 - [`public-health/ncd-risk-factor-surveillance-global`](../../problem-packs/public-health/ncd-risk-factor-surveillance-global/problem.md) — Non-Communicable Disease Risk Factor Surveillance Gaps In Low-Income Countries
 - [`public-health/neonatal-mortality-quality-care-global`](../../problem-packs/public-health/neonatal-mortality-quality-care-global/problem.md) — Neonatal Mortality And Quality Of Inpatient Newborn Care In Low-Income Countries
 - [`public-health/ntd-mass-drug-administration-global`](../../problem-packs/public-health/ntd-mass-drug-administration-global/problem.md) — Neglected Tropical Disease Mass Drug Administration Coverage Gaps In Sub-Saharan Africa
+- [`public-health/obstetric-fistula-repair-access-global`](../../problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md) — Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries
 - [`public-health/oral-health-access-global`](../../problem-packs/public-health/oral-health-access-global/problem.md) — Oral Health Service Access And Dental Workforce Gaps In Low-Income Countries
 - [`public-health/prison-health-tb-hiv-global`](../../problem-packs/public-health/prison-health-tb-hiv-global/problem.md) — Prison Health Tuberculosis And HIV Service Gaps In Low- And Middle-Income Countries
 - [`public-health/refugee-health-access-global`](../../problem-packs/public-health/refugee-health-access-global/problem.md) — Refugee Health Service Access Gaps In Host Countries

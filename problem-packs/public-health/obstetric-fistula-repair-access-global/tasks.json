@@ -1,0 +1,87 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "title": "Inventory obstetric fistula prevalence, repair, and prevention data sources",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory separating usable, limited, and rejected obstetric fistula sources by measurement family and allocation use.",
+    "inputs": [
+      "UNFPA Campaign to End Fistula records",
+      "BMJ Global Health 2025 prevalence estimates",
+      "DHS fistula module guidance and survey microdata where available",
+      "repair-center or national fistula program records",
+      "surgical outcome studies",
+      "EmONC and referral-delay data sources"
+    ],
+    "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+    "validation_method": "Reviewer checks that at least six sources are classified with explicit reasons covering measurement family, numerator, denominator, time reference, geographic grain, case-finding method, and ability or inability to separate backlog from incidence.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "low",
+    "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measurement family, numerator, denominator, time reference, geographic grain, case-finding method, and backlog-versus-incidence relevance."
+  },
+  {
+    "id": "measurement-reconciliation-note",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "title": "Write measurement reconciliation note for fistula backlog and repair access",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A reviewable note stating which fistula measurement families can and cannot be compared for allocation decisions.",
+    "inputs": ["datasets.md", "evidence.json", "source inventory"],
+    "expected_artifact": "validation.md update plus short note in outputs.md.",
+    "validation_method": "Domain reviewer checks that every allowed comparison names measurement family, numerator, denominator, time reference, and disqualifying mismatch.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "medium",
+    "done_condition": "Every allowed comparison states measurement family, numerator, denominator, time reference, and policy question; every blocked comparison states the named mismatch that makes it invalid."
+  },
+  {
+    "id": "country-feasibility-selection",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "title": "Select countries where fistula backlog-versus-incidence verification is feasible",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A shortlist of countries with enough public data to distinguish untreated repair backlog from continuing incident prevention failure.",
+    "inputs": [
+      "source inventory",
+      "measurement reconciliation note",
+      "public prevalence and repair sources"
+    ],
+    "expected_artifact": "outputs.md update with country shortlist and explicit exclusion reasons.",
+    "validation_method": "Replicator confirms the inclusion and exclusion logic on the same source set and checks that no country is ranked from incomparable measurement families.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "At least three candidate countries are classified as feasible, borderline, or not feasible with explicit reasons tied to public data availability, comparability, repair-capacity evidence, and decision use."
+  },
+  {
+    "id": "red-team-review",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "title": "Red-team misuse of fistula backlog and repair-capacity signals",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review covering stigma, blame, punitive facility ranking, false prevalence certainty, and perverse repair-output incentives.",
+    "inputs": ["draft outputs", "SAFETY.md", "validation rules"],
+    "expected_artifact": "playbooks.md update with failure modes and blocked uses.",
+    "validation_method": "A second reviewer reproduces the cited misuse risks from the draft artifact and confirms that mitigation language is present before publication.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every field-facing artifact names who could misuse fistula backlog or repair-capacity signals, how the misuse would happen, what blocking language or review gate prevents it, and the review is independently replicated before publication."
+  },
+  {
+    "id": "field-reality-check",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "title": "Check whether fistula outputs match maternal-newborn and repair-program decisions",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing review of whether the pack changes a named repair, referral, surgical workforce, or EmONC investment decision without stigmatizing survivors or distorting reporting.",
+    "inputs": [
+      "draft outputs",
+      "maternal-newborn program context",
+      "fistula repair workflow context"
+    ],
+    "expected_artifact": "playbooks.md update with named user, decision, timing, and non-use cases.",
+    "validation_method": "Field reviewer identifies the actual decision, user, service workflow, and misuse risk; a second reviewer replicates the check on stated non-use cases before publication.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "The artifact names a real user, a real timing window, a real service or repair workflow, explicit non-use cases including non-punitive handling of facility repair outcomes, and the field-reality check is independently replicated before publication."
+  }
+]

@@ -6,15 +6,15 @@ This guide gives reviewers and agents a small set of status words to keep confid
 
 ## Status words
 
-| Status | Meaning |
-|---|---|
-| `proposed` | Structured, but not accepted as repository knowledge. |
-| `accepted` | Passed review for the scope stated in the artifact. |
-| `bounded` | Useful only under a narrower scope than first proposed. |
-| `disputed` | Serious unresolved counter-evidence or reviewer concern exists. |
-| `superseded` | Replaced by a newer or stronger artifact. |
-| `archived` | Preserved for history, but should not support new claims. |
-| `field-pending` | Desk evidence exists, but operational validity is not established. |
+| Status                | Meaning                                                                 |
+| --------------------- | ----------------------------------------------------------------------- |
+| `proposed`            | Structured, but not accepted as repository knowledge.                   |
+| `accepted`            | Passed review for the scope stated in the artifact.                     |
+| `bounded`             | Useful only under a narrower scope than first proposed.                 |
+| `disputed`            | Serious unresolved counter-evidence or reviewer concern exists.         |
+| `superseded`          | Replaced by a newer or stronger artifact.                               |
+| `archived`            | Preserved for history, but should not support new claims.               |
+| `field-pending`       | Desk evidence exists, but operational validity is not established.      |
 | `replication-pending` | Initial evidence exists, but independent replication is still required. |
 
 The labels are not prestige labels. They are routing labels. They tell the next contributor how much weight a claim can carry.

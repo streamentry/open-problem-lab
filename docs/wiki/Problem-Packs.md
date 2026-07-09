@@ -810,6 +810,16 @@ Build a verified workflow for measuring neonatal mortality risk relative to inpa
 
 Build a verified workflow for identifying where NTD mass drug administration coverage is lowest and disease persistence is highest, linking WHO PCT data, treatment registers, and disease-mapping data at district scale.
 
+## Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries
+
+- ID: `public-health/obstetric-fistula-repair-access-global`
+- Status: `scoped`
+- Domain: `public-health`
+- Region: `global`
+- Source: [problem-packs/public-health/obstetric-fistula-repair-access-global](../../problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md)
+
+Build a verified workflow for separating obstetric fistula repair backlog, incident prevention, and measurement artifacts so funders and maternal-newborn programs can decide where surgical repair capacity, referral strengthening, and prevalence measurement are each the right next move.
+
 ## Oral Health Service Access And Dental Workforce Gaps In Low-Income Countries
 
 - ID: `public-health/oral-health-access-global`

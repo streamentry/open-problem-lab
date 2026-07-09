@@ -6,13 +6,13 @@
 
 | Metric | Value |
 |---|---|
-| Total packs | 105 |
+| Total packs | 106 |
 | Packs with claims | 12 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 326 |
-| Total tasks | 544 |
-| Scoped tasks (ready for work) | 100 |
-| High-risk tasks | 284 |
+| Total evidence records | 330 |
+| Total tasks | 549 |
+| Scoped tasks (ready for work) | 101 |
+| High-risk tasks | 286 |
 
 ## All Problem Packs
 
@@ -99,6 +99,7 @@
 | [public-health/ncd-risk-factor-surveillance-global](../../problem-packs/public-health/ncd-risk-factor-surveillance-global/problem.md) | Non-Communicable Disease Risk Factor Surveillance Gaps In Low-Income Countries | scoped | public-health | global | low | 7 ev; 5 tasks; 1 claims | has claims |
 | [public-health/neonatal-mortality-quality-care-global](../../problem-packs/public-health/neonatal-mortality-quality-care-global/problem.md) | Neonatal Mortality And Quality Of Inpatient Newborn Care In Low-Income Countries | scoped | public-health | global | medium | 1 ev; 5 tasks | needs evidence |
 | [public-health/ntd-mass-drug-administration-global](../../problem-packs/public-health/ntd-mass-drug-administration-global/problem.md) | Neglected Tropical Disease Mass Drug Administration Coverage Gaps In Sub-Saharan Africa | scoped | public-health | sub-saharan-africa | medium | 2 ev; 5 tasks | needs evidence |
+| [public-health/obstetric-fistula-repair-access-global](../../problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md) | Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries | scoped | public-health | global | medium | 4 ev; 5 tasks | ready |
 | [public-health/oral-health-access-global](../../problem-packs/public-health/oral-health-access-global/problem.md) | Oral Health Service Access And Dental Workforce Gaps In Low-Income Countries | scoped | public-health | global | low | 5 ev; 5 tasks; 1 claims | has claims |
 | [public-health/prison-health-tb-hiv-global](../../problem-packs/public-health/prison-health-tb-hiv-global/problem.md) | Prison Health Tuberculosis And HIV Service Gaps In Low- And Middle-Income Countries | scoped | public-health | global | high | 1 ev; 5 tasks | needs evidence |
 | [public-health/refugee-health-access-global](../../problem-packs/public-health/refugee-health-access-global/problem.md) | Refugee Health Service Access Gaps In Host Countries | scoped | public-health | global | high | 1 ev; 5 tasks | needs evidence |
