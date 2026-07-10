@@ -1,0 +1,98 @@
+[
+  {
+    "id": "who-deafness-fact-sheet-2026",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "claim": "WHO reports that 430 million people (over 5% of the world's population) require rehabilitation for disabling hearing loss, including 34 million children, and projects this will rise to over 700 million by 2050.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO fact sheet: Deafness and hearing loss",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+    },
+    "source_date": "2026-03-03",
+    "access_date": "2026-07-03",
+    "method": "Reviewed the WHO fact sheet key facts section, overview, prevalence data, causes, and prevention sections. Verified all figures against the page content.",
+    "limitations": [
+      "Global fact sheet, not a sub-national dataset. Prevalence figures are modeled estimates, not direct measurement in every country.",
+      "The 430 million figure uses the >35 dB in better ear threshold. Different thresholds would yield different counts.",
+      "Projections to 2050 assume current trends continue and do not account for intervention scale-up."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hearing-loss-lmic-distribution-2026",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "claim": "Nearly 80% of people with disabling hearing loss live in low- and middle-income countries, where access to hearing aids, audiology services, and early screening is most limited.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO fact sheet: Deafness and hearing loss",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+    },
+    "source_date": "2026-03-03",
+    "access_date": "2026-07-03",
+    "method": "Reviewed the WHO fact sheet overview section stating the 80% LMIC distribution figure and contrasted it with known hearing aid market data showing concentration in HICs.",
+    "limitations": [
+      "The 80% figure is a global aggregate and masks substantial variation between individual LMICs and across regions.",
+      "The fact sheet does not provide country-by-country breakdown of hearing aid coverage or audiology workforce density.",
+      "The claim about limited access in LMICs is a stated WHO position, not a data point from a coverage survey."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hearing-loss-economic-burden-2026",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "claim": "WHO estimates that unaddressed hearing loss poses an annual global cost of almost US$1 trillion, and that an annual additional investment of less than US$1.40 per person is needed to scale up ear and hearing care services globally, promising a return of nearly US$16 for every US$1 invested over 10 years.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO fact sheet: Deafness and hearing loss",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+    },
+    "source_date": "2026-03-03",
+    "access_date": "2026-07-03",
+    "method": "Reviewed the WHO fact sheet key facts section for the cost burden figure and the cost-effectiveness ratio. Cross-referenced with the WHO World Report on Hearing (2021) which is the original source for these modeled estimates.",
+    "limitations": [
+      "The US$1 trillion figure includes direct health costs, educational support costs, and productivity losses. The exact composition methodology is documented in the WHO World Report on Hearing (2021) and may use modeling assumptions that differ from country-level national accounts.",
+      "The US$1.40 per person figure is a global average and does not reflect the higher marginal cost of reaching remote or underserved populations in specific LMICs.",
+      "The 16:1 return ratio is a modeled projection over 10 years and depends on assumptions about intervention reach, retention, and productivity gains that have not been individually validated in most LMIC settings."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-world-report-on-hearing-2021",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "claim": "The WHO World Report on Hearing (2021) provides the foundational framework for ear and hearing care as a public health priority, documenting that hearing screening, hearing aid provision, and ear disease management are cost-effective interventions that most countries have not scaled.",
+    "evidence_type": "expert-review",
+    "source": {
+      "title": "World Report on Hearing",
+      "url": "https://www.who.int/publications/i/item/9789240020481",
+      "doi": "978-92-4-002048-1"
+    },
+    "source_date": "2021-03-03",
+    "access_date": "2026-07-03",
+    "method": "Reviewed the report summary, key findings, and intervention recommendations. The report is the WHO's primary strategic document on hearing care and synthesizes evidence on prevalence, service delivery models, and cost-effectiveness across 252 pages.",
+    "limitations": [
+      "The report is a strategic synthesis, not a primary data collection. Country-level service coverage data within it varies in completeness and method.",
+      "Published in 2021; some country-specific data referenced may now be outdated.",
+      "The report does not provide a standardized sub-national hearing aid coverage dataset across LMICs."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-childhood-hearing-loss-preventable-2026",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "claim": "WHO states that nearly 60% of hearing loss in children is due to avoidable causes that can be prevented through public health measures, and that over 1 billion young adults are at risk of permanent avoidable hearing loss due to unsafe listening practices.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO fact sheet: Deafness and hearing loss",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+    },
+    "source_date": "2026-03-03",
+    "access_date": "2026-07-03",
+    "method": "Reviewed the WHO fact sheet prevention section for the 60% preventable childhood hearing loss figure and the 1 billion at-risk youth figure.",
+    "limitations": [
+      "The 60% preventable figure is a global aggregate from WHO modeling and varies substantially by region and income level.",
+      "The 1 billion at-risk youth figure is based on estimated exposure to unsafe listening via personal audio devices and entertainment venues. The exposure measurement methodology is not detailed in the fact sheet.",
+      "Both figures are WHO estimates and would benefit from triangulation against country-level data."
+    ],
+    "confidence": "medium"
+  }
+]

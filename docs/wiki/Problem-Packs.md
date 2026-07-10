@@ -680,6 +680,16 @@ Build a verified workflow for measuring health insurance coverage and financial 
 
 Build a verified workflow for measuring health workforce density and skill-mix gaps at sub-national scale in low-income countries, linking national health workforce registries, facility-staffing data, and population data to identify where worker shortages are most severe.
 
+## Hearing Loss Care Access And Hearing Aid Coverage Gaps In Low- And Middle-Income Countries
+
+- ID: `public-health/hearing-loss-care-access-global`
+- Status: `scoped`
+- Domain: `public-health`
+- Region: `global`
+- Source: [problem-packs/public-health/hearing-loss-care-access-global](../../problem-packs/public-health/hearing-loss-care-access-global/problem.md)
+
+Build a verified evidence base documenting the gap between hearing care need and service coverage in LMICs, with sub-national grain where data permits, to support national health ministries and WHO member states in allocating ear and hearing care resources under NCD budgets.
+
 ## HIV Treatment Cascade Gaps And 95-95-95 Target Tracking In Sub-Saharan Africa
 
 - ID: `public-health/hiv-treatment-cascade-global`
