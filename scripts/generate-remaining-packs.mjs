@@ -335,17 +335,18 @@ const packs = [
       {
         id: "africa-fertilizer-summit-2023",
         claim:
-          "The Africa Fertilizer and Soil Health Summit documented average fertilizer use of 15 kg/ha in SSA versus 150 kg/ha globally, with soil nutrient depletion costing an estimated 3 percent of agricultural GDP annually.",
+          "The 2024 Africa Fertilizer and Soil Health Summit produced the Nairobi Declaration, an African Union declaration focused on fertilizer access, soil health, and continent-wide soil-health action planning.",
         type: "primary-source",
-        title: "Africa Fertilizer and Soil Health Summit Declaration",
-        url: "https://www.afdb.org/en/topics-and-sectors/initiatives-partnerships/africa-fertilizer-and-soil-health-summit",
-        date: "2023-05-01",
+        title: "Nairobi Declaration - 2024 Africa Fertilizer and Soil Health Summit",
+        url: "https://au.int/en/documents/20240509/nairobi-declaration-2024-africa-fertilizer-and-soil-health-summit",
+        date: "2024-05-09",
         confidence: "high",
         method:
-          "Reviewed summit declaration, soil-health data, and fertilizer-access analysis.",
+          "Reviewed the African Union document page for the 2024 Nairobi Declaration and used it only to verify the summit output and policy-planning scope.",
         limitations: [
-          "Fertilizer-access data varies by country and crop.",
-          "Soil-nutrient data is sparse outside research sites."
+          "This is a policy declaration source, not a fertilizer-use dataset.",
+          "The source does not support sub-national fertilizer-access estimates or soil-nutrient depletion rates.",
+          "Quantified fertilizer-use and agricultural-GDP-loss claims require separate statistical or peer-reviewed sources."
         ]
       }
     ]

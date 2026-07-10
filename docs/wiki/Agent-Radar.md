@@ -15,8 +15,8 @@ Without routing, a new agent sees a flat task list and misses the actual shape o
 
 - **107 problem packs**
 - **554 total tasks**
-- **101 scoped now**
-- **453 follow-on tasks still latent**
+- **100 scoped now**
+- **454 follow-on tasks still latent**
 - **Owner roles:** `data-cleaner`: 103, `field-reality-reviewer`: 108, `implementation-planner`: 129, `literature-scout`: 107, `red-team-reviewer`: 107
 - **Reviewer demand:** `domain-reviewer`: 229, `field-reality-reviewer`: 109, `red-team-reviewer`: 107, `replicator`: 109
 - **Safety mix:** `high`: 288, `low`: 15, `medium`: 251
@@ -263,16 +263,6 @@ These packs have a scoped front door and the deepest follow-on queue behind it. 
 - Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
 - Existing evidence records: 3
 
-### Livestock Disease Surveillance And Pastoralist Livelihood Risk In East Africa
-
-- Pack: [`food-security/livestock-disease-surveillance-east-africa`](../../problem-packs/food-security/livestock-disease-surveillance-east-africa/problem.md)
-- Scoped tasks at front door: 1
-- Follow-on tasks behind it: 5
-- High-risk follow-on tasks: 4
-- Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
-- Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
-- Existing evidence records: 2
-
 ### Under-Five Mortality Sub-National Inequality Tracking In Low-Income Countries
 
 - Pack: [`public-health/child-mortality-inequality-global`](../../problem-packs/public-health/child-mortality-inequality-global/problem.md)
@@ -293,6 +283,16 @@ These packs have a scoped front door and the deepest follow-on queue behind it. 
 - Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
 - Existing evidence records: 4
 
+### Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef
+
+- Pack: [`biodiversity/coral-bleaching-great-barrier-reef`](../../problem-packs/biodiversity/coral-bleaching-great-barrier-reef/problem.md)
+- Scoped tasks at front door: 1
+- Follow-on tasks behind it: 5
+- High-risk follow-on tasks: 3
+- Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
+- Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
+- Existing evidence records: 3
+
 ## Reviewer Hotspots
 
 These are the packs most likely to stall after the first scoped task because reviewer load becomes the bottleneck.
@@ -300,6 +300,13 @@ These are the packs most likely to stall after the first scoped task because rev
 ### Small-Scale Fisheries Overexploitation Detection And Livelihood Risk In West Africa
 
 - Pack: [`food-security/fisheries-overexploitation-west-africa`](../../problem-packs/food-security/fisheries-overexploitation-west-africa/problem.md)
+- Follow-on tasks: 6
+- High-risk follow-on tasks: 4
+- Reviewer load: `domain-reviewer`: 3, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
+
+### Livestock Disease Surveillance And Pastoralist Livelihood Risk In East Africa
+
+- Pack: [`food-security/livestock-disease-surveillance-east-africa`](../../problem-packs/food-security/livestock-disease-surveillance-east-africa/problem.md)
 - Follow-on tasks: 6
 - High-risk follow-on tasks: 4
 - Reviewer load: `domain-reviewer`: 3, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
@@ -360,13 +367,6 @@ These are the packs most likely to stall after the first scoped task because rev
 - High-risk follow-on tasks: 4
 - Reviewer load: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
 
-### Livestock Disease Surveillance And Pastoralist Livelihood Risk In East Africa
-
-- Pack: [`food-security/livestock-disease-surveillance-east-africa`](../../problem-packs/food-security/livestock-disease-surveillance-east-africa/problem.md)
-- Follow-on tasks: 5
-- High-risk follow-on tasks: 4
-- Reviewer load: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
-
 ### Desert Locust Outbreak Early Warning In East Africa
 
 - Pack: [`food-security/locust-outbreak-east-africa`](../../problem-packs/food-security/locust-outbreak-east-africa/problem.md)
@@ -387,11 +387,11 @@ This is the actual pipeline shape. The flat scoped list hides it.
 
 | Role                     | Scoped now | Latent backlog | Share of all tasks | Share of latent tasks |
 | ------------------------ | ---------- | -------------- | ------------------ | --------------------- |
-| `implementation-planner` | 0          | 129            | 0.233              | 0.285                 |
+| `implementation-planner` | 0          | 129            | 0.233              | 0.284                 |
 | `field-reality-reviewer` | 0          | 108            | 0.195              | 0.238                 |
 | `red-team-reviewer`      | 0          | 107            | 0.193              | 0.236                 |
 | `data-cleaner`           | 0          | 103            | 0.186              | 0.227                 |
-| `literature-scout`       | 101        | 6              | 0.193              | 0.013                 |
+| `literature-scout`       | 100        | 7              | 0.193              | 0.015                 |
 
 ## Protocol Alerts
 
