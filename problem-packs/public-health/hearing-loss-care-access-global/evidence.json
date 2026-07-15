@@ -94,5 +94,85 @@
       "Both figures are WHO estimates and would benefit from triangulation against country-level data."
     ],
     "confidence": "medium"
+  },
+  {
+    "id": "gbd-hearing-loss-prevalence-2019",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "claim": "The GBD 2019 hearing loss analysis modeled audiometric prevalence from 215 survey sources in 77 countries, while its hearing-aid coverage model used 100 sources from 44 countries and had almost no coverage sources in Asia, North Africa, or Central Africa.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Hearing loss prevalence and years lived with disability, 1990-2019: findings from the Global Burden of Disease Study 2019",
+      "url": "https://doi.org/10.1016/S0140-6736(21)00516-X",
+      "doi": "10.1016/S0140-6736(21)00516-X"
+    },
+    "source_date": "2021-03-13",
+    "access_date": "2026-07-15",
+    "method": "Reviewed the open-access methods, source-coverage counts, hearing-threshold table, modeling steps, and limitations. Separated the better-ear pure-tone prevalence model from the much sparser hearing-aid coverage model.",
+    "limitations": [
+      "The study uses Bayesian meta-regression to estimate locations without direct survey observations, so a country estimate is not proof of a country survey.",
+      "Prevalence inputs excluded self-report and required population-representative pure-tone audiometry, while the proposed pack coverage question concerns device access and use.",
+      "The paper reports that hearing-aid coverage data were particularly sparse and lacked severity-specific observations outside high-income countries."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-ear-hearing-care-workforce-2021",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "claim": "A 2021 WHO-authored workforce study assembled audiologist availability data for 102 countries from six source families and found that most countries in the WHO African Region had fewer than one professional per million in each ear and hearing care cadre assessed.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Ear and Hearing Care Workforce: Current Status and its Implications",
+      "url": "https://doi.org/10.1097/AUD.0000000000001007",
+      "doi": "10.1097/AUD.0000000000001007"
+    },
+    "source_date": "2021-01-21",
+    "access_date": "2026-07-15",
+    "method": "Reviewed the PubMed methods and results and verified publication metadata through Crossref. Recorded the six-source design, country counts by cadre, and the African Region density result without treating the synthesis as a live registry.",
+    "limitations": [
+      "The study combines a literature review, WHO platforms, Member State responses, regional consultations, hearing-care organization responses, and official statistics; country values do not share one provenance or reference year.",
+      "Audiologist titles, scopes of practice, registration systems, and inclusion of private-sector workers vary across countries.",
+      "A national workforce count does not establish sub-national distribution, effective service capacity, hearing-aid availability, or patient access."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-assistive-tech-hearing-capacity-2021",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "claim": "WHO's Assistive Technology Data Portal publishes 2021 official country responses that separately classify hearing-related service coverage and hearing-related workforce availability, but the public measures are categorical rather than audiologist counts or effective-access rates.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "WHO Global Health Observatory: Assistive technology data portal",
+      "url": "https://www.who.int/data/gho/data/themes/assistivetech"
+    },
+    "source_date": "2021-12-31",
+    "access_date": "2026-07-15",
+    "method": "Reviewed the portal metadata and queried the GHO OData endpoints ASSISTIVETECH_Q05 and ASSISTIVETECH_Q06 plus the ASSISTIVETECHSUBQUESTION dimension dictionary. Confirmed distinct codes for services related to hearing and human resources for hearing.",
+    "limitations": [
+      "The source date records the end of the documented 2021 collection window, not a fixed portal release; the live portal can change and should be rechecked.",
+      "The progress indicators are official country self-reports rather than independently audited facility or workforce records.",
+      "Service coverage is reduced to total, partial, none, or information not available, which discards the underlying district count in the public value.",
+      "Workforce availability is categorical and cannot support an audiologists-per-million calculation or prove worker competence, distribution, or availability to patients."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-rata-hearing-aid-coverage-gap-2021",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "claim": "As accessed on 15 July 2026, WHO's public GHO met-need endpoint for rapid Assistive Technology Assessment data exposed only total assistive-product categories and no hearing-aid-specific records, so it could not support a hearing-aid coverage estimate.",
+    "evidence_type": "negative-result",
+    "source": {
+      "title": "WHO Global Health Observatory: Prevalence of met need of assistive products",
+      "url": "https://ghoapi.azureedge.net/api/ASSISTIVETECH_METNEED"
+    },
+    "source_date": "2021-12-31",
+    "access_date": "2026-07-15",
+    "method": "Fetched all records from the ASSISTIVETECH_METNEED OData endpoint, enumerated unique ASSISTIVETECHPRODUCT dimension values, and compared them with the GHO dimension dictionary. The data contained only ASSISTIVETECH_TOTAL and ASSISTIVETECH_TOTAL_NOSPECS; filtering for ASSISTIVETECH_Hearingaids returned zero rows.",
+    "limitations": [
+      "The source date records the end of the documented 2021 collection window, not a fixed API release date.",
+      "This is a time-bounded result for the public API and must be rerun if WHO republishes product-level rows.",
+      "The absence of hearing-aid-specific rows in this endpoint does not prove that WHO or participating countries hold no non-public product-level data.",
+      "Total assistive-product met need combines unlike products and cannot be interpreted as hearing-aid met need."
+    ],
+    "confidence": "high"
   }
 ]

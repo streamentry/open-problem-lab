@@ -3,7 +3,7 @@
     "id": "source-inventory",
     "problem_id": "public-health/hearing-loss-care-access-global",
     "title": "Inventory hearing loss prevalence, coverage, and workforce data sources for LMICs",
-    "status": "scoped",
+    "status": "needs-review",
     "owner_role": "literature-scout",
     "outcome": "A dated source inventory separating usable global estimates, country-level data, sub-national data, and rejected sources, with explicit classification reasons for each.",
     "inputs": [
