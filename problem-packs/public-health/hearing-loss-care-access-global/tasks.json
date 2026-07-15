@@ -14,7 +14,7 @@
       "Published country-level hearing loss surveys and coverage studies"
     ],
     "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
-    "validation_method": "Reviewer checks each listed source for URL, date, access status, geographic grain, case definition, and stated limitations.",
+    "validation_method": "Reviewer checks each source for URL, date, access status, geographic grain, measure definition, collection method, temporal coverage, and limitations, then reproduces the rATA hearing-aid product filter.",
     "reviewer_needed": "domain-reviewer",
     "safety_risk": "low",
     "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering geographic grain, case definition, data collection method, and temporal coverage."
