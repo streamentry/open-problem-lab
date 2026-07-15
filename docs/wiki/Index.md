@@ -9,9 +9,9 @@
 | Total packs | 108 |
 | Packs with claims | 13 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 350 |
+| Total evidence records | 354 |
 | Total tasks | 559 |
-| Scoped tasks (ready for work) | 101 |
+| Scoped tasks (ready for work) | 100 |
 | High-risk tasks | 290 |
 
 ## All Problem Packs
@@ -86,7 +86,7 @@
 | [public-health/emergency-obstetric-transport-global](../../problem-packs/public-health/emergency-obstetric-transport-global/problem.md) | Emergency Obstetric Transport Access And Ambulance Coverage Gaps In Low-Income Countries | scoped | public-health | global | high | 2 ev; 5 tasks | needs evidence |
 | [public-health/health-insurance-coverage-global](../../problem-packs/public-health/health-insurance-coverage-global/problem.md) | Health Insurance Coverage And Financial Protection Gaps In Low-Income Countries | scoped | public-health | global | medium | 1 ev; 5 tasks | needs evidence |
 | [public-health/health-workforce-density-global](../../problem-packs/public-health/health-workforce-density-global/problem.md) | Health Workforce Density And Skill-Mix Gaps In Low-Income Countries | scoped | public-health | global | medium | 1 ev; 5 tasks | needs evidence |
-| [public-health/hearing-loss-care-access-global](../../problem-packs/public-health/hearing-loss-care-access-global/problem.md) | Hearing Loss Care Access And Hearing Aid Coverage Gaps In Low- And Middle-Income Countries | scoped | public-health | global | medium | 5 ev; 5 tasks | ready |
+| [public-health/hearing-loss-care-access-global](../../problem-packs/public-health/hearing-loss-care-access-global/problem.md) | Hearing Loss Care Access And Hearing Aid Coverage Gaps In Low- And Middle-Income Countries | scoped | public-health | global | medium | 9 ev; 5 tasks | needs triage |
 | [public-health/hiv-treatment-cascade-global](../../problem-packs/public-health/hiv-treatment-cascade-global/problem.md) | HIV Treatment Cascade Gaps And 95-95-95 Target Tracking In Sub-Saharan Africa | scoped | public-health | sub-saharan-africa | medium | 2 ev; 5 tasks | needs evidence |
 | [public-health/hypertension-control-global](../../problem-packs/public-health/hypertension-control-global/problem.md) | Hypertension Detection And Control Gaps In Low- And Middle-Income Countries | scoped | public-health | global | medium | 7 ev; 5 tasks | ready |
 | [public-health/indigenous-health-data-global](../../problem-packs/public-health/indigenous-health-data-global/problem.md) | Indigenous Health Data Sovereignty And Service Access Gaps In Settler-Colonial States | scoped | public-health | global | high | 1 ev; 5 tasks | needs evidence |
