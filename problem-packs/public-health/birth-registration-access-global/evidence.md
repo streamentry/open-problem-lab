@@ -34,6 +34,14 @@ Use this source to define the DHS indicator precisely: de jure children under 5,
 
 Use this source to justify MICS as a major comparable source and to show that birth registration is an established survey module. It does not solve country-specific data-quality questions on its own.
 
+### UNICEF Birth Registration Database 2026
+
+Use the live UNICEF data page for the downloadable country series and its survey-timing warnings. It is admissible for country framing and source selection, not as a substitute for district-level CRVS tabulations or a current administrative denominator.
+
+## Source-Inventory Decision
+
+The inventory now separates five usable framing or measurement sources, three limited workflow or administrative candidates, and one rejected source class. The rejection is deliberate: a secondary percentage without its underlying measure family, fieldwork date, numerator, denominator, and geographic grain cannot enter a canonical comparison merely because the headline is familiar.
+
 ## Evidence Quality Rule
 
 Evidence is not accepted because it repeats the SDG language. It is accepted when the source, measure family, method, limitations, and confidence are explicit enough for a reviewer to attack.
