@@ -2,88 +2,41 @@
   "summary": {
     "generated_by": "scripts/generate-agent-radar.mjs",
     "schema_version": 1,
-    "total_packs": 101,
-    "total_tasks": 521,
+    "total_packs": 109,
+    "total_tasks": 564,
     "scoped_tasks": 101,
-    "latent_tasks": 420,
+    "latent_tasks": 463,
     "status_counts": {
       "scoped": 101,
-      "needs-triage": 420
+      "needs-triage": 455,
+      "needs-review": 8
     },
     "owner_role_counts": {
-      "literature-scout": 101,
-      "data-cleaner": 97,
-      "implementation-planner": 120,
-      "red-team-reviewer": 101,
-      "field-reality-reviewer": 102
+      "literature-scout": 109,
+      "data-cleaner": 105,
+      "implementation-planner": 131,
+      "red-team-reviewer": 109,
+      "field-reality-reviewer": 110
     },
     "scoped_role_counts": {
       "literature-scout": 101
     },
     "reviewer_needed_counts": {
-      "domain-reviewer": 213,
-      "replicator": 103,
-      "red-team-reviewer": 101,
-      "field-reality-reviewer": 104
+      "domain-reviewer": 232,
+      "replicator": 111,
+      "red-team-reviewer": 109,
+      "field-reality-reviewer": 112
     },
     "safety_risk_counts": {
-      "medium": 237,
-      "high": 272,
-      "low": 12
+      "medium": 254,
+      "high": 294,
+      "low": 16
     },
     "protocol_alert_count": 0
   },
   "protocol_alerts": [],
   "contributor_lanes": {
     "first_moves": [
-      {
-        "pack_id": "public-health/birth-registration-access-global",
-        "pack_title": "Birth Registration Coverage Gaps And Health-Service Linkage In Low-Income Countries",
-        "task_id": "source-inventory",
-        "title": "Inventory survey, CRVS, and health-touchpoint data sources for birth registration analysis",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "low",
-        "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measure family, timing, geographic grain, and health-linkage relevance.",
-        "evidence_count": 8,
-        "downstream_tasks_unlocked": 5,
-        "downstream_high_risk_tasks": 2,
-        "problem_file": "problem-packs/public-health/birth-registration-access-global/problem.md",
-        "tasks_file": "problem-packs/public-health/birth-registration-access-global/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
-      },
-      {
-        "pack_id": "public-health/ncd-risk-factor-surveillance-global",
-        "pack_title": "Non-Communicable Disease Risk Factor Surveillance Gaps In Low-Income Countries",
-        "task_id": "source-inventory",
-        "title": "Inventory data sources for public-health/ncd-risk-factor-surveillance-global",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "low",
-        "done_condition": "At least four sources classified as usable, limited, or rejected with explicit reasons.",
-        "evidence_count": 5,
-        "downstream_tasks_unlocked": 4,
-        "downstream_high_risk_tasks": 2,
-        "problem_file": "problem-packs/public-health/ncd-risk-factor-surveillance-global/problem.md",
-        "tasks_file": "problem-packs/public-health/ncd-risk-factor-surveillance-global/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 4 follow-on tasks across 4 additional roles."
-      },
-      {
-        "pack_id": "public-health/oral-health-access-global",
-        "pack_title": "Oral Health Service Access And Dental Workforce Gaps In Low-Income Countries",
-        "task_id": "source-inventory",
-        "title": "Inventory data sources for public-health/oral-health-access-global",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "low",
-        "done_condition": "At least four sources classified as usable, limited, or rejected with explicit reasons.",
-        "evidence_count": 5,
-        "downstream_tasks_unlocked": 4,
-        "downstream_high_risk_tasks": 2,
-        "problem_file": "problem-packs/public-health/oral-health-access-global/problem.md",
-        "tasks_file": "problem-packs/public-health/oral-health-access-global/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 4 follow-on tasks across 4 additional roles."
-      },
       {
         "pack_id": "education/digital-divide-school-access-global",
         "pack_title": "Digital Divide Measurement And School Internet Connectivity In Low-Income Countries",
@@ -114,6 +67,38 @@
         "downstream_high_risk_tasks": 0,
         "problem_file": "problem-packs/education/skills-training-youth-employment-global/problem.md",
         "tasks_file": "problem-packs/education/skills-training-youth-employment-global/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 4 follow-on tasks across 4 additional roles."
+      },
+      {
+        "pack_id": "public-health/obstetric-fistula-repair-access-global",
+        "pack_title": "Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries",
+        "task_id": "source-inventory",
+        "title": "Inventory obstetric fistula prevalence, repair, and prevention data sources",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "low",
+        "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measurement family, numerator, denominator, time reference, geographic grain, case-finding method, and backlog-versus-incidence relevance.",
+        "evidence_count": 4,
+        "downstream_tasks_unlocked": 4,
+        "downstream_high_risk_tasks": 2,
+        "problem_file": "problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md",
+        "tasks_file": "problem-packs/public-health/obstetric-fistula-repair-access-global/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 4 follow-on tasks across 4 additional roles."
+      },
+      {
+        "pack_id": "public-health/stillbirth-measurement-quality-global",
+        "pack_title": "Stillbirth Measurement Gaps And Intrapartum Care Quality In High-Burden Countries",
+        "task_id": "source-inventory",
+        "title": "Inventory stillbirth data sources across survey, CRVS, and facility systems",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "low",
+        "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering definition threshold, measure family, time reference, geographic grain, and relevance to intrapartum versus counting-system interpretation.",
+        "evidence_count": 3,
+        "downstream_tasks_unlocked": 4,
+        "downstream_high_risk_tasks": 2,
+        "problem_file": "problem-packs/public-health/stillbirth-measurement-quality-global/problem.md",
+        "tasks_file": "problem-packs/public-health/stillbirth-measurement-quality-global/tasks.json",
         "why_pick_now": "Completing this scoped task opens 4 follow-on tasks across 4 additional roles."
       },
       {
@@ -181,6 +166,22 @@
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       },
       {
+        "pack_id": "public-health/antimicrobial-resistance-surveillance-global",
+        "pack_title": "Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries",
+        "task_id": "source-inventory",
+        "title": "Inventory AMR surveillance data",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "medium",
+        "done_condition": "Five sources classified as usable, limited, or rejected.",
+        "evidence_count": 6,
+        "downstream_tasks_unlocked": 5,
+        "downstream_high_risk_tasks": 4,
+        "problem_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md",
+        "tasks_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
+      },
+      {
         "pack_id": "climate-health/malaria-early-warning-africa",
         "pack_title": "Malaria Early Warning Signals In Sub-Saharan Africa",
         "task_id": "source-inventory",
@@ -197,6 +198,22 @@
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       },
       {
+        "pack_id": "food-safety/aflatoxin-exposure-sub-saharan-africa",
+        "pack_title": "Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa",
+        "task_id": "source-inventory",
+        "title": "Inventory mycotoxin test data, climate suitability models, and post-harvest practice surveys for SSA aflatoxin risk mapping",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "medium",
+        "done_condition": "At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering contamination test method, geographic grain, crop specificity, sampling frame adequacy, and intervention-relevance.",
+        "evidence_count": 5,
+        "downstream_tasks_unlocked": 5,
+        "downstream_high_risk_tasks": 4,
+        "problem_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md",
+        "tasks_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
+      },
+      {
         "pack_id": "disaster-resilience/urban-flooding-south-asia",
         "pack_title": "Urban Pluvial Flooding Risk In South Asian Megacities",
         "task_id": "source-inventory",
@@ -210,22 +227,6 @@
         "downstream_high_risk_tasks": 4,
         "problem_file": "problem-packs/disaster-resilience/urban-flooding-south-asia/problem.md",
         "tasks_file": "problem-packs/disaster-resilience/urban-flooding-south-asia/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
-      },
-      {
-        "pack_id": "biodiversity/coral-bleaching-great-barrier-reef",
-        "pack_title": "Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef",
-        "task_id": "source-inventory",
-        "title": "Inventory coral bleaching data sources",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "medium",
-        "done_condition": "At least five sources classified as usable, limited, or rejected.",
-        "evidence_count": 3,
-        "downstream_tasks_unlocked": 5,
-        "downstream_high_risk_tasks": 3,
-        "problem_file": "problem-packs/biodiversity/coral-bleaching-great-barrier-reef/problem.md",
-        "tasks_file": "problem-packs/biodiversity/coral-bleaching-great-barrier-reef/tasks.json",
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       }
     ],
@@ -295,6 +296,28 @@
         "tasks_file": "problem-packs/biodiversity/deforestation-amazon/tasks.json"
       },
       {
+        "pack_id": "public-health/antimicrobial-resistance-surveillance-global",
+        "pack_title": "Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries",
+        "scoped_tasks": 1,
+        "downstream_tasks": 5,
+        "downstream_high_risk_tasks": 4,
+        "downstream_by_role": {
+          "data-cleaner": 1,
+          "implementation-planner": 2,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_reviewers_needed": {
+          "replicator": 1,
+          "domain-reviewer": 2,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "evidence_count": 6,
+        "problem_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md",
+        "tasks_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/tasks.json"
+      },
+      {
         "pack_id": "climate-health/malaria-early-warning-africa",
         "pack_title": "Malaria Early Warning Signals In Sub-Saharan Africa",
         "scoped_tasks": 1,
@@ -315,6 +338,28 @@
         "evidence_count": 5,
         "problem_file": "problem-packs/climate-health/malaria-early-warning-africa/problem.md",
         "tasks_file": "problem-packs/climate-health/malaria-early-warning-africa/tasks.json"
+      },
+      {
+        "pack_id": "food-safety/aflatoxin-exposure-sub-saharan-africa",
+        "pack_title": "Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa",
+        "scoped_tasks": 1,
+        "downstream_tasks": 5,
+        "downstream_high_risk_tasks": 4,
+        "downstream_by_role": {
+          "data-cleaner": 1,
+          "implementation-planner": 2,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_reviewers_needed": {
+          "replicator": 1,
+          "domain-reviewer": 2,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "evidence_count": 5,
+        "problem_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md",
+        "tasks_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/tasks.json"
       },
       {
         "pack_id": "disaster-resilience/urban-flooding-south-asia",
@@ -383,72 +428,6 @@
         "tasks_file": "problem-packs/public-health/lead-exposure-urban-global/tasks.json"
       },
       {
-        "pack_id": "food-security/fisheries-overexploitation-west-africa",
-        "pack_title": "Small-Scale Fisheries Overexploitation Detection And Livelihood Risk In West Africa",
-        "scoped_tasks": 1,
-        "downstream_tasks": 5,
-        "downstream_high_risk_tasks": 4,
-        "downstream_by_role": {
-          "data-cleaner": 1,
-          "implementation-planner": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "evidence_count": 2,
-        "problem_file": "problem-packs/food-security/fisheries-overexploitation-west-africa/problem.md",
-        "tasks_file": "problem-packs/food-security/fisheries-overexploitation-west-africa/tasks.json"
-      },
-      {
-        "pack_id": "food-security/livestock-disease-surveillance-east-africa",
-        "pack_title": "Livestock Disease Surveillance And Pastoralist Livelihood Risk In East Africa",
-        "scoped_tasks": 1,
-        "downstream_tasks": 5,
-        "downstream_high_risk_tasks": 4,
-        "downstream_by_role": {
-          "data-cleaner": 1,
-          "implementation-planner": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "evidence_count": 2,
-        "problem_file": "problem-packs/food-security/livestock-disease-surveillance-east-africa/problem.md",
-        "tasks_file": "problem-packs/food-security/livestock-disease-surveillance-east-africa/tasks.json"
-      },
-      {
-        "pack_id": "public-health/antimicrobial-resistance-surveillance-global",
-        "pack_title": "Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries",
-        "scoped_tasks": 1,
-        "downstream_tasks": 5,
-        "downstream_high_risk_tasks": 4,
-        "downstream_by_role": {
-          "data-cleaner": 1,
-          "implementation-planner": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "evidence_count": 2,
-        "problem_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md",
-        "tasks_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/tasks.json"
-      },
-      {
         "pack_id": "public-health/child-mortality-inequality-global",
         "pack_title": "Under-Five Mortality Sub-National Inequality Tracking In Low-Income Countries",
         "scoped_tasks": 1,
@@ -469,6 +448,28 @@
         "evidence_count": 2,
         "problem_file": "problem-packs/public-health/child-mortality-inequality-global/problem.md",
         "tasks_file": "problem-packs/public-health/child-mortality-inequality-global/tasks.json"
+      },
+      {
+        "pack_id": "public-health/substandard-falsified-medicines-global",
+        "pack_title": "Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries",
+        "scoped_tasks": 1,
+        "downstream_tasks": 5,
+        "downstream_high_risk_tasks": 3,
+        "downstream_by_role": {
+          "implementation-planner": 2,
+          "data-cleaner": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_reviewers_needed": {
+          "domain-reviewer": 2,
+          "replicator": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "evidence_count": 4,
+        "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md",
+        "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json"
       },
       {
         "pack_id": "biodiversity/coral-bleaching-great-barrier-reef",
@@ -494,6 +495,58 @@
       }
     ],
     "reviewer_hotspots": [
+      {
+        "pack_id": "food-security/fisheries-overexploitation-west-africa",
+        "pack_title": "Small-Scale Fisheries Overexploitation Detection And Livelihood Risk In West Africa",
+        "downstream_reviewers_needed": {
+          "domain-reviewer": 3,
+          "replicator": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_high_risk_tasks": 4,
+        "downstream_tasks": 6,
+        "problem_file": "problem-packs/food-security/fisheries-overexploitation-west-africa/problem.md"
+      },
+      {
+        "pack_id": "food-security/livestock-disease-surveillance-east-africa",
+        "pack_title": "Livestock Disease Surveillance And Pastoralist Livelihood Risk In East Africa",
+        "downstream_reviewers_needed": {
+          "domain-reviewer": 3,
+          "replicator": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_high_risk_tasks": 4,
+        "downstream_tasks": 6,
+        "problem_file": "problem-packs/food-security/livestock-disease-surveillance-east-africa/problem.md"
+      },
+      {
+        "pack_id": "occupational-health/heat-stress-outdoor-workers-global",
+        "pack_title": "Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change",
+        "downstream_reviewers_needed": {
+          "domain-reviewer": 3,
+          "replicator": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_high_risk_tasks": 4,
+        "downstream_tasks": 6,
+        "problem_file": "problem-packs/occupational-health/heat-stress-outdoor-workers-global/problem.md"
+      },
+      {
+        "pack_id": "public-health/birth-registration-access-global",
+        "pack_title": "Birth Registration Coverage Gaps And Health-Service Linkage In Low-Income Countries",
+        "downstream_reviewers_needed": {
+          "domain-reviewer": 3,
+          "replicator": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_high_risk_tasks": 2,
+        "downstream_tasks": 6,
+        "problem_file": "problem-packs/public-health/birth-registration-access-global/problem.md"
+      },
       {
         "pack_id": "climate-adaptation/sea-level-rise-small-islands",
         "pack_title": "Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States",
@@ -559,8 +612,8 @@
         "problem_file": "problem-packs/disaster-resilience/urban-flooding-south-asia/problem.md"
       },
       {
-        "pack_id": "food-security/fisheries-overexploitation-west-africa",
-        "pack_title": "Small-Scale Fisheries Overexploitation Detection And Livelihood Risk In West Africa",
+        "pack_id": "food-safety/aflatoxin-exposure-sub-saharan-africa",
+        "pack_title": "Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa",
         "downstream_reviewers_needed": {
           "replicator": 1,
           "domain-reviewer": 2,
@@ -569,20 +622,7 @@
         },
         "downstream_high_risk_tasks": 4,
         "downstream_tasks": 5,
-        "problem_file": "problem-packs/food-security/fisheries-overexploitation-west-africa/problem.md"
-      },
-      {
-        "pack_id": "food-security/livestock-disease-surveillance-east-africa",
-        "pack_title": "Livestock Disease Surveillance And Pastoralist Livelihood Risk In East Africa",
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_high_risk_tasks": 4,
-        "downstream_tasks": 5,
-        "problem_file": "problem-packs/food-security/livestock-disease-surveillance-east-africa/problem.md"
+        "problem_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md"
       },
       {
         "pack_id": "food-security/locust-outbreak-east-africa",
@@ -609,82 +649,43 @@
         "downstream_high_risk_tasks": 4,
         "downstream_tasks": 5,
         "problem_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md"
-      },
-      {
-        "pack_id": "public-health/child-mortality-inequality-global",
-        "pack_title": "Under-Five Mortality Sub-National Inequality Tracking In Low-Income Countries",
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_high_risk_tasks": 4,
-        "downstream_tasks": 5,
-        "problem_file": "problem-packs/public-health/child-mortality-inequality-global/problem.md"
-      },
-      {
-        "pack_id": "public-health/lead-exposure-urban-global",
-        "pack_title": "Urban Lead Exposure Risk Mapping In Low- And Middle-Income Countries",
-        "downstream_reviewers_needed": {
-          "domain-reviewer": 2,
-          "replicator": 1,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_high_risk_tasks": 4,
-        "downstream_tasks": 5,
-        "problem_file": "problem-packs/public-health/lead-exposure-urban-global/problem.md"
-      },
-      {
-        "pack_id": "biodiversity/coral-bleaching-great-barrier-reef",
-        "pack_title": "Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef",
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_high_risk_tasks": 3,
-        "downstream_tasks": 5,
-        "problem_file": "problem-packs/biodiversity/coral-bleaching-great-barrier-reef/problem.md"
       }
     ],
     "role_backlog": [
       {
         "owner_role": "implementation-planner",
         "scoped_tasks": 0,
-        "latent_tasks": 120,
-        "share_of_all_tasks": 0.23,
-        "share_of_latent_tasks": 0.286
+        "latent_tasks": 131,
+        "share_of_all_tasks": 0.232,
+        "share_of_latent_tasks": 0.283
       },
       {
         "owner_role": "field-reality-reviewer",
         "scoped_tasks": 0,
-        "latent_tasks": 102,
-        "share_of_all_tasks": 0.196,
-        "share_of_latent_tasks": 0.243
+        "latent_tasks": 110,
+        "share_of_all_tasks": 0.195,
+        "share_of_latent_tasks": 0.238
       },
       {
         "owner_role": "red-team-reviewer",
         "scoped_tasks": 0,
-        "latent_tasks": 101,
-        "share_of_all_tasks": 0.194,
-        "share_of_latent_tasks": 0.24
+        "latent_tasks": 109,
+        "share_of_all_tasks": 0.193,
+        "share_of_latent_tasks": 0.235
       },
       {
         "owner_role": "data-cleaner",
         "scoped_tasks": 0,
-        "latent_tasks": 97,
+        "latent_tasks": 105,
         "share_of_all_tasks": 0.186,
-        "share_of_latent_tasks": 0.231
+        "share_of_latent_tasks": 0.227
       },
       {
         "owner_role": "literature-scout",
         "scoped_tasks": 101,
-        "latent_tasks": 0,
-        "share_of_all_tasks": 0.194,
-        "share_of_latent_tasks": 0
+        "latent_tasks": 8,
+        "share_of_all_tasks": 0.193,
+        "share_of_latent_tasks": 0.017
       }
     ]
   }

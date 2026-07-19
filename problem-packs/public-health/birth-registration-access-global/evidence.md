@@ -38,9 +38,15 @@ Use this source to justify MICS as a major comparable source and to show that bi
 
 Use the live UNICEF data page for the downloadable country series and its survey-timing warnings. It is admissible for country framing and source selection, not as a substitute for district-level CRVS tabulations or a current administrative denominator.
 
-## Source-Inventory Decision
+## Inventory Outcome
 
-The inventory now separates five usable framing or measurement sources, three limited workflow or administrative candidates, and one rejected source class. The rejection is deliberate: a secondary percentage without its underlying measure family, fieldwork date, numerator, denominator, and geographic grain cannot enter a canonical comparison merely because the headline is familiar.
+The accepted evidence base for the `source-inventory` task now resolves into five usable source families and three limited or rejected families:
+
+- Usable: UNICEF summary and database layer, DHS, MICS, World Bank SDG metadata, WHO and WHO-UNICEF CRVS guidance.
+- Limited: national CRVS tabulations, facility birth-notification systems, immunization or child-health registries.
+- Rejected for canonical comparison: unstructured legal-identity strategy papers and one-off project reports without checkable denominators.
+
+This is a literature-scout verdict, not a field claim. It says which source families deserve downstream work and which ones should fail fast unless country-specific evidence tightens them.
 
 ## Evidence Quality Rule
 

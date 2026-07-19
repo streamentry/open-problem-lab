@@ -2,28 +2,29 @@
   "summary": {
     "generated_by": "scripts/generate-task-index.mjs",
     "schema_version": 1,
-    "total_packs": 101,
+    "total_packs": 109,
     "total_scoped_tasks": 101,
     "by_role": {
       "literature-scout": 101
     },
     "by_risk": {
-      "medium": 96,
-      "low": 5
+      "medium": 97,
+      "low": 4
     },
     "by_domain": {
       "air-quality": 6,
-      "public-health": 63,
+      "public-health": 64,
       "climate-health": 13,
-      "biodiversity": 8,
-      "food-security": 19,
+      "biodiversity": 7,
+      "food-security": 18,
       "climate-adaptation": 11,
       "disaster-resilience": 10,
       "education": 9,
       "energy-access": 6,
+      "food-safety": 1,
       "sanitation": 4,
       "transport-safety": 1,
-      "water-security": 5
+      "water-security": 6
     }
   },
   "tasks": [
@@ -708,6 +709,23 @@
       "problem_file": "problem-packs/energy-access/renewable-energy-grid-integration-global/problem.md"
     },
     {
+      "pack_id": "food-safety/aflatoxin-exposure-sub-saharan-africa",
+      "pack_title": "Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa",
+      "pack_status": "scoped",
+      "domain": ["food-safety", "public-health", "food-security"],
+      "region": ["sub-saharan-africa"],
+      "task_id": "source-inventory",
+      "title": "Inventory mycotoxin test data, climate suitability models, and post-harvest practice surveys for SSA aflatoxin risk mapping",
+      "owner_role": "literature-scout",
+      "reviewer_needed": "domain-reviewer",
+      "safety_risk": "medium",
+      "outcome": "A dated source inventory that separates mycotoxin contamination test data (market surveys, household samples, regulatory monitoring), climate suitability models for Aspergillus flavus, post-harvest practice surveys, and population dietary exposure data into usable, limited, and rejected categories with explicit country-level coverage assessment.",
+      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+      "done_condition": "At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering contamination test method, geographic grain, crop specificity, sampling frame adequacy, and intervention-relevance.",
+      "tasks_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/tasks.json",
+      "problem_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md"
+    },
+    {
       "pack_id": "food-security/crop-yield-gap-sub-saharan-africa",
       "pack_title": "Crop Yield Gap Analysis For Smallholder Farmers In Sub-Saharan Africa",
       "pack_status": "scoped",
@@ -759,23 +777,6 @@
       "problem_file": "problem-packs/food-security/fertilizer-access-sub-saharan-africa/problem.md"
     },
     {
-      "pack_id": "food-security/fisheries-overexploitation-west-africa",
-      "pack_title": "Small-Scale Fisheries Overexploitation Detection And Livelihood Risk In West Africa",
-      "pack_status": "scoped",
-      "domain": ["food-security", "biodiversity"],
-      "region": ["west-africa"],
-      "task_id": "source-inventory",
-      "title": "Inventory fisheries data sources",
-      "owner_role": "literature-scout",
-      "reviewer_needed": "domain-reviewer",
-      "safety_risk": "medium",
-      "outcome": "Dated source inventory.",
-      "expected_artifact": "datasets.md plus evidence.json.",
-      "done_condition": "Five sources classified.",
-      "tasks_file": "problem-packs/food-security/fisheries-overexploitation-west-africa/tasks.json",
-      "problem_file": "problem-packs/food-security/fisheries-overexploitation-west-africa/problem.md"
-    },
-    {
       "pack_id": "food-security/food-loss-postharvest-sub-saharan-africa",
       "pack_title": "Postharvest Food Loss Measurement And Reduction Potential In Sub-Saharan Africa",
       "pack_status": "scoped",
@@ -791,23 +792,6 @@
       "done_condition": "Five sources classified.",
       "tasks_file": "problem-packs/food-security/food-loss-postharvest-sub-saharan-africa/tasks.json",
       "problem_file": "problem-packs/food-security/food-loss-postharvest-sub-saharan-africa/problem.md"
-    },
-    {
-      "pack_id": "food-security/livestock-disease-surveillance-east-africa",
-      "pack_title": "Livestock Disease Surveillance And Pastoralist Livelihood Risk In East Africa",
-      "pack_status": "scoped",
-      "domain": ["food-security", "public-health"],
-      "region": ["east-africa"],
-      "task_id": "source-inventory",
-      "title": "Inventory livestock disease and forage data",
-      "owner_role": "literature-scout",
-      "reviewer_needed": "domain-reviewer",
-      "safety_risk": "medium",
-      "outcome": "Dated source inventory.",
-      "expected_artifact": "datasets.md plus evidence.json.",
-      "done_condition": "Five sources classified.",
-      "tasks_file": "problem-packs/food-security/livestock-disease-surveillance-east-africa/tasks.json",
-      "problem_file": "problem-packs/food-security/livestock-disease-surveillance-east-africa/problem.md"
     },
     {
       "pack_id": "food-security/locust-outbreak-east-africa",
@@ -893,23 +877,6 @@
       "done_condition": "Five sources classified as usable, limited, or rejected.",
       "tasks_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/tasks.json",
       "problem_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md"
-    },
-    {
-      "pack_id": "public-health/birth-registration-access-global",
-      "pack_title": "Birth Registration Coverage Gaps And Health-Service Linkage In Low-Income Countries",
-      "pack_status": "scoped",
-      "domain": ["public-health"],
-      "region": ["global"],
-      "task_id": "source-inventory",
-      "title": "Inventory survey, CRVS, and health-touchpoint data sources for birth registration analysis",
-      "owner_role": "literature-scout",
-      "reviewer_needed": "domain-reviewer",
-      "safety_risk": "low",
-      "outcome": "A dated source inventory that separates survey-based registration measures, administrative completeness sources, proof-of-registration measures, health-touchpoint data, and population denominators into usable, limited, and rejected categories.",
-      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
-      "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measure family, timing, geographic grain, and health-linkage relevance.",
-      "tasks_file": "problem-packs/public-health/birth-registration-access-global/tasks.json",
-      "problem_file": "problem-packs/public-health/birth-registration-access-global/problem.md"
     },
     {
       "pack_id": "public-health/blindness-vision-impairment-global",
@@ -1320,23 +1287,6 @@
       "problem_file": "problem-packs/public-health/mental-health-treatment-gap-global/problem.md"
     },
     {
-      "pack_id": "public-health/ncd-risk-factor-surveillance-global",
-      "pack_title": "Non-Communicable Disease Risk Factor Surveillance Gaps In Low-Income Countries",
-      "pack_status": "scoped",
-      "domain": ["public-health"],
-      "region": ["global"],
-      "task_id": "source-inventory",
-      "title": "Inventory data sources for public-health/ncd-risk-factor-surveillance-global",
-      "owner_role": "literature-scout",
-      "reviewer_needed": "domain-reviewer",
-      "safety_risk": "low",
-      "outcome": "A dated source inventory separating usable, limited, and rejected data sources for non-communicable disease risk factor surveillance gaps in low-income countries.",
-      "expected_artifact": "datasets.md update plus evidence.json records.",
-      "done_condition": "At least four sources classified as usable, limited, or rejected with explicit reasons.",
-      "tasks_file": "problem-packs/public-health/ncd-risk-factor-surveillance-global/tasks.json",
-      "problem_file": "problem-packs/public-health/ncd-risk-factor-surveillance-global/problem.md"
-    },
-    {
       "pack_id": "public-health/neonatal-mortality-quality-care-global",
       "pack_title": "Neonatal Mortality And Quality Of Inpatient Newborn Care In Low-Income Countries",
       "pack_status": "scoped",
@@ -1371,21 +1321,21 @@
       "problem_file": "problem-packs/public-health/ntd-mass-drug-administration-global/problem.md"
     },
     {
-      "pack_id": "public-health/oral-health-access-global",
-      "pack_title": "Oral Health Service Access And Dental Workforce Gaps In Low-Income Countries",
+      "pack_id": "public-health/obstetric-fistula-repair-access-global",
+      "pack_title": "Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries",
       "pack_status": "scoped",
       "domain": ["public-health"],
       "region": ["global"],
       "task_id": "source-inventory",
-      "title": "Inventory data sources for public-health/oral-health-access-global",
+      "title": "Inventory obstetric fistula prevalence, repair, and prevention data sources",
       "owner_role": "literature-scout",
       "reviewer_needed": "domain-reviewer",
       "safety_risk": "low",
-      "outcome": "A dated source inventory separating usable, limited, and rejected data sources for oral health service access and dental workforce gaps in low-income countries.",
-      "expected_artifact": "datasets.md update plus evidence.json records.",
-      "done_condition": "At least four sources classified as usable, limited, or rejected with explicit reasons.",
-      "tasks_file": "problem-packs/public-health/oral-health-access-global/tasks.json",
-      "problem_file": "problem-packs/public-health/oral-health-access-global/problem.md"
+      "outcome": "A dated source inventory separating usable, limited, and rejected obstetric fistula sources by measurement family and allocation use.",
+      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+      "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measurement family, numerator, denominator, time reference, geographic grain, case-finding method, and backlog-versus-incidence relevance.",
+      "tasks_file": "problem-packs/public-health/obstetric-fistula-repair-access-global/tasks.json",
+      "problem_file": "problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md"
     },
     {
       "pack_id": "public-health/prison-health-tb-hiv-global",
@@ -1473,6 +1423,23 @@
       "problem_file": "problem-packs/public-health/snakebite-antivenom-access-global/problem.md"
     },
     {
+      "pack_id": "public-health/stillbirth-measurement-quality-global",
+      "pack_title": "Stillbirth Measurement Gaps And Intrapartum Care Quality In High-Burden Countries",
+      "pack_status": "scoped",
+      "domain": ["public-health"],
+      "region": ["global"],
+      "task_id": "source-inventory",
+      "title": "Inventory stillbirth data sources across survey, CRVS, and facility systems",
+      "owner_role": "literature-scout",
+      "reviewer_needed": "domain-reviewer",
+      "safety_risk": "low",
+      "outcome": "A dated source inventory separating usable, limited, and rejected stillbirth sources by measure family and policy use.",
+      "expected_artifact": "datasets.md plus evidence.json updates.",
+      "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering definition threshold, measure family, time reference, geographic grain, and relevance to intrapartum versus counting-system interpretation.",
+      "tasks_file": "problem-packs/public-health/stillbirth-measurement-quality-global/tasks.json",
+      "problem_file": "problem-packs/public-health/stillbirth-measurement-quality-global/problem.md"
+    },
+    {
       "pack_id": "public-health/stunting-sub-saharan-africa",
       "pack_title": "Child Stunting Hotspot Identification In Sub-Saharan Africa",
       "pack_status": "scoped",
@@ -1488,6 +1455,23 @@
       "done_condition": "At least five sources classified as usable, limited, or rejected with explicit reasons.",
       "tasks_file": "problem-packs/public-health/stunting-sub-saharan-africa/tasks.json",
       "problem_file": "problem-packs/public-health/stunting-sub-saharan-africa/problem.md"
+    },
+    {
+      "pack_id": "public-health/substandard-falsified-medicines-global",
+      "pack_title": "Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries",
+      "pack_status": "scoped",
+      "domain": ["public-health"],
+      "region": ["global"],
+      "task_id": "source-inventory",
+      "title": "Inventory quality-surveillance, field-survey, market-distribution, and regulatory data sources for SF medicines analysis",
+      "owner_role": "literature-scout",
+      "reviewer_needed": "domain-reviewer",
+      "safety_risk": "medium",
+      "outcome": "A dated source inventory that separates WHO GSMS reports, national quality surveillance data, peer-reviewed field surveys, market-distribution records, and regulatory authority datasets into usable, limited, and rejected categories with explicit assessment of sampling frame, test method, and substandard-versus-falsified disaggregation.",
+      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+      "done_condition": "At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering sampling frame, test method, geographic grain, supply-chain tier, and substandard-versus-falsified disaggregation status.",
+      "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json",
+      "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md"
     },
     {
       "pack_id": "public-health/surgical-care-access-global",
@@ -1658,6 +1642,23 @@
       "done_condition": "At least five candidate sources are classified as usable, limited, or rejected, and at least one source in each of police, health-care, and denominator categories has an explicit linkage or non-linkage reason.",
       "tasks_file": "problem-packs/transport-safety/road-injury-data-lmics/tasks.json",
       "problem_file": "problem-packs/transport-safety/road-injury-data-lmics/problem.md"
+    },
+    {
+      "pack_id": "water-security/arsenic-groundwater-exposure-bangladesh",
+      "pack_title": "Arsenic-Contaminated Groundwater Exposure And Testing Coverage Gaps In Bangladesh",
+      "pack_status": "scoped",
+      "domain": ["water-security", "public-health"],
+      "region": ["bangladesh"],
+      "task_id": "source-inventory",
+      "title": "Inventory arsenic survey, testing-coverage, and health-outcome data sources for Bangladesh",
+      "owner_role": "literature-scout",
+      "reviewer_needed": "domain-reviewer",
+      "safety_risk": "medium",
+      "outcome": "A dated source inventory separating groundwater arsenic survey data (BGS/DPHE, national surveys), testing-coverage records (BAMWSP, national arsenic mitigation cell), health-outcome data, and population data into usable, limited, and rejected categories with explicit reasons covering measurement method, geographic grain, temporal coverage, and accessibility.",
+      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source and claims.json with data-sufficiency claim.",
+      "done_condition": "At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering arsenic measurement method, geographic grain, temporal coverage, testing-coverage documentation, and accessibility for sub-national analysis.",
+      "tasks_file": "problem-packs/water-security/arsenic-groundwater-exposure-bangladesh/tasks.json",
+      "problem_file": "problem-packs/water-security/arsenic-groundwater-exposure-bangladesh/problem.md"
     },
     {
       "pack_id": "water-security/glacial-melt-hindu-kush",

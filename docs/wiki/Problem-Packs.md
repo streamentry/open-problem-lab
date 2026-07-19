@@ -400,6 +400,16 @@ Build a verified workflow for mapping the gap between electricity access and pro
 
 Build a verified workflow for identifying where grid infrastructure, regulatory, and financial bottlenecks prevent renewable energy integration in LMICs, linking grid-capacity data, renewable-resource data, and investment-flow data at national and sub-national scale.
 
+## Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
+
+- ID: `food-safety/aflatoxin-exposure-sub-saharan-africa`
+- Status: `scoped`
+- Domain: `food-safety`, `public-health`, `food-security`
+- Region: `sub-saharan-africa`
+- Source: [problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa](../../problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md)
+
+Build a verified workflow for mapping where aflatoxin contamination of maize and groundnuts exceeds Codex limits at sub-national scale, linking mycotoxin test data, climate suitability models, and post-harvest practice surveys to identify the highest-leverage intervention districts.
+
 ## Crop Yield Gap Analysis For Smallholder Farmers In Sub-Saharan Africa
 
 - ID: `food-security/crop-yield-gap-sub-saharan-africa`
@@ -479,6 +489,16 @@ Build a verified workflow for assessing where vegetation, soil moisture, and win
 - Source: [problem-packs/food-security/urban-food-deserts-global](../../problem-packs/food-security/urban-food-deserts-global/problem.md)
 
 Build a verified workflow for mapping urban food deserts and fresh-food access gaps in LMIC cities, linking market-location data, food-price data, and population data.
+
+## Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change
+
+- ID: `occupational-health/heat-stress-outdoor-workers-global`
+- Status: `scoped`
+- Domain: `occupational-health`, `climate-health`, `public-health`
+- Region: `global`
+- Source: [problem-packs/occupational-health/heat-stress-outdoor-workers-global](../../problem-packs/occupational-health/heat-stress-outdoor-workers-global/problem.md)
+
+Build a verified workflow for mapping occupational heat stress exposure and health outcomes among outdoor workers in low- and middle-income countries, linking wet-bulb globe temperature data, labor force distribution by industry, and health surveillance records to identify where worker protection interventions should be prioritized.
 
 ## Alcohol Harm Reduction Policy Gaps And Heavy Episodic Drinking In Low- And Middle-Income Countries
 
@@ -660,6 +680,16 @@ Build a verified workflow for measuring health insurance coverage and financial 
 
 Build a verified workflow for measuring health workforce density and skill-mix gaps at sub-national scale in low-income countries, linking national health workforce registries, facility-staffing data, and population data to identify where worker shortages are most severe.
 
+## Hearing Loss Care Access And Hearing Aid Coverage Gaps In Low- And Middle-Income Countries
+
+- ID: `public-health/hearing-loss-care-access-global`
+- Status: `scoped`
+- Domain: `public-health`
+- Region: `global`
+- Source: [problem-packs/public-health/hearing-loss-care-access-global](../../problem-packs/public-health/hearing-loss-care-access-global/problem.md)
+
+Build a verified evidence base documenting the gap between hearing care need and service coverage in LMICs, with sub-national grain where data permits, to support national health ministries and WHO member states in allocating ear and hearing care resources under NCD budgets.
+
 ## HIV Treatment Cascade Gaps And 95-95-95 Target Tracking In Sub-Saharan Africa
 
 - ID: `public-health/hiv-treatment-cascade-global`
@@ -790,6 +820,16 @@ Build a verified workflow for measuring neonatal mortality risk relative to inpa
 
 Build a verified workflow for identifying where NTD mass drug administration coverage is lowest and disease persistence is highest, linking WHO PCT data, treatment registers, and disease-mapping data at district scale.
 
+## Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries
+
+- ID: `public-health/obstetric-fistula-repair-access-global`
+- Status: `scoped`
+- Domain: `public-health`
+- Region: `global`
+- Source: [problem-packs/public-health/obstetric-fistula-repair-access-global](../../problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md)
+
+Build a verified workflow for separating obstetric fistula repair backlog, incident prevention, and measurement artifacts so funders and maternal-newborn programs can decide where surgical repair capacity, referral strengthening, and prevalence measurement are each the right next move.
+
 ## Oral Health Service Access And Dental Workforce Gaps In Low-Income Countries
 
 - ID: `public-health/oral-health-access-global`
@@ -809,6 +849,16 @@ Build a verified workflow for measuring oral health service access and dental wo
 - Source: [problem-packs/public-health/prison-health-tb-hiv-global](../../problem-packs/public-health/prison-health-tb-hiv-global/problem.md)
 
 Build a verified workflow for measuring TB and HIV service gaps in prison populations in LMICs, linking prison-population data, TB and HIV prevalence studies in prisons, and health-service data.
+
+## Rabies Post-Exposure Prophylaxis Access And Bite-Risk Triage In Endemic Countries
+
+- ID: `public-health/rabies-pep-access-global`
+- Status: `scoped`
+- Domain: `public-health`
+- Region: `global`
+- Source: [problem-packs/public-health/rabies-pep-access-global](../../problem-packs/public-health/rabies-pep-access-global/problem.md)
+
+Build a verified workflow for distinguishing human rabies vaccine procurement from complete post-exposure prophylaxis access, including wound care, bite-risk triage, vaccine route, RIG or monoclonal access, reporting, and rural reach.
 
 ## Refugee Health Service Access Gaps In Host Countries
 
@@ -850,6 +900,16 @@ Build a verified workflow for measuring the gap between sickle cell disease birt
 
 Build a verified workflow for measuring snakebite envenoming mortality risk and antivenom access gaps, linking WHO snakebite data, health-facility antivenom stocking data, and agricultural-population maps at sub-national scale.
 
+## Stillbirth Measurement Gaps And Intrapartum Care Quality In High-Burden Countries
+
+- ID: `public-health/stillbirth-measurement-quality-global`
+- Status: `scoped`
+- Domain: `public-health`
+- Region: `global`
+- Source: [problem-packs/public-health/stillbirth-measurement-quality-global](../../problem-packs/public-health/stillbirth-measurement-quality-global/problem.md)
+
+Build a verified workflow for distinguishing stillbirth burden that is preventable during labor from burden that is merely counted late or not counted at all, linking household surveys, CRVS, and facility data in high-burden countries.
+
 ## Child Stunting Hotspot Identification In Sub-Saharan Africa
 
 - ID: `public-health/stunting-sub-saharan-africa`
@@ -859,6 +919,16 @@ Build a verified workflow for measuring snakebite envenoming mortality risk and 
 - Source: [problem-packs/public-health/stunting-sub-saharan-africa](../../problem-packs/public-health/stunting-sub-saharan-africa/problem.md)
 
 Build a verified workflow for identifying where child stunting rates are highest and most persistent in Sub-Saharan Africa, linking nutrition survey data, food security indicators, and intervention coverage to support stunting reduction targeting.
+
+## Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries
+
+- ID: `public-health/substandard-falsified-medicines-global`
+- Status: `scoped`
+- Domain: `public-health`
+- Region: `global`
+- Source: [problem-packs/public-health/substandard-falsified-medicines-global](../../problem-packs/public-health/substandard-falsified-medicines-global/problem.md)
+
+Build a verified workflow for separating tested medicine-quality failure rates from untested assumptions, and for mapping where post-market surveillance gaps leave populations exposed to substandard and falsified medical products.
 
 ## Essential Surgical Care Access And Surgical Workforce Gaps In Low-Income Countries
 
@@ -959,6 +1029,16 @@ Build a verified workflow for measuring municipal solid waste collection gaps an
 - Source: [problem-packs/transport-safety/road-injury-data-lmics](../../problem-packs/transport-safety/road-injury-data-lmics/problem.md)
 
 Build a verified, privacy-conscious workflow for measuring how much city road-injury burden is missed by police-only records and whether linked administrative data changes the prioritization of road blackspots, trauma capacity, or enforcement review.
+
+## Arsenic-Contaminated Groundwater Exposure And Testing Coverage Gaps In Bangladesh
+
+- ID: `water-security/arsenic-groundwater-exposure-bangladesh`
+- Status: `scoped`
+- Domain: `water-security`, `public-health`
+- Region: `bangladesh`
+- Source: [problem-packs/water-security/arsenic-groundwater-exposure-bangladesh](../../problem-packs/water-security/arsenic-groundwater-exposure-bangladesh/problem.md)
+
+Build a verified workflow for mapping sub-national arsenic exposure risk and well-testing coverage gaps in Bangladesh, linking groundwater arsenic survey data, tube-well census data, and health-outcome data with explicit grain and method documentation.
 
 ## Glacial Melt Water Security Risk In The Hindu Kush Himalaya
 

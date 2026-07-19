@@ -2,20 +2,19 @@
   {
     "id": "africa-fertilizer-summit-2023",
     "problem_id": "food-security/fertilizer-access-sub-saharan-africa",
-    "claim": "The 2023 Africa Fertilizer and Soil Health Summit documented average fertilizer use of 15 kg/ha in SSA versus 150 kg/ha globally, with soil nutrient depletion costing an estimated 3 percent of agricultural GDP annually.",
+    "claim": "The 2024 Africa Fertilizer and Soil Health Summit produced the Nairobi Declaration, an African Union declaration focused on fertilizer access, soil health, and continent-wide soil-health action planning.",
     "evidence_type": "primary-source",
     "source": {
-      "title": "Africa Fertilizer and Soil Health Summit Declaration",
-      "url": "https://www.afdb.org/en/topics-and-sectors/initiatives-partnerships/africa-fertilizer-and-soil-health-summit"
+      "title": "Nairobi Declaration - 2024 Africa Fertilizer and Soil Health Summit",
+      "url": "https://au.int/en/documents/20240509/nairobi-declaration-2024-africa-fertilizer-and-soil-health-summit"
     },
-    "source_date": "2023-05-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed summit declaration, soil-health data, fertilizer-use statistics, and country-level analysis for SSA.",
+    "source_date": "2024-05-09",
+    "access_date": "2026-07-10",
+    "method": "Reviewed the African Union document page for the 2024 Nairobi Declaration and used it only to verify the summit output and policy-planning scope.",
     "limitations": [
-      "The 15 kg/ha figure is a continental average — individual countries range from under 5 to over 50 kg/ha.",
-      "Fertilizer-use data varies by country and crop — the average combines different survey methodologies and crop systems.",
-      "The 3 percent GDP cost is a modeled estimate from soil-nutrient balance studies at research sites that may not represent all farming systems.",
-      "Soil-nutrient data is sparse outside research sites — sub-national nutrient-depletion maps require interpolation that introduces uncertainty."
+      "This is a policy declaration source, not a fertilizer-use dataset.",
+      "The source does not support sub-national fertilizer-access estimates or soil-nutrient depletion rates.",
+      "Quantified fertilizer-use and agricultural-GDP-loss claims require separate statistical or peer-reviewed sources."
     ],
     "confidence": "high"
   },

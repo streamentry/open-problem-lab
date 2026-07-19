@@ -1,0 +1,48 @@
+[
+  {
+    "id": "occupational-heat-surveillance-data-sufficiency",
+    "problem_id": "occupational-health/heat-stress-outdoor-workers-global",
+    "claim": "Available public data sources are sufficient for global and regional framing of occupational heat stress (ILO 2024 exposure estimates, Xu et al. 2021 meta-analysis, Lancet Countdown 2024 work-hour loss) and for modeled WBGT exposure derivation from climate reanalysis (ERA5 at 0.25-degree hourly, MERRA-2 as cross-check), and for national-level worker population denominators by industry (ILOSTAT), but no public dataset provides sub-national occupational heat exposure linked to health outcomes at the granularity needed to identify which districts in LMICs carry the highest worker heat burden relative to surveillance coverage. ILOSTAT provides national industry breakdowns with partial informal sector coverage, ERA5 provides the gridded climate input for WBGT derivation, and the Lancet Countdown provides aggregate annual framing, but the three cannot be combined without sub-national labor force distributions that do not exist publicly for most LMICs. The WHO/ILO UV radiation joint estimate demonstrates that global attribution of climate-linked occupational hazards is methodologically feasible, but no equivalent has been published for heat stress specifically. The sub-national exposure-outcome gap cannot be mapped with currently available public data alone, particularly because informal sector workers, who constitute the majority of the outdoor workforce in most LMICs, are invisible to occupational health surveillance systems.",
+    "domain": ["occupational-health", "climate-health", "public-health"],
+    "status": "unverified",
+    "evidence": [
+      "ilo-heat-exposure-global-2024",
+      "xu-heat-occupational-injury-2021",
+      "who-ilo-uv-occupational-2024",
+      "iso-7243-wbgt-standard-2017",
+      "dunne-labor-capacity-2013",
+      "ilo-climate-labor-statistics-2024",
+      "era5-climate-reanalysis-wbgt-source",
+      "merra2-climate-reanalysis-wbgt-source",
+      "ilostat-employment-industry-global",
+      "lancet-countdown-heat-labor-2024"
+    ],
+    "failure_modes": [
+      "A reader treats the ILO global exposure estimate as a direct measurement of workplace heat exposure rather than a modeled estimate from climate-labor overlap.",
+      "A reader uses the Xu et al. pooled effect size as applicable to LMIC settings without noting that most included studies are from high-income countries.",
+      "A policy maker uses the exposure framing to justify employer-level heat standards without addressing informal sector workers who fall outside employer-employee regulatory frameworks.",
+      "A reader treats the Dunne et al. 2050 labor capacity projection as a current estimate of productivity loss rather than a future scenario under high emissions.",
+      "A reader interprets the absence of sub-national surveillance data as evidence that occupational heat stress is not a significant problem in specific LMIC districts.",
+      "An employer uses exposure-outcome maps to argue that heat injuries are worker behavior problems rather than workplace condition problems, deflecting responsibility for rest breaks and hydration provision.",
+      "A reader treats ERA5 WBGT derived values as equivalent to workplace heat measurements without accounting for local shading, ventilation, clothing, and actual work schedules.",
+      "A reader merges ILOSTAT national industry breakdowns with ERA5 grid cells without documenting the spatial interpolation method and its uncertainty, producing apparently precise sub-national exposure estimates that are actually modeled extrapolations.",
+      "A reader treats the Lancet Countdown 490 billion work-hour loss figure as a direct measurement rather than a modeled order of magnitude sensitive to threshold assumptions."
+    ],
+    "kill_condition": "A reviewer identifies a public dataset providing sub-national occupational heat exposure linked to health outcomes for at least 10 LMICs with consistent methodology, industry breakdown, and informal sector coverage, or finds that ILO or national labor ministries have begun systematic sub-national occupational heat surveillance covering districts in at least 20 LMICs with worker population denominators that include the informal sector.",
+    "review_required": ["domain-reviewer", "red-team-reviewer"],
+    "safety_level": "high",
+    "submitter": "codex-agent",
+    "created_date": "2026-06-30",
+    "last_updated": "2026-07-03",
+    "confidence": "medium",
+    "limitations": [
+      "The claim is about public data availability for sub-national occupational heat exposure-outcome analysis, not about actual heat exposure or injury rates in specific countries.",
+      "The assessment of 'no public dataset provides sub-national exposure-outcome data' is an inference from reviewing available data portals and published literature, not a systematic survey of all national occupational health databases.",
+      "Some countries may have occupational injury surveillance systems that include heat-related cases but are not publicly accessible or not in English; these were not reviewed.",
+      "The ILO report may contain more granular country-level data than the public summary suggests; this claim is based on the publicly accessible version.",
+      "Informal sector coverage gaps are inferred from ILOSTAT documentation and published labor market analyses, not from a systematic audit of every LMIC labor survey.",
+      "ERA5 and MERRA-2 provide gridded climate inputs but require WBGT derivation formulas whose accuracy varies by climate zone, terrain, and land use context; this claim assumes standard formulas but does not validate specific formula choice.",
+      "The claim that the three data layers (ERA5 climate, ILOSTAT worker populations, Lancet framing) cannot be combined without sub-national labor distributions is based on public data inspection; a national government may hold sub-national labor data that is not publicly accessible."
+    ]
+  }
+]

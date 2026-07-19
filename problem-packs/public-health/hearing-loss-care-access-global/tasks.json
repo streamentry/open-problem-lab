@@ -1,0 +1,95 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "title": "Inventory hearing loss prevalence, coverage, and workforce data sources for LMICs",
+    "status": "needs-review",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory separating usable global estimates, country-level data, sub-national data, and rejected sources, with explicit classification reasons for each.",
+    "inputs": [
+      "WHO Deafness and Hearing Loss fact sheet",
+      "WHO World Report on Hearing (2021)",
+      "IHME Global Burden of Disease study hearing loss estimates",
+      "WHO Global Health Observatory country data",
+      "Published country-level hearing loss surveys and coverage studies"
+    ],
+    "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+    "validation_method": "Reviewer checks each source for URL, date, access status, geographic grain, measure definition, collection method, temporal coverage, and limitations, then reproduces the rATA hearing-aid product filter.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "low",
+    "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering geographic grain, case definition, data collection method, and temporal coverage."
+  },
+  {
+    "id": "workforce-density-baseline",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "title": "Define audiology workforce density baseline for at least five LMICs",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A reproducible baseline of audiology workforce density (audiologists per million population) for at least five LMICs, sourced from WHO or national registry data.",
+    "inputs": [
+      "WHO Global Health Observatory health workforce data",
+      "National audiology association registries",
+      "Published workforce survey studies"
+    ],
+    "expected_artifact": "validation.md update with workforce density table, data sources, and denominator handling.",
+    "validation_method": "Replicator reruns the workforce density calculation from documented sources and confirms country coverage, denominator source, and missingness handling.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "At least five LMICs have documented audiology workforce density with explicit source, year, and denominator, or the task documents why each missing country's data is unavailable."
+  },
+  {
+    "id": "coverage-gap-estimation",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "title": "Estimate hearing aid coverage gap for at least three LMICs",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A ranked estimate of the hearing aid coverage gap (percentage of need met) for at least three LMICs, with explicit method and uncertainty bounds.",
+    "inputs": [
+      "Hearing loss prevalence data",
+      "Hearing aid market or provision data",
+      "National health survey data where available",
+      "Audiology workforce density baseline"
+    ],
+    "expected_artifact": "task-map.md and validation.md updates with coverage gap estimates, methods, and uncertainty ranges.",
+    "validation_method": "Reviewer checks the estimation method, input data quality, uncertainty handling, and whether the gap estimate is reproducible from documented inputs.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "medium",
+    "done_condition": "At least three LMICs have documented coverage gap estimates with explicit method, input data, and stated uncertainty. Estimates that cannot distinguish coverage from access from demand are rejected."
+  },
+  {
+    "id": "red-team-allocation-framing",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "title": "Red-team harmful or misleading interpretations of coverage gap data",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review identifying how coverage gap rankings could mislead health ministries, distort resource allocation, or stigmatize populations.",
+    "inputs": [
+      "Candidate coverage gap estimates",
+      "Workforce density baseline",
+      "WHO hearing care framework"
+    ],
+    "expected_artifact": "outputs.md and validation.md linked review note documenting each identified failure mode and its mitigation.",
+    "validation_method": "Reviewer confirms every high-risk failure mode has a mitigation or blocks publication, then a second reviewer replicates the failure-mode check.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every coverage gap claim is either blocked, softened to analytic language, or gated behind domain review and replicated red-team review."
+  },
+  {
+    "id": "field-reality-check",
+    "problem_id": "public-health/hearing-loss-care-access-global",
+    "title": "Check whether coverage gap data matches ministry-level allocation decision needs",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing review of whether the proposed coverage gap evidence would change a real health ministry allocation decision responsibly.",
+    "inputs": [
+      "Draft coverage gap estimates",
+      "WHO ear and hearing care intervention recommendations",
+      "National health budget allocation context for at least one LMIC"
+    ],
+    "expected_artifact": "playbooks.md update with use and non-use guidance for ministry-level decision-makers.",
+    "validation_method": "Field reviewer identifies the actual decision, decision-maker, timing, and misuse risk for the output, then a second reviewer replicates the non-use-case check.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "The output has a named decision-maker, named allocation decision, explicit non-use cases, and replicated field-reality review before publication."
+  }
+]
