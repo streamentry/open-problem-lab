@@ -6,13 +6,13 @@
 
 | Metric | Value |
 |---|---|
-| Total packs | 100 |
+| Total packs | 101 |
 | Packs with claims | 6 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 283 |
-| Total tasks | 516 |
-| Scoped tasks (ready for work) | 100 |
-| High-risk tasks | 268 |
+| Total evidence records | 287 |
+| Total tasks | 521 |
+| Scoped tasks (ready for work) | 101 |
+| High-risk tasks | 272 |
 
 ## All Problem Packs
 
@@ -113,6 +113,7 @@
 | [sanitation/open-defecation-india](../../problem-packs/sanitation/open-defecation-india/problem.md) | Open Defecation Elimination And Sanitation Coverage Verification In India | scoped | sanitation, public-health | india | medium | 3 ev; 6 tasks | ready |
 | [sanitation/plastic-waste-marine-global](../../problem-packs/sanitation/plastic-waste-marine-global/problem.md) | Plastic Waste Leakage Into Marine Environments From Coastal Cities | scoped | sanitation, biodiversity | global | medium | 1 ev; 5 tasks | needs evidence |
 | [sanitation/solid-waste-management-urban-south-asia](../../problem-packs/sanitation/solid-waste-management-urban-south-asia/problem.md) | Municipal Solid Waste Collection Gaps And Open Dumping Health Risk In South Asian Cities | scoped | sanitation, public-health | south-asia | medium | 2 ev; 5 tasks | needs evidence |
+| [transport-safety/road-injury-data-lmics](../../problem-packs/transport-safety/road-injury-data-lmics/problem.md) | Road-Traffic Injury Undercount And Safety Allocation In LMIC Cities | scoped | transport-safety, public-health | low-and-middle-income-countries, global | high | 4 ev; 5 tasks | ready |
 | [water-security/glacial-melt-hindu-kush](../../problem-packs/water-security/glacial-melt-hindu-kush/problem.md) | Glacial Melt Water Security Risk In The Hindu Kush Himalaya | scoped | water-security, climate-adaptation | hindu-kush-himalaya | high | 3 ev; 5 tasks | ready |
 | [water-security/groundwater-depletion-india](../../problem-packs/water-security/groundwater-depletion-india/problem.md) | Groundwater Depletion Risk Assessment In India | scoped | water-security, food-security | india | medium | 3 ev; 6 tasks | ready |
 | [water-security/transboundary-water-conflict-global](../../problem-packs/water-security/transboundary-water-conflict-global/problem.md) | Transboundary Water Conflict Risk In Climate-Stressed River Basins | scoped | water-security | global | high | 1 ev; 5 tasks | needs evidence |

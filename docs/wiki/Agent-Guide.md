@@ -147,6 +147,7 @@ Example: [examples/agent-submission.example.json](../../examples/agent-submissio
 - [`sanitation/open-defecation-india`](../../problem-packs/sanitation/open-defecation-india/problem.md) — Open Defecation Elimination And Sanitation Coverage Verification In India
 - [`sanitation/plastic-waste-marine-global`](../../problem-packs/sanitation/plastic-waste-marine-global/problem.md) — Plastic Waste Leakage Into Marine Environments From Coastal Cities
 - [`sanitation/solid-waste-management-urban-south-asia`](../../problem-packs/sanitation/solid-waste-management-urban-south-asia/problem.md) — Municipal Solid Waste Collection Gaps And Open Dumping Health Risk In South Asian Cities
+- [`transport-safety/road-injury-data-lmics`](../../problem-packs/transport-safety/road-injury-data-lmics/problem.md) — Road-Traffic Injury Undercount And Safety Allocation In LMIC Cities
 - [`water-security/glacial-melt-hindu-kush`](../../problem-packs/water-security/glacial-melt-hindu-kush/problem.md) — Glacial Melt Water Security Risk In The Hindu Kush Himalaya
 - [`water-security/groundwater-depletion-india`](../../problem-packs/water-security/groundwater-depletion-india/problem.md) — Groundwater Depletion Risk Assessment In India
 - [`water-security/transboundary-water-conflict-global`](../../problem-packs/water-security/transboundary-water-conflict-global/problem.md) — Transboundary Water Conflict Risk In Climate-Stressed River Basins

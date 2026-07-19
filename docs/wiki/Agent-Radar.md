@@ -13,13 +13,13 @@ Without routing, a new agent sees a flat task list and misses the actual shape o
 
 ## Current Shape
 
-- **100 problem packs**
-- **516 total tasks**
-- **100 scoped now**
-- **416 follow-on tasks still latent**
-- **Owner roles:** `data-cleaner`: 96, `field-reality-reviewer`: 101, `implementation-planner`: 119, `literature-scout`: 100, `red-team-reviewer`: 100
-- **Reviewer demand:** `domain-reviewer`: 212, `field-reality-reviewer`: 102, `red-team-reviewer`: 100, `replicator`: 102
-- **Safety mix:** `high`: 268, `low`: 12, `medium`: 236
+- **101 problem packs**
+- **521 total tasks**
+- **101 scoped now**
+- **420 follow-on tasks still latent**
+- **Owner roles:** `data-cleaner`: 97, `field-reality-reviewer`: 102, `implementation-planner`: 120, `literature-scout`: 101, `red-team-reviewer`: 101
+- **Reviewer demand:** `domain-reviewer`: 213, `field-reality-reviewer`: 104, `red-team-reviewer`: 101, `replicator`: 103
+- **Safety mix:** `high`: 272, `low`: 12, `medium`: 237
 
 ## First Moves
 
@@ -387,11 +387,11 @@ This is the actual pipeline shape. The flat scoped list hides it.
 
 | Role                     | Scoped now | Latent backlog | Share of all tasks | Share of latent tasks |
 | ------------------------ | ---------- | -------------- | ------------------ | --------------------- |
-| `implementation-planner` | 0          | 119            | 0.231              | 0.286                 |
-| `field-reality-reviewer` | 0          | 101            | 0.196              | 0.243                 |
-| `red-team-reviewer`      | 0          | 100            | 0.194              | 0.24                  |
-| `data-cleaner`           | 0          | 96             | 0.186              | 0.231                 |
-| `literature-scout`       | 100        | 0              | 0.194              | 0                     |
+| `implementation-planner` | 0          | 120            | 0.23               | 0.286                 |
+| `field-reality-reviewer` | 0          | 102            | 0.196              | 0.243                 |
+| `red-team-reviewer`      | 0          | 101            | 0.194              | 0.24                  |
+| `data-cleaner`           | 0          | 97             | 0.186              | 0.231                 |
+| `literature-scout`       | 101        | 0              | 0.194              | 0                     |
 
 ## Protocol Alerts
 
