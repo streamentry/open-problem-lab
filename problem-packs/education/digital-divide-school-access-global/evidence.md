@@ -22,6 +22,18 @@ Use this source to document that connectivity existence does not equal education
 
 Use this source to document the data-currency and cross-validation constraint. School census ICT data varies from annual updates to 5+ years old. Self-reported data is rarely verified against connectivity measurements. Connectivity definitions vary across countries. Always document data currency and cross-validation status for each analyzed country.
 
+### ITU DataHub Household ICT Indicators
+
+Use ITU DataHub for national household and individual ICT context, not school-level localization. Retain the indicator year and metadata for every downloaded series. It is a plausible external check on national connectivity conditions, but it cannot validate which schools are connected.
+
+### GSMA Mobile Connectivity Index
+
+Use the GSMA methodology as a country-level mobile-connectivity context layer. Its composite score is not a school-coverage measure and must not be presented as proof of reliable school internet, electricity, devices, or educational use.
+
+### UNESCO UIS ICT-in-Education Measurement Guide
+
+Use the UIS guide to harmonize school ICT definitions and data-collection fields. Treat it as measurement guidance, not as observed evidence of current sub-national connectivity or data completeness.
+
 ## Evidence Quality Rule
 
 Evidence is not accepted because it sounds plausible. It is accepted when the source, method, limitations, and confidence are explicit enough for a reviewer to attack.

@@ -2,17 +2,18 @@
 
 ## Candidate Sources
 
-| Source                                | Grain                      | Current status                 | Use                                                     |
-| ------------------------------------- | -------------------------- | ------------------------------ | ------------------------------------------------------- |
-| Giga school-connectivity map          | School, 30 countries       | Usable, satellite-classified   | School locations and connectivity-status classification |
-| National school census ICT indicators | School/district, annual    | Variable, data-currency varies | School-level connectivity verification and device data  |
-| GSMA mobile-network coverage maps     | ~1km, updated              | Usable, publicly available     | Infrastructure availability context for connectivity    |
-| WorldPop gridded population           | 100m, gridded              | Usable, publicly available     | Population without connectivity estimation              |
-| ITU ICT statistics                    | Country, annual            | Usable, publicly available     | National connectivity and broadband indicators          |
-| Electricity-access data (GEO, DHS)    | Cluster/district, variable | Usable, publicly available     | Electricity availability as connectivity prerequisite   |
-| Device-access survey data             | Household, variable        | Sparse, country-dependent      | Device availability as digital-learning prerequisite    |
-| Teacher digital-literacy studies      | School, variable           | Very sparse in LMICs           | Teacher capacity for digital-learning integration       |
-| Connectivity-quality studies          | School, variable           | Sparse, research-dependent     | Bandwidth, reliability, and usage documentation         |
+| Source                                           | Grain                               | Classification                                                 | Currency / access                                                                         | What it can support                                                                  | Why it cannot support more                                                                                |
+| ------------------------------------------------ | ----------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| Giga school-connectivity map                     | School, partner-country coverage    | **Usable for school-location and connectivity classification** | Snapshot; partner-country coverage; methodology documentation required                    | School-level candidate connectivity status                                           | Does not establish bandwidth, reliability, educational use, or current status after the mapping snapshot  |
+| National school census ICT indicators            | School/district, country-dependent  | **Limited**                                                    | Annual in some countries, 5+ years old in others; usually administrative or self-reported | Independent comparison for school electricity, devices, and reported internet access | Definitions and validation vary; not directly comparable without metadata and field checks                |
+| ITU DataHub household ICT indicators             | Country, annual / irregular         | **Limited**                                                    | Official cross-national data; downloadable, but household indicators are not school-level | National connectivity context and external plausibility check                        | Cannot locate unconnected schools or substitute for school-level measurement                              |
+| GSMA Mobile Connectivity Index                   | Country, annual index               | **Limited**                                                    | 2024 methodology report; public methodology, index data subject to terms                  | Mobile-network availability, affordability, and readiness context                    | Composite country score; not a school-coverage map and not a direct measure of usable school internet     |
+| UNESCO UIS ICT-in-education measurement guidance | School-system indicator definitions | **Limited**                                                    | Official methodological guide; not a current country dataset                              | Harmonizing school ICT definitions and specifying administrative-data fields         | Guidance does not provide current sub-national observations or prove data quality in a particular country |
+| WorldPop gridded population                      | 100m, gridded                       | **Limited**                                                    | Public research dataset; release/version and license must be recorded per download        | Denominator and population-context layers for aggregation                            | Population surface does not observe connectivity and should not be used to infer access directly          |
+| Electricity-access data (GEO, DHS)               | Cluster/district, variable          | **Limited**                                                    | Source- and country-dependent; survey dates and cluster displacement require review       | Complementary prerequisite for interpreting school connectivity                      | Household or area electricity access is not proof of reliable school power                                |
+| Device-access survey data                        | Household, variable                 | **Limited**                                                    | Sparse and country-dependent; survey date and device definition required                  | Complementary household/device context                                               | Does not identify school-level device stock or actual learning use                                        |
+| Teacher digital-literacy studies                 | School, variable                    | **Rejected for cross-country canonical mapping**               | No consistent low-income-country school-level series identified in the current inventory  | Candidate literature for later country-specific review                               | Grain, coverage, and instruments are too heterogeneous to support a comparable cross-country layer        |
+| Connectivity-quality studies                     | School, variable                    | **Limited**                                                    | Research-dependent; often higher-income or middle-income settings                         | Define bandwidth, reliability, and usage caveats                                     | Sparse low-income-country school observations; cannot calibrate a local threshold alone                   |
 
 ## Required Dataset Properties
 
@@ -22,6 +23,10 @@
 - Data currency — explicitly document when data was collected and whether it reflects current conditions.
 - Cross-validation status between Giga and school census data.
 - Access conditions and license.
+
+## Inventory Decision Rule
+
+Only Giga is currently classified as usable for a school-level connectivity layer, and even that classification is limited to the documented partner-country snapshot and its stated algorithm. ITU, GSMA, UIS, WorldPop, electricity, device, and connectivity-quality sources are complementary or limited rather than interchangeable substitutes. The rejected teacher-literacy category is a deliberate negative result: the current inventory does not identify a comparable low-income-country school-level series. A country analysis must record the data year, source grain, connectivity definition, license/access status, and whether an independent source was used for cross-validation.
 
 ## Rejection Rule
 
