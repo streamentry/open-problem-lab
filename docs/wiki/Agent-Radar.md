@@ -31,7 +31,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Task: `source-inventory` — Inventory school connectivity, mobile-network, and digital-learning data sources for low-income countries
 - Risk: `low`
 - Reviewer needed: `domain-reviewer`
-- Existing evidence records: 4
+- Existing evidence records: 7
 - Downstream tasks unlocked: 4
 - Downstream high-risk tasks: 0
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.

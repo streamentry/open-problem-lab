@@ -46,7 +46,7 @@
         "reviewer_needed": "domain-reviewer",
         "safety_risk": "low",
         "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering connectivity-classification methodology, data currency, and cross-validation status.",
-        "evidence_count": 4,
+        "evidence_count": 7,
         "downstream_tasks_unlocked": 4,
         "downstream_high_risk_tasks": 0,
         "problem_file": "problem-packs/education/digital-divide-school-access-global/problem.md",

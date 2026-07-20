@@ -79,5 +79,65 @@
       "URL changed from the UNESCO EMIS page (404 as of 2026-06-28) to the UNESCO Education Sector page; EMIS content may have been reorganized."
     ],
     "confidence": "high"
+  },
+  {
+    "id": "itu-datahub-household-ict-indicators-2026",
+    "problem_id": "education/digital-divide-school-access-global",
+    "claim": "The ITU DataHub provides internationally harmonized household and individual ICT indicators for about 200 economies, collected from national authorities and household ICT surveys; it is suitable for national connectivity context but not for locating unconnected schools.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "About - ITU DataHub",
+      "url": "https://datahub.itu.int/about/"
+    },
+    "source_date": "2026-01-01",
+    "access_date": "2026-07-20",
+    "method": "Reviewed the ITU DataHub scope, collection process, harmonization statement, geographic coverage, and listed household-versus-school indicator grain.",
+    "limitations": [
+      "The page describes household and individual ICT indicators rather than school-level observations.",
+      "Country-level indicators cannot identify which schools lack connectivity or distinguish school internet from household access.",
+      "The page does not provide a single observation date for every indicator; each downloaded series must retain its own year and metadata.",
+      "ITU distributes the data without a warranty and places interpretation responsibility on the user."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "gsma-mobile-connectivity-index-methodology-2024",
+    "problem_id": "education/digital-divide-school-access-global",
+    "claim": "The GSMA Mobile Connectivity Index methodology describes a country-level composite framework for mobile-network coverage, affordability, consumer readiness, and relevant content/services; it can contextualize school-connectivity analysis but cannot replace school-level measurement.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Mobile Connectivity Index Methodology Report 2024",
+      "url": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/wp-content/uploads/2024/07/GSMA-MCI-Methodology-Report-2024.pdf"
+    },
+    "source_date": "2024-06-01",
+    "access_date": "2026-07-20",
+    "method": "Reviewed the methodology report's unit of analysis, component domains, indicator construction, and stated interpretation limits before classifying it as a contextual source.",
+    "limitations": [
+      "The index is country-level and composite; it does not identify school locations or school-specific service quality.",
+      "A national mobile-connectivity score does not establish that a school has reliable electricity, a usable connection, devices, or educational content.",
+      "Index components and weights create interpretation risk if treated as a direct outcome measure.",
+      "The methodology report does not provide independent ground truth for each school's connectivity status."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "unesco-uis-ict-education-measurement-guide",
+    "problem_id": "education/digital-divide-school-access-global",
+    "claim": "The UNESCO Institute for Statistics guide recommends collecting ICT-in-education indicators through official education records and defines a measurement framework that can improve comparability of school connectivity data, but it is methodological guidance rather than a current sub-national dataset.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Guide to Measuring Information and Communication Technologies (ICT) in Education",
+      "url": "https://uis.unesco.org/sites/default/files/documents/guide-to-measuring-information-and-communication-technologies-ict-in-education-en_0.pdf"
+    },
+    "source_date": "2024-01-01",
+    "access_date": "2026-07-20",
+    "method": "Reviewed the guide's recommended data-collection setting, indicator definitions, administrative-record basis, and distinction between measurement guidance and observed country data.",
+    "limitations": [
+      "The guide does not supply current school-level observations for a target country.",
+      "Following a measurement standard does not establish that a national school census is complete, current, or independently validated.",
+      "Cross-country comparability still depends on implementation, response completeness, and metadata from each education system.",
+      "The guide cannot measure bandwidth, reliability, or actual educational use by itself."
+    ],
+    "confidence": "high"
   }
 ]
