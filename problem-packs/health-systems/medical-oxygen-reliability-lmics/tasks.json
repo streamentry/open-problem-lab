@@ -1,0 +1,58 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "health-systems/medical-oxygen-reliability-lmics",
+    "title": "Inventory facility-level medical oxygen reliability data sources",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory classifies oxygen-system data sources by facility grain, reliability definition, component coverage, geography, access, and known measurement limits.",
+    "inputs": [
+      "WHO statement on access to quality and safe medical oxygen",
+      "WHO-UNICEF oxygen therapy device guidance",
+      "2025 Lancet Global Health facility assessment",
+      "National and international health facility assessment instruments"
+    ],
+    "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+    "validation_method": "Reviewer checks each source URL, source date, facility sampling frame, reliability and component definitions, access conditions, and explicit limitations against the source document.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "medium",
+    "done_condition": "At least five candidate sources are classified as usable, limited, or rejected, with explicit reasons covering facility grain, reliability definition, component coverage, access, and known self-report or temporal limitations."
+  },
+  {
+    "id": "reliability-definition-audit",
+    "problem_id": "health-systems/medical-oxygen-reliability-lmics",
+    "title": "Audit definitions of reliable and functional oxygen availability",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A crosswalk shows which facility indicators measure presence, function, continuity, quality, or patient delivery and prevents them being treated as interchangeable.",
+    "inputs": [
+      "accepted source inventory",
+      "WHO oxygen system definitions",
+      "facility assessment instruments"
+    ],
+    "expected_artifact": "validation.md definition crosswalk and exclusion rules.",
+    "validation_method": "Replicator applies the crosswalk to a sample of source fields and confirms that each field has one declared interpretation and denominator.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "No source field labelled reliable, functional, or available remains unclassified by the crosswalk or without a stated denominator and observation window."
+  },
+  {
+    "id": "red-team-financing-use",
+    "problem_id": "health-systems/medical-oxygen-reliability-lmics",
+    "title": "Red-team oxygen reliability findings before financing use",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review blocks unsupported facility rankings, procurement prescriptions, and clinical interpretations of reliability data.",
+    "inputs": [
+      "source inventory",
+      "definition crosswalk",
+      "candidate reliability output",
+      "SAFETY.md"
+    ],
+    "expected_artifact": "outputs.md red-team section with blocked uses and required review gates.",
+    "validation_method": "Red-team reviewer tests each proposed use against self-report bias, missingness, demand surges, equipment donation incentives, and clinical non-equivalence; a second reviewer independently replicates the failure-mode check and confirms the blocks.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every candidate financing or clinical interpretation is either supported by a named denominator and replicated review status or explicitly blocked with a documented failure mode."
+  }
+]

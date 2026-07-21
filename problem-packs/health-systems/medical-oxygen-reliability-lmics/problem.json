@@ -1,0 +1,44 @@
+{
+  "id": "health-systems/medical-oxygen-reliability-lmics",
+  "title": "Reliable Medical Oxygen Systems In Low- And Middle-Income Hospitals",
+  "status": "scoped",
+  "domain": ["health-systems", "public-health"],
+  "region": ["low-and-middle-income-countries"],
+  "summary": "Measure whether health facilities can deliver quality-assured oxygen continuously, distinguishing equipment presence from functional, powered, maintained, and patient-deliverable service reliability.",
+  "why_it_matters": "A ministry of health, Global Fund, Unitaid, or bilateral funder deciding whether to finance cylinders, concentrators, plants, power backup, distribution, or maintenance cannot allocate well from a simple equipment-inventory count. Verified facility-level uptime and component failure data could change which bottleneck receives the next dollar, while preventing procurement of equipment that cannot be powered, maintained, or used safely.",
+  "success_metrics": [
+    {
+      "metric": "Facility reliability classification",
+      "target": "A reviewer can distinguish reliable, functional-but-intermittent, present-but-nonfunctional, and absent oxygen systems at facility level.",
+      "validation_method": "Cross-check each classification against dated facility assessment fields for source, distribution, delivery, monitoring, power, and maintenance components."
+    },
+    {
+      "metric": "Decision usefulness",
+      "target": "The first reviewed output identifies a named financing decision and states what the data cannot justify.",
+      "validation_method": "Domain and field reviewers inspect the decision statement, denominator, geography, and non-use cases before publication."
+    },
+    {
+      "metric": "Reproducibility",
+      "target": "A replicator can reproduce the classification from the cited assessment instruments and documented rules.",
+      "validation_method": "Rerun the classification on a sample of facility records and compare exclusions, missingness, and component-level results."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 3,
+    "replication_required": true,
+    "merge_gate": "Schema validation, oxygen-system domain review, field-reality and red-team review, and independent replication before any financing or service recommendation."
+  }
+}
