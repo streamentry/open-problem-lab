@@ -490,6 +490,16 @@ Build a verified workflow for assessing where vegetation, soil moisture, and win
 
 Build a verified workflow for mapping urban food deserts and fresh-food access gaps in LMIC cities, linking market-location data, food-price data, and population data.
 
+## Reliable Medical Oxygen Systems In Low- And Middle-Income Hospitals
+
+- ID: `health-systems/medical-oxygen-reliability-lmics`
+- Status: `scoped`
+- Domain: `health-systems`, `public-health`
+- Region: `low-and-middle-income-countries`
+- Source: [problem-packs/health-systems/medical-oxygen-reliability-lmics](../../problem-packs/health-systems/medical-oxygen-reliability-lmics/problem.md)
+
+Measure whether health facilities can deliver quality-assured oxygen continuously, distinguishing equipment presence from functional, powered, maintained, and patient-deliverable service reliability.
+
 ## Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change
 
 - ID: `occupational-health/heat-stress-outdoor-workers-global`

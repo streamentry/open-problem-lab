@@ -1,0 +1,93 @@
+[
+  {
+    "id": "who-oxygen-access-statement-2023",
+    "problem_id": "health-systems/medical-oxygen-reliability-lmics",
+    "claim": "WHO states that fewer than half of health facilities in LMICs had uninterrupted access to medical oxygen and identifies production, distribution, power, equipment, funding, and maintenance as relevant system constraints.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Statement on access to quality and safe medical oxygen",
+      "url": "https://www.who.int/publications/m/item/statement-on-access-to-quality-and-safe-medical-oxygen"
+    },
+    "source_date": "2023-06-22",
+    "access_date": "2026-07-21",
+    "method": "Reviewed the WHO publication overview and linked technical document for the uninterrupted-access estimate and the listed system constraints.",
+    "limitations": [
+      "The estimate is not a facility census and does not establish a common sampling frame across LMICs.",
+      "The statement does not quantify the marginal effect of any one constraint on patient outcomes."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ijaz-oxygen-facilities-39-countries-2025",
+    "problem_id": "health-systems/medical-oxygen-reliability-lmics",
+    "claim": "In a cross-sectional assessment of 2,884 facilities in 39 LMICs, reliable oxygen availability was reported by 24.5% of primary, 52.4% of secondary, and 66.8% of tertiary facilities.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "A rapid facility-level assessment of oxygen systems in 39 low-income and middle-income countries: a cross-sectional study",
+      "url": "https://doi.org/10.1016/S2214-109X(24)00561-8",
+      "doi": "10.1016/S2214-109X(24)00561-8"
+    },
+    "source_date": "2025-04-01",
+    "access_date": "2026-07-21",
+    "method": "Reviewed the open-access article abstract and methods summary, including facility sampling, three-month reliable-availability definition, and component availability measures.",
+    "limitations": [
+      "Facility sampling was purposive and stratified rather than a globally representative census.",
+      "Reliability was reported by facility leadership for the preceding three months and is not equivalent to continuous patient-level delivery."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-oxygen-system-components-2026",
+    "problem_id": "health-systems/medical-oxygen-reliability-lmics",
+    "claim": "WHO describes oxygen access as a system involving sources, distribution, regulation and conditioning, delivery, patient monitoring, power, and maintenance rather than a single equipment-presence indicator.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Health products policy and standards: Oxygen",
+      "url": "https://www.who.int/teams/health-product-policy-and-standards/assistive-and-medical-technology/medical-devices/oxygen"
+    },
+    "source_date": "2026-07-21",
+    "access_date": "2026-07-21",
+    "method": "Reviewed the WHO oxygen technical page sections on medical oxygen, system components, health-system levels, power, maintenance, and access challenges; no stable page update date was exposed.",
+    "limitations": [
+      "The page is a living technical resource and its current access date is used because a publication date was not exposed.",
+      "The component framework does not itself provide comparable facility-level measurements."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-unicef-oxygen-devices-2019",
+    "problem_id": "health-systems/medical-oxygen-reliability-lmics",
+    "claim": "WHO and UNICEF provide harmonized specifications and maintenance guidance for oxygen-therapy devices intended for low- and middle-income health facilities and multiple decision-maker roles.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO-UNICEF Technical specifications and guidance for oxygen therapy devices",
+      "url": "https://www.who.int/publications/i/item/9789241516914"
+    },
+    "source_date": "2019-01-14",
+    "access_date": "2026-07-21",
+    "method": "Reviewed the WHO publication overview for scope, intended users, procurement and maintenance content, and LMIC relevance.",
+    "limitations": [
+      "Technical specifications do not show whether a facility has working equipment or uninterrupted supply.",
+      "Guidance is not an impact evaluation of procurement or maintenance interventions."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-psa-oxygen-specification-2020",
+    "problem_id": "health-systems/medical-oxygen-reliability-lmics",
+    "claim": "WHO specifies minimum technical requirements for pressure-swing-adsorption plants used to produce medical-grade oxygen and states that high-quality medical-grade oxygen is required at all levels of care.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Technical specifications for Pressure Swing Adsorption(PSA) Oxygen Plants",
+      "url": "https://www.who.int/publications/i/item/WHO-2019-nCoV-PSA_Specifications-2020.1"
+    },
+    "source_date": "2020-06-08",
+    "access_date": "2026-07-21",
+    "method": "Reviewed the WHO publication overview for the minimum-requirements statement and intended use of PSA plants as a medical-oxygen source.",
+    "limitations": [
+      "The document addresses plant specifications, not downstream distribution, power continuity, maintenance, or patient delivery.",
+      "Meeting technical specifications does not establish that a plant is installed, functional, or adequately used."
+    ],
+    "confidence": "high"
+  }
+]
