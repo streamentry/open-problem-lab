@@ -2,15 +2,20 @@
 
 ## Candidate Sources
 
-| Source                                                            | Grain                            | Current status                   | Use                                                                                         |
-| ----------------------------------------------------------------- | -------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------- |
-| UN IGME stillbirth estimates                                      | Country, regional, global        | Usable for burden framing        | Official cross-country burden and trend baseline                                            |
-| DHS pregnancy histories or reproductive calendars where available | Household, cluster, sub-national | Limited and country-specific     | Survey-based pregnancy outcome measurement with recall and disclosure limits                |
-| MICS or other survey modules with pregnancy outcome content       | Household, cluster, sub-national | Limited and uneven availability  | Cross-check on self-reported stillbirth-related outcome measurement                         |
-| National CRVS stillbirth or fetal death tabulations               | Country to district, variable    | Limited and definition-sensitive | Registration completeness and legal-definition context                                      |
-| Facility maternity registers and perinatal death audit summaries  | Facility to district, variable   | Limited and high-risk            | Signal of service-contact stillbirth burden and intrapartum review workflow                 |
-| EmONC or maternity service readiness assessments                  | Facility, district, national     | Limited but relevant             | Context on whether observed stillbirth burden plausibly tracks labor-and-delivery care gaps |
-| Population denominators and admin boundaries                      | District, gridded, national      | Usable but version-sensitive     | Rate construction and mapping context                                                       |
+| Source                                                      | Grain                             | Current status                     | Use                                                                         |
+| ----------------------------------------------------------- | --------------------------------- | ---------------------------------- | --------------------------------------------------------------------------- |
+| UN IGME stillbirth estimates                                | Country, regional, global         | Usable for burden framing          | Official cross-country burden and trend baseline                            |
+| DHS Guide to Statistics: perinatal mortality                | Survey, country and sub-national  | Usable with survey limits          | Reproducible definition and denominator for DHS-7/DHS-8 rates               |
+| DHS-8 pregnancy history and interviewer manual              | Household, pregnancy, survey      | Usable for instrument review       | Outcome, duration, and live-birth confirmation wording                      |
+| WHO institutional stillbirth indicator metadata             | Facility, country, sub-national   | Usable for indicator specification | Timing, thresholds, denominator, and required disaggregation                |
+| UNICEF HMIS stillbirth data-quality assessment              | Facility, district, national      | Usable for data-quality audit      | Vital status, gestational age, birthweight, completeness, and context       |
+| WHO/UNICEF MPDSR materials                                  | Facility, community, sub-national | Usable for audit workflow          | Notification, review, modifiable-factor analysis, and non-punitive response |
+| WHO CRVS quality and use assessment                         | National CRVS, system components  | Limited for stillbirth rate        | Registration completeness, legal framework, data flow, and quality checks   |
+| MICS or other survey modules with pregnancy outcome content | Household, cluster, sub-national  | Limited and uneven availability    | Cross-check on self-reported pregnancy outcomes                             |
+| National CRVS stillbirth or fetal death tabulations         | Country to district, variable     | Limited and definition-sensitive   | Registration completeness and legal-definition context                      |
+| Facility maternity registers and perinatal death audits     | Facility to district, variable    | Limited and high-risk              | Service-contact signal, never a standalone quality ranking                  |
+| EmONC or maternity service readiness assessments            | Facility, district, national      | Limited but relevant               | Context on whether burden plausibly tracks labor-and-delivery care gaps     |
+| Population denominators and admin boundaries                | District, gridded, national       | Usable but version-sensitive       | Rate construction and mapping context                                       |
 
 ## Required Properties
 

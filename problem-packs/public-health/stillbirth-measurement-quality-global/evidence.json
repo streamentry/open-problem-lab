@@ -52,5 +52,119 @@
       "Regional framing does not solve sub-national comparability or public-data sufficiency."
     ],
     "confidence": "medium"
+  },
+  {
+    "id": "dhs-perinatal-mortality-guide-2024",
+    "problem_id": "public-health/stillbirth-measurement-quality-global",
+    "claim": "The DHS statistical guide defines the stillbirth rate as fetal deaths in pregnancies of at least 28 weeks or seven months divided by stillbirths plus live births, and documents a change from contraceptive-calendar to pregnancy-history inputs in DHS-8.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Perinatal Mortality",
+      "url": "https://dhsprogram.com/data/Guide-to-DHS-Statistics/Perinatal_Mortality.htm"
+    },
+    "source_date": "2024-01-01",
+    "access_date": "2026-07-22",
+    "method": "Reviewed the definition, numerator, denominator, DHS-7/DHS-8 calculation, and changes-over-time sections of the DHS statistical guide.",
+    "limitations": [
+      "The guide describes survey-derived indicators and cannot establish national registration completeness or facility case ascertainment.",
+      "Reported pregnancy duration is respondent-reported and does not necessarily have a clinical gestational-age basis.",
+      "The indicator does not directly distinguish antepartum from intrapartum fetal death."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "dhs-8-pregnancy-history-manual-2020",
+    "problem_id": "public-health/stillbirth-measurement-quality-global",
+    "claim": "The DHS-8 interviewer manual records pregnancy outcome, pregnancy duration, and a confirmation question distinguishing a stillbirth from a live birth that later died.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "DHS-8 Interviewer's Manual",
+      "url": "https://dhsprogram.com/pubs/pdf/DHSM1/DHS8-Interviewer%27s-Manual-EN-25Sep2020-DHSM1.pdf"
+    },
+    "source_date": "2020-09-25",
+    "access_date": "2026-07-22",
+    "method": "Reviewed the pregnancy-history instrument instructions and questions 216-217 for outcome coding and stillbirth confirmation.",
+    "limitations": [
+      "An interviewer instrument does not measure whether respondents disclose every pregnancy outcome.",
+      "The manual cannot validate clinical gestational age, birthweight, or completeness of a survey sample.",
+      "The instrument does not provide facility-level intrapartum timing."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-institutional-stillbirth-metadata",
+    "problem_id": "public-health/stillbirth-measurement-quality-global",
+    "claim": "WHO institutional-stillbirth metadata specifies facility numerator and denominator, 22-week and 28-week thresholds, and disaggregation by antepartum or intrapartum timing, gestational age, birthweight, and facility characteristics.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Institutional stillbirths",
+      "url": "https://www.who.int/data/gho/indicator-metadata-registry/imr-details/institutional-stillbirths"
+    },
+    "source_date": "2021-01-01",
+    "access_date": "2026-07-22",
+    "method": "Reviewed the indicator definition, disaggregation, method of measurement, recommended international threshold, and preferred data-source sections.",
+    "limitations": [
+      "Indicator metadata specify a measurement standard but do not prove that any country collects the fields completely.",
+      "Facility rates cover service-contact populations and can be distorted by referral, transfer, and case-mix differences.",
+      "The metadata do not establish that an observed rate difference is caused by care quality."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "unicef-stillbirth-hmis-data-quality-2022",
+    "problem_id": "public-health/stillbirth-measurement-quality-global",
+    "claim": "UNICEF's HMIS data-quality guidance identifies vital status at birth, gestational age, and birthweight as core fields for classifying stillbirths and assessing whether routine data can support program decisions.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Stillbirth Definition and Data Quality Assessment for Health Management Information Systems",
+      "url": "https://data.unicef.org/resources/stillbirth-definition-and-data-quality-assessment-for-health-management-information-systems/"
+    },
+    "source_date": "2022-10-06",
+    "access_date": "2026-07-22",
+    "method": "Reviewed the guidance overview and linked assessment document for required classification fields, data-quality uses, and intended users.",
+    "limitations": [
+      "The guidance is an assessment framework and does not supply record-level data for a country or district.",
+      "It cannot by itself correct referral and denominator bias in institutional data.",
+      "Data-quality improvement does not prove that a stillbirth was preventable or that a facility performed poorly."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-mpdsr-materials-2021",
+    "problem_id": "public-health/stillbirth-measurement-quality-global",
+    "claim": "WHO and UNICEF's 2021 MPDSR materials provide a facility and community workflow for identifying, notifying, reviewing, and responding to maternal and perinatal deaths, including stillbirths, with a blame-free confidentiality principle.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Maternal and perinatal death and surveillance and response: materials to support implementation",
+      "url": "https://www.who.int/publications/i/item/9789240036666"
+    },
+    "source_date": "2021-11-11",
+    "access_date": "2026-07-22",
+    "method": "Reviewed the official overview and implementation purpose for population scope, review workflow, action linkage, confidentiality, and intended users.",
+    "limitations": [
+      "Implementation guidance does not demonstrate complete case ascertainment in a named health system.",
+      "A review workflow cannot by itself quantify the national stillbirth burden.",
+      "Identifying modifiable factors is not equivalent to proving preventability for an individual death."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-crvs-quality-assessment-2010",
+    "problem_id": "public-health/stillbirth-measurement-quality-global",
+    "claim": "WHO's CRVS assessment toolkit evaluates the legal framework, registration completeness, data flows, and quality checks needed before vital-registration counts are used for mortality analysis.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Improving the quality and use of birth, death and cause-of-death information: guidance for a standards-based review of country practices",
+      "url": "https://www.who.int/publications/i/item/improving-the-quality-and-use-of-birth-death-and-cause-of-death-information"
+    },
+    "source_date": "2010-05-07",
+    "access_date": "2026-07-22",
+    "method": "Reviewed the official toolkit overview for system components assessed, field testing, and its intended use in prioritizing corrective action.",
+    "limitations": [
+      "The toolkit is not a stillbirth prevalence dataset and cannot supply a country rate without a completed country assessment.",
+      "A system-level assessment does not resolve local stillbirth definition differences unless the legal and operational rules are separately documented.",
+      "It cannot distinguish intrapartum from antepartum burden without compatible event-level fields."
+    ],
+    "confidence": "high"
   }
 ]
