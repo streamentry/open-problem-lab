@@ -1,0 +1,116 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "title": "Inventory Vietnamese data sources for long-distance elder-care response gaps",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory separating usable, limited, blocked, and rejected sources for living arrangement, family distance, functional need, care receipt, and local responder availability.",
+    "inputs": [
+      "National Statistics Office census and household-survey documentation",
+      "UNFPA Viet Nam ageing and care-system sources",
+      "WHO ICOPE guidance",
+      "Viet Nam Association of the Elderly and intergenerational self-help club documentation",
+      "primary-care, social-protection, migration, and disability data documentation"
+    ],
+    "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+    "validation_method": "Reviewer checks each source for URL, date, measure family, sampling frame, geographic grain, access conditions, privacy constraints, and limitations.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "low",
+    "done_condition": "At least six candidate source families are classified with explicit reasons, and no source is called usable unless it can measure at least one defined component of the care-response gap."
+  },
+  {
+    "id": "care-gap-denominator",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "title": "Define a reproducible denominator for older people without timely family or local response",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A denominator specification that keeps living arrangement, family travel time, functional need, consent, and local responder availability as separate fields.",
+    "inputs": [
+      "reviewed source inventory",
+      "candidate census or household microdata",
+      "administrative boundary documentation",
+      "functional-status definitions",
+      "local responder coverage data"
+    ],
+    "expected_artifact": "validation.md update with field definitions, exclusions, missingness rules, and a rerunnable denominator specification.",
+    "validation_method": "An independent replicator reconstructs the denominator from a sample or synthetic extract and confirms that missing family distance or responder data is not silently imputed as absence.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "A reviewer can reproduce every inclusion and exclusion, and the result fails closed when family travel time, consent, or responder availability is unknown."
+  },
+  {
+    "id": "local-response-workflow",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "title": "Map the local response and escalation workflow for one bounded Vietnamese service area",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A verified workflow naming who receives, acknowledges, visits, resolves, transfers, supervises, and audits each class of care request.",
+    "inputs": [
+      "care-gap denominator",
+      "local intergenerational self-help club or equivalent",
+      "commune primary-care contacts",
+      "social-work and emergency referral pathways",
+      "older-person and caregiver interviews"
+    ],
+    "expected_artifact": "playbooks.md workflow update plus a field-verified service and escalation map.",
+    "validation_method": "A field-reality reviewer contacts or observes each named service role, then an independent reviewer replicates the check that no escalation path ends at an unverified phone number or unavailable service.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every request class has a consented owner, reachable fallback, closure state, supervision path, non-use case, and replicated field verification."
+  },
+  {
+    "id": "manual-service-pilot-protocol",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "title": "Specify a manual concierge pilot before building remote-care software",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A preregistered pilot protocol for routine check-ins and verified local response using existing communication tools, with no clinical-efficacy claim.",
+    "inputs": [
+      "verified local response workflow",
+      "older-person consent materials",
+      "safeguarding and complaint process",
+      "operational event taxonomy",
+      "cost and staffing model"
+    ],
+    "expected_artifact": "playbooks.md pilot protocol and validation.md stop rules.",
+    "validation_method": "Red-team and domain reviewers test the protocol against missed emergencies, false alarms, coercive enrollment, privacy breach, worker misconduct, and service withdrawal; a replicator independently reproduces metric calculations on synthetic events.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "The protocol has revocable consent, clinical boundaries, escalation fallbacks, unresolved-event accounting, unit-cost measurement, prespecified stop conditions, and replicated metric logic."
+  },
+  {
+    "id": "red-team-safety-and-autonomy",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "title": "Red-team surveillance, neglect, abuse, and false-safety failure modes",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review covering coercive family monitoring, missed emergencies, responder misconduct, fraud, alert fatigue, unsafe medication handling, data leakage, and abandonment after pilot exit.",
+    "inputs": ["pilot protocol", "consent materials", "event log design", "safety policy"],
+    "expected_artifact": "outputs.md and playbooks.md updates with mitigations, blocks, and explicit residual risks.",
+    "validation_method": "A second red-team reviewer replicates each high-severity scenario and confirms that it is mitigated, explicitly accepted by an authorized reviewer, or blocks field use.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "No high-severity failure mode remains hidden behind a dashboard metric, and all unresolved risks have replicated review and a named decision owner."
+  },
+  {
+    "id": "field-reality-and-economics",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "title": "Test whether older people, distant families, and local responders accept the service and its economics",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing review of autonomy, workflow burden, responder retention, travel cost, supervision cost, family willingness to pay, and public-service fit.",
+    "inputs": [
+      "manual pilot protocol",
+      "pilot operational data",
+      "older-person interviews",
+      "family interviews",
+      "responder and supervisor interviews"
+    ],
+    "expected_artifact": "playbooks.md decision memo and outputs.md use and non-use guidance.",
+    "validation_method": "An independent reviewer replicates the cost calculation and checks that older-person acceptance, family reassurance, responder burden, and unresolved events are reported separately.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "The decision memo names who benefits, who bears cost and risk, what failed, what remains unknown, and whether the manual service should stop, iterate, or proceed to software design after replicated review."
+  }
+]

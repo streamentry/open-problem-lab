@@ -6,13 +6,13 @@
 
 | Metric | Value |
 |---|---|
-| Total packs | 110 |
+| Total packs | 111 |
 | Packs with claims | 13 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 335 |
-| Total tasks | 567 |
-| Scoped tasks (ready for work) | 102 |
-| High-risk tasks | 296 |
+| Total evidence records | 341 |
+| Total tasks | 573 |
+| Scoped tasks (ready for work) | 103 |
+| High-risk tasks | 300 |
 
 ## All Problem Packs
 
@@ -95,6 +95,7 @@
 | [public-health/infectious-disease-surveillance-global](../../problem-packs/public-health/infectious-disease-surveillance-global/problem.md) | Infectious Disease Surveillance Timeliness And Completeness Gaps In Low-Income Countries | scoped | public-health | global | medium | 1 ev; 5 tasks | needs evidence |
 | [public-health/informal-settlements-health-global](../../problem-packs/public-health/informal-settlements-health-global/problem.md) | Informal Settlement Health Access Gaps In Low- And Middle-Income Country Cities | scoped | public-health | global | high | 2 ev; 5 tasks | needs evidence |
 | [public-health/lead-exposure-urban-global](../../problem-packs/public-health/lead-exposure-urban-global/problem.md) | Urban Lead Exposure Risk Mapping In Low- And Middle-Income Countries | scoped | public-health | global | high | 2 ev; 6 tasks | needs evidence |
+| [public-health/long-distance-elder-care-vietnam](../../problem-packs/public-health/long-distance-elder-care-vietnam/problem.md) | Long-Distance Elder Care And Verified Local Response In Viet Nam | scoped | public-health | vietnam | high | 6 ev; 6 tasks | ready |
 | [public-health/malnutrition-elderly-global](../../problem-packs/public-health/malnutrition-elderly-global/problem.md) | Elderly Malnutrition Detection And Nutritional Support Gaps In Low-Income Countries | scoped | public-health, food-security | global | medium | 1 ev; 5 tasks | needs evidence |
 | [public-health/maternal-mental-health-global](../../problem-packs/public-health/maternal-mental-health-global/problem.md) | Perinatal Maternal Mental Health Detection And Care Access Gaps In Low-Income Countries | scoped | public-health | global | high | 1 ev; 4 tasks | needs evidence |
 | [public-health/maternal-mortality-sub-saharan-africa](../../problem-packs/public-health/maternal-mortality-sub-saharan-africa/problem.md) | Maternal Mortality Facility Delivery And Emergency Obstetric Care Access In Sub-Saharan Africa | scoped | public-health | sub-saharan-africa | medium | 2 ev; 5 tasks | needs evidence |

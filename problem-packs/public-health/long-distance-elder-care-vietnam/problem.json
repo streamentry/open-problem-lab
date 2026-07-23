@@ -1,0 +1,49 @@
+{
+  "id": "public-health/long-distance-elder-care-vietnam",
+  "title": "Long-Distance Elder Care And Verified Local Response In Viet Nam",
+  "status": "scoped",
+  "domain": ["public-health"],
+  "region": ["vietnam"],
+  "summary": "Build a verified workflow for identifying older people whose families cannot respond quickly and testing whether a consented local care network closes routine and urgent needs.",
+  "why_it_matters": "Remote monitoring can notify a distant family without delivering care. Viet Nam needs evidence on the denominator, responder network, consent, reliability, and cost before any technology-mediated service is treated as protective.",
+  "success_metrics": [
+    {
+      "metric": "Denominator integrity",
+      "target": "Every estimate separates living arrangement, family travel time, functional need, and local responder availability.",
+      "validation_method": "A replicator reconstructs the denominator from documented source fields and exclusion rules."
+    },
+    {
+      "metric": "Verified response closure",
+      "target": "Every field-test escalation is classified as acknowledged, reached, resolved, transferred, or unresolved.",
+      "validation_method": "Reviewer traces every escalation from timestamped request to consented closure evidence."
+    },
+    {
+      "metric": "Older-person autonomy",
+      "target": "No monitoring or family disclosure occurs without recorded, revocable consent or a documented lawful exception.",
+      "validation_method": "Red-team reviewer audits consent, opt-out, proxy authority, data minimization, and complaint handling."
+    },
+    {
+      "metric": "Operational humility",
+      "target": "No monitoring, safety, or health-benefit claim advances without the evidence level required for that claim.",
+      "validation_method": "Domain reviewer checks that operational results are not presented as clinical outcome evidence."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 3,
+    "replication_required": true,
+    "merge_gate": "Schema validation, domain review, red-team and field-reality review, and independent replication before any field-facing recommendation."
+  }
+}
