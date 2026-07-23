@@ -2,28 +2,30 @@
   "summary": {
     "generated_by": "scripts/generate-task-index.mjs",
     "schema_version": 1,
-    "total_packs": 109,
-    "total_scoped_tasks": 101,
+    "total_packs": 110,
+    "total_scoped_tasks": 102,
     "by_role": {
-      "literature-scout": 101
+      "literature-scout": 102
     },
     "by_risk": {
       "medium": 97,
+      "high": 1,
       "low": 4
     },
     "by_domain": {
       "air-quality": 6,
-      "public-health": 64,
+      "public-health": 65,
       "climate-health": 13,
       "biodiversity": 7,
       "food-security": 18,
       "climate-adaptation": 11,
       "disaster-resilience": 10,
+      "chemical-safety": 1,
+      "sanitation": 5,
       "education": 9,
       "energy-access": 6,
       "food-safety": 1,
       "health-systems": 1,
-      "sanitation": 4,
       "water-security": 6
     }
   },
@@ -197,6 +199,23 @@
       "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering resolution, flyway coverage, temporal consistency, and monitoring-gap documentation.",
       "tasks_file": "problem-packs/biodiversity/wetland-loss-migratory-birds-global/tasks.json",
       "problem_file": "problem-packs/biodiversity/wetland-loss-migratory-birds-global/problem.md"
+    },
+    {
+      "pack_id": "chemical-safety/informal-e-waste-exposure-global",
+      "pack_title": "Informal E-Waste Processing Exposure And Safer Formalization In Low- And Middle-Income Countries",
+      "pack_status": "scoped",
+      "domain": ["chemical-safety", "public-health", "sanitation"],
+      "region": ["global"],
+      "task_id": "source-inventory",
+      "title": "Inventory e-waste flow, processing, exposure, and worker-data sources",
+      "owner_role": "literature-scout",
+      "reviewer_needed": "domain-reviewer",
+      "safety_risk": "high",
+      "outcome": "A dated source inventory that separates usable, limited, and rejected sources for identifying informal e-waste processing and assessing exposure pathways.",
+      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+      "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering processing activity, exposure measurement, geographic grain, informal-sector coverage, and intervention relevance, and a second reviewer can replicate the classification from the recorded method.",
+      "tasks_file": "problem-packs/chemical-safety/informal-e-waste-exposure-global/tasks.json",
+      "problem_file": "problem-packs/chemical-safety/informal-e-waste-exposure-global/problem.md"
     },
     {
       "pack_id": "climate-adaptation/climate-resilient-seeds-global",

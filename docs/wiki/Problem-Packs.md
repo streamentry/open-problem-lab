@@ -100,6 +100,16 @@ Build a verified workflow for estimating crop-pollination service risk from sate
 
 Build a verified workflow for linking satellite-detected wetland loss at specific stopover sites along major migratory flyways to waterbird population trends, with explicit wetland-bird linkage methodology, flyway-scale data-coverage assessment, and multi-threat attribution documentation.
 
+## Informal E-Waste Processing Exposure And Safer Formalization In Low- And Middle-Income Countries
+
+- ID: `chemical-safety/informal-e-waste-exposure-global`
+- Status: `scoped`
+- Domain: `chemical-safety`, `public-health`, `sanitation`
+- Region: `global`
+- Source: [problem-packs/chemical-safety/informal-e-waste-exposure-global](../../problem-packs/chemical-safety/informal-e-waste-exposure-global/problem.md)
+
+Build a verified workflow for identifying informal e-waste processing clusters, characterizing toxic exposure pathways, and testing whether evidence supports safer formalization or targeted remediation in low- and middle-income countries.
+
 ## Climate-Resilient Seed Access And Adoption Gaps In Smallholder Agriculture
 
 - ID: `climate-adaptation/climate-resilient-seeds-global`

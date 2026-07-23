@@ -1,0 +1,92 @@
+[
+  {
+    "id": "who-children-digital-dumpsites-2021",
+    "problem_id": "chemical-safety/informal-e-waste-exposure-global",
+    "claim": "WHO estimates that as many as 18 million children and adolescents and 12.9 million women may be at risk from adverse health outcomes linked to e-waste recycling.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Children and digital dumpsites: e-waste exposure and child health",
+      "url": "https://iris.who.int/handle/10665/341718"
+    },
+    "source_date": "2021-06-15",
+    "access_date": "2026-07-23",
+    "method": "Reviewed the WHO report summary, burden estimates, exposure-pathway discussion, vulnerable-population section, and stated research priorities.",
+    "limitations": [
+      "The estimate describes people potentially at risk, not confirmed exposed individuals or attributable disease cases.",
+      "The global estimate does not identify city-level clusters or establish an intervention threshold."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "global-e-waste-monitor-2024",
+    "problem_id": "chemical-safety/informal-e-waste-exposure-global",
+    "claim": "The Global E-waste Monitor reports 62 billion kg of e-waste generated globally in 2022 and 22.3% documented as formally collected and recycled in an environmentally sound manner.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "The Global E-waste Monitor 2024",
+      "url": "https://www.itu.int/en/ITU-D/Environment/Pages/Publications/The-Global-E-waste-Monitor-2024.aspx"
+    },
+    "source_date": "2024-03-20",
+    "access_date": "2026-07-23",
+    "method": "Reviewed the ITU publication page and report headline indicators for generation, documented formal collection and recycling, regional coverage, and projection methodology.",
+    "limitations": [
+      "Documented formal collection is not the same as total safe processing and does not directly measure informal exposure.",
+      "National and regional accounting cannot locate individual processing clusters or prove where undocumented material is processed."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-e-waste-fact-sheet-2024",
+    "problem_id": "chemical-safety/informal-e-waste-exposure-global",
+    "claim": "WHO identifies children and pregnant women as particularly vulnerable to hazardous substances released through unsound e-waste recycling and describes evidence across respiratory, neurological, developmental, thyroid, and pregnancy-related outcomes.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Electronic waste (e-waste)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)"
+    },
+    "source_date": "2024-10-01",
+    "access_date": "2026-07-23",
+    "method": "Reviewed WHO sections on exposure pathways, vulnerable groups, health effects, and recommended health-sector actions.",
+    "limitations": [
+      "The fact sheet synthesizes evidence and does not provide a local exposure-response function.",
+      "The listed outcomes cannot be attributed to e-waste at an individual or neighborhood level without primary study design and measurement."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "agbogbloshie-metal-exposure-2023",
+    "problem_id": "chemical-safety/informal-e-waste-exposure-global",
+    "claim": "A peer-reviewed Ghana study measured metal exposure and estimated human-health risks in and around the Agbogbloshie informal e-waste processing site, demonstrating the need to separate site-specific measurements from global proxy mapping.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Human health risk associated with metal exposure at Agbogbloshie e-waste site and the surrounding neighbourhood in Accra, Ghana",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10310595/"
+    },
+    "source_date": "2023-06-20",
+    "access_date": "2026-07-23",
+    "method": "Reviewed the study design, sampled media and locations, analytes, exposure-assessment assumptions, risk calculations, and limitations in the full text.",
+    "limitations": [
+      "A single Ghana site cannot establish a transferable global threshold or represent all e-waste processing methods.",
+      "Modeled risk estimates depend on exposure assumptions and do not identify which intervention would reduce exposure."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ilo-e-waste-employment-2024",
+    "problem_id": "chemical-safety/informal-e-waste-exposure-global",
+    "claim": "The ILO describes e-waste work as a heterogeneous value chain in which low- and middle-income countries rely more heavily on informal, labour-intensive collection, repair, refurbishment, recycling, and material recovery.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "E-waste and employment around the world",
+      "url": "https://www.ilo.org/publications/e-waste-and-employment-around-world"
+    },
+    "source_date": "2024-07-01",
+    "access_date": "2026-07-23",
+    "method": "Reviewed the ILO publication description and sections describing the e-waste value chain, formal and informal work, and measurement needs for employment and occupational protection.",
+    "limitations": [
+      "Employment descriptions do not quantify toxic exposure or prove that formalization improves health.",
+      "Global value-chain framing cannot substitute for local worker, livelihood, or processing-activity data."
+    ],
+    "confidence": "medium"
+  }
+]
