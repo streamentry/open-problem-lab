@@ -20,32 +20,12 @@
     "confidence": "high"
   },
   {
-    "id": "lab-field-performance-degradation",
-    "problem_id": "energy-access/cooking-standards-compliance-global",
-    "claim": "Field studies consistently find 30-70 percent degradation in stove performance relative to laboratory results, driven by fuel moisture, cooking practices, stove maintenance, and the gap between controlled testing and household use.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Laboratory versus field performance of clean cookstoves: a systematic review",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412022002345"
-    },
-    "source_date": "2022-04-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed systematic search of lab-field comparison studies, degradation-factor analysis, and stove-category breakdown.",
-    "limitations": [
-      "The 30-70 percent degradation range is across multiple stove categories and contexts — specific stove-fuel combinations may have larger or smaller gaps.",
-      "Field studies use different measurement methods than laboratory tests — some of the apparent degradation may reflect measurement-method differences rather than actual performance loss.",
-      "Long-term degradation (stove aging, maintenance decline) is less studied than initial deployment performance.",
-      "Publication bias toward significant degradation findings cannot be excluded."
-    ],
-    "confidence": "high"
-  },
-  {
     "id": "household-air-pollution-burden",
     "problem_id": "energy-access/cooking-standards-compliance-global",
     "claim": "Household air pollution from solid-fuel cooking causes an estimated 3.2 million premature deaths annually, with the burden concentrated in Sub-Saharan Africa and South Asia where clean-cooking adoption rates remain below 20 percent.",
     "evidence_type": "primary-source",
     "source": {
-      "title": "WHO Household Air Pollution Fact Sheet",
+      "title": "Household air pollution",
       "url": "https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health"
     },
     "source_date": "2024-01-01",

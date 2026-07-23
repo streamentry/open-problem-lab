@@ -19,26 +19,6 @@
     "confidence": "low"
   },
   {
-    "id": "agricultural-value-chain-electrification",
-    "problem_id": "energy-access/productive-use-energy-global",
-    "claim": "Agricultural value-chain applications — milling, drying, cold storage, irrigation, and processing — represent the highest-impact productive-use opportunities in rural areas, but equipment adoption depends on affordability, technical capacity, and market access that electricity alone does not guarantee.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Electrification and agricultural value chains: a systematic review",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412022002345"
-    },
-    "source_date": "2022-08-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed systematic search of agricultural electrification studies, value-chain analysis, and equipment-adoption barrier documentation.",
-    "limitations": [
-      "The review combines studies from diverse agricultural contexts — value-chain-specific effects may not generalize across crops and regions.",
-      "Equipment-adoption barriers (affordability, maintenance capacity, market access) are documented qualitatively but not systematically quantified across studies.",
-      "Most studies measure equipment ownership rather than actual productive use — a farmer who owns an electric mill may still use it infrequently.",
-      "Publication bias toward positive findings cannot be excluded — electrification projects with no productive-use impact may be underreported."
-    ],
-    "confidence": "high"
-  },
-  {
     "id": "mini-grid-productive-use-demand",
     "problem_id": "energy-access/productive-use-energy-global",
     "claim": "ESMAP's Mini Grids market outlook reports that demand on Sub-Saharan African mini-grids is dominated by residential connections, with productive-use loads a minority of demand, and that productive-use growth — a key assumption in mini-grid business models — frequently lags projections.",
@@ -56,25 +36,5 @@
       "Demand composition evolves as connections mature, so a single snapshot understates later productive-use uptake."
     ],
     "confidence": "low"
-  },
-  {
-    "id": "enterprise-formation-electrification",
-    "problem_id": "energy-access/productive-use-energy-global",
-    "claim": "Enterprise surveys in rural electrification areas show that electricity access increases business formation by 5-15 percent on average, but the effect is highly context-dependent — areas with existing market infrastructure and human capital benefit more than isolated rural communities.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Rural electrification and enterprise development: evidence from SSA",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412023004567"
-    },
-    "source_date": "2023-05-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed enterprise survey methodology, business-formation effect estimates, and context-dependency analysis for rural electrification in SSA.",
-    "limitations": [
-      "The 5-15 percent business-formation increase is pooled across diverse contexts — specific regions may see larger or smaller effects depending on market infrastructure.",
-      "Enterprise surveys capture formal business registration — informal productive use that does not register as a business is missed.",
-      "The context-dependency finding means that electrification in isolated communities without market access may have near-zero productive-use impact.",
-      "Follow-up periods are typically 2-5 years — long-term enterprise sustainability and scaling are rarely assessed."
-    ],
-    "confidence": "high"
   }
 ]

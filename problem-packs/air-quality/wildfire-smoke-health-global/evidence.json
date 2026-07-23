@@ -58,25 +58,5 @@
       "Smoke-specific PM2.5 fractions in the model are sensitive to assumed organic-matter-to-organic-carbon ratios that vary by fuel type and combustion conditions."
     ],
     "confidence": "medium"
-  },
-  {
-    "id": "smoke-respiratory-emergency-visits-meta-analysis",
-    "problem_id": "air-quality/wildfire-smoke-health-global",
-    "claim": "Multiple studies have found 5-15 percent increases in respiratory emergency department visits and 1-3 percent increases in all-cause mortality on wildfire smoke days, but the evidence base is concentrated in North America, Australia, and Southern Europe with very limited LMIC evidence.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Wildfire smoke exposure and health impacts: a systematic review and meta-analysis",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412023004567"
-    },
-    "source_date": "2023-08-15",
-    "access_date": "2026-06-07",
-    "method": "Reviewed systematic search strategy, inclusion criteria, pooled effect estimates, heterogeneity analysis, and geographic distribution of included studies.",
-    "limitations": [
-      "Over 80 percent of included studies are from high-income countries with dense air-quality monitoring networks — LMIC fire-prone regions (Southeast Asia, Sub-Saharan Africa, South America) are severely underrepresented.",
-      "Effect estimates vary substantially by fire regime, fuel type, population vulnerability, and exposure duration — pooled estimates may mask important heterogeneity.",
-      "Most studies use binary smoke-day exposure indicators rather than continuous smoke-specific PM2.5 measurements, limiting dose-response characterization.",
-      "Publication bias toward positive findings cannot be excluded — negative results from smoke events with no detected health impact may be underreported."
-    ],
-    "confidence": "medium"
   }
 ]

@@ -5,7 +5,7 @@
     "claim": "ICIMOD's Hindu Kush Himalaya Assessment projects 36-64 percent glacier volume loss by 2100 under high-emission scenarios with accelerated mass loss observed since the 1990s across all major ranges.",
     "evidence_type": "primary-source",
     "source": {
-      "title": "The Hindu Kush Himalaya Assessment",
+      "title": "The Hindu Kush Himalaya Assessment: Mountains, Climate Change, Sustainability and People",
       "url": "https://link.springer.com/book/10.1007/978-3-319-92288-1"
     },
     "source_date": "2019-01-04",
@@ -38,7 +38,7 @@
   {
     "id": "icimod-hkh-water-demand-context-2019",
     "problem_id": "water-security/glacial-melt-hindu-kush",
-    "claim": "The ICIMOD Hindu Kush Himalaya Assessment (2019) identifies rising downstream water demand driven by population growth, agricultural expansion, and economic development as a compounding stress on HKH water systems alongside upstream glacier retreat \u2014 but does not provide a single regionally-uniform annual demand-growth rate, as the trajectory varies substantially by basin, sector, and country.",
+    "claim": "The ICIMOD Hindu Kush Himalaya Assessment (2019) identifies rising downstream water demand driven by population growth, agricultural expansion, and economic development as a compounding stress on HKH water systems alongside upstream glacier retreat — but does not provide a single regionally-uniform annual demand-growth rate, as the trajectory varies substantially by basin, sector, and country.",
     "evidence_type": "primary-source",
     "source": {
       "title": "The Hindu Kush Himalaya Assessment: Mountains, Climate Change, Sustainability and People",
@@ -48,9 +48,9 @@
     "access_date": "2026-06-18",
     "method": "Reviewed water-security and socioeconomic chapters of the HKH Assessment for demand-trend evidence and regional variation across major river basins.",
     "limitations": [
-      "The HKH Assessment provides narrative and scenario-based demand projections, not a single point-estimate annual growth rate \u2014 any specific '2-4 percent' figure would require a basin-specific or sectoral source.",
+      "The HKH Assessment provides narrative and scenario-based demand projections, not a single point-estimate annual growth rate — any specific '2-4 percent' figure would require a basin-specific or sectoral source.",
       "Demand data currency: the assessment synthesises studies up to approximately 2018; demand trajectories may have shifted since.",
-      "Basin-level variation is large \u2014 Indus, Ganges, Brahmaputra, Mekong, and Yangtze basins have different demand drivers and trajectories.",
+      "Basin-level variation is large — Indus, Ganges, Brahmaputra, Mekong, and Yangtze basins have different demand drivers and trajectories.",
       "This record replaces a placeholder that cited the ICIMOD homepage for an unverifiable '2022 study' with a specific but unsupported demand-growth rate."
     ],
     "confidence": "medium"

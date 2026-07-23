@@ -40,26 +40,6 @@
     "confidence": "high"
   },
   {
-    "id": "dust-biological-contaminants",
-    "problem_id": "climate-health/dust-storm-health-global",
-    "claim": "Mineral dust carries biological and chemical contaminants — bacteria, fungi, endotoxins, heavy metals, and pesticide residues — that may contribute to health effects beyond mineral particle mass, making dust PM10 potentially more harmful per unit mass than non-dust PM10 from other sources.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Biological and chemical contaminants in desert dust and health implications",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412023004567"
-    },
-    "source_date": "2023-04-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed dust-contaminant characterization studies, toxicological analysis, and health-effect comparison between dust and non-dust PM10.",
-    "limitations": [
-      "Dust-contaminant profiles vary enormously by source region — Saharan dust differs from Central Asian dust in mineralogy and biological content.",
-      "The differential toxicity finding is based on a limited number of in-vitro and epidemiological studies — it is not yet a consensus finding.",
-      "Contaminant concentrations in dust depend on source-soil conditions, transport distance, and atmospheric processing during transport.",
-      "Health studies rarely measure contaminant-specific exposure — attributing health effects to mineral mass versus biological contaminants is methodologically difficult."
-    ],
-    "confidence": "medium"
-  },
-  {
     "id": "ground-monitor-sparsity-arid-lmic",
     "problem_id": "climate-health/dust-storm-health-global",
     "claim": "Ground air-quality monitoring in LMIC arid regions is extremely sparse — most Sahelian, Central Asian, and Middle Eastern LMIC countries have fewer than one PM10 monitor per million people, making satellite-to-ground exposure validation difficult and health-impact attribution uncertain.",

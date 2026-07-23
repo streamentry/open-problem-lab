@@ -40,26 +40,6 @@
     "confidence": "high"
   },
   {
-    "id": "connectivity-quality-dimension",
-    "problem_id": "education/digital-divide-school-access-global",
-    "claim": "Connectivity alone does not close the digital divide — electricity availability, device access, teacher digital literacy, and relevant digital content are all necessary conditions that connectivity maps do not capture. Schools classified as 'connected' may have bandwidth too low for video-based learning or connectivity too unreliable for sustained use.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Beyond connectivity: what makes school internet access educationally meaningful",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412022002345"
-    },
-    "source_date": "2022-11-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed studies on connectivity quality, bandwidth requirements for digital learning, and complementary factor analysis for effective school internet use.",
-    "limitations": [
-      "The study does not provide sub-national data on connectivity quality — it documents the conceptual framework for what 'connected' should mean.",
-      "Bandwidth requirements for digital learning vary by content type — text-based materials need less bandwidth than video or interactive applications.",
-      "Teacher digital-literacy data is almost entirely absent from school-level datasets in low-income countries.",
-      "The study is primarily from high-income and middle-income contexts — low-income school connectivity quality is less documented."
-    ],
-    "confidence": "high"
-  },
-  {
     "id": "school-census-ict-data-limitations",
     "problem_id": "education/digital-divide-school-access-global",
     "claim": "School census data in many low-income countries includes ICT indicators — computer availability, internet connectivity, electricity — but data currency varies widely (some countries use census data from 5+ years ago) and is not systematically cross-validated against connectivity measurements.",
@@ -127,7 +107,7 @@
     "evidence_type": "primary-source",
     "source": {
       "title": "Guide to Measuring Information and Communication Technologies (ICT) in Education",
-      "url": "https://uis.unesco.org/sites/default/files/documents/guide-to-measuring-information-and-communication-technologies-ict-in-education-en_0.pdf"
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000186547"
     },
     "source_date": "2024-01-01",
     "access_date": "2026-07-20",

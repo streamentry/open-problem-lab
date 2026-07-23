@@ -1,19 +1,20 @@
 [
   {
-    "id": "world-bank-water-security-2024",
+    "id": "un-water-transboundary-waters-2024",
     "problem_id": "water-security/transboundary-water-conflict-global",
-    "claim": "World Bank estimates 60 percent of global freshwater flows cross national boundaries, with 150+ transboundary agreements covering fewer than half of the world's shared basins.",
+    "claim": "UN-Water reports that transboundary waters account for 60 percent of global freshwater flows, 153 countries share at least one transboundary river, lake, or aquifer system, and only 43 have operational arrangements covering at least 90 percent of their shared waters.",
     "evidence_type": "primary-source",
     "source": {
-      "title": "Water Security and Transboundary Cooperation",
-      "url": "https://www.worldbank.org/en/topic/water"
+      "title": "Transboundary Waters",
+      "url": "https://www.unwater.org/water-facts/transboundary-waters"
     },
     "source_date": "2024-01-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed World Bank water security frameworks and transboundary cooperation analysis.",
+    "access_date": "2026-07-23",
+    "method": "Reviewed UN-Water definitions, basin and aquifer counts, and 2024 cooperation-coverage indicators, preserving the distinction between shared-water exposure and operational cooperation.",
     "limitations": [
-      "Conflict-risk projections are modeled and have substantial uncertainty.",
-      "Institutional-capacity data is qualitative."
+      "Cooperation-coverage indicators do not measure conflict probability or causality.",
+      "Country-level operational-arrangement coverage does not establish implementation quality within a basin.",
+      "The page aggregates reporting years and should be version-checked before longitudinal comparison."
     ],
     "confidence": "high"
   }

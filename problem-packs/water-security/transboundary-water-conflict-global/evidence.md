@@ -2,9 +2,9 @@
 
 ## Evidence Notes
 
-### world-bank-water-security-2024
+### un-water-transboundary-waters-2024
 
-World Bank estimates 60 percent of global freshwater flows cross national boundaries, with 150+ transboundary agreements covering fewer than half of the world's shared basins.
+UN-Water reports that transboundary waters account for 60 percent of global freshwater flows and that only 43 of 153 countries sharing transboundary waters have operational arrangements covering at least 90 percent of their shared waters. These coverage indicators measure cooperation arrangements, not conflict probability or causality.
 
 ## Evidence Quality Rule
 

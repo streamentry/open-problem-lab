@@ -40,26 +40,6 @@
     "confidence": "high"
   },
   {
-    "id": "east-asian-australasian-flyway-decline",
-    "problem_id": "biodiversity/wetland-loss-migratory-birds-global",
-    "claim": "Shorebird populations on the East Asian-Australasian Flyway have declined by over 50 percent since the 1990s, primarily due to the loss of intertidal wetlands in the Yellow Sea region from coastal reclamation for agriculture, aquaculture, and urban development.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Rapid population decline in migratory shorebirds along the East Asian-Australasian Flyway",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0169534719302345"
-    },
-    "source_date": "2023-06-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed population trend analysis methodology, stopover-site dependency assessment, and threat-attribution approach for East Asian-Australasian Flyway shorebirds.",
-    "limitations": [
-      "The 50 percent decline figure is an aggregate across multiple shorebird species — individual species trends vary from stable to over 80 percent decline.",
-      "Population trends are derived from International Waterbird Census and national bird surveys with variable monitoring effort across sites and years.",
-      "Attributing declines specifically to Yellow Sea wetland loss is complicated by other threats across the flyway — hunting in Southeast Asia, disturbance at Australian non-breeding sites, and climate-change effects on Arctic breeding grounds.",
-      "The causal chain from wetland loss to population decline has been established primarily for bar-tailed godwit and red knot; for many other species the linkage is inferred rather than directly demonstrated."
-    ],
-    "confidence": "high"
-  },
-  {
     "id": "international-waterbird-census-coverage",
     "problem_id": "biodiversity/wetland-loss-migratory-birds-global",
     "claim": "The International Waterbird Census and eBird provide population-count data for migratory waterbirds at thousands of sites globally, but data is concentrated in well-monitored sites in Europe and North America with sparser coverage along Asian and African flyways where wetland loss is fastest.",

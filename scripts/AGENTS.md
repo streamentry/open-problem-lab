@@ -9,9 +9,9 @@ This directory contains deterministic repository automation. Scripts here genera
 - `generate-wiki.mjs`: regenerates the reader-facing wiki pages from canonical repo files.
 - `generate-task-index.mjs`: emits `tasks-available.json` from scoped tasks.
 - `generate-agent-radar.mjs`: emits `agent-radar.json` and `docs/wiki/Agent-Radar.md` from live task metadata.
-- `validate-repo.mjs`: enforces schema, link, freshness, and formatting checks.
+- `validate-repo.mjs`: enforces schema, evidence-source identity, link, freshness, and formatting checks.
 - `check-reproducibility.mjs`: checks that task-map and artifact expectations remain coherent.
-- `verify-sources.mjs`: verifies live evidence URLs.
+- `verify-sources.mjs`: verifies live evidence URLs, retrying one transient GET timeout or retryable HTTP status.
 - `lib/files.mjs`: shared root/path helpers.
 
 ## Diagrams (Mermaid)
@@ -27,7 +27,8 @@ flowchart TD
   C --> F["agent-radar.json"]
   C --> G["docs/wiki/Agent-Radar.md"]
   D --> H["docs/wiki/*.md"]
-  E --> I["validate-repo.mjs freshness check"]
+  Evidence["evidence.json URL-title identities"] --> I
+  E --> I["validate-repo.mjs validation and freshness checks"]
   F --> I
   G --> I
   H --> I
@@ -44,6 +45,7 @@ flowchart LR
   Tasks --> Validate
   Radar --> Validate
   Schemas["schemas/*.json"] --> Validate
+  Evidence["Evidence source identities"] --> Validate
 ```
 
 ### Sequence Diagram
@@ -59,6 +61,7 @@ sequenceDiagram
   Build->>Wiki: regenerate wiki pages
   Build->>Radar: regenerate routing artifacts
   Build->>Validate: later run validate
+  Validate->>Validate: Reject one URL mapped to conflicting source titles
   Validate->>Radar: freshness check
   Validate->>Wiki: freshness check
   Validate-->>Dev: pass or fail

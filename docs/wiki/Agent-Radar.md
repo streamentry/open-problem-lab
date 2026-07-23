@@ -43,25 +43,13 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Task: `source-inventory` — Inventory school connectivity, mobile-network, and digital-learning data sources for low-income countries
 - Risk: `low`
 - Reviewer needed: `domain-reviewer`
-- Existing evidence records: 7
+- Existing evidence records: 6
 - Downstream tasks unlocked: 4
 - Downstream high-risk tasks: 0
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering connectivity-classification methodology, data currency, and cross-validation status.
 
-### 3. Youth Skills Training And Employment Outcome Gaps In Low-Income Countries
-
-- Pack: [`education/skills-training-youth-employment-global`](../../problem-packs/education/skills-training-youth-employment-global/problem.md)
-- Task: `source-inventory` — Inventory training-provider, employment-outcome, labor-market, and skills-mismatch data sources for LMICs
-- Risk: `low`
-- Reviewer needed: `domain-reviewer`
-- Existing evidence records: 4
-- Downstream tasks unlocked: 4
-- Downstream high-risk tasks: 0
-- Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
-- Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering provider-data fragmentation, outcome-tracking rates, and informal-sector measurement gaps.
-
-### 4. Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries
+### 3. Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries
 
 - Pack: [`public-health/obstetric-fistula-repair-access-global`](../../problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md)
 - Task: `source-inventory` — Inventory obstetric fistula prevalence, repair, and prevention data sources
@@ -72,6 +60,18 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Downstream high-risk tasks: 2
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measurement family, numerator, denominator, time reference, geographic grain, case-finding method, and backlog-versus-incidence relevance.
+
+### 4. Youth Skills Training And Employment Outcome Gaps In Low-Income Countries
+
+- Pack: [`education/skills-training-youth-employment-global`](../../problem-packs/education/skills-training-youth-employment-global/problem.md)
+- Task: `source-inventory` — Inventory training-provider, employment-outcome, labor-market, and skills-mismatch data sources for LMICs
+- Risk: `low`
+- Reviewer needed: `domain-reviewer`
+- Existing evidence records: 2
+- Downstream tasks unlocked: 4
+- Downstream high-risk tasks: 0
+- Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
+- Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering provider-data fragmentation, outcome-tracking rates, and informal-sector measurement gaps.
 
 ### 5. Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin
 
@@ -157,17 +157,17 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering contamination test method, geographic grain, crop specificity, sampling frame adequacy, and intervention-relevance.
 
-### 12. Urban Pluvial Flooding Risk In South Asian Megacities
+### 12. Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries
 
-- Pack: [`disaster-resilience/urban-flooding-south-asia`](../../problem-packs/disaster-resilience/urban-flooding-south-asia/problem.md)
-- Task: `source-inventory` — Inventory satellite impervious-surface, drainage, rainfall, flood-extent, and population data sources for South Asian megacities
+- Pack: [`public-health/substandard-falsified-medicines-global`](../../problem-packs/public-health/substandard-falsified-medicines-global/problem.md)
+- Task: `source-inventory` — Inventory quality-surveillance, field-survey, market-distribution, and regulatory data sources for SF medicines analysis
 - Risk: `medium`
 - Reviewer needed: `domain-reviewer`
 - Existing evidence records: 4
 - Downstream tasks unlocked: 5
-- Downstream high-risk tasks: 4
+- Downstream high-risk tasks: 3
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
-- Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering resolution, urban accuracy, and drainage-data availability.
+- Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering sampling frame, test method, geographic grain, supply-chain tier, and substandard-versus-falsified disaggregation status.
 
 ## Unlock Paths
 
@@ -241,7 +241,7 @@ These packs have a scoped front door and the deepest follow-on queue behind it. 
 - High-risk follow-on tasks: 4
 - Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
 - Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
-- Existing evidence records: 4
+- Existing evidence records: 3
 
 ### Desert Locust Outbreak Early Warning In East Africa
 
@@ -253,19 +253,19 @@ These packs have a scoped front door and the deepest follow-on queue behind it. 
 - Reviewer types needed later: `domain-reviewer`: 1, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 2
 - Existing evidence records: 3
 
-### Urban Lead Exposure Risk Mapping In Low- And Middle-Income Countries
+### Under-Five Mortality Sub-National Inequality Tracking In Low-Income Countries
 
-- Pack: [`public-health/lead-exposure-urban-global`](../../problem-packs/public-health/lead-exposure-urban-global/problem.md)
+- Pack: [`public-health/child-mortality-inequality-global`](../../problem-packs/public-health/child-mortality-inequality-global/problem.md)
 - Scoped tasks at front door: 1
 - Follow-on tasks behind it: 5
 - High-risk follow-on tasks: 4
 - Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
 - Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
-- Existing evidence records: 3
+- Existing evidence records: 2
 
-### Under-Five Mortality Sub-National Inequality Tracking In Low-Income Countries
+### Urban Lead Exposure Risk Mapping In Low- And Middle-Income Countries
 
-- Pack: [`public-health/child-mortality-inequality-global`](../../problem-packs/public-health/child-mortality-inequality-global/problem.md)
+- Pack: [`public-health/lead-exposure-urban-global`](../../problem-packs/public-health/lead-exposure-urban-global/problem.md)
 - Scoped tasks at front door: 1
 - Follow-on tasks behind it: 5
 - High-risk follow-on tasks: 4

@@ -57,25 +57,5 @@
       "Undercounting of short-term and irregular migration is documented across all South Asian censuses."
     ],
     "confidence": "high"
-  },
-  {
-    "id": "satellite-environmental-migration-correlation",
-    "problem_id": "disaster-resilience/climate-migration-south-asia",
-    "claim": "Satellite-derived environmental indicators — NDVI vegetation trends, CHIRPS rainfall anomalies, and flood-frequency maps — can be correlated with census migration data at district scale, but the correlations are modest (typically explaining 5-15 percent of migration variance) and confounded by economic and social drivers.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Satellite evidence of environmental migration in South Asia",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0169204622002345"
-    },
-    "source_date": "2022-11-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed satellite-to-migration correlation methodology, environmental indicator selection, confound-control approach, and variance-explained documentation.",
-    "limitations": [
-      "The 5-15 percent variance-explained figure means 85-95 percent of migration variance is explained by non-environmental factors — environmental signals are statistically significant but not dominant drivers.",
-      "NDVI and rainfall anomalies may correlate with agricultural income loss, which is the actual driver — the environmental signal proxies for economic distress rather than causing migration directly.",
-      "Correlation does not imply causation — districts with environmental degradation may also have other push factors (poor infrastructure, weak governance) that independently drive migration.",
-      "Spatial autocorrelation in environmental and migration data can inflate correlation estimates if not properly controlled."
-    ],
-    "confidence": "high"
   }
 ]
