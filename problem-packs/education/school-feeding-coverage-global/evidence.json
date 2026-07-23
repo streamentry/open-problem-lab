@@ -20,46 +20,6 @@
     "confidence": "high"
   },
   {
-    "id": "school-feeding-enrollment-effects",
-    "problem_id": "education/school-feeding-coverage-global",
-    "claim": "School feeding programs increase enrollment by 8-12 percentage points and attendance by 5-9 percentage points on average in low-income countries, making them one of the most effective enrollment-incentive interventions available.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "School feeding and educational outcomes: a systematic review and meta-analysis",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412022002345"
-    },
-    "source_date": "2022-06-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed systematic search, meta-analysis methodology, enrollment and attendance effect estimates, and heterogeneity analysis for school feeding programs in LMICs.",
-    "limitations": [
-      "The 8-12 enrollment and 5-9 attendance figures are pooled averages across diverse program designs and contexts — individual program effects vary substantially.",
-      "Enrollment effects may be driven by the feeding incentive rather than nutritional improvement — separating the enrollment channel from the nutrition channel requires specific study designs rarely implemented.",
-      "Publication bias toward positive findings cannot be excluded — programs with no enrollment effect may be underreported.",
-      "Follow-up periods are typically 1-3 years — long-term educational and nutritional outcomes are rarely assessed."
-    ],
-    "confidence": "high"
-  },
-  {
-    "id": "school-feeding-nutritional-impact-evidence",
-    "problem_id": "education/school-feeding-coverage-global",
-    "claim": "Nutritional-impact evidence for school feeding is weaker than enrollment evidence — meal quality, micronutrient content, and dietary diversity vary enormously across programs, and systematic reviews find inconsistent effects on anthropometric outcomes.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Nutritional impact of school feeding programs in low-income countries: a systematic review",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412023004567"
-    },
-    "source_date": "2023-03-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed systematic search of nutritional-impact studies, anthropometric outcome analysis, and meal-quality assessment for school feeding programs in LMICs.",
-    "limitations": [
-      "Nutritional-impact studies use different outcome measures (height-for-age, BMI-for-age, micronutrient status) — cross-study comparison requires explicit harmonization.",
-      "Meal quality is rarely standardized across programs — a coverage metric that does not capture nutritional adequacy may overstate impact.",
-      "Many studies do not control for concurrent nutrition interventions (supplementary feeding, cash transfers) — attributed effects may be confounded.",
-      "Anthropometric changes from school feeding require sustained exposure over months to years — short-term studies may miss cumulative effects."
-    ],
-    "confidence": "high"
-  },
-  {
     "id": "school-feeding-cost-effectiveness",
     "problem_id": "education/school-feeding-coverage-global",
     "claim": "School feeding costs $0.10-$0.50 per child per day depending on program design and local food prices, making cost-effectiveness relative to alternative nutrition interventions (cash transfers, micronutrient supplementation, supplementary feeding) a key policy question.",

@@ -20,26 +20,6 @@
     "confidence": "high"
   },
   {
-    "id": "satellite-ash-detection-limitations",
-    "problem_id": "disaster-resilience/volcanic-ash-aviation-global",
-    "claim": "Satellite infrared ash detection using the split-window technique (11 and 12 micron bands) can identify ash plumes but cannot reliably distinguish ash from ice clouds, water clouds, dust, or smoke — false-positive rates of 20-40 percent are documented in multi-source aerosol environments.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Satellite detection of volcanic ash: capabilities and limitations",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0034425722002345"
-    },
-    "source_date": "2022-05-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed satellite ash-detection algorithm documentation, validation studies, and false-positive rate analysis across different aerosol environments.",
-    "limitations": [
-      "False-positive rates vary by satellite instrument, retrieval algorithm, and aerosol environment — the 20-40 percent range is from specific validation studies and may not generalize.",
-      "Nighttime ash detection relies on infrared-only methods with reduced accuracy compared to daytime visible-infrared combinations.",
-      "Multi-layer cloud conditions (ash above or below meteorological clouds) further reduce detection accuracy.",
-      "Ash particle size affects detectability — fine ash (small particles) is harder to detect than coarse ash using infrared methods."
-    ],
-    "confidence": "high"
-  },
-  {
     "id": "ash-transport-model-uncertainty",
     "problem_id": "disaster-resilience/volcanic-ash-aviation-global",
     "claim": "Ash-transport models (HYSPLIT, NAME, FLEXPART) forecast volcanic ash plume dispersion but have substantial uncertainty from eruption-source parameters — ash column height, mass eruption rate, and particle-size distribution are rarely measured in real time and must be estimated from limited observations.",

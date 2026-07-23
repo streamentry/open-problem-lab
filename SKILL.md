@@ -26,9 +26,9 @@ These are the only commands an agent should rely on as ground truth. They are de
 ```bash
 pnpm install
 pnpm build                  # regenerates docs/wiki/, tasks-available.json, and agent-radar.json
-pnpm validate               # schemas, issue forms, Markdown, local links, packs, wiki freshness
+pnpm validate               # schemas, source identities, issue forms, links, packs, freshness
 pnpm reproducibility:check  # task maps vs expected artifacts
-pnpm verify:sources         # live URL check for evidence records
+pnpm verify:sources         # live URL check with one narrow transient retry
 pnpm format                 # prettier write
 pnpm format:check           # prettier verify
 ```
@@ -68,6 +68,8 @@ State what observation would make your claim wrong. Falsifiability is the cheape
 ### 4. Link permanent sources
 
 URLs rot. `pnpm verify:sources` will catch the rot eventually, and your PR becomes the broken one. Prefer DOIs, archived snapshots, official government PDFs at stable paths, or repository-pinned commits over blog posts and search result pages.
+
+One URL must identify one canonical source title across the repository. `pnpm validate` rejects conflicting titles for the same URL because HTTP reachability cannot prove that a cited document matches the recorded evidence. Reuse an official dataset or report across packs only with its exact canonical title.
 
 ### 5. Pre-stage replication
 

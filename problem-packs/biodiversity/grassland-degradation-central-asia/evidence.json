@@ -58,25 +58,5 @@
       "Mongolia data is more available than Kazakhstan, Uzbekistan, Turkmenistan, or Kyrgyzstan — Central Asian pastoralist data gaps are severe outside Mongolia."
     ],
     "confidence": "high"
-  },
-  {
-    "id": "pastoral-data-sparsity-central-asia",
-    "problem_id": "biodiversity/grassland-degradation-central-asia",
-    "claim": "Central Asian pastoralist populations are among the most data-sparse in the world — livestock census data is irregular, household-level livelihood data is infrequent, and pastoralist mobility makes conventional survey sampling difficult.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Pastoralism and data gaps in Central Asia: a systematic assessment",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0169204622002345"
-    },
-    "source_date": "2022-09-15",
-    "access_date": "2026-06-07",
-    "method": "Reviewed systematic assessment of livestock census frequency, household survey coverage, and pastoralist data availability across Central Asian countries.",
-    "limitations": [
-      "Data availability changes — some countries have improved livestock data collection since the assessment.",
-      "The assessment focuses on national-level data gaps; sub-national data may be better or worse than national averages suggest.",
-      "Mobility-based pastoralist populations are inherently difficult to survey — data gaps may persist even with improved survey funding.",
-      "Informal livestock markets and cross-border movement make livestock population estimates uncertain."
-    ],
-    "confidence": "high"
   }
 ]

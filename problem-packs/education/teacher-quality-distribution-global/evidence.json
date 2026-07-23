@@ -40,26 +40,6 @@
     "confidence": "high"
   },
   {
-    "id": "teacher-absence-rates-lmic",
-    "problem_id": "education/teacher-quality-distribution-global",
-    "claim": "Teacher-absence rates of 15-25 percent are documented in multiple low-income countries through unannounced school visits, meaning that even when qualified teachers are deployed to rural areas, effective teaching time is substantially reduced.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Teacher absence in developing countries: a systematic review",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412022002345"
-    },
-    "source_date": "2022-04-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed systematic search of teacher-absence studies, measurement methodology (unannounced visits), and country-level results.",
-    "limitations": [
-      "Absence rates are measured through unannounced visits at a single point in time — they may not represent annual average absence.",
-      "Absence measurement methodology varies across studies — some capture only physical absence while others include present-but-not-teaching.",
-      "Absence rates in rural areas may be higher due to longer commutes and fewer monitoring systems — the rural penalty for deployment may compound absence.",
-      "The 15-25 percent range is from a limited number of countries — absence rates in countries without studies are unknown."
-    ],
-    "confidence": "high"
-  },
-  {
     "id": "emis-data-quality-variability",
     "problem_id": "education/teacher-quality-distribution-global",
     "claim": "National EMIS data provides school-level teacher counts and qualification data for some countries, but data quality, update frequency, and public accessibility vary enormously — many countries do not publish sub-national teacher-distribution data, making cross-country deployment-equity comparison methodologically challenging.",

@@ -40,26 +40,6 @@
     "confidence": "high"
   },
   {
-    "id": "informal-settlement-flood-exposure",
-    "problem_id": "disaster-resilience/urban-flooding-south-asia",
-    "claim": "Informal settlements in South Asian megacities are disproportionately exposed to pluvial flooding due to location in low-lying areas, absence of drainage infrastructure, and impervious-surface construction, with flood-risk maps potentially being used to justify eviction rather than infrastructure improvement.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Urban flooding and informal settlements in South Asia: exposure, vulnerability, and policy responses",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412022002345"
-    },
-    "source_date": "2022-05-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed informal-settlement flood-exposure studies, vulnerability assessment methodology, and policy-response documentation for South Asian cities.",
-    "limitations": [
-      "Informal-settlement boundaries are not systematically mapped in most South Asian cities — exposure estimates depend on settlement-location data that may be outdated or incomplete.",
-      "Flood exposure in informal settlements is driven by multiple interacting factors (location, drainage absence, construction materials, poverty) — disentangling their contributions requires household-level data rarely available.",
-      "The eviction-risk concern is documented from multiple cities but the frequency and documentation of flood-map-driven eviction varies.",
-      "Policy responses (in-situ upgrading vs. resettlement vs. eviction) have different effectiveness and equity implications that the study does not systematically compare."
-    ],
-    "confidence": "high"
-  },
-  {
     "id": "drainage-data-limitations-south-asia",
     "problem_id": "disaster-resilience/urban-flooding-south-asia",
     "claim": "Drainage-infrastructure data in South Asian megacities is outdated, incomplete, or nonexistent for most cities — OpenStreetMap drainage coverage is variable and municipal drainage maps are rarely publicly available, making drainage-capacity assessment a major data gap for flood-risk mapping.",

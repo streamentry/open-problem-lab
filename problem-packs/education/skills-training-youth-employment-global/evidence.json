@@ -20,26 +20,6 @@
     "confidence": "high"
   },
   {
-    "id": "youth-training-effectiveness-review",
-    "problem_id": "education/skills-training-youth-employment-global",
-    "claim": "Systematic reviews of youth employment interventions find that vocational training programs increase employment rates by 2-5 percentage points on average, but effects are highly heterogeneous — programs linked to employer demand show 8-12 percentage point gains while standalone programs show near-zero effects.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "What works in youth employment programs? A systematic review",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412022002345"
-    },
-    "source_date": "2023-02-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed systematic search strategy, inclusion criteria, pooled effect estimates, and heterogeneity analysis for youth employment interventions in LMICs.",
-    "limitations": [
-      "The 2-5 percentage point average is pooled across diverse program designs, labor-market contexts, and outcome-measurement methodologies — it masks enormous heterogeneity.",
-      "Publication bias toward positive findings cannot be excluded — programs with no effect may be underreported.",
-      "Employment-outcome measurement varies — some studies measure formal employment while others include informal work and self-employment.",
-      "Follow-up periods are typically 6-18 months — long-term employment sustainability is rarely assessed."
-    ],
-    "confidence": "high"
-  },
-  {
     "id": "training-provider-data-fragmentation",
     "problem_id": "education/skills-training-youth-employment-global",
     "claim": "TVET provision in most low- and middle-income countries is diverse and fragmented across government ministries, private providers, and NGOs, which complicates building system-wide data on training providers and their outcomes.",
@@ -57,25 +37,5 @@
       "A dedicated source is still needed to substantiate the 'no single dataset' claim for any specific country."
     ],
     "confidence": "low"
-  },
-  {
-    "id": "informal-sector-training-outcome-gap",
-    "problem_id": "education/skills-training-youth-employment-global",
-    "claim": "Many skills-training graduates in LMICs enter informal-sector employment or self-employment that is not captured in formal employment statistics, making training-effectiveness assessment based on formal employment data incomplete — the actual employment impact of training programs may be larger or smaller than formal-sector outcome data suggests.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Informal employment and skills training outcomes in developing countries",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412023004567"
-    },
-    "source_date": "2023-05-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed informal-employment measurement methodology, training-outcome assessment in informal contexts, and labor-force survey limitations.",
-    "limitations": [
-      "Informal employment is defined differently across countries — cross-country comparison requires explicit harmonization.",
-      "Income and productivity data for informal workers is sparse — employment-outcome assessments typically capture only employment status, not earnings or job quality.",
-      "Self-employment success depends on access to capital, markets, and social networks — training alone may not be sufficient for self-employment outcomes.",
-      "The direction of the informal-sector bias is uncertain — formal employment data may overstate or understate actual training impact."
-    ],
-    "confidence": "medium"
   }
 ]

@@ -237,6 +237,49 @@ const validateProblemPacks = async (schemas) => {
   }
 };
 
+const normalizeSourceTitle = (title) =>
+  title.normalize("NFKC").replace(/\s+/g, " ").trim().toLocaleLowerCase("en");
+
+const validateEvidenceSourceIdentities = async () => {
+  const evidenceFiles = await walkFiles(
+    path.join(root, "problem-packs"),
+    (file) => path.basename(file) === "evidence.json"
+  );
+  const recordsByUrl = new Map();
+
+  for (const file of evidenceFiles) {
+    const relative = path.relative(root, file);
+    const records = JSON.parse(await fs.readFile(file, "utf8"));
+    for (const record of records) {
+      const identities = recordsByUrl.get(record.source.url) ?? [];
+      identities.push({
+        id: record.id,
+        file: relative,
+        title: record.source.title,
+        normalizedTitle: normalizeSourceTitle(record.source.title)
+      });
+      recordsByUrl.set(record.source.url, identities);
+    }
+  }
+
+  const conflicts = [];
+  for (const [url, identities] of recordsByUrl) {
+    const titles = new Set(identities.map((identity) => identity.normalizedTitle));
+    if (titles.size <= 1) continue;
+    const locations = identities
+      .map(
+        (identity) => `${identity.file}:${identity.id} records title "${identity.title}"`
+      )
+      .join("; ");
+    conflicts.push(`${url} => ${locations}`);
+  }
+
+  assert(
+    conflicts.length === 0,
+    `Evidence source identity conflicts found. One URL must identify one canonical source title:\n${conflicts.join("\n")}`
+  );
+};
+
 const validateExamples = async (schemas) => {
   validateJson(
     schemas.agentSubmission,
@@ -416,6 +459,7 @@ const validateFormatting = async () =>
 const main = async () => {
   const schemas = await compileSchemas();
   await validateProblemPacks(schemas);
+  await validateEvidenceSourceIdentities();
   await validateExamples(schemas);
   await validateIssueTemplates();
   await validateLabels();

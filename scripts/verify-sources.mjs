@@ -2,7 +2,7 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import { root, walkFiles } from "./lib/files.mjs";
 
-const fetchWithTimeout = async (url, method) => {
+const fetchOnceWithTimeout = async (url, method) => {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 15_000);
   try {
@@ -17,6 +17,39 @@ const fetchWithTimeout = async (url, method) => {
   } finally {
     clearTimeout(timeout);
   }
+};
+
+const sleep = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+
+const isRetryableStatus = (status) => [408, 425, 429].includes(status) || status >= 500;
+
+const isRetryableConnectionError = (error) =>
+  error?.name === "AbortError" ||
+  ["EAI_AGAIN", "ECONNRESET", "ETIMEDOUT"].includes(error?.cause?.code);
+
+const fetchWithTimeout = async (url, method) => {
+  const maxAttempts = method === "GET" ? 2 : 1;
+  let lastError;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    try {
+      const response = await fetchOnceWithTimeout(url, method);
+      if (attempt < maxAttempts && isRetryableStatus(response.status)) {
+        await response.body?.cancel();
+        await sleep(750);
+        continue;
+      }
+      return response;
+    } catch (error) {
+      lastError = error;
+      if (attempt === maxAttempts || !isRetryableConnectionError(error)) {
+        throw error;
+      }
+      await sleep(750);
+    }
+  }
+
+  throw lastError;
 };
 
 const checkUrl = async (url) => {

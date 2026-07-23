@@ -34,23 +34,5 @@
       "Burden estimates reflect IHME modeling which may oversmooth local variation."
     ],
     "confidence": "high"
-  },
-  {
-    "id": "ericson-lead-recycling-kathmandu-2021",
-    "problem_id": "public-health/lead-exposure-urban-global",
-    "claim": "A 2021 study in Kathmandu, Nepal, found that informal lead-acid battery recycling operations were concentrated in dense residential neighborhoods and were associated with soil lead levels exceeding 1,000 ppm within 100 meters, confirming that recycled battery processing creates hyperlocal lead hotspots.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Soil lead contamination from informal lead-acid battery recycling in Kathmandu",
-      "url": "https://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health"
-    },
-    "source_date": "2021-05-01",
-    "access_date": "2026-06-06",
-    "method": "Reviewed abstract, soil sampling methodology, spatial analysis approach, and results linking recycling proximity to soil contamination.",
-    "limitations": [
-      "Single-city study, not validated across multiple LMIC urban contexts.",
-      "Soil lead is a proxy for exposure, not a direct blood-lead measurement."
-    ],
-    "confidence": "medium"
   }
 ]

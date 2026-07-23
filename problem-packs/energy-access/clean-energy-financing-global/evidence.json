@@ -20,26 +20,6 @@
     "confidence": "high"
   },
   {
-    "id": "missing-middle-financing-gap",
-    "problem_id": "energy-access/clean-energy-financing-global",
-    "claim": "Distributed energy enterprises serving rural populations face a 'missing middle' financing gap — project sizes ($50K-$5M) too large for microfinance but too small for commercial project finance, with perceived risk profiles that deter most private investors.",
-    "evidence_type": "peer-reviewed-study",
-    "source": {
-      "title": "Financing distributed energy access: the missing middle problem",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0160412022002345"
-    },
-    "source_date": "2022-09-01",
-    "access_date": "2026-06-07",
-    "method": "Reviewed financing-structure analysis, missing-middle documentation, and de-risking instrument assessment for distributed energy in LMICs.",
-    "limitations": [
-      "The $50K-$5M range is a general characterization — actual missing-middle thresholds vary by country context, investor type, and energy technology.",
-      "Perceived-risk documentation is from investor surveys that may not capture all risk factors or risk-mitigation instruments.",
-      "The study focuses on debt financing gaps — equity and grant financing structures for distributed energy are less documented.",
-      "Success stories of missing-middle closure exist but may not be representative of the broader challenge."
-    ],
-    "confidence": "high"
-  },
-  {
     "id": "concessional-finance-allocation-bias",
     "problem_id": "energy-access/clean-energy-financing-global",
     "claim": "Concessional climate finance flows disproportionately to utility-scale projects in middle-income countries — the least-developed countries receive a fraction of per-capita clean energy finance relative to their energy-access gaps.",

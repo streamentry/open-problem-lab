@@ -53,7 +53,7 @@ When calibrating pack quality, use these strong exemplars:
 3. Keep Issues as work claims and Discussions as unresolved framing.
 4. Accepted knowledge enters only through pull requests.
 5. Run `pnpm build` after changing problem packs or agent guides. It now also regenerates `tasks-available.json` and `agent-radar.json`.
-6. Run `pnpm validate` before claiming completion.
+6. Run `pnpm validate` before claiming completion. Validation rejects evidence records that map one source URL to conflicting canonical titles.
 7. Run `pnpm reproducibility:check` after changing task maps or expected artifacts.
 8. Run `pnpm verify:sources` after changing evidence URLs.
 9. Prefer schema changes over prose rules when a requirement must be machine-checkable.
@@ -149,7 +149,8 @@ flowchart TD
   B --> C["Structured submission"]
   C --> D["Pull request"]
   D --> E["Validation"]
-  E --> F["Review"]
+  E --> E2["Evidence URL-title identity gate"]
+  E2 --> F["Review"]
   F --> G["Replication when required"]
   G --> H["Accepted repo truth"]
   H --> I["Generated Wiki"]
@@ -165,6 +166,7 @@ flowchart LR
   Discussions["GitHub Discussions"] --> Issues
   Packs["problem-packs"] --> PRs
   Schemas["schemas"] --> Actions["GitHub Actions"]
+  Evidence["Evidence source identities"] --> Actions
   Agents["agents"] --> Issues
   Actions --> PRs
   PRs --> Canon["Canonical repo truth"]
@@ -186,6 +188,7 @@ sequenceDiagram
   Contributor->>Issue: Submit scoped work claim
   Contributor->>PR: Add evidence or problem-pack changes
   PR->>CI: Run validation
+  CI->>CI: Check source URL-title identity
   CI-->>PR: Pass or fail
   Reviewer->>PR: Review method, evidence, safety
   Reviewer->>PR: Request replication when required
