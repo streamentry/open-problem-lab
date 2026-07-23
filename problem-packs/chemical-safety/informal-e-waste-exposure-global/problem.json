@@ -1,0 +1,44 @@
+{
+  "id": "chemical-safety/informal-e-waste-exposure-global",
+  "title": "Informal E-Waste Processing Exposure And Safer Formalization In Low- And Middle-Income Countries",
+  "status": "scoped",
+  "domain": ["chemical-safety", "public-health", "sanitation"],
+  "region": ["global"],
+  "summary": "Build a verified workflow for identifying informal e-waste processing clusters, characterizing toxic exposure pathways, and testing whether evidence supports safer formalization or targeted remediation in low- and middle-income countries.",
+  "why_it_matters": "A municipal environment director, health ministry, or funder must decide whether a visible e-waste cluster merits safer equipment and worker formalization, source control, relocation, or remediation. The Global E-waste Monitor records 62 billion kg of e-waste in 2022 but formal collection and recycling for only 22.3%; WHO estimates that as many as 18 million children and adolescents and 12.9 million women may be at risk around informal recycling. Verified local evidence could change which clusters receive sampling, occupational protection, and remediation funds. It must not be used to label neighborhoods or infer individual exposure from proximity alone.",
+  "success_metrics": [
+    {
+      "metric": "Pathway traceability",
+      "target": "Every exposure pathway links to a dated source, method, geographic grain, and limitation.",
+      "validation_method": "Run schema validation and have a domain reviewer spot-check each evidence record against its source."
+    },
+    {
+      "metric": "Decision usefulness",
+      "target": "A reviewed artifact distinguishes candidate processing clusters from measured exposure and names the decision it could inform.",
+      "validation_method": "Field-reality review checks the user, decision, timing, non-use cases, and potential stigmatization or displacement harms."
+    },
+    {
+      "metric": "Replication readiness",
+      "target": "Any spatial or exposure analysis has rerunnable inputs, grain, missingness rules, and an independent replication path.",
+      "validation_method": "Replicator reruns the analysis on the declared sample and reports divergence or confirms the result."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 2,
+    "replication_required": true,
+    "merge_gate": "Schema validation, chemical-safety domain review, red-team review for exposure or resource-allocation claims, field-reality review, and replication for quantitative outputs."
+  }
+}

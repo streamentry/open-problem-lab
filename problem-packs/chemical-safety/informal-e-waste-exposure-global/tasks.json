@@ -1,0 +1,98 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "chemical-safety/informal-e-waste-exposure-global",
+    "title": "Inventory e-waste flow, processing, exposure, and worker-data sources",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory that separates usable, limited, and rejected sources for identifying informal e-waste processing and assessing exposure pathways.",
+    "inputs": [
+      "Global E-waste Monitor 2024",
+      "WHO Children and Digital Dumpsites",
+      "ILO E-waste and employment around the world",
+      "national e-waste and customs records",
+      "site-level environmental and human sampling studies"
+    ],
+    "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+    "validation_method": "Reviewer checks every source for direct URL, source date, access date, processing activity, geographic grain, method, and explicit non-use limitation.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "high",
+    "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering processing activity, exposure measurement, geographic grain, informal-sector coverage, and intervention relevance, and a second reviewer can replicate the classification from the recorded method."
+  },
+  {
+    "id": "cluster-evidence-review",
+    "problem_id": "chemical-safety/informal-e-waste-exposure-global",
+    "title": "Review evidence for identifying active informal e-waste processing clusters",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A reproducible candidate-cluster specification that distinguishes processing activity from general waste, formal facilities, and residential proximity.",
+    "inputs": [
+      "classified source inventory",
+      "geospatial layers",
+      "facility and permit records",
+      "site observations"
+    ],
+    "expected_artifact": "validation.md update with cluster inclusion, exclusion, uncertainty, and missingness rules.",
+    "validation_method": "Replicator applies the specification to a declared sample of sites and reports false positives, false negatives, and unresolved classifications.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "high",
+    "done_condition": "A reviewer can reproduce the candidate-cluster classification on a declared sample and identify every site excluded or marked uncertain."
+  },
+  {
+    "id": "exposure-pathway-review",
+    "problem_id": "chemical-safety/informal-e-waste-exposure-global",
+    "title": "Separate e-waste proxy signals from measured exposure pathways",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "An exposure-pathway matrix linking processing methods to air, dust, soil, water, food, take-home, and occupational measurements with explicit evidence boundaries.",
+    "inputs": [
+      "site-level sampling studies",
+      "WHO pathway synthesis",
+      "candidate-cluster specification",
+      "labor and household context"
+    ],
+    "expected_artifact": "evidence.md and validation.md updates with pathway decision rules.",
+    "validation_method": "Domain reviewer checks that each pathway has a source, measurement boundary, confounding risks, and a non-use case.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every claimed exposure pathway is labeled proxy, measured, or unknown, no proxy is presented as an individual or neighborhood exposure measurement, and an independent reviewer replicates the pathway classification."
+  },
+  {
+    "id": "red-team-formalization-harms",
+    "problem_id": "chemical-safety/informal-e-waste-exposure-global",
+    "title": "Red-team formalization, enforcement, and displacement interpretations",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review of how cluster evidence could trigger unsafe closure, relocation, stigmatization, worker exclusion, or false reassurance.",
+    "inputs": [
+      "candidate outputs",
+      "worker and resident context",
+      "exposure-pathway matrix",
+      "SAFETY.md"
+    ],
+    "expected_artifact": "outputs.md and playbooks.md updates with publication blocks and mitigations.",
+    "validation_method": "Red-team reviewer identifies whether each high-risk inference is blocked or gated behind domain, field-reality, and replication review.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every operational recommendation is either blocked, narrowed to a measurement decision, or supported by domain review, red-team review, field-reality review, and replication."
+  },
+  {
+    "id": "field-reality-decision-check",
+    "problem_id": "chemical-safety/informal-e-waste-exposure-global",
+    "title": "Check whether cluster evidence changes a real city decision",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing review naming the user, decision, timing, livelihood constraints, and non-use cases for a candidate cluster artifact.",
+    "inputs": [
+      "draft cluster artifact",
+      "municipal or ministry workflow",
+      "worker and community constraints",
+      "reviewer notes"
+    ],
+    "expected_artifact": "playbooks.md update with named decision pathway and non-use guidance.",
+    "validation_method": "Field reviewer documents the decision and misuse risk; a second reviewer checks that the artifact does not imply closure, relocation, or diagnosis.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "The output has a named user, named decision, explicit non-use cases, and replicated field-reality review before publication."
+  }
+]

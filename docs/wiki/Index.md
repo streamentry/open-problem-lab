@@ -6,13 +6,13 @@
 
 | Metric | Value |
 |---|---|
-| Total packs | 109 |
+| Total packs | 110 |
 | Packs with claims | 13 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 368 |
-| Total tasks | 562 |
-| Scoped tasks (ready for work) | 101 |
-| High-risk tasks | 291 |
+| Total evidence records | 373 |
+| Total tasks | 567 |
+| Scoped tasks (ready for work) | 102 |
+| High-risk tasks | 296 |
 
 ## All Problem Packs
 
@@ -28,6 +28,7 @@
 | [biodiversity/mangrove-loss-south-east-asia](../../problem-packs/biodiversity/mangrove-loss-south-east-asia/problem.md) | Mangrove Deforestation Detection And Coastal Protection Loss In Southeast Asia | scoped | biodiversity, climate-adaptation, disaster-resilience | south-east-asia | medium | 4 ev; 5 tasks | ready |
 | [biodiversity/pollinator-decline-agriculture-global](../../problem-packs/biodiversity/pollinator-decline-agriculture-global/problem.md) | Pollinator Decline Detection And Crop-Pollination Service Risk In Agricultural Regions | scoped | biodiversity, food-security | global | medium | 3 ev; 5 tasks | ready |
 | [biodiversity/wetland-loss-migratory-birds-global](../../problem-packs/biodiversity/wetland-loss-migratory-birds-global/problem.md) | Wetland Loss Detection And Migratory Bird Population Impact | scoped | biodiversity, climate-health | global | medium | 4 ev; 5 tasks | ready |
+| [chemical-safety/informal-e-waste-exposure-global](../../problem-packs/chemical-safety/informal-e-waste-exposure-global/problem.md) | Informal E-Waste Processing Exposure And Safer Formalization In Low- And Middle-Income Countries | scoped | chemical-safety, public-health, sanitation | global | high | 5 ev; 5 tasks | ready |
 | [climate-adaptation/climate-resilient-seeds-global](../../problem-packs/climate-adaptation/climate-resilient-seeds-global/problem.md) | Climate-Resilient Seed Access And Adoption Gaps In Smallholder Agriculture | scoped | climate-adaptation, food-security | global | medium | 4 ev; 5 tasks | ready |
 | [climate-adaptation/heat-early-warning-systems-global](../../problem-packs/climate-adaptation/heat-early-warning-systems-global/problem.md) | Heat Early Warning System Coverage And Effectiveness In Low-Income Countries | scoped | climate-adaptation, public-health | global | high | 4 ev; 5 tasks | ready |
 | [climate-adaptation/sea-level-rise-small-islands](../../problem-packs/climate-adaptation/sea-level-rise-small-islands/problem.md) | Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States | scoped | climate-adaptation, disaster-resilience | small-island-developing-states | high | 8 ev; 6 tasks; 1 claims | has claims |
