@@ -770,6 +770,16 @@ Build a verified workflow for measuring health-service access gaps in informal s
 
 Build a verified workflow for identifying where legacy lead sources, industrial emissions, and informal recycling create elevated child blood lead levels in low- and middle-income country cities.
 
+## Long-Distance Elder Care And Verified Local Response In Viet Nam
+
+- ID: `public-health/long-distance-elder-care-vietnam`
+- Status: `scoped`
+- Domain: `public-health`
+- Region: `vietnam`
+- Source: [problem-packs/public-health/long-distance-elder-care-vietnam](../../problem-packs/public-health/long-distance-elder-care-vietnam/problem.md)
+
+Build a verified workflow for identifying older people whose families cannot respond quickly and testing whether a consented local care network closes routine and urgent needs.
+
 ## Elderly Malnutrition Detection And Nutritional Support Gaps In Low-Income Countries
 
 - ID: `public-health/malnutrition-elderly-global`

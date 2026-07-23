@@ -1,0 +1,117 @@
+[
+  {
+    "id": "unfpa-vietnam-ageing-opportunity-2026",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "claim": "UNFPA reported in February 2026 that Viet Nam has limited access to integrated long-term care, that 99 percent of older people depend on family care, and that women provide 72 percent of reported care responsibility.",
+    "evidence_type": "field-report",
+    "source": {
+      "title": "Population Ageing in Viet Nam: From Demographic Transition to Development Opportunity",
+      "url": "https://vietnam.unfpa.org/en/news/population-ageing-viet-nam-demographic-transition-development-opportunity"
+    },
+    "source_date": "2026-02-10",
+    "access_date": "2026-07-23",
+    "method": "Reviewed the dated UNFPA Viet Nam story sections on long-term care, family dependence, unpaid care responsibility, healthy life expectancy, and policy priorities.",
+    "limitations": [
+      "The page summarizes UNFPA analysis but does not expose the underlying survey tables, sampling frame, or definitions for the 99 percent and 72 percent estimates.",
+      "National framing cannot identify households with distant family, functional need, or no available local responder.",
+      "Dependence on family care does not prove that family care is absent, inadequate, or unwanted in a specific household."
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "unfpa-vietnam-care-ecosystem-2022",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "claim": "UNFPA reported that a six-month integrated-care pilot across five provinces and Da Nang screened about 1,500 older people, trained more than 1,000 staff and home caregivers, and produced care plans, operating procedures, caregiver guidance, and care-management software.",
+    "evidence_type": "field-report",
+    "source": {
+      "title": "UNFPA’s interventions towards the development of a care ecosystem for older persons in Vietnam",
+      "url": "https://vietnam.unfpa.org/en/news/unfpas-interventions-towards-development-care-ecosystem-older-persons-vietnam"
+    },
+    "source_date": "2022-05-30",
+    "access_date": "2026-07-23",
+    "method": "Reviewed the UNFPA program description, pilot locations, reported participant counts, care products, national context estimates, and stated need for further evidence.",
+    "limitations": [
+      "Program counts are reported by an implementing institution and are not an independent outcome evaluation.",
+      "The page does not provide a comparison group, attrition data, response-time data, cost per participant, or clinical outcomes.",
+      "The national functional-limitation estimates refer to 2021 and do not measure family travel time or local responder availability."
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "who-icope-guideline-2017",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "claim": "WHO's Integrated Care for Older People guideline recommends person-centred, coordinated community care and organizes evidence around mobility and vitality, sensory capacity, cognition and psychological well-being, urinary incontinence, falls, and caregiver support.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Integrated care for older people: guidelines on community-level interventions to manage declines in intrinsic capacity",
+      "url": "https://www.who.int/publications/i/item/9789241550109"
+    },
+    "source_date": "2017-01-01",
+    "access_date": "2026-07-23",
+    "method": "Reviewed the WHO publication overview, evidence-resource description, priority actions, and linked person-centred assessment and implementation materials.",
+    "limitations": [
+      "Global clinical guidance is not evidence that a specific Vietnamese service can deliver the recommended pathways.",
+      "The guideline does not establish the efficacy of a family dashboard, wearable, or remote-response business model.",
+      "Local adaptation requires workforce, referral, financing, language, consent, and service-capacity assessment."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "world-bank-vietnam-ageing-2021",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "claim": "The World Bank and JICA reported in 2021 that Viet Nam became an ageing society in 2015, projected it to become an aged society by 2035, and identified development of a long-term-care system as a required reform.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Vietnam: Adapting to An Aging Society",
+      "url": "https://www.worldbank.org/en/country/vietnam/publication/vietnam-adapting-to-an-aging-society"
+    },
+    "source_date": "2021-09-24",
+    "access_date": "2026-07-23",
+    "method": "Reviewed the publication metadata and key findings on demographic transition, fiscal constraints, social protection, and long-term-care reform.",
+    "limitations": [
+      "The demographic projection predates newer UNFPA and national estimates and should not be treated as a current population count.",
+      "National policy analysis does not measure household-level distance, care quality, or service willingness to pay.",
+      "A need for long-term-care reform does not identify which delivery model is effective."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "world-bank-ishc-vietnam-2024",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "claim": "A 2024 World Bank field report documented 186 supported intergenerational self-help clubs across six Vietnamese provinces, reporting more than 24,725 beneficiaries and services including home visits, medication support, health monitoring, social participation, and assistance with daily activities.",
+    "evidence_type": "field-report",
+    "source": {
+      "title": "How Intergenerational Self-Help Clubs Transform Elderly Care in Viet Nam",
+      "url": "https://www.worldbank.org/en/news/feature/2024/05/28/how-intergenerational-self-help-clubs-transform-elderly-care-in-viet-nam"
+    },
+    "source_date": "2024-05-28",
+    "access_date": "2026-07-23",
+    "method": "Reviewed the World Bank story highlights, stated project reach, club structure, service descriptions, implementation geography, and participant examples.",
+    "limitations": [
+      "This is a project feature story, not an independent impact evaluation.",
+      "Beneficiary and club counts do not prove reliable coverage, response closure, cost-effectiveness, or health benefit.",
+      "The six-province implementation cannot establish national or Ho Chi Minh City service capacity.",
+      "Participant testimony is illustrative and cannot estimate average effect."
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "vietnam-decision-1648-ishc-2025",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "claim": "Viet Nam's Prime Minister issued Decision 1648/QD-TTg on 1 August 2025 approving a programme to expand intergenerational self-help clubs through 2035.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Quyết định số 1648/QĐ-TTg của Thủ tướng Chính phủ: Phê duyệt Đề án nhân rộng câu lạc bộ liên thế hệ tự giúp nhau đến năm 2035",
+      "url": "https://chinhphu.vn/?classid=2&docid=214807&pageid=27160"
+    },
+    "source_date": "2025-08-01",
+    "access_date": "2026-07-23",
+    "method": "Reviewed the official government record for decision number, issuing authority, issue date, signer, title, and attached signed document.",
+    "limitations": [
+      "Approval of an expansion programme does not prove implementation, coverage, staffing, service quality, or availability in a target commune.",
+      "The record does not establish that clubs can provide clinical or emergency response.",
+      "Any operational use requires verification of the signed decision, local implementation instruments, and current commune-level capacity."
+    ],
+    "confidence": "high"
+  }
+]
