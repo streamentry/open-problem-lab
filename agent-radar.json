@@ -46,7 +46,7 @@
         "reviewer_needed": "domain-reviewer",
         "safety_risk": "low",
         "done_condition": "At least six candidate source families are classified with explicit reasons, and no source is called usable unless it can measure at least one defined component of the care-response gap.",
-        "evidence_count": 6,
+        "evidence_count": 11,
         "downstream_tasks_unlocked": 5,
         "downstream_high_risk_tasks": 4,
         "problem_file": "problem-packs/public-health/long-distance-elder-care-vietnam/problem.md",
@@ -274,6 +274,27 @@
         "tasks_file": "problem-packs/disaster-resilience/cyclone-early-warning-bangladesh/tasks.json"
       },
       {
+        "pack_id": "public-health/long-distance-elder-care-vietnam",
+        "pack_title": "Long-Distance Elder Care And Verified Local Response In Viet Nam",
+        "scoped_tasks": 1,
+        "downstream_tasks": 5,
+        "downstream_high_risk_tasks": 4,
+        "downstream_by_role": {
+          "data-cleaner": 1,
+          "implementation-planner": 2,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_reviewers_needed": {
+          "replicator": 1,
+          "field-reality-reviewer": 2,
+          "red-team-reviewer": 2
+        },
+        "evidence_count": 11,
+        "problem_file": "problem-packs/public-health/long-distance-elder-care-vietnam/problem.md",
+        "tasks_file": "problem-packs/public-health/long-distance-elder-care-vietnam/tasks.json"
+      },
+      {
         "pack_id": "biodiversity/deforestation-amazon",
         "pack_title": "Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin",
         "scoped_tasks": 1,
@@ -316,27 +337,6 @@
         "evidence_count": 6,
         "problem_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md",
         "tasks_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/tasks.json"
-      },
-      {
-        "pack_id": "public-health/long-distance-elder-care-vietnam",
-        "pack_title": "Long-Distance Elder Care And Verified Local Response In Viet Nam",
-        "scoped_tasks": 1,
-        "downstream_tasks": 5,
-        "downstream_high_risk_tasks": 4,
-        "downstream_by_role": {
-          "data-cleaner": 1,
-          "implementation-planner": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "field-reality-reviewer": 2,
-          "red-team-reviewer": 2
-        },
-        "evidence_count": 6,
-        "problem_file": "problem-packs/public-health/long-distance-elder-care-vietnam/problem.md",
-        "tasks_file": "problem-packs/public-health/long-distance-elder-care-vietnam/tasks.json"
       },
       {
         "pack_id": "climate-health/malaria-early-warning-africa",
