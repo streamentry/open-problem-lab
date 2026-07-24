@@ -113,5 +113,100 @@
       "Any operational use requires verification of the signed decision, local implementation instruments, and current commune-level capacity."
     ],
     "confidence": "high"
+  },
+  {
+    "id": "vietnam-phc-2019-completed-results",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "claim": "The completed 2019 Viet Nam Population and Housing Census provides national and subnational tabulations on population structure, migration, disability status, housing, and household living conditions that can define the eligible older-person population and household context.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "The 2019 Population and Housing Census Data Dashboard",
+      "url": "https://dashboard.gso.gov.vn/defaulten.aspx"
+    },
+    "source_date": "2019-12-19",
+    "access_date": "2026-07-24",
+    "method": "Reviewed the General Statistics Office dashboard description for population structure, migration, housing, household living conditions, geographic stratification, and downloadable census tables.",
+    "limitations": [
+      "Public tabulations do not establish how quickly a family member can travel to an older person or whether that person is willing and able to respond.",
+      "Census household composition is not a measure of functional need, current care receipt, consent, or local responder availability.",
+      "The reference date is 1 April 2019, so current service planning requires a newer population frame or explicit temporal adjustment."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "vietnam-time-use-survey-2022",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "claim": "The World Bank and General Statistics Office Time-Use Survey 2022 provides a public-use, multi-stage sample covering six Vietnamese socio-economic regions and measures unpaid care time, including care of elders and children, among respondents aged 15 to 64.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "Viet Nam - Time-Use Survey 2022",
+      "url": "https://microdata.worldbank.org/catalog/5844/study-description"
+    },
+    "source_date": "2023-05-22",
+    "access_date": "2026-07-24",
+    "method": "Reviewed the World Bank Microdata Library metadata for study ID, universe, six-region coverage, field dates, multi-stage sampling, unpaid elder-care measures, public-use access, and producer attribution.",
+    "limitations": [
+      "The respondent universe excludes people over 64, so this source measures caregiver time rather than older-person care need or older-person preferences.",
+      "Time spent caring does not establish travel time, response timeliness, care quality, resolution, or clinical outcome.",
+      "The dataset is region-level in the public metadata; commune-level response-network mapping cannot be inferred without inspecting the released files and geography controls."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "vietnam-national-disability-survey-2016",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "claim": "The National Survey on People with Disabilities 2016 is an official General Statistics Office survey report that can inform functional-limitation and disability measurement for Vietnamese population subgroups, subject to checking its older-person and geographic tabulations.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Vietnam National Survey on People with Disabilities 2016",
+      "url": "https://www.unicef.org/vietnam/media/2786/file/Main%20report%20people%20with%20disabilities%20survey.pdf"
+    },
+    "source_date": "2016-01-01",
+    "access_date": "2026-07-24",
+    "method": "Reviewed the official General Statistics Office landing record and linked survey provenance, then classified the source as a functional-need input only; the exact report release date is not exposed, so the survey year is used.",
+    "limitations": [
+      "Disability measures are not interchangeable with all functional-care needs, frailty, cognitive decline, or short-term assistance requirements.",
+      "The 2016 reference period is stale for current service allocation unless reweighted or paired with newer population and disability evidence.",
+      "The report does not establish family availability, consent, local responder capacity, or whether a limitation generated an unresolved care request."
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "vietnam-national-internal-migration-survey-2015",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "claim": "The 2015 National Internal Migration Survey provides official evidence on internal-migration patterns and migrant access to services, making it a context source for identifying where family separation may require direct measurement rather than an assumed care gap.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "The 2015 National Internal Migration Survey",
+      "url": "https://vietnam.un.org/en/13593-2015-national-internal-migration-summary"
+    },
+    "source_date": "2017-01-25",
+    "access_date": "2026-07-24",
+    "method": "Reviewed the UN Viet Nam publication record for reference period, publication date, GSO authorship, stated policy use, and the survey's focus on internal migrants and service access; classified it as migration-context evidence rather than a care-response measure.",
+    "limitations": [
+      "Migration status or destination does not identify an older person's actual family travel time, contact frequency, or emergency availability.",
+      "The 2015 reference period predates newer census and intercensal migration evidence.",
+      "The source cannot establish functional need, consent, local responder presence, response closure, or health outcomes."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "vietnam-older-persons-pcfps-2021",
+    "problem_id": "public-health/long-distance-elder-care-vietnam",
+    "claim": "The General Statistics Office analysis of the 2021 Population Change and Family Planning Survey includes a new older-person module covering care needs and situation, making it the strongest identified candidate for testing older-person care-related measures before attempting a care-gap denominator.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Older Persons in Viet Nam: An analysis of the Population Change and Family Planning Survey 2021",
+      "url": "https://vietnam.unfpa.org/en/publications/older-persons-viet-nam-analysis-population-change-and-family-planning-survey-2021"
+    },
+    "source_date": "2022-09-27",
+    "access_date": "2026-07-24",
+    "method": "Reviewed the official publication metadata and description for survey date, GSO authorship, national indicator purpose, and the first-time older-person care-needs module; classified it as a candidate source requiring questionnaire and tabulation inspection.",
+    "limitations": [
+      "The publication description does not by itself reveal whether family travel time, consent preference, responder availability, or event-level resolution are measured.",
+      "A care-needs module can support prevalence or stratification but cannot prove that a local response network is reachable or effective.",
+      "Microdata access, sampling weights, missingness, and geographic release must be verified before using the source in a denominator."
+    ],
+    "confidence": "high"
   }
 ]

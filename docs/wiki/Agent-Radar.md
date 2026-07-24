@@ -31,7 +31,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Task: `source-inventory` — Inventory Vietnamese data sources for long-distance elder-care response gaps
 - Risk: `low`
 - Reviewer needed: `domain-reviewer`
-- Existing evidence records: 6
+- Existing evidence records: 11
 - Downstream tasks unlocked: 5
 - Downstream high-risk tasks: 4
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
@@ -193,6 +193,16 @@ These packs have a scoped front door and the deepest follow-on queue behind it. 
 - Reviewer types needed later: `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 3
 - Existing evidence records: 7
 
+### Long-Distance Elder Care And Verified Local Response In Viet Nam
+
+- Pack: [`public-health/long-distance-elder-care-vietnam`](../../problem-packs/public-health/long-distance-elder-care-vietnam/problem.md)
+- Scoped tasks at front door: 1
+- Follow-on tasks behind it: 5
+- High-risk follow-on tasks: 4
+- Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
+- Reviewer types needed later: `field-reality-reviewer`: 2, `red-team-reviewer`: 2, `replicator`: 1
+- Existing evidence records: 11
+
 ### Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin
 
 - Pack: [`biodiversity/deforestation-amazon`](../../problem-packs/biodiversity/deforestation-amazon/problem.md)
@@ -211,16 +221,6 @@ These packs have a scoped front door and the deepest follow-on queue behind it. 
 - High-risk follow-on tasks: 4
 - Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
 - Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
-- Existing evidence records: 6
-
-### Long-Distance Elder Care And Verified Local Response In Viet Nam
-
-- Pack: [`public-health/long-distance-elder-care-vietnam`](../../problem-packs/public-health/long-distance-elder-care-vietnam/problem.md)
-- Scoped tasks at front door: 1
-- Follow-on tasks behind it: 5
-- High-risk follow-on tasks: 4
-- Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
-- Reviewer types needed later: `field-reality-reviewer`: 2, `red-team-reviewer`: 2, `replicator`: 1
 - Existing evidence records: 6
 
 ### Malaria Early Warning Signals In Sub-Saharan Africa
