@@ -34,6 +34,8 @@ Correct, narrow, and falsifiable beats prolific.
 
 ## Active Problem Packs
 
+High-safety health-systems packs must keep national supply, facility readiness, interruption, referral, compatibility, issue, and clinical outcome as separate measurement families. The obstetric blood availability pack is the current exemplar.
+
 The portfolio grows continuously. Do not rely on a static count or a hand-maintained table. Read the live generated indexes:
 
 - [`tasks-available.json`](tasks-available.json) — machine-readable index of every scoped task

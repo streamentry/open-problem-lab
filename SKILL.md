@@ -19,6 +19,8 @@ If any of those is unread, the rest of this skill does not apply yet.
 
 The repository is the product. There is no app in v0. GitHub Issues, Discussions, Pull Requests, Actions, Projects, and the generated Wiki are the entire surface. Do not propose a custom UI unless `pnpm validate`, review latency, or replication friction is the measured bottleneck — not a guessed one.
 
+For high-safety health-systems packs, keep national supply, facility readiness, interruption, referral, compatibility, issue, and clinical outcome as separate measurement families. A readiness or donation statistic is not time-to-care evidence.
+
 ## Commands
 
 These are the only commands an agent should rely on as ground truth. They are defined in `package.json`.

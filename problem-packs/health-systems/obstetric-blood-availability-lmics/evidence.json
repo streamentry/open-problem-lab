@@ -1,0 +1,116 @@
+[
+  {
+    "id": "who-pph-roadmap-2023",
+    "problem_id": "health-systems/obstetric-blood-availability-lmics",
+    "claim": "WHO reports that postpartum haemorrhage affects about 14 million women each year and causes around 70,000 maternal deaths, and identifies blood for transfusion as one of the resources that facilities may lack.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO issues global plan to tackle leading cause of death in childbirth",
+      "url": "https://www.who.int/news/item/11-10-2023-who-issues-global-plan-to-tackle-leading-cause-of-death-in-childbirth"
+    },
+    "source_date": "2023-10-11",
+    "access_date": "2026-07-25",
+    "method": "Reviewed the WHO news release sections defining postpartum haemorrhage, reporting its annual burden, and describing facility resource gaps and the 2023–2030 roadmap.",
+    "limitations": [
+      "Global burden framing is not a facility-level estimate of transfusion need or delay.",
+      "The release does not identify which supply-chain step causes each facility resource gap.",
+      "The burden estimate does not establish that improving blood availability alone would prevent all reported deaths."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-blood-safety-availability-2026",
+    "problem_id": "health-systems/obstetric-blood-availability-lmics",
+    "claim": "WHO's 2026 blood-safety summary reports a median of 4.5 blood donations per 1,000 people in low-income countries versus 28.9 in high-income countries, and states that many patients requiring transfusion lack timely access to safe blood.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Blood safety and availability",
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/blood-safety-and-availability"
+    },
+    "source_date": "2026-06-12",
+    "access_date": "2026-07-25",
+    "method": "Reviewed the WHO summary's key facts, blood-supply section, income-stratified donation rates, clinical-use section, and stated data provenance from the Global Database on Blood Safety.",
+    "limitations": [
+      "Donation rate is a national supply indicator, not a measure of facility stock, compatibility, or time-to-transfusion.",
+      "The underlying country responses are primarily from 2023, with older data used for some countries.",
+      "The summary cannot identify obstetric haemorrhage-specific shortages at a named facility."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-global-status-blood-2026",
+    "problem_id": "health-systems/obstetric-blood-availability-lmics",
+    "claim": "WHO's Global status report on blood safety and availability 2025 uses data from 168 countries and reports persistent gaps in sufficiency, safety, governance, and equitable availability, particularly in low- and middle-income countries.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Global status report on blood safety and availability 2025",
+      "url": "https://www.who.int/publications/b/82618"
+    },
+    "source_date": "2026-06-12",
+    "access_date": "2026-07-25",
+    "method": "Reviewed the WHO publication overview for source coverage, reporting period, domains measured, and the stated interpretation of persistent gaps.",
+    "limitations": [
+      "The report is a national-system assessment and does not by itself provide continuous facility-level stock or emergency response data.",
+      "Cross-country reporting differences can affect comparability of governance and availability indicators.",
+      "The report does not prove a causal effect on postpartum haemorrhage mortality for any individual country."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-sara-blood-interruption-indicators-2013",
+    "problem_id": "health-systems/obstetric-blood-availability-lmics",
+    "claim": "WHO's SARA facility-assessment instrument includes observable blood-transfusion service items and asks whether a facility experienced interruptions in blood availability during the previous three months.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Health facility assessment of service availability and readiness: SARA reference manual",
+      "url": "https://iris.who.int/bitstream/10665/104075/1/WHO_HIS_HSI_RME_2013_1_eng.pdf"
+    },
+    "source_date": "2013-01-01",
+    "access_date": "2026-07-25",
+    "method": "Reviewed the blood-transfusion module and indicator questions covering observed service location, interruption in availability during the prior three months, and source of blood supply.",
+    "limitations": [
+      "The instrument is a survey or census tool, not a continuous stock ledger or timestamped emergency-response record.",
+      "The prior-three-month interruption question does not measure duration, cause, compatibility, or time-to-transfusion.",
+      "The publication date is represented by year because the accessible source does not expose a more precise publication date."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-afro-blood-shortfall-2021",
+    "problem_id": "health-systems/obstetric-blood-availability-lmics",
+    "claim": "WHO's African Region reported in 2021 that approximately half of the blood needed for transfusion in the region was collected and linked inadequate blood access to life-threatening obstetric bleeding.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Drop in blood donations add to maternal health threats in Africa",
+      "url": "https://www.afro.who.int/news/drop-blood-donations-add-maternal-health-threats-africa"
+    },
+    "source_date": "2021-06-14",
+    "access_date": "2026-07-25",
+    "method": "Reviewed the WHO AFRO release for the reported regional collection shortfall, the stated relationship to obstetric haemorrhage, and the described financing, infrastructure, and logistics constraints.",
+    "limitations": [
+      "The regional estimate is not a current country or facility-specific stockout measure.",
+      "The release does not establish whether the shortfall is uniform across facilities or concentrated in particular referral networks.",
+      "The pandemic-period context limits direct inference about current routine blood availability."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hhfa-facility-assessment-2021",
+    "problem_id": "health-systems/obstetric-blood-availability-lmics",
+    "claim": "WHO's Harmonized Health Facility Assessment provides standardized facility-level modules for service availability, readiness, quality and safety, and management and finance, supporting comparison of facility capacity while requiring indicator-specific interpretation.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Harmonized health facility assessment (HHFA): Core questions",
+      "url": "https://www.who.int/publications/i/item/harmonized-health-facility-assessment-%28hhfa%29"
+    },
+    "source_date": "2021-03-09",
+    "access_date": "2026-07-25",
+    "method": "Reviewed the HHFA overview for its facility-level modules, standardization objective, indicator-driven design, and intended use in planning and policy-making.",
+    "limitations": [
+      "A facility assessment captures observed or reported readiness at assessment time and does not automatically measure emergency performance.",
+      "Standardization does not remove missingness, sampling, reporting, or indicator-definition differences between countries.",
+      "The source is a measurement framework, not evidence that a specific blood-readiness indicator predicts maternal survival."
+    ],
+    "confidence": "high"
+  }
+]

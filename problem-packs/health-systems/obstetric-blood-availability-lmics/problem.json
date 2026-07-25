@@ -1,0 +1,44 @@
+{
+  "id": "health-systems/obstetric-blood-availability-lmics",
+  "title": "Obstetric Blood Availability And Time-To-Transfusion Gaps In LMICs",
+  "status": "scoped",
+  "domain": ["health-systems", "public-health"],
+  "region": ["global", "low-and-middle-income-countries"],
+  "summary": "Build a verified facility-level evidence workflow for measuring whether women with life-threatening obstetric haemorrhage can obtain safe, compatible blood in time, separating national donation volume from real service availability, stock interruption, referral delay, and transfusion readiness.",
+  "why_it_matters": "WHO reports about 70,000 deaths from postpartum haemorrhage each year, while its 2026 blood-safety data show a median of 4.5 donations per 1,000 people in low-income countries and explicitly warn that many patients lack timely access to safe blood. A ministry of health blood-service director and maternal-health director need facility-level evidence on where the failure occurs: collection, testing, storage, transport, cross-match, staffing, or referral. Verified evidence would change procurement, cold-chain, hub-and-spoke, emergency referral, and facility-readiness priorities. National donation totals alone cannot answer that decision.",
+  "success_metrics": [
+    {
+      "metric": "Measurement separation",
+      "target": "Every accepted source distinguishes national blood supply from facility-level availability, interruption, readiness, or time-to-transfusion evidence.",
+      "validation_method": "Reviewer checks source grain, indicator definitions, numerator, denominator, and time reference in evidence.json and datasets.md."
+    },
+    {
+      "metric": "Decision usefulness",
+      "target": "A reviewed artifact names the health-system decision, facility level, geography, and time window it can inform without becoming a clinical protocol.",
+      "validation_method": "Field-reality reviewer checks the named user, decision, timing, and explicit non-use cases before publication."
+    },
+    {
+      "metric": "Safety and reproducibility",
+      "target": "No operational blood-allocation or clinical recommendation is accepted without domain review, red-team review, and independent replication.",
+      "validation_method": "Validate task status, reviewer roles, replication records, and publication gates before accepting any quantitative output."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 3,
+    "replication_required": true,
+    "merge_gate": "Schema validation, transfusion-medicine and maternal-health domain review, red-team review for harmful allocation or clinical interpretation, and independent replication for quantitative outputs."
+  }
+}

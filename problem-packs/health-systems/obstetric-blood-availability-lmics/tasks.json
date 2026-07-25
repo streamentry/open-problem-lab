@@ -1,0 +1,77 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "health-systems/obstetric-blood-availability-lmics",
+    "title": "Inventory blood-supply, facility-readiness, and obstetric access sources for LMICs",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory that separates national blood-system indicators, facility readiness measures, stock interruptions, referral or transport data, and obstetric haemorrhage outcomes by what each source can actually measure.",
+    "inputs": [
+      "WHO Global Database on Blood Safety and 2026 blood-safety summary",
+      "WHO SARA and HHFA instruments",
+      "WHO postpartum haemorrhage roadmap and guidance",
+      "National blood-service and maternal-health data documentation where publicly accessible"
+    ],
+    "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
+    "validation_method": "Reviewer checks every source for stable URL, source date, access date, geographic and facility grain, indicator definition, data currency, access status, and limitations; at least one source must cover an observed facility-level interruption or readiness item.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "medium",
+    "done_condition": "At least six candidate sources are classified as usable, limited, or rejected, with explicit reasons distinguishing national supply from facility-level availability, interruption, compatibility, referral delay, and obstetric outcome measurement."
+  },
+  {
+    "id": "facility-measurement-crosswalk",
+    "problem_id": "health-systems/obstetric-blood-availability-lmics",
+    "title": "Crosswalk facility blood availability indicators to obstetric emergency decisions",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A machine-readable indicator crosswalk that preserves each measure's facility grain, observation window, numerator, denominator, missingness, and non-equivalence to time-to-transfusion.",
+    "inputs": [
+      "accepted source inventory",
+      "WHO SARA and HHFA blood-transfusion indicators",
+      "facility-level maternal-health and blood-service data dictionaries"
+    ],
+    "expected_artifact": "validation.md update and a reviewed indicator crosswalk in datasets.md.",
+    "validation_method": "Replicator samples each indicator and confirms that its source definition, denominator, observation window, and aggregation rule are preserved without substituting readiness for clinical outcome.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "Every included indicator has a documented numerator, denominator, facility or national grain, observation window, missingness rule, and explicit statement of whether it can or cannot measure emergency time-to-transfusion."
+  },
+  {
+    "id": "red-team-allocation-use",
+    "problem_id": "health-systems/obstetric-blood-availability-lmics",
+    "title": "Red-team facility blood-availability evidence for unsafe allocation interpretations",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review covering how incomplete blood data could cause unsafe facility rankings, donor diversion, delayed referral, or false reassurance about transfusion readiness.",
+    "inputs": [
+      "facility measurement crosswalk",
+      "candidate outputs",
+      "SAFETY.md",
+      "blood-service and maternal-health review notes"
+    ],
+    "expected_artifact": "outputs.md and validation.md safety-gate updates.",
+    "validation_method": "A red-team reviewer enumerates misuse pathways and tests each against the proposed artifact; a second reviewer confirms that every high-risk pathway is blocked, bounded, or supported by replicated evidence.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every proposed allocation or facility-comparison output has an explicit non-use case, data-quality gate, and red-team disposition before publication."
+  },
+  {
+    "id": "field-reality-check",
+    "problem_id": "health-systems/obstetric-blood-availability-lmics",
+    "title": "Check whether blood-availability measures change a real health-system decision",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing review naming the user, decision, timing, and operational constraint for a facility-level blood-availability artifact.",
+    "inputs": [
+      "source inventory",
+      "indicator crosswalk",
+      "candidate output specification",
+      "local blood-service and maternity referral workflow documentation"
+    ],
+    "expected_artifact": "playbooks.md update with use and non-use guidance.",
+    "validation_method": "Field reviewer identifies the actual decision and timing, checks whether the proposed data arrive early enough to matter, and requires a second reviewer to reproduce the non-use-case check.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "The artifact has a named user, named decision, decision time window, minimum evidence needed, explicit non-use cases, and replicated field-reality review."
+  }
+]
