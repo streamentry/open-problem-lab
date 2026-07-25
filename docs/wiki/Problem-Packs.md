@@ -510,6 +510,16 @@ Build a verified workflow for mapping urban food deserts and fresh-food access g
 
 Measure whether health facilities can deliver quality-assured oxygen continuously, distinguishing equipment presence from functional, powered, maintained, and patient-deliverable service reliability.
 
+## Obstetric Blood Availability And Time-To-Transfusion Gaps In LMICs
+
+- ID: `health-systems/obstetric-blood-availability-lmics`
+- Status: `scoped`
+- Domain: `health-systems`, `public-health`
+- Region: `global`, `low-and-middle-income-countries`
+- Source: [problem-packs/health-systems/obstetric-blood-availability-lmics](../../problem-packs/health-systems/obstetric-blood-availability-lmics/problem.md)
+
+Build a verified facility-level evidence workflow for measuring whether women with life-threatening obstetric haemorrhage can obtain safe, compatible blood in time, separating national donation volume from real service availability, stock interruption, referral delay, and transfusion readiness.
+
 ## Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change
 
 - ID: `occupational-health/heat-stress-outdoor-workers-global`
