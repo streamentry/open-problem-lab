@@ -62,7 +62,7 @@
         "reviewer_needed": "domain-reviewer",
         "safety_risk": "low",
         "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering definition threshold, measure family, time reference, geographic grain, and relevance to intrapartum versus counting-system interpretation.",
-        "evidence_count": 9,
+        "evidence_count": 10,
         "downstream_tasks_unlocked": 4,
         "downstream_high_risk_tasks": 2,
         "problem_file": "problem-packs/public-health/stillbirth-measurement-quality-global/problem.md",

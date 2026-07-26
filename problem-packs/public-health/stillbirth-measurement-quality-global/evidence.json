@@ -166,5 +166,25 @@
       "It cannot distinguish intrapartum from antepartum burden without compatible event-level fields."
     ],
     "confidence": "high"
+  },
+  {
+    "id": "unicef-stillbirth-estimates-2023-data-page-2025",
+    "problem_id": "public-health/stillbirth-measurement-quality-global",
+    "claim": "UNICEF's current stillbirth data page reports UN IGME estimates of about 1.9 million stillbirths in 2023 at 28 or more completed weeks, a global rate of 14.3 per 1,000 total births, and an estimated 46 percent intrapartum share; it also states that the estimates combine administrative systems, HMIS, household surveys, and population studies and standardize to 28 weeks.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Stillbirths and stillbirth rates",
+      "url": "https://data.unicef.org/topic/child-survival/stillbirths/"
+    },
+    "source_date": "2025-03-24",
+    "access_date": "2026-07-26",
+    "method": "Reviewed the current UNICEF Data page, including the 2023 burden figures, definition and denominator, intrapartum estimate, listed input source families, and model-method notes.",
+    "limitations": [
+      "These are model-based national estimates, not direct counts and not a public sub-national dataset.",
+      "The model standardizes inputs to 28 or more completed weeks, so it does not make country legal definitions or facility thresholds interchangeable.",
+      "The reported intrapartum share is not evidence that a named facility or country has a quality-of-care failure.",
+      "The page states that underreporting remains possible and does not expose record-level completeness checks for each country."
+    ],
+    "confidence": "high"
   }
 ]

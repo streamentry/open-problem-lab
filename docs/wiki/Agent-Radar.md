@@ -43,7 +43,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Task: `source-inventory` — Inventory stillbirth data sources across survey, CRVS, and facility systems
 - Risk: `low`
 - Reviewer needed: `domain-reviewer`
-- Existing evidence records: 9
+- Existing evidence records: 10
 - Downstream tasks unlocked: 4
 - Downstream high-risk tasks: 2
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
