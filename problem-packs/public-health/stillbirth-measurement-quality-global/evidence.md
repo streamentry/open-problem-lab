@@ -42,6 +42,10 @@ The 2021 MPDSR guidance supports a facility and community workflow for identifyi
 
 The WHO CRVS assessment toolkit is usable for system-level classification of registration completeness, legal framework, information flows, and data-quality checks. It can tell a reviewer whether CRVS counts are ready for further analysis, but it is not itself a stillbirth prevalence dataset and cannot substitute for a country-specific completeness assessment.
 
+### UNICEF current stillbirth estimates and methods page
+
+The current UNICEF Data page is the preferred first stop for a dated burden-framing snapshot: it reports 2023 estimates, defines the 28-week denominator, identifies the four input source families, and explains that UN IGME adjusts alternative definitions before model fitting. It is useful for selecting candidate countries for deeper verification. It is not a country-record dataset, a sub-national ranking, or proof of a quality failure.
+
 ## Evidence Quality Rule
 
 Stillbirth evidence is unusually vulnerable to definition drift, silence in administrative systems, and false comparability across source families. An evidence record is only useful here if it helps a reviewer say what the source cannot prove.
