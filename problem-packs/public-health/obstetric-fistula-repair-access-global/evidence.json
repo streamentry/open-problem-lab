@@ -76,5 +76,62 @@
       "This source does not quantify repair backlog or surgical capacity by geography."
     ],
     "confidence": "high"
+  },
+  {
+    "id": "dhs-fistula-proxy-measurement-2008",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "claim": "The DHS Analytical Studies report documents that fistula symptom questions are a population-survey proxy: earlier surveys used non-standard filters and the proxy can have low positive predictive value, so survey estimates require instrument-level review before cross-country comparison.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Incontinence Data from the Demographic and Health Surveys: Comparative Analysis of a Proxy Measurement of Vaginal Fistula and Recommendations for Future Population-Based Data Collection",
+      "url": "https://www.dhsprogram.com/pubs/pdf/AS17/AS17.pdf"
+    },
+    "source_date": "2008-01-01",
+    "access_date": "2026-07-27",
+    "method": "Reviewed the report's fistula-module description, country comparisons, questionnaire wording, and validity discussion, then extracted the implications for numerator definition, denominator eligibility, and cross-survey comparability.",
+    "limitations": [
+      "The report analyzes DHS survey data and questionnaire designs available up to its publication period, not current country prevalence.",
+      "Self-reported leakage is not clinical confirmation and may include non-obstetric etiologies or false positives.",
+      "The report does not measure untreated repair backlog, annual incidence, surgical capacity, or referral completion."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-emoc-monitoring-handbook-2009",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "claim": "WHO's emergency-obstetric-care handbook defines facility signal-function indicators that measure actual emergency-care capacity and access, providing a prevention-context source family that is not interchangeable with fistula prevalence or repair counts.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Monitoring emergency obstetric care: a handbook",
+      "url": "https://www.who.int/publications/i/item/9789241547734"
+    },
+    "source_date": "2009-07-13",
+    "access_date": "2026-07-27",
+    "method": "Reviewed the WHO publication page and the handbook's indicator framing, distinguishing facility signal functions and service-use measures from epidemiological and repair-outcome measures in the fistula pack.",
+    "limitations": [
+      "The handbook provides indicator definitions and study guidance, not a current country-by-country EmOC dataset.",
+      "Facility signal functions measure emergency-care capability or use and do not establish that a specific fistula case was preventable.",
+      "It cannot estimate untreated fistula prevalence, repair backlog, recurrence, or survivor reintegration."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "unfpa-bangladesh-fistula-annual-report-2026",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "claim": "Bangladesh's 2026 national annual report aggregates government, fistula-centre, NGO, and partner records for 2019-2024 and reports identified cases, surgeries, successful repairs, admissions, and diagnostic type, showing that program registries can support repair-output and case-mix analysis at country and facility-network grain.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "National Annual report on Obstetric Fistula in Bangladesh",
+      "url": "https://bangladesh.unfpa.org/en/publications/national-annual-report-obstetric-fistula-bangladesh"
+    },
+    "source_date": "2026-01-27",
+    "access_date": "2026-07-27",
+    "method": "Reviewed the publication metadata and report summary for reporting period, contributing systems, case-identification and surgery numerators, treatment-success definition, diagnostic mix, and stated validation process.",
+    "limitations": [
+      "The report is a Bangladesh program record and cannot be generalized to global or country-comparable prevalence without harmonization.",
+      "Identified cases and successful repairs are service-system numerators with unknown completeness, not a denominator of all women living with fistula.",
+      "The summary does not provide a public patient-level linkage between case finding, referral delay, repair follow-up, recurrence, and reintegration outcomes."
+    ],
+    "confidence": "high"
   }
 ]

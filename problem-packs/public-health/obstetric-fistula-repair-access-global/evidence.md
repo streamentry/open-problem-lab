@@ -22,6 +22,18 @@ Use this source for the proposition that repair can succeed in low- and middle-i
 
 Use this source for policy framing across prevention, treatment, reintegration, and system shocks. Do not use it as a dataset. It is a good source for deciding which source families belong in the pack.
 
+### DHS fistula proxy measurement report
+
+Use this source to audit survey instruments before comparing self-reported leakage across countries or survey rounds. It supports a proxy-measurement and comparability warning, not confirmed prevalence or backlog estimation.
+
+### WHO emergency-obstetric-care monitoring handbook
+
+Use this source to define prevention-capacity variables such as actual facility signal functions and service use. Keep these variables separate from fistula prevalence, incidence, repair output, and repair success.
+
+### Bangladesh national annual report
+
+Use this source as a bounded example of a national program registry assembled from government, facility, NGO, and partner records. It can support a Bangladesh-only review of identified cases, treatment throughput, case mix, and reported success; it cannot establish population prevalence or falling need.
+
 ## Evidence Quality Rule
 
 Obstetric fistula evidence is easy to overstate because stigma, isolation, survey wording, diagnosis access, repair follow-up, and recurrence all distort the numerator. An evidence record is useful only if it says which measurement family it supports and what it cannot prove.

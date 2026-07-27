@@ -49,7 +49,19 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering definition threshold, measure family, time reference, geographic grain, and relevance to intrapartum versus counting-system interpretation.
 
-### 3. Digital Divide Measurement And School Internet Connectivity In Low-Income Countries
+### 3. Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries
+
+- Pack: [`public-health/obstetric-fistula-repair-access-global`](../../problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md)
+- Task: `source-inventory` — Inventory obstetric fistula prevalence, repair, and prevention data sources
+- Risk: `low`
+- Reviewer needed: `domain-reviewer`
+- Existing evidence records: 7
+- Downstream tasks unlocked: 4
+- Downstream high-risk tasks: 2
+- Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
+- Done condition: At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measurement family, numerator, denominator, time reference, geographic grain, case-finding method, and backlog-versus-incidence relevance.
+
+### 4. Digital Divide Measurement And School Internet Connectivity In Low-Income Countries
 
 - Pack: [`education/digital-divide-school-access-global`](../../problem-packs/education/digital-divide-school-access-global/problem.md)
 - Task: `source-inventory` — Inventory school connectivity, mobile-network, and digital-learning data sources for low-income countries
@@ -60,18 +72,6 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Downstream high-risk tasks: 0
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering connectivity-classification methodology, data currency, and cross-validation status.
-
-### 4. Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries
-
-- Pack: [`public-health/obstetric-fistula-repair-access-global`](../../problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md)
-- Task: `source-inventory` — Inventory obstetric fistula prevalence, repair, and prevention data sources
-- Risk: `low`
-- Reviewer needed: `domain-reviewer`
-- Existing evidence records: 4
-- Downstream tasks unlocked: 4
-- Downstream high-risk tasks: 2
-- Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
-- Done condition: At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measurement family, numerator, denominator, time reference, geographic grain, case-finding method, and backlog-versus-incidence relevance.
 
 ### 5. Youth Skills Training And Employment Outcome Gaps In Low-Income Countries
 
