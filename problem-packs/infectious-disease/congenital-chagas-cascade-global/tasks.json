@@ -1,0 +1,94 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "infectious-disease/congenital-chagas-cascade-global",
+    "title": "Inventory maternal-newborn Chagas cascade data sources",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory and measure dictionary separating maternal screening, diagnosis, newborn testing, infant treatment, and follow-up.",
+    "inputs": [
+      "WHO Chagas evidence records",
+      "national antenatal-care registers",
+      "laboratory information systems",
+      "newborn and NTD treatment registers"
+    ],
+    "expected_artifact": "datasets.md update plus evidence.json records for each accepted source family.",
+    "validation_method": "Domain reviewer checks each source for event grain, denominator, timing, coverage, access status, and explicit limitations.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "medium",
+    "done_condition": "At least six candidate source families are classified as usable, limited, or rejected, with explicit reasons covering numerator, denominator, test timing, linkage, migration, and follow-up."
+  },
+  {
+    "id": "country-cascade-baseline",
+    "problem_id": "infectious-disease/congenital-chagas-cascade-global",
+    "title": "Define a country-level congenital Chagas cascade baseline",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A reproducible baseline specification for the five cascade stages and their missingness rules.",
+    "inputs": [
+      "accepted source inventory",
+      "national maternal-newborn records",
+      "current diagnostic and treatment definitions"
+    ],
+    "expected_artifact": "validation.md update with a stage-level data dictionary and exclusion rules.",
+    "validation_method": "Replicator runs the specification on a de-identified sample and confirms every numerator, denominator, exclusion, and missingness category.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "A reviewer can reconstruct each cascade stage from a de-identified sample without treating policy, procurement, or dispensing as completed treatment."
+  },
+  {
+    "id": "linkage-missingness-audit",
+    "problem_id": "infectious-disease/congenital-chagas-cascade-global",
+    "title": "Audit linkage and missingness in Chagas maternal-newborn records",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A documented audit of duplicate tests, unmatched maternal-infant records, timing gaps, private-sector omissions, and migration-related loss to follow-up.",
+    "inputs": [
+      "country cascade baseline",
+      "de-identified ANC and newborn records",
+      "laboratory and treatment event tables"
+    ],
+    "expected_artifact": "outputs.md and validation.md linkage-audit section.",
+    "validation_method": "Replicator reruns duplicate, match-rate, timing-window, and missingness calculations from the documented input hash and environment.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "high",
+    "done_condition": "The audit reports match rates and missingness by cascade stage and shows how at least one plausible linkage failure changes the estimated bottleneck."
+  },
+  {
+    "id": "red-team-stigma-and-misuse",
+    "problem_id": "infectious-disease/congenital-chagas-cascade-global",
+    "title": "Red-team stigma and misuse risks in cascade outputs",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review covering stigma, coercive screening, migrant exclusion, facility blame, privacy loss, and clinical overreach.",
+    "inputs": [
+      "draft cascade output",
+      "data-protection constraints",
+      "field-reality notes",
+      "current safety policy"
+    ],
+    "expected_artifact": "outputs.md safety-gate update.",
+    "validation_method": "Red-team reviewer documents concrete misuse paths and a second reviewer independently replicates the failure-mode check, confirming that each has a mitigation or publication block.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every proposed public-facing output is either blocked or has named safeguards for stigma, privacy, coercion, denominator error, and clinical misinterpretation."
+  },
+  {
+    "id": "field-reality-cascade-decision",
+    "problem_id": "infectious-disease/congenital-chagas-cascade-global",
+    "title": "Test the cascade output against a real program decision",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing review that names the responsible program user, decision, timing, data burden, appeal path, and non-use cases.",
+    "inputs": [
+      "replicated cascade table",
+      "country maternal-newborn workflow",
+      "program reporting constraints"
+    ],
+    "expected_artifact": "playbooks.md field-reality section update.",
+    "validation_method": "Field-reality reviewer records the decision workflow and a second reviewer independently replicates the check that the output does not bypass clinical or privacy governance.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "A named program decision-maker can identify one responsible use, one explicit non-use, and the minimum evidence needed before acting on the output."
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "id": "infectious-disease/congenital-chagas-cascade-global",
+  "title": "Congenital Chagas Detection And Treatment Cascade In Endemic And Migrant-Serving Systems",
+  "status": "scoped",
+  "domain": ["infectious-disease", "public-health"],
+  "region": ["global", "latin-america"],
+  "summary": "Build a verified, country-comparable way to measure the gap from maternal Trypanosoma cruzi screening through newborn confirmation, treatment, and follow-up without mistaking infection estimates for completed prevention coverage.",
+  "why_it_matters": "Ministries of health, maternal-newborn program directors, and global-health funders must decide whether to finance antenatal screening and infant follow-up in endemic and migrant-serving systems. Verified cascade evidence would identify where an existing prevention pathway is failing, while preventing donors from counting policies, test availability, or medicine donations as delivered mother-to-child prevention.",
+  "success_metrics": [
+    {
+      "metric": "Cascade measurement integrity",
+      "target": "Every country-level output separates maternal screening, maternal diagnosis, newborn testing, infant treatment, and follow-up denominators.",
+      "validation_method": "Domain reviewer checks the measure dictionary and each output table against the stated numerator, denominator, time reference, and source grain."
+    },
+    {
+      "metric": "Evidence traceability",
+      "target": "Every burden, pathway, or coverage claim links to a dated evidence record with method and limitations.",
+      "validation_method": "Run pnpm validate and spot-check each claim-to-source mapping in evidence.json and evidence.md."
+    },
+    {
+      "metric": "Allocation usefulness",
+      "target": "At least one replicated country or cross-country analysis identifies a measurable cascade bottleneck without issuing clinical instructions.",
+      "validation_method": "Replicator reruns the analysis from the documented inputs and confirms the result is suitable for funding or program-design review only."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 3,
+    "replication_required": true,
+    "merge_gate": "Schema validation, infectious-disease domain review, red-team review of screening and treatment misinterpretation, field-reality review for maternal-newborn workflows, and independent replication for quantitative outputs."
+  }
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "who-chagas-fact-sheet-2026",
+    "problem_id": "infectious-disease/congenital-chagas-cascade-global",
+    "claim": "WHO estimates that about 8 million people are infected with Trypanosoma cruzi worldwide, more than 10 000 die each year, and congenital transmission produces over 10 000 new cases annually.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Chagas disease (also known as American trypanosomiasis)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/chagas-disease-%28american-trypanosomiasis%29"
+    },
+    "source_date": "2026-04-08",
+    "access_date": "2026-07-29",
+    "method": "Reviewed WHO key facts and overview sections for the infection, mortality, risk, transmission-route, and elimination-target estimates; retained the source's modeled-estimate wording and did not convert them into direct case counts.",
+    "limitations": [
+      "The global figures are estimates and do not provide a country-comparable maternal-newborn cascade denominator.",
+      "The source does not establish how many exposed newborns are tested, treated, or retained in follow-up in any named health system."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-world-chagas-day-2026",
+    "problem_id": "infectious-disease/congenital-chagas-cascade-global",
+    "claim": "WHO states that transmission during pregnancy or birth occurs in about 3–5% of pregnancies with maternal infection, and identifies screening of women of childbearing age plus newborn testing as prevention priorities.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "World Chagas Disease Day 2026",
+      "url": "https://www.who.int/campaigns/world-chagas-disease-day/2026"
+    },
+    "source_date": "2026-04-14",
+    "access_date": "2026-07-29",
+    "method": "Reviewed the campaign facts and action sections, preserving the conditional denominator of pregnancies with maternal infection and separating WHO's recommended pathway from observed service coverage.",
+    "limitations": [
+      "The campaign page is normative and does not measure implementation coverage by country or facility.",
+      "The 3–5% estimate cannot be applied to all pregnancies or used to infer local transmission without local prevalence and diagnostic data."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-chagas-questions-answers-2026",
+    "problem_id": "infectious-disease/congenital-chagas-cascade-global",
+    "claim": "WHO describes early diagnosis and treatment as central to preventing congenital transmission and notes that donated antiparasitic medicines are available to national services that request them, but does not treat availability as completed treatment coverage.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Chagas disease (also known as American trypanosomiasis)",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/chagas-disease"
+    },
+    "source_date": "2026-04-14",
+    "access_date": "2026-07-29",
+    "method": "Reviewed the diagnosis, treatment, prevention, and medicine-access sections; recorded the operational pathway and explicitly excluded procurement, donation, or request status from the coverage numerator.",
+    "limitations": [
+      "The Q&A does not provide a verified end-to-end cascade dataset.",
+      "Treatment duration, adverse reactions, and diagnostic performance vary by context; this record is not clinical guidance."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-ntd-global-report-2024-chagas",
+    "problem_id": "infectious-disease/congenital-chagas-cascade-global",
+    "claim": "WHO's 2024 neglected-tropical-disease report tracks interruption of congenital Chagas transmission as a program target and records that countries in the Americas and Europe have initiated congenital-transmission screening and treatment activities.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Global report on neglected tropical diseases 2024",
+      "url": "https://iris.who.int/bitstream/handle/10665/376657/9789240091535-eng.pdf"
+    },
+    "source_date": "2024-01-01",
+    "access_date": "2026-07-29",
+    "method": "Reviewed the Chagas disease sections and target tables for congenital-transmission goals and country-program status; treated initiated activities as program presence, not as proof of effective or complete coverage.",
+    "limitations": [
+      "The report is not a standardized facility-level cascade audit and may summarize uneven national reporting.",
+      "Initiation of screening or treatment activities does not establish testing quality, treatment completion, or infant follow-up."
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "who-congenital-chagas-recommendations-2011",
+    "problem_id": "infectious-disease/congenital-chagas-cascade-global",
+    "claim": "WHO technical recommendations define a prevention-and-case-management pathway involving pregnant women, newborns, siblings, diagnosis, treatment, and follow-up for congenital Chagas disease.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Congenital Chagas Disease: recommendations for diagnosis, treatment and control of newborns, siblings and pregnant women",
+      "url": "https://doi.org/10.1371/journal.pntd.0001250",
+      "doi": "10.1371/journal.pntd.0001250"
+    },
+    "source_date": "2011-10-06",
+    "access_date": "2026-07-29",
+    "method": "Reviewed the open-access article and its WHO technical-group framing to extract the care-pathway components that a data dictionary must keep separate.",
+    "limitations": [
+      "The recommendations are old relative to current diagnostics, medicines, and program conditions.",
+      "A pathway recommendation cannot prove that any country has implemented or achieved the pathway."
+    ],
+    "confidence": "medium"
+  }
+]
