@@ -2,19 +2,19 @@
   "summary": {
     "generated_by": "scripts/generate-task-index.mjs",
     "schema_version": 1,
-    "total_packs": 112,
-    "total_scoped_tasks": 104,
+    "total_packs": 113,
+    "total_scoped_tasks": 105,
     "by_role": {
-      "literature-scout": 104
+      "literature-scout": 105
     },
     "by_risk": {
-      "medium": 98,
+      "medium": 99,
       "high": 1,
       "low": 5
     },
     "by_domain": {
       "air-quality": 6,
-      "public-health": 67,
+      "public-health": 68,
       "climate-health": 13,
       "biodiversity": 7,
       "food-security": 18,
@@ -26,6 +26,7 @@
       "energy-access": 6,
       "food-safety": 1,
       "health-systems": 2,
+      "infectious-disease": 1,
       "water-security": 6
     }
   },
@@ -879,6 +880,23 @@
       "done_condition": "At least six candidate sources are classified as usable, limited, or rejected, with explicit reasons distinguishing national supply from facility-level availability, interruption, compatibility, referral delay, and obstetric outcome measurement.",
       "tasks_file": "problem-packs/health-systems/obstetric-blood-availability-lmics/tasks.json",
       "problem_file": "problem-packs/health-systems/obstetric-blood-availability-lmics/problem.md"
+    },
+    {
+      "pack_id": "infectious-disease/congenital-chagas-cascade-global",
+      "pack_title": "Congenital Chagas Detection And Treatment Cascade In Endemic And Migrant-Serving Systems",
+      "pack_status": "scoped",
+      "domain": ["infectious-disease", "public-health"],
+      "region": ["global", "latin-america"],
+      "task_id": "source-inventory",
+      "title": "Inventory maternal-newborn Chagas cascade data sources",
+      "owner_role": "literature-scout",
+      "reviewer_needed": "domain-reviewer",
+      "safety_risk": "medium",
+      "outcome": "A dated source inventory and measure dictionary separating maternal screening, diagnosis, newborn testing, infant treatment, and follow-up.",
+      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source family.",
+      "done_condition": "At least six candidate source families are classified as usable, limited, or rejected, with explicit reasons covering numerator, denominator, test timing, linkage, migration, and follow-up.",
+      "tasks_file": "problem-packs/infectious-disease/congenital-chagas-cascade-global/tasks.json",
+      "problem_file": "problem-packs/infectious-disease/congenital-chagas-cascade-global/problem.md"
     },
     {
       "pack_id": "public-health/alcohol-harm-reduction-global",

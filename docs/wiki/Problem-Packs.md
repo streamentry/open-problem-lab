@@ -520,6 +520,16 @@ Measure whether health facilities can deliver quality-assured oxygen continuousl
 
 Build a verified facility-level evidence workflow for measuring whether women with life-threatening obstetric haemorrhage can obtain safe, compatible blood in time, separating national donation volume from real service availability, stock interruption, referral delay, and transfusion readiness.
 
+## Congenital Chagas Detection And Treatment Cascade In Endemic And Migrant-Serving Systems
+
+- ID: `infectious-disease/congenital-chagas-cascade-global`
+- Status: `scoped`
+- Domain: `infectious-disease`, `public-health`
+- Region: `global`, `latin-america`
+- Source: [problem-packs/infectious-disease/congenital-chagas-cascade-global](../../problem-packs/infectious-disease/congenital-chagas-cascade-global/problem.md)
+
+Build a verified, country-comparable way to measure the gap from maternal Trypanosoma cruzi screening through newborn confirmation, treatment, and follow-up without mistaking infection estimates for completed prevention coverage.
+
 ## Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change
 
 - ID: `occupational-health/heat-stress-outdoor-workers-global`
