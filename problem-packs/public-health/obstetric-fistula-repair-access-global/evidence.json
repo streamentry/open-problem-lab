@@ -76,5 +76,63 @@
       "This source does not quantify repair backlog or surgical capacity by geography."
     ],
     "confidence": "high"
+  },
+  {
+    "id": "dhs-fistula-proxy-methods-2008",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "claim": "The DHS Analytical Studies No. 17 report documents that earlier surveys used inconsistent fistula symptom questions and presents a standardized module intended to improve population-based measurement, while treating self-reported severe incontinence as a proxy rather than confirmed obstetric fistula.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Incontinence Data from the Demographic and Health Surveys: Comparative Analysis of a Proxy Measurement of Vaginal Fistula and Recommendations for Future Population-Based Data Collection",
+      "url": "https://www.dhsprogram.com/publications/publication-AS17-Analytical-Studies.cfm"
+    },
+    "source_date": "2008-11-01",
+    "access_date": "2026-07-31",
+    "method": "Reviewed the DHS publication record and abstract, then checked the report's stated critique of sampling, questionnaire construction, and self-reported symptom measurement against the pack's measurement-family requirements.",
+    "limitations": [
+      "The report is methodological and historical; it is not a current country prevalence dataset or a repair-capacity registry.",
+      "Self-reported leakage can have low positive predictive value for confirmed fistula and can include non-obstetric causes.",
+      "The report cannot separate untreated backlog from continuing incident prevention failure without linked time, diagnosis, referral, and repair records."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bangladesh-national-fistula-report-2026",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "claim": "Bangladesh's 2026 national annual report aggregates 2019-2024 case-management records from government health systems, fistula centres, NGOs, and development partners, reporting identified cases, surgeries, successful repairs, facility coverage, and rehabilitation activity; these are program-output measures rather than a national untreated-backlog estimate.",
+    "evidence_type": "field-report",
+    "source": {
+      "title": "National Annual report on Obstetric Fistula in Bangladesh",
+      "url": "https://bangladesh.unfpa.org/en/publications/national-annual-report-obstetric-fistula-bangladesh"
+    },
+    "source_date": "2026-01-27",
+    "access_date": "2026-07-31",
+    "method": "Reviewed the official publication page for reporting period, contributing systems, case-management numerators, facility coverage, outcome definitions as presented, and the report's stated validation process.",
+    "limitations": [
+      "The report is a program compilation, not a population-based prevalence survey; cases outside participating systems may be missed.",
+      "Identified cases, admissions, surgeries, and successful repairs have different numerators and must not be treated as interchangeable.",
+      "The public page does not expose patient-level denominators, case-finding sensitivity, recurrence, loss to follow-up, or a complete national facility frame.",
+      "The report includes iatrogenic and other fistula categories, so obstetric-fistula totals require type-specific extraction before use."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-emoc-monitoring-handbook-2009",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "claim": "WHO's emergency obstetric care handbook defines facility signal functions and indicators spanning availability, access, use, and quality, providing a prevention-capacity measurement framework relevant to obstructed-labour risk but not a direct incidence or fistula-backlog measure.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Monitoring emergency obstetric care: a handbook",
+      "url": "https://www.who.int/publications/i/item/9789241547734"
+    },
+    "source_date": "2009-07-13",
+    "access_date": "2026-07-31",
+    "method": "Reviewed the WHO publication overview and handbook scope for the distinction between theoretical facility capacity and functioning signal functions, then mapped those indicators to the pack's prevention-capacity measurement family.",
+    "limitations": [
+      "The handbook provides indicator definitions and study guidance, not current country or district observations.",
+      "EmOC readiness or use is an upstream prevention proxy and does not identify which women developed fistula or who remains untreated.",
+      "A facility assessment can miss referral delay, transport failure, informal care, and variation between assessment and service date."
+    ],
+    "confidence": "high"
   }
 ]
