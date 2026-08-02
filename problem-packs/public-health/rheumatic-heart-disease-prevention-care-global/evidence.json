@@ -1,0 +1,120 @@
+[
+  {
+    "id": "who-rhd-fact-sheet-2025",
+    "problem_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+    "claim": "WHO estimates that rheumatic heart disease affects 55 million people worldwide and claims approximately 360 000 lives each year, with the large majority of the burden in low- and middle-income countries; WHO identifies prevention, screening, appropriate care, reliable antibiotics, and monitoring as response components.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Rheumatic heart disease",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease"
+    },
+    "source_date": "2025-01-24",
+    "access_date": "2026-08-02",
+    "method": "Reviewed the WHO fact sheet key facts, prevention, challenges, and response sections. Preserved WHO's estimate language and separated global burden framing from the source's normative description of prevention and care components.",
+    "limitations": [
+      "The burden figures are global estimates and do not provide a country-comparable prevention-to-valve-care denominator.",
+      "The fact sheet does not measure the proportion receiving prophylaxis, diagnosis, referral, surgery, or documented follow-up in any named health system.",
+      "The response section describes recommended or planned components and cannot prove implementation or clinical effectiveness in a particular setting."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-rhd-guideline-2024",
+    "problem_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+    "claim": "WHO's 2024 guideline addresses primary prevention of rheumatic fever, secondary prevention through long-term antibiotic prophylaxis and adherence support, screening for early rheumatic heart disease, and management of rheumatic fever.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO guideline on the prevention and diagnosis of rheumatic fever and rheumatic heart disease",
+      "url": "https://www.who.int/publications/b/59223",
+      "doi": "10.2471/B09132"
+    },
+    "source_date": "2024-01-01",
+    "access_date": "2026-08-02",
+    "method": "Reviewed the WHO publication overview and the linked guideline scope, retaining the publication year because the official publication page exposes the year but not a day-level publication date. Extracted the three prevention and diagnosis areas and did not turn recommendations into observed coverage.",
+    "limitations": [
+      "The publication is a guideline, not a registry or implementation audit.",
+      "Recommendations do not establish that a country has the workforce, medicines, diagnostics, referral, or valve-care capacity to deliver them.",
+      "The guideline does not provide a universal cascade denominator or a validated cross-country coverage measure."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "wha71-14-rheumatic-heart-disease-2018",
+    "problem_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+    "claim": "World Health Assembly resolution WHA71.14 urges Member States to estimate rheumatic heart disease burden, improve surveillance and data collection, strengthen primary care, ensure reliable access to diagnostic and treatment tools, and monitor prevention and control efforts.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Rheumatic fever and rheumatic heart disease",
+      "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA71/A71_R14-en.pdf"
+    },
+    "source_date": "2018-05-26",
+    "access_date": "2026-08-02",
+    "method": "Reviewed the resolution preamble and operative paragraphs 1 and 3. Recorded its requests for burden measurement, surveillance, follow-up, reliable tools, and agreed measures as a policy signal for the pack's evidence wedge, not as evidence that implementation occurred.",
+    "limitations": [
+      "A World Health Assembly resolution is normative and does not report achieved service coverage.",
+      "The burden figures in the resolution are older than the current WHO fact sheet and are not interchangeable with the 2025 estimate.",
+      "The resolution does not specify a validated operational definition for each prevention, diagnosis, referral, or valve-care stage."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "macleod-rhd-underfunding-2019",
+    "problem_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+    "claim": "A 2019 comparison using G-FINDER research funding and Global Burden of Disease estimates reported approximately US$1.2 million in rheumatic-heart-disease research funding in 2017 and the highest disability-neglect index among the 16 tropical diseases assessed.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Neglecting the neglected: the objective evidence of underfunding in rheumatic heart disease",
+      "url": "https://doi.org/10.1093/trstmh/trz014",
+      "doi": "10.1093/trstmh/trz014"
+    },
+    "source_date": "2019-03-30",
+    "access_date": "2026-08-02",
+    "method": "Reviewed the article's abstract, methods, funding table, disability-neglect index definition, and discussion. Used the study only to support historical comparative R&D neglect and preserved its warnings about incomplete funding capture and uncertain burden estimates.",
+    "limitations": [
+      "The funding observation is from 2017 and is not a current estimate of RHD research, implementation, or service-delivery spending.",
+      "G-FINDER scope and reporting may omit grants, cross-disease platform work, and non-product implementation activity.",
+      "The index depends on modeled burden estimates and should not be treated as a causal measure of neglectedness or as a cost-effectiveness ratio."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "remedy-rhd-registry-2016",
+    "problem_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+    "claim": "The REMEDY registry enrolled 3343 people with clinical rheumatic heart disease at 25 centres in 14 low- and middle-income countries; 500 deaths occurred among 2960 participants with known 24-month vital status, a 16.9% two-year case-fatality rate in that referred cohort.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Clinical Outcomes in 3343 Children and Adults With Rheumatic Heart Disease From 14 Low- and Middle-Income Countries: Two-Year Follow-Up of the Global Rheumatic Heart Disease Registry (the REMEDY Study)",
+      "url": "https://doi.org/10.1161/CIRCULATIONAHA.116.024769",
+      "doi": "10.1161/CIRCULATIONAHA.116.024769"
+    },
+    "source_date": "2016-10-04",
+    "access_date": "2026-08-02",
+    "method": "Reviewed the study abstract and methods summary for enrolment, geography, follow-up, vital-status completeness, and outcome counts. Kept the denominator of participants with known vital status and labelled the result as a clinical registry cohort rather than a population estimate.",
+    "limitations": [
+      "The registry recruited patients with clinical RHD at participating centres and cannot estimate national prevalence or the size of the undiagnosed population.",
+      "The data were collected before the 2024 WHO guideline and do not describe current programme implementation.",
+      "A high outcome rate in a referred cohort cannot identify which upstream cascade stage caused the loss or support a treatment recommendation."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "minja-uganda-rhd-decentralisation-2025",
+    "problem_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+    "claim": "A 2025 mixed-methods study in Northern Uganda decentralised secondary benzathine-penicillin prophylaxis from district hospitals to eight primary-health centres for 151 enrolled patients and found non-inferior adherence in the study setting, while identifying provider, pain, supply, transport, and acceptability constraints.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Integrating secondary prevention of rheumatic heart disease into the primary healthcare system in Northern Uganda",
+      "url": "https://doi.org/10.1136/bmjgh-2024-018835",
+      "doi": "10.1136/bmjgh-2024-018835"
+    },
+    "source_date": "2025-08-22",
+    "access_date": "2026-08-02",
+    "method": "Reviewed the abstract, study design, setting, participant selection, adherence outcome, confidence interval, qualitative components, and implementation limitations. Treated the result as evidence that a specific implementation pathway is testable, not as proof that decentralisation generalises or reduces mortality.",
+    "limitations": [
+      "The study covers two districts and selected enrolled patients rather than all people at risk or all people needing prophylaxis.",
+      "Its pre-post non-inferiority design cannot isolate which implementation component caused the observed result or establish long-term clinical outcomes.",
+      "The study does not establish that the same model is affordable, acceptable, safe, or effective in other countries or health-system levels."
+    ],
+    "confidence": "high"
+  }
+]

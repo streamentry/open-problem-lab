@@ -1,0 +1,44 @@
+{
+  "id": "public-health/rheumatic-heart-disease-prevention-care-global",
+  "title": "Rheumatic Heart Disease Prevention And Valve-Care Gaps In High-Burden Countries",
+  "status": "scoped",
+  "domain": ["public-health", "health-systems"],
+  "region": ["global"],
+  "summary": "Build a verified way to measure where people are lost between streptococcal-infection prevention, recurrent-rheumatic-fever prophylaxis, rheumatic-heart-disease diagnosis, referral, and definitive valve care in high-burden settings.",
+  "why_it_matters": "Ministries of health, national noncommunicable-disease and child-health programme managers, and global-health funders must decide whether scarce resources should first repair benzathine-penicillin supply, primary-care prevention, echocardiographic diagnosis, referral, or valve-care capacity. A replicated cascade map would change that allocation decision while preventing modeled prevalence, medicine procurement, or a single hospital registry from being mistaken for delivered care.",
+  "success_metrics": [
+    {
+      "metric": "Cascade measurement integrity",
+      "target": "Every country or district output separates prevention, prophylaxis, diagnosis, referral, surgery or valve care, and follow-up denominators.",
+      "validation_method": "A domain reviewer checks each stage for numerator, denominator, event date, setting, missingness, and whether the measure is observed care rather than policy or supply capacity."
+    },
+    {
+      "metric": "Evidence traceability",
+      "target": "Every burden, pathway, or implementation claim links to a dated evidence record with method and limitations.",
+      "validation_method": "Run pnpm validate and spot-check every claim-to-source mapping in evidence.json and evidence.md."
+    },
+    {
+      "metric": "Allocation usefulness without clinical overreach",
+      "target": "At least one independently replicated cascade artifact identifies a measurable bottleneck for programme review without issuing patient-level advice.",
+      "validation_method": "A replicator reruns the documented analysis and a red-team reviewer confirms that the artifact cannot be read as diagnosis, treatment, or an automatic country ranking."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 3,
+    "replication_required": true,
+    "merge_gate": "Schema validation, public-health and health-systems domain review, red-team review of clinical and allocation misuse, field-reality review of care pathways, and independent replication for quantitative outputs."
+  }
+}

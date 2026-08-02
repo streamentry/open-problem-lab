@@ -2,19 +2,19 @@
   "summary": {
     "generated_by": "scripts/generate-task-index.mjs",
     "schema_version": 1,
-    "total_packs": 113,
-    "total_scoped_tasks": 105,
+    "total_packs": 114,
+    "total_scoped_tasks": 106,
     "by_role": {
-      "literature-scout": 105
+      "literature-scout": 106
     },
     "by_risk": {
-      "medium": 99,
+      "medium": 100,
       "high": 1,
       "low": 5
     },
     "by_domain": {
       "air-quality": 6,
-      "public-health": 68,
+      "public-health": 69,
       "climate-health": 13,
       "biodiversity": 7,
       "food-security": 18,
@@ -25,7 +25,7 @@
       "education": 9,
       "energy-access": 6,
       "food-safety": 1,
-      "health-systems": 2,
+      "health-systems": 3,
       "infectious-disease": 1,
       "water-security": 6
     }
@@ -1458,6 +1458,23 @@
       "done_condition": "At least four sources classified as usable, limited, or rejected with explicit reasons.",
       "tasks_file": "problem-packs/public-health/refugee-health-access-global/tasks.json",
       "problem_file": "problem-packs/public-health/refugee-health-access-global/problem.md"
+    },
+    {
+      "pack_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+      "pack_title": "Rheumatic Heart Disease Prevention And Valve-Care Gaps In High-Burden Countries",
+      "pack_status": "scoped",
+      "domain": ["public-health", "health-systems"],
+      "region": ["global"],
+      "task_id": "source-inventory",
+      "title": "Inventory rheumatic-heart-disease prevention and valve-care data sources",
+      "owner_role": "literature-scout",
+      "reviewer_needed": "domain-reviewer",
+      "safety_risk": "medium",
+      "outcome": "A dated source inventory separating burden estimates, registries, primary-care records, medicine events, screening, referral, surgery, and follow-up data.",
+      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source family.",
+      "done_condition": "At least six candidate source families are classified as usable, limited, or rejected with explicit reasons covering event type, denominator, case definition, setting, missingness, and whether the source observes care or only capacity.",
+      "tasks_file": "problem-packs/public-health/rheumatic-heart-disease-prevention-care-global/tasks.json",
+      "problem_file": "problem-packs/public-health/rheumatic-heart-disease-prevention-care-global/problem.md"
     },
     {
       "pack_id": "public-health/road-traffic-injury-urban-global",

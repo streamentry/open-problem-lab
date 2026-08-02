@@ -6,13 +6,13 @@
 
 | Metric | Value |
 |---|---|
-| Total packs | 113 |
+| Total packs | 114 |
 | Packs with claims | 13 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 361 |
-| Total tasks | 582 |
-| Scoped tasks (ready for work) | 105 |
-| High-risk tasks | 305 |
+| Total evidence records | 367 |
+| Total tasks | 587 |
+| Scoped tasks (ready for work) | 106 |
+| High-risk tasks | 308 |
 
 ## All Problem Packs
 
@@ -110,6 +110,7 @@
 | [public-health/prison-health-tb-hiv-global](../../problem-packs/public-health/prison-health-tb-hiv-global/problem.md) | Prison Health Tuberculosis And HIV Service Gaps In Low- And Middle-Income Countries | scoped | public-health | global | high | 1 ev; 5 tasks | needs evidence |
 | [public-health/rabies-pep-access-global](../../problem-packs/public-health/rabies-pep-access-global/problem.md) | Rabies Post-Exposure Prophylaxis Access And Bite-Risk Triage In Endemic Countries | scoped | public-health | global | medium | 10 ev; 5 tasks | needs triage |
 | [public-health/refugee-health-access-global](../../problem-packs/public-health/refugee-health-access-global/problem.md) | Refugee Health Service Access Gaps In Host Countries | scoped | public-health | global | high | 1 ev; 5 tasks | needs evidence |
+| [public-health/rheumatic-heart-disease-prevention-care-global](../../problem-packs/public-health/rheumatic-heart-disease-prevention-care-global/problem.md) | Rheumatic Heart Disease Prevention And Valve-Care Gaps In High-Burden Countries | scoped | public-health, health-systems | global | high | 6 ev; 5 tasks | ready |
 | [public-health/road-traffic-injury-urban-global](../../problem-packs/public-health/road-traffic-injury-urban-global/problem.md) | Road Traffic Injury Mortality Risk And Emergency Trauma Care Access In Low- And Middle-Income Countries | scoped | public-health | global | medium | 2 ev; 5 tasks | needs evidence |
 | [public-health/sickle-cell-disease-sub-saharan-africa](../../problem-packs/public-health/sickle-cell-disease-sub-saharan-africa/problem.md) | Sickle Cell Disease Newborn Screening And Treatment Access Gaps In Sub-Saharan Africa | scoped | public-health | sub-saharan-africa | medium | 2 ev; 5 tasks | needs evidence |
 | [public-health/snakebite-antivenom-access-global](../../problem-packs/public-health/snakebite-antivenom-access-global/problem.md) | Snakebite Envenoming Mortality And Antivenom Access Gaps In Rural Low-Income Countries | scoped | public-health | global | high | 6 ev; 5 tasks; 1 claims | has claims |

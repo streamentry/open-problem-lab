@@ -920,6 +920,16 @@ Build a verified workflow for distinguishing human rabies vaccine procurement fr
 
 Build a verified workflow for measuring refugee health service access gaps relative to host populations, linking UNHCR health data, national health-system data, and refugee-population data.
 
+## Rheumatic Heart Disease Prevention And Valve-Care Gaps In High-Burden Countries
+
+- ID: `public-health/rheumatic-heart-disease-prevention-care-global`
+- Status: `scoped`
+- Domain: `public-health`, `health-systems`
+- Region: `global`
+- Source: [problem-packs/public-health/rheumatic-heart-disease-prevention-care-global](../../problem-packs/public-health/rheumatic-heart-disease-prevention-care-global/problem.md)
+
+Build a verified way to measure where people are lost between streptococcal-infection prevention, recurrent-rheumatic-fever prophylaxis, rheumatic-heart-disease diagnosis, referral, and definitive valve care in high-burden settings.
+
 ## Road Traffic Injury Mortality Risk And Emergency Trauma Care Access In Low- And Middle-Income Countries
 
 - ID: `public-health/road-traffic-injury-urban-global`
