@@ -1,0 +1,97 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+    "title": "Inventory rheumatic-heart-disease prevention and valve-care data sources",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory separating burden estimates, registries, primary-care records, medicine events, screening, referral, surgery, and follow-up data.",
+    "inputs": [
+      "WHO RHD fact sheet and guideline",
+      "WHA71.14 resolution",
+      "national or regional RHD registries",
+      "primary-care, medicine-supply, referral, and valve-care records"
+    ],
+    "expected_artifact": "datasets.md update plus evidence.json records for each accepted source family.",
+    "validation_method": "Domain reviewer checks every source for event grain, numerator, denominator, time reference, access status, and explicit limitations; a second reviewer can reconstruct each classification from evidence.md.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "medium",
+    "done_condition": "At least six candidate source families are classified as usable, limited, or rejected with explicit reasons covering event type, denominator, case definition, setting, missingness, and whether the source observes care or only capacity."
+  },
+  {
+    "id": "cascade-measure-dictionary",
+    "problem_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+    "title": "Define stage-level measures for the rheumatic-heart-disease care cascade",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A reproducible measure dictionary separating prevention, prophylaxis, diagnosis, referral, valve care, and follow-up events and denominators.",
+    "inputs": [
+      "accepted source inventory",
+      "WHO 2024 guideline terminology",
+      "national case definitions and registry fields",
+      "de-identified or synthetic event examples"
+    ],
+    "expected_artifact": "validation.md update with stage definitions, denominator rules, event timing, and missingness categories.",
+    "validation_method": "Replicator maps each synthetic event to exactly one allowed stage or an explicit unknown category and confirms that policy, procurement, stock, dispensing, and administration are not silently collapsed.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "A reviewer can reconstruct every stage numerator and denominator from a de-identified sample and identify every excluded, duplicated, transferred, or missing event."
+  },
+  {
+    "id": "cascade-baseline",
+    "problem_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+    "title": "Build one country or network cascade baseline",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A documented baseline that shows where a named RHD prevention-to-valve-care pathway loses observable episodes without issuing a treatment recommendation.",
+    "inputs": [
+      "accepted measure dictionary",
+      "de-identified country or network records",
+      "source-specific missingness and linkage audit",
+      "programme decision calendar and responsible user"
+    ],
+    "expected_artifact": "outputs.md baseline specification plus a rerunnable analysis artifact and input hash.",
+    "validation_method": "Replicator reruns the baseline from the documented input hash and environment, verifies every stage calculation, and checks that conclusions remain within the observed setting.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "high",
+    "done_condition": "The baseline reports stage-specific denominators, missingness, selection boundaries, and uncertainty for at least one named setting, and a reviewer can identify the exact observation that would overturn the proposed bottleneck."
+  },
+  {
+    "id": "red-team-clinical-allocation-misuse",
+    "problem_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+    "title": "Red-team clinical and allocation misuse of cascade outputs",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review covering diagnostic overreach, unsafe medicine interpretation, inequitable ranking, privacy loss, and facility blame.",
+    "inputs": [
+      "draft cascade baseline",
+      "analytic-use note",
+      "data-protection constraints",
+      "public-health safety policy"
+    ],
+    "expected_artifact": "outputs.md safety gate and a structured red-team review record.",
+    "validation_method": "Red-team reviewer documents concrete misuse paths and a field-reality reviewer performs an independent replication of the failure-mode check, confirming whether each path has a mitigation or publication block.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every proposed programme-facing interpretation is blocked or has explicit safeguards against patient-level diagnosis, treatment overreach, denominator error, privacy loss, coercion, and exclusion of people missing from records."
+  },
+  {
+    "id": "field-reality-decision-check",
+    "problem_id": "public-health/rheumatic-heart-disease-prevention-care-global",
+    "title": "Check the cascade artifact against a real programme decision",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing review naming the responsible programme user, decision timing, data burden, referral path, appeal path, and non-use cases.",
+    "inputs": [
+      "replicated cascade baseline",
+      "local RHD prevention and referral workflow",
+      "programme budget or planning cycle",
+      "red-team failure-mode review"
+    ],
+    "expected_artifact": "playbooks.md field-reality section update and a review record.",
+    "validation_method": "Field-reality reviewer records one responsible use and one explicit non-use; a red-team reviewer independently replicates the governance check and confirms that the artifact does not bypass clinical, privacy, or equity safeguards.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "A named programme decision-maker can identify one responsible use, one non-use, the minimum evidence needed before acting, and how people omitted from the data are protected from adverse decisions."
+  }
+]
