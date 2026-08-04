@@ -193,19 +193,20 @@
   {
     "id": "vietnam-older-persons-pcfps-2021",
     "problem_id": "public-health/long-distance-elder-care-vietnam",
-    "claim": "The General Statistics Office analysis of the 2021 Population Change and Family Planning Survey includes a new older-person module covering care needs and situation, making it the strongest identified candidate for testing older-person care-related measures before attempting a care-gap denominator.",
+    "claim": "The General Statistics Office's analysis of the 2021 Population Change and Family Planning Survey is a nationally representative care-needs source for people aged 60 and over in Viet Nam: its older-person module reports activities-of-daily-living need, care receipt, unmet care needs, preferred care setting, and willingness to pay, but it cannot establish care quality or timely family or local response.",
     "evidence_type": "primary-source",
     "source": {
       "title": "Older Persons in Viet Nam: An analysis of the Population Change and Family Planning Survey 2021",
-      "url": "https://vietnam.unfpa.org/en/publications/older-persons-viet-nam-analysis-population-change-and-family-planning-survey-2021"
+      "url": "https://vietnam.unfpa.org/sites/default/files/pub-pdf/nguoi_cao_tuoi_eg_report_21.2.pdf"
     },
     "source_date": "2022-09-27",
-    "access_date": "2026-07-24",
-    "method": "Reviewed the official publication metadata and description for survey date, GSO authorship, national indicator purpose, and the first-time older-person care-needs module; classified it as a candidate source requiring questionnaire and tabulation inspection.",
+    "access_date": "2026-08-04",
+    "method": "Downloaded the official report and reviewed its study design and limitations (pages 9-14), care-needs definitions and results (pages 34-44), and sampling description. I verified the two-stage sample description, coverage across all 63 provinces and cities, the 148,413 older-person sample, the ADL threshold, care receipt and unmet-care definitions, preferred care setting, and willingness-to-pay measures; I classified the source as usable for care-needs and care-receipt context but not as a complete care-response denominator.",
     "limitations": [
-      "The publication description does not by itself reveal whether family travel time, consent preference, responder availability, or event-level resolution are measured.",
-      "A care-needs module can support prevalence or stratification but cannot prove that a local response network is reachable or effective.",
-      "Microdata access, sampling weights, missingness, and geographic release must be verified before using the source in a denominator."
+      "The report merges some living-arrangement categories, including living alone with living with grandchildren under 15, so it cannot support precise living-arrangement stratification for the care-gap denominator.",
+      "Health and activities-of-daily-living measures are self-assessed, so misunderstanding or reporting error may affect need estimates.",
+      "The published analysis does not provide care-quality or satisfaction measures, family travel time, consent preference for monitoring, local responder availability, acknowledgement or reach timestamps, or resolution evidence.",
+      "The survey reference date is 1 April 2021; current allocation requires a temporal refresh and verification of microdata access, weights, missingness, and released geographic grain."
     ],
     "confidence": "high"
   }

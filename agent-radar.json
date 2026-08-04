@@ -4,12 +4,12 @@
     "schema_version": 1,
     "total_packs": 114,
     "total_tasks": 587,
-    "scoped_tasks": 106,
-    "latent_tasks": 481,
+    "scoped_tasks": 105,
+    "latent_tasks": 482,
     "status_counts": {
-      "scoped": 106,
+      "scoped": 105,
       "needs-triage": 473,
-      "needs-review": 8
+      "needs-review": 9
     },
     "owner_role_counts": {
       "literature-scout": 114,
@@ -19,7 +19,7 @@
       "field-reality-reviewer": 114
     },
     "scoped_role_counts": {
-      "literature-scout": 106
+      "literature-scout": 105
     },
     "reviewer_needed_counts": {
       "domain-reviewer": 238,
@@ -37,22 +37,6 @@
   "protocol_alerts": [],
   "contributor_lanes": {
     "first_moves": [
-      {
-        "pack_id": "public-health/long-distance-elder-care-vietnam",
-        "pack_title": "Long-Distance Elder Care And Verified Local Response In Viet Nam",
-        "task_id": "source-inventory",
-        "title": "Inventory Vietnamese data sources for long-distance elder-care response gaps",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "low",
-        "done_condition": "At least six candidate source families are classified with explicit reasons, and no source is called usable unless it can measure at least one defined component of the care-response gap.",
-        "evidence_count": 11,
-        "downstream_tasks_unlocked": 5,
-        "downstream_high_risk_tasks": 4,
-        "problem_file": "problem-packs/public-health/long-distance-elder-care-vietnam/problem.md",
-        "tasks_file": "problem-packs/public-health/long-distance-elder-care-vietnam/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
-      },
       {
         "pack_id": "public-health/stillbirth-measurement-quality-global",
         "pack_title": "Stillbirth Measurement Gaps And Intrapartum Care Quality In High-Burden Countries",
@@ -228,6 +212,22 @@
         "problem_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md",
         "tasks_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/tasks.json",
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
+      },
+      {
+        "pack_id": "public-health/substandard-falsified-medicines-global",
+        "pack_title": "Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries",
+        "task_id": "source-inventory",
+        "title": "Inventory quality-surveillance, field-survey, market-distribution, and regulatory data sources for SF medicines analysis",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "medium",
+        "done_condition": "At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering sampling frame, test method, geographic grain, supply-chain tier, and substandard-versus-falsified disaggregation status.",
+        "evidence_count": 4,
+        "downstream_tasks_unlocked": 5,
+        "downstream_high_risk_tasks": 3,
+        "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md",
+        "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       }
     ],
     "unlock_paths": [
@@ -272,27 +272,6 @@
         "evidence_count": 7,
         "problem_file": "problem-packs/disaster-resilience/cyclone-early-warning-bangladesh/problem.md",
         "tasks_file": "problem-packs/disaster-resilience/cyclone-early-warning-bangladesh/tasks.json"
-      },
-      {
-        "pack_id": "public-health/long-distance-elder-care-vietnam",
-        "pack_title": "Long-Distance Elder Care And Verified Local Response In Viet Nam",
-        "scoped_tasks": 1,
-        "downstream_tasks": 5,
-        "downstream_high_risk_tasks": 4,
-        "downstream_by_role": {
-          "data-cleaner": 1,
-          "implementation-planner": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "field-reality-reviewer": 2,
-          "red-team-reviewer": 2
-        },
-        "evidence_count": 11,
-        "problem_file": "problem-packs/public-health/long-distance-elder-care-vietnam/problem.md",
-        "tasks_file": "problem-packs/public-health/long-distance-elder-care-vietnam/tasks.json"
       },
       {
         "pack_id": "biodiversity/deforestation-amazon",
@@ -491,6 +470,28 @@
         "evidence_count": 4,
         "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md",
         "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json"
+      },
+      {
+        "pack_id": "biodiversity/coral-bleaching-great-barrier-reef",
+        "pack_title": "Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef",
+        "scoped_tasks": 1,
+        "downstream_tasks": 5,
+        "downstream_high_risk_tasks": 3,
+        "downstream_by_role": {
+          "data-cleaner": 1,
+          "implementation-planner": 2,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_reviewers_needed": {
+          "replicator": 1,
+          "domain-reviewer": 2,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "evidence_count": 3,
+        "problem_file": "problem-packs/biodiversity/coral-bleaching-great-barrier-reef/problem.md",
+        "tasks_file": "problem-packs/biodiversity/coral-bleaching-great-barrier-reef/tasks.json"
       }
     ],
     "reviewer_hotspots": [
@@ -532,6 +533,19 @@
         "downstream_high_risk_tasks": 4,
         "downstream_tasks": 6,
         "problem_file": "problem-packs/occupational-health/heat-stress-outdoor-workers-global/problem.md"
+      },
+      {
+        "pack_id": "public-health/long-distance-elder-care-vietnam",
+        "pack_title": "Long-Distance Elder Care And Verified Local Response In Viet Nam",
+        "downstream_reviewers_needed": {
+          "domain-reviewer": 1,
+          "replicator": 1,
+          "field-reality-reviewer": 2,
+          "red-team-reviewer": 2
+        },
+        "downstream_high_risk_tasks": 4,
+        "downstream_tasks": 6,
+        "problem_file": "problem-packs/public-health/long-distance-elder-care-vietnam/problem.md"
       },
       {
         "pack_id": "public-health/birth-registration-access-global",
@@ -635,19 +649,6 @@
         "downstream_high_risk_tasks": 4,
         "downstream_tasks": 5,
         "problem_file": "problem-packs/food-security/locust-outbreak-east-africa/problem.md"
-      },
-      {
-        "pack_id": "public-health/antimicrobial-resistance-surveillance-global",
-        "pack_title": "Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries",
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_high_risk_tasks": 4,
-        "downstream_tasks": 5,
-        "problem_file": "problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md"
       }
     ],
     "role_backlog": [
@@ -656,7 +657,7 @@
         "scoped_tasks": 0,
         "latent_tasks": 134,
         "share_of_all_tasks": 0.228,
-        "share_of_latent_tasks": 0.279
+        "share_of_latent_tasks": 0.278
       },
       {
         "owner_role": "field-reality-reviewer",
@@ -677,14 +678,14 @@
         "scoped_tasks": 0,
         "latent_tasks": 111,
         "share_of_all_tasks": 0.189,
-        "share_of_latent_tasks": 0.231
+        "share_of_latent_tasks": 0.23
       },
       {
         "owner_role": "literature-scout",
-        "scoped_tasks": 106,
-        "latent_tasks": 8,
+        "scoped_tasks": 105,
+        "latent_tasks": 9,
         "share_of_all_tasks": 0.194,
-        "share_of_latent_tasks": 0.017
+        "share_of_latent_tasks": 0.019
       }
     ]
   }

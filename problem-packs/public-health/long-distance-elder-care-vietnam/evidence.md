@@ -36,7 +36,7 @@ Use for the population frame, household context, migration, and disability proxi
 
 ### Population Change and Family Planning Survey 2021 older-person module
 
-This is the highest-priority candidate for older-person care-needs measurement because the official description says a care-needs module was added in 2021. Do not infer its variables from the publication description; inspect the instrument and tabulations first.
+The direct report is usable for older-person care-needs and care-receipt context: it documents a nationally representative 2021 sample across all 63 provinces and cities and reports ADL need, care receipt, unmet care need, preferred care setting, and willingness to pay. The report also records the decisive limits for this pack: some living-arrangement categories are merged, ADLs are self-assessed, care quality is not measured, and no family travel time or local response-closure evidence is provided. Do not use it alone to construct a timely-response denominator.
 
 ### Vietnam Time-Use Survey 2022
 
@@ -64,7 +64,7 @@ That absence blocks market-size, safety, and impact claims.
 
 ## Suggested Next Issue
 
-Complete the scoped source-inventory task by finding and classifying Vietnamese census, household-survey, disability, migration, primary-care, social-protection, and intergenerational-club data documentation. Do not open the issue automatically.
+Review the completed source inventory, then scope the care-gap denominator task around the 2021 older-person module while leaving family travel time, consent preference, and local responder availability explicitly unknown when unobserved. Do not open the issue automatically.
 
 ## Evidence Quality Rule
 

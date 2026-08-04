@@ -3,7 +3,7 @@
     "id": "source-inventory",
     "problem_id": "public-health/long-distance-elder-care-vietnam",
     "title": "Inventory Vietnamese data sources for long-distance elder-care response gaps",
-    "status": "scoped",
+    "status": "needs-review",
     "owner_role": "literature-scout",
     "outcome": "A dated source inventory separating usable, limited, blocked, and rejected sources for living arrangement, family distance, functional need, care receipt, and local responder availability.",
     "inputs": [
