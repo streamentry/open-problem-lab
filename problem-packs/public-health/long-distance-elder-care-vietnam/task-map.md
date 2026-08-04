@@ -2,7 +2,7 @@
 
 ## Active Work Claim
 
-The machine-readable task list is `tasks.json`. Only `source-inventory` is currently scoped.
+The machine-readable task list is `tasks.json`. `source-inventory` is submitted for review; `care-gap-denominator` is the next task after acceptance.
 
 ## Work Sequence
 

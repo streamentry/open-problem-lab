@@ -15,8 +15,8 @@ Without routing, a new agent sees a flat task list and misses the actual shape o
 
 - **114 problem packs**
 - **587 total tasks**
-- **106 scoped now**
-- **481 follow-on tasks still latent**
+- **105 scoped now**
+- **482 follow-on tasks still latent**
 - **Owner roles:** `data-cleaner`: 111, `field-reality-reviewer`: 114, `implementation-planner`: 134, `literature-scout`: 114, `red-team-reviewer`: 114
 - **Reviewer demand:** `domain-reviewer`: 238, `field-reality-reviewer`: 116, `red-team-reviewer`: 115, `replicator`: 118
 - **Safety mix:** `high`: 308, `low`: 17, `medium`: 262
@@ -25,19 +25,7 @@ Without routing, a new agent sees a flat task list and misses the actual shape o
 
 These are the best entry tasks for a fresh contributor. Ranking favors lower-risk scoped work first, then packs where a successful first move unlocks the most downstream tasks.
 
-### 1. Long-Distance Elder Care And Verified Local Response In Viet Nam
-
-- Pack: [`public-health/long-distance-elder-care-vietnam`](../../problem-packs/public-health/long-distance-elder-care-vietnam/problem.md)
-- Task: `source-inventory` — Inventory Vietnamese data sources for long-distance elder-care response gaps
-- Risk: `low`
-- Reviewer needed: `domain-reviewer`
-- Existing evidence records: 11
-- Downstream tasks unlocked: 5
-- Downstream high-risk tasks: 4
-- Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
-- Done condition: At least six candidate source families are classified with explicit reasons, and no source is called usable unless it can measure at least one defined component of the care-response gap.
-
-### 2. Stillbirth Measurement Gaps And Intrapartum Care Quality In High-Burden Countries
+### 1. Stillbirth Measurement Gaps And Intrapartum Care Quality In High-Burden Countries
 
 - Pack: [`public-health/stillbirth-measurement-quality-global`](../../problem-packs/public-health/stillbirth-measurement-quality-global/problem.md)
 - Task: `source-inventory` — Inventory stillbirth data sources across survey, CRVS, and facility systems
@@ -49,7 +37,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering definition threshold, measure family, time reference, geographic grain, and relevance to intrapartum versus counting-system interpretation.
 
-### 3. Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries
+### 2. Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries
 
 - Pack: [`public-health/obstetric-fistula-repair-access-global`](../../problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md)
 - Task: `source-inventory` — Inventory obstetric fistula prevalence, repair, and prevention data sources
@@ -61,7 +49,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measurement family, numerator, denominator, time reference, geographic grain, case-finding method, and backlog-versus-incidence relevance.
 
-### 4. Digital Divide Measurement And School Internet Connectivity In Low-Income Countries
+### 3. Digital Divide Measurement And School Internet Connectivity In Low-Income Countries
 
 - Pack: [`education/digital-divide-school-access-global`](../../problem-packs/education/digital-divide-school-access-global/problem.md)
 - Task: `source-inventory` — Inventory school connectivity, mobile-network, and digital-learning data sources for low-income countries
@@ -73,7 +61,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering connectivity-classification methodology, data currency, and cross-validation status.
 
-### 5. Youth Skills Training And Employment Outcome Gaps In Low-Income Countries
+### 4. Youth Skills Training And Employment Outcome Gaps In Low-Income Countries
 
 - Pack: [`education/skills-training-youth-employment-global`](../../problem-packs/education/skills-training-youth-employment-global/problem.md)
 - Task: `source-inventory` — Inventory training-provider, employment-outcome, labor-market, and skills-mismatch data sources for LMICs
@@ -85,7 +73,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering provider-data fragmentation, outcome-tracking rates, and informal-sector measurement gaps.
 
-### 6. Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin
+### 5. Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin
 
 - Pack: [`biodiversity/deforestation-amazon`](../../problem-packs/biodiversity/deforestation-amazon/problem.md)
 - Task: `source-inventory` — Inventory deforestation and biodiversity data sources for Amazon basin
@@ -97,7 +85,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 7. Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States
+### 6. Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States
 
 - Pack: [`climate-adaptation/sea-level-rise-small-islands`](../../problem-packs/climate-adaptation/sea-level-rise-small-islands/problem.md)
 - Task: `source-inventory` — Inventory SLR projection and coastal exposure data sources for SIDS
@@ -109,7 +97,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 8. Cyclone Early Warning And Evacuation Signal Verification In Bangladesh
+### 7. Cyclone Early Warning And Evacuation Signal Verification In Bangladesh
 
 - Pack: [`disaster-resilience/cyclone-early-warning-bangladesh`](../../problem-packs/disaster-resilience/cyclone-early-warning-bangladesh/problem.md)
 - Task: `source-inventory` — Inventory cyclone data sources for Bay of Bengal
@@ -121,7 +109,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 3 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 9. PM2.5 Monitoring Gaps And Health Impact In South Asia
+### 8. PM2.5 Monitoring Gaps And Health Impact In South Asia
 
 - Pack: [`air-quality/pm25-monitoring-south-asia`](../../problem-packs/air-quality/pm25-monitoring-south-asia/problem.md)
 - Task: `source-inventory` — Inventory PM2.5 monitoring and air quality data sources for South Asia
@@ -133,7 +121,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 10. Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
+### 9. Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
 
 - Pack: [`public-health/antimicrobial-resistance-surveillance-global`](../../problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md)
 - Task: `source-inventory` — Inventory AMR surveillance data
@@ -145,7 +133,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: Five sources classified as usable, limited, or rejected.
 
-### 11. Malaria Early Warning Signals In Sub-Saharan Africa
+### 10. Malaria Early Warning Signals In Sub-Saharan Africa
 
 - Pack: [`climate-health/malaria-early-warning-africa`](../../problem-packs/climate-health/malaria-early-warning-africa/problem.md)
 - Task: `source-inventory` — Inventory malaria and climate data sources for Sub-Saharan Africa
@@ -157,7 +145,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 12. Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
+### 11. Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
 
 - Pack: [`food-safety/aflatoxin-exposure-sub-saharan-africa`](../../problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md)
 - Task: `source-inventory` — Inventory mycotoxin test data, climate suitability models, and post-harvest practice surveys for SSA aflatoxin risk mapping
@@ -168,6 +156,18 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Downstream high-risk tasks: 4
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering contamination test method, geographic grain, crop specificity, sampling frame adequacy, and intervention-relevance.
+
+### 12. Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries
+
+- Pack: [`public-health/substandard-falsified-medicines-global`](../../problem-packs/public-health/substandard-falsified-medicines-global/problem.md)
+- Task: `source-inventory` — Inventory quality-surveillance, field-survey, market-distribution, and regulatory data sources for SF medicines analysis
+- Risk: `medium`
+- Reviewer needed: `domain-reviewer`
+- Existing evidence records: 4
+- Downstream tasks unlocked: 5
+- Downstream high-risk tasks: 3
+- Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
+- Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering sampling frame, test method, geographic grain, supply-chain tier, and substandard-versus-falsified disaggregation status.
 
 ## Unlock Paths
 
@@ -192,16 +192,6 @@ These packs have a scoped front door and the deepest follow-on queue behind it. 
 - Follow-on roles: `field-reality-reviewer`: 1, `implementation-planner`: 3, `red-team-reviewer`: 1
 - Reviewer types needed later: `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 3
 - Existing evidence records: 7
-
-### Long-Distance Elder Care And Verified Local Response In Viet Nam
-
-- Pack: [`public-health/long-distance-elder-care-vietnam`](../../problem-packs/public-health/long-distance-elder-care-vietnam/problem.md)
-- Scoped tasks at front door: 1
-- Follow-on tasks behind it: 5
-- High-risk follow-on tasks: 4
-- Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
-- Reviewer types needed later: `field-reality-reviewer`: 2, `red-team-reviewer`: 2, `replicator`: 1
-- Existing evidence records: 11
 
 ### Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin
 
@@ -293,6 +283,16 @@ These packs have a scoped front door and the deepest follow-on queue behind it. 
 - Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
 - Existing evidence records: 4
 
+### Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef
+
+- Pack: [`biodiversity/coral-bleaching-great-barrier-reef`](../../problem-packs/biodiversity/coral-bleaching-great-barrier-reef/problem.md)
+- Scoped tasks at front door: 1
+- Follow-on tasks behind it: 5
+- High-risk follow-on tasks: 3
+- Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
+- Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
+- Existing evidence records: 3
+
 ## Reviewer Hotspots
 
 These are the packs most likely to stall after the first scoped task because reviewer load becomes the bottleneck.
@@ -317,6 +317,13 @@ These are the packs most likely to stall after the first scoped task because rev
 - Follow-on tasks: 6
 - High-risk follow-on tasks: 4
 - Reviewer load: `domain-reviewer`: 3, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
+
+### Long-Distance Elder Care And Verified Local Response In Viet Nam
+
+- Pack: [`public-health/long-distance-elder-care-vietnam`](../../problem-packs/public-health/long-distance-elder-care-vietnam/problem.md)
+- Follow-on tasks: 6
+- High-risk follow-on tasks: 4
+- Reviewer load: `domain-reviewer`: 1, `field-reality-reviewer`: 2, `red-team-reviewer`: 2, `replicator`: 1
 
 ### Birth Registration Coverage Gaps And Health-Service Linkage In Low-Income Countries
 
@@ -374,24 +381,17 @@ These are the packs most likely to stall after the first scoped task because rev
 - High-risk follow-on tasks: 4
 - Reviewer load: `domain-reviewer`: 1, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 2
 
-### Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
-
-- Pack: [`public-health/antimicrobial-resistance-surveillance-global`](../../problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md)
-- Follow-on tasks: 5
-- High-risk follow-on tasks: 4
-- Reviewer load: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
-
 ## Role Backlog
 
 This is the actual pipeline shape. The flat scoped list hides it.
 
 | Role                     | Scoped now | Latent backlog | Share of all tasks | Share of latent tasks |
 | ------------------------ | ---------- | -------------- | ------------------ | --------------------- |
-| `implementation-planner` | 0          | 134            | 0.228              | 0.279                 |
+| `implementation-planner` | 0          | 134            | 0.228              | 0.278                 |
 | `field-reality-reviewer` | 0          | 114            | 0.194              | 0.237                 |
 | `red-team-reviewer`      | 0          | 114            | 0.194              | 0.237                 |
-| `data-cleaner`           | 0          | 111            | 0.189              | 0.231                 |
-| `literature-scout`       | 106        | 8              | 0.194              | 0.017                 |
+| `data-cleaner`           | 0          | 111            | 0.189              | 0.23                  |
+| `literature-scout`       | 105        | 9              | 0.194              | 0.019                 |
 
 ## Protocol Alerts
 
