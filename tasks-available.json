@@ -2,19 +2,19 @@
   "summary": {
     "generated_by": "scripts/generate-task-index.mjs",
     "schema_version": 1,
-    "total_packs": 114,
-    "total_scoped_tasks": 105,
+    "total_packs": 115,
+    "total_scoped_tasks": 106,
     "by_role": {
-      "literature-scout": 105
+      "literature-scout": 106
     },
     "by_risk": {
       "medium": 100,
       "high": 1,
-      "low": 4
+      "low": 5
     },
     "by_domain": {
       "air-quality": 6,
-      "public-health": 68,
+      "public-health": 69,
       "climate-health": 13,
       "biodiversity": 7,
       "food-security": 18,
@@ -25,7 +25,7 @@
       "education": 9,
       "energy-access": 6,
       "food-safety": 1,
-      "health-systems": 3,
+      "health-systems": 4,
       "infectious-disease": 1,
       "water-security": 6
     }
@@ -1152,6 +1152,23 @@
       "done_condition": "Five sources classified as usable, limited, or rejected with explicit reasons.",
       "tasks_file": "problem-packs/public-health/emergency-obstetric-transport-global/tasks.json",
       "problem_file": "problem-packs/public-health/emergency-obstetric-transport-global/problem.md"
+    },
+    {
+      "pack_id": "public-health/epilepsy-treatment-access-global",
+      "pack_title": "Epilepsy Treatment Access And Primary-Care Cascade Gaps In Low- And Middle-Income Countries",
+      "pack_status": "scoped",
+      "domain": ["public-health", "health-systems"],
+      "region": ["global"],
+      "task_id": "source-inventory",
+      "title": "Inventory epilepsy burden, diagnosis, medicine-access, and primary-care cascade sources",
+      "owner_role": "literature-scout",
+      "reviewer_needed": "domain-reviewer",
+      "safety_risk": "low",
+      "outcome": "A dated source inventory separating household surveys, facility and primary-care records, medicine-access surveys, procurement and stock data, registries, implementation studies, and unusable sources by the stage they can observe.",
+      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source family.",
+      "done_condition": "At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering active-epilepsy denominator, diagnosis, medicine stock or dispensing, possession or adherence, seizure outcome, referral, geographic grain, and missingness.",
+      "tasks_file": "problem-packs/public-health/epilepsy-treatment-access-global/tasks.json",
+      "problem_file": "problem-packs/public-health/epilepsy-treatment-access-global/problem.md"
     },
     {
       "pack_id": "public-health/health-insurance-coverage-global",

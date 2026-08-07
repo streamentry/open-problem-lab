@@ -700,6 +700,16 @@ Build a verified workflow for measuring child drowning mortality risk and superv
 
 Build a verified workflow for measuring emergency obstetric transport access gaps, linking health-facility location data, road-network data, ambulance-registry data, and maternal-mortality data at sub-national scale.
 
+## Epilepsy Treatment Access And Primary-Care Cascade Gaps In Low- And Middle-Income Countries
+
+- ID: `public-health/epilepsy-treatment-access-global`
+- Status: `scoped`
+- Domain: `public-health`, `health-systems`
+- Region: `global`
+- Source: [problem-packs/public-health/epilepsy-treatment-access-global](../../problem-packs/public-health/epilepsy-treatment-access-global/problem.md)
+
+Build a verified way to measure where people with epilepsy are lost between active disease, diagnosis, antiseizure-medicine initiation, uninterrupted refills, seizure control, and appropriate referral in low- and middle-income countries.
+
 ## Health Insurance Coverage And Financial Protection Gaps In Low-Income Countries
 
 - ID: `public-health/health-insurance-coverage-global`

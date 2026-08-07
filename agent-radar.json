@@ -2,35 +2,35 @@
   "summary": {
     "generated_by": "scripts/generate-agent-radar.mjs",
     "schema_version": 1,
-    "total_packs": 114,
-    "total_tasks": 587,
-    "scoped_tasks": 105,
-    "latent_tasks": 482,
+    "total_packs": 115,
+    "total_tasks": 592,
+    "scoped_tasks": 106,
+    "latent_tasks": 486,
     "status_counts": {
-      "scoped": 105,
-      "needs-triage": 473,
+      "scoped": 106,
+      "needs-triage": 477,
       "needs-review": 9
     },
     "owner_role_counts": {
-      "literature-scout": 114,
-      "data-cleaner": 111,
-      "implementation-planner": 134,
-      "red-team-reviewer": 114,
-      "field-reality-reviewer": 114
+      "literature-scout": 115,
+      "data-cleaner": 112,
+      "implementation-planner": 135,
+      "red-team-reviewer": 115,
+      "field-reality-reviewer": 115
     },
     "scoped_role_counts": {
-      "literature-scout": 105
+      "literature-scout": 106
     },
     "reviewer_needed_counts": {
-      "domain-reviewer": 238,
-      "replicator": 118,
-      "red-team-reviewer": 115,
-      "field-reality-reviewer": 116
+      "domain-reviewer": 239,
+      "replicator": 120,
+      "red-team-reviewer": 116,
+      "field-reality-reviewer": 117
     },
     "safety_risk_counts": {
-      "medium": 262,
-      "high": 308,
-      "low": 17
+      "medium": 263,
+      "high": 311,
+      "low": 18
     },
     "protocol_alert_count": 0
   },
@@ -83,6 +83,22 @@
         "downstream_high_risk_tasks": 0,
         "problem_file": "problem-packs/education/digital-divide-school-access-global/problem.md",
         "tasks_file": "problem-packs/education/digital-divide-school-access-global/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 4 follow-on tasks across 4 additional roles."
+      },
+      {
+        "pack_id": "public-health/epilepsy-treatment-access-global",
+        "pack_title": "Epilepsy Treatment Access And Primary-Care Cascade Gaps In Low- And Middle-Income Countries",
+        "task_id": "source-inventory",
+        "title": "Inventory epilepsy burden, diagnosis, medicine-access, and primary-care cascade sources",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "low",
+        "done_condition": "At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering active-epilepsy denominator, diagnosis, medicine stock or dispensing, possession or adherence, seizure outcome, referral, geographic grain, and missingness.",
+        "evidence_count": 6,
+        "downstream_tasks_unlocked": 4,
+        "downstream_high_risk_tasks": 3,
+        "problem_file": "problem-packs/public-health/epilepsy-treatment-access-global/problem.md",
+        "tasks_file": "problem-packs/public-health/epilepsy-treatment-access-global/tasks.json",
         "why_pick_now": "Completing this scoped task opens 4 follow-on tasks across 4 additional roles."
       },
       {
@@ -211,22 +227,6 @@
         "downstream_high_risk_tasks": 4,
         "problem_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md",
         "tasks_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
-      },
-      {
-        "pack_id": "public-health/substandard-falsified-medicines-global",
-        "pack_title": "Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries",
-        "task_id": "source-inventory",
-        "title": "Inventory quality-surveillance, field-survey, market-distribution, and regulatory data sources for SF medicines analysis",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "medium",
-        "done_condition": "At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering sampling frame, test method, geographic grain, supply-chain tier, and substandard-versus-falsified disaggregation status.",
-        "evidence_count": 4,
-        "downstream_tasks_unlocked": 5,
-        "downstream_high_risk_tasks": 3,
-        "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md",
-        "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json",
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       }
     ],
@@ -655,34 +655,34 @@
       {
         "owner_role": "implementation-planner",
         "scoped_tasks": 0,
-        "latent_tasks": 134,
+        "latent_tasks": 135,
         "share_of_all_tasks": 0.228,
         "share_of_latent_tasks": 0.278
       },
       {
         "owner_role": "field-reality-reviewer",
         "scoped_tasks": 0,
-        "latent_tasks": 114,
+        "latent_tasks": 115,
         "share_of_all_tasks": 0.194,
         "share_of_latent_tasks": 0.237
       },
       {
         "owner_role": "red-team-reviewer",
         "scoped_tasks": 0,
-        "latent_tasks": 114,
+        "latent_tasks": 115,
         "share_of_all_tasks": 0.194,
         "share_of_latent_tasks": 0.237
       },
       {
         "owner_role": "data-cleaner",
         "scoped_tasks": 0,
-        "latent_tasks": 111,
+        "latent_tasks": 112,
         "share_of_all_tasks": 0.189,
         "share_of_latent_tasks": 0.23
       },
       {
         "owner_role": "literature-scout",
-        "scoped_tasks": 105,
+        "scoped_tasks": 106,
         "latent_tasks": 9,
         "share_of_all_tasks": 0.194,
         "share_of_latent_tasks": 0.019

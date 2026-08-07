@@ -1,0 +1,97 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "title": "Inventory epilepsy burden, diagnosis, medicine-access, and primary-care cascade sources",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory separating household surveys, facility and primary-care records, medicine-access surveys, procurement and stock data, registries, implementation studies, and unusable sources by the stage they can observe.",
+    "inputs": [
+      "WHO Epilepsy fact sheet and global report",
+      "WHO Improving access to medicines for neurological disorders",
+      "WHO/HAI medicine-access studies",
+      "household, facility, pharmacy, procurement, registry, and implementation-study candidates"
+    ],
+    "expected_artifact": "datasets.md update plus evidence.json records for each accepted source family.",
+    "validation_method": "Domain reviewer checks every source for URL, source date, access date, case definition, numerator, denominator, event grain, time reference, accessibility, and explicit limitations; a second reviewer can reconstruct each classification from evidence.md.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "low",
+    "done_condition": "At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering active-epilepsy denominator, diagnosis, medicine stock or dispensing, possession or adherence, seizure outcome, referral, geographic grain, and missingness."
+  },
+  {
+    "id": "cascade-measure-dictionary",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "title": "Define stage-level measures for an epilepsy primary-care cascade",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A reproducible measure dictionary separating active epilepsy, diagnosis, medicine initiation, refill continuity, possession or adherence, seizure control, follow-up, referral, and outcome.",
+    "inputs": [
+      "accepted source inventory",
+      "WHO epilepsy definitions and neurological-medicine access framework",
+      "national case definitions and essential-medicine lists",
+      "de-identified or synthetic event examples"
+    ],
+    "expected_artifact": "validation.md update with stage definitions, numerator and denominator rules, event timing, transfer handling, and missingness categories.",
+    "validation_method": "Replicator maps each synthetic event to exactly one allowed stage or an explicit unknown category and confirms that policy, procurement, stock, dispensing, possession, adherence, and clinical outcome are not silently collapsed.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "A reviewer can reconstruct every cascade numerator and denominator from a de-identified sample and identify every excluded, duplicated, transferred, or missing event without using unknown as untreated."
+  },
+  {
+    "id": "cascade-baseline",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "title": "Build one setting-specific epilepsy treatment-access cascade baseline",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A documented baseline showing where a named epilepsy-care pathway loses observable episodes without issuing a treatment recommendation or country ranking.",
+    "inputs": [
+      "accepted measure dictionary",
+      "de-identified setting-specific population, facility, medicine, and referral records",
+      "source-specific missingness and linkage audit",
+      "programme decision calendar and responsible user"
+    ],
+    "expected_artifact": "outputs.md baseline specification plus a rerunnable analysis artifact, input hash, and environment note.",
+    "validation_method": "Replicator reruns the baseline from the documented input hash and environment, verifies every stage calculation, checks an alternative denominator definition, and confirms that conclusions remain within the observed setting.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "high",
+    "done_condition": "The baseline reports stage-specific denominators, missingness, selection boundaries, and uncertainty for one named setting, and a reviewer can identify the exact observation that would overturn the proposed bottleneck."
+  },
+  {
+    "id": "red-team-clinical-allocation-misuse",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "title": "Red-team clinical, privacy, and allocation misuse of epilepsy cascade outputs",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review covering diagnostic overreach, medicine interpretation, facility blame, inequitable ranking, missing-population bias, stigma, and privacy loss.",
+    "inputs": [
+      "draft cascade baseline",
+      "analytic-use and non-use boundaries",
+      "data-protection constraints",
+      "public-health safety policy"
+    ],
+    "expected_artifact": "outputs.md safety gate and a structured red-team review record.",
+    "validation_method": "Red-team reviewer documents concrete misuse paths and a field-reality reviewer independently replicates the check, confirming whether each path has a mitigation or publication block.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every proposed programme-facing interpretation is blocked or has explicit safeguards against patient-level diagnosis, medicine or dose advice, denominator error, privacy loss, stigma, coercion, facility blame, and exclusion of people missing from records."
+  },
+  {
+    "id": "field-reality-decision-check",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "title": "Check the epilepsy cascade artifact against a real programme decision",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing review naming the responsible programme user, decision timing, data burden, referral path, appeal path, and non-use cases.",
+    "inputs": [
+      "replicated cascade baseline",
+      "local epilepsy primary-care and referral workflow",
+      "medicine procurement or planning cycle",
+      "red-team failure-mode review"
+    ],
+    "expected_artifact": "playbooks.md field-reality section update and a review record.",
+    "validation_method": "Field-reality reviewer records one responsible use and one explicit non-use; a red-team reviewer independently replicates the governance check and confirms that the artifact does not bypass clinical, privacy, or equity safeguards.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "A named programme decision-maker can identify one responsible use, one non-use, the minimum evidence needed before acting, and how people omitted from the data are protected from adverse decisions."
+  }
+]

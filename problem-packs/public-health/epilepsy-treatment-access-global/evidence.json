@@ -1,0 +1,119 @@
+[
+  {
+    "id": "who-epilepsy-fact-sheet-2024",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "claim": "WHO's 7 February 2024 epilepsy fact sheet reports around 50 million people living with epilepsy worldwide, nearly 80% living in low- and middle-income countries, up to 70% potentially becoming seizure-free with appropriate treatment, and about three quarters of people with epilepsy in low-income countries not receiving needed treatment.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Epilepsy",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy"
+    },
+    "source_date": "2024-02-07",
+    "access_date": "2026-08-07",
+    "method": "Reviewed the WHO page's key facts, disease-rate section, treatment section, and WHO-response section. Recorded only the global burden, income-region distribution, treatment-gap framing, primary-care feasibility statement, and medicine-availability boundary that the page explicitly states.",
+    "limitations": [
+      "The fact sheet provides global framing and does not supply a country- or district-level observed treatment cascade.",
+      "The three-quarters treatment-gap statement is framed for low-income countries and must not be silently generalized to all low- and middle-income countries.",
+      "The up-to-70% seizure-free figure is a potential outcome with appropriate diagnosis and treatment, not an expected result for every person or setting."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-epilepsy-public-health-imperative-2019",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "claim": "WHO, the International League Against Epilepsy, and the International Bureau for Epilepsy published a global report that frames epilepsy care, treatment, research, and stigma reduction as public-health priorities requiring action at global, regional, and national levels.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Epilepsy: a public health imperative",
+      "url": "https://www.who.int/publications/i/item/epilepsy-a-public-health-imperative"
+    },
+    "source_date": "2019-06-13",
+    "access_date": "2026-08-07",
+    "method": "Reviewed the WHO publication page and the linked English report description, including the stated purpose, collaborating organizations, and global, regional, and national response scope. Used the report for programme framing, not as a substitute for local prevalence or coverage data.",
+    "limitations": [
+      "This is a global normative and evidence-synthesis report, not a current sub-national care dataset.",
+      "Its recommendations and country examples do not establish that a given delivery model will work in every health system.",
+      "The publication predates later medicine-access evidence and the 2022-2031 neurological-disorders action plan."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-neurological-medicines-access-2024",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "claim": "WHO's 2024 report uses epilepsy and Parkinson disease as tracer conditions to describe medicine unavailability, unaffordability, and health-system barriers, and identifies national, subnational, district, programme, insurance, provider, and procurement decision-makers as intended users.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Improving access to medicines for neurological disorders",
+      "url": "https://www.who.int/publications/i/item/9789240097377"
+    },
+    "source_date": "2024-07-22",
+    "access_date": "2026-08-07",
+    "method": "Reviewed the WHO publication overview and downloaded-report metadata for the tracer-condition choice, access-barrier framing, proposed multi-level action, and named policy and programme audiences. Classified this source as a measurement and decision-context source, not evidence that any particular intervention should be deployed.",
+    "limitations": [
+      "The report describes system barriers and a framework for action but does not provide a harmonized observed epilepsy cascade for every country.",
+      "Epilepsy is used as a tracer for neurological-medicine access, so some findings are broader than epilepsy care alone.",
+      "The report cannot establish patient-level treatment effectiveness or local affordability without setting-specific data."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "cameron-antiepileptic-medicines-46-countries-2012",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "claim": "A WHO/Health Action International analysis of facility-based surveys in 46 countries found that average public-sector availability of generic antiepileptic medicines was below 50% for all studied medicines except diazepam injection and that price and affordability varied substantially across income settings.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Mapping the availability, price, and affordability of antiepileptic drugs in 46 countries",
+      "url": "https://doi.org/10.1111/j.1528-1167.2012.03446.x",
+      "doi": "10.1111/j.1528-1167.2012.03446.x"
+    },
+    "source_date": "2012-03-20",
+    "access_date": "2026-08-07",
+    "method": "Reviewed the PubMed abstract and article metadata for sampling frame, WHO/HAI survey method, five medicines studied, public and private availability, price ratios, and wage-based affordability measures. Treated the study as direct evidence about surveyed outlets and dates, not as a current global stock estimate.",
+    "limitations": [
+      "The study is cross-sectional and its field data are old relative to the 2026 access date.",
+      "Facility and outlet availability does not prove procurement continuity, patient possession, adherence, or seizure control.",
+      "Phenobarbital data were available from only a small number of countries, and the five-medicine list is not the full modern antiseizure-medicine set."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "hailemariam-asm-addis-ababa-2023",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "claim": "A 2022 cross-sectional survey of selected public, private, Red Cross, and community pharmacies in Addis Ababa found 52% overall availability of lowest-priced generic antiseizure medicines and reported that all available medicines were unaffordable under the study's wage-based method.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Availability, price, and affordability of antiseizure medicines in Addis Ababa, Ethiopia",
+      "url": "https://doi.org/10.1002/epi4.12792",
+      "doi": "10.1002/epi4.12792"
+    },
+    "source_date": "2023-07-28",
+    "access_date": "2026-08-07",
+    "method": "Reviewed the open article metadata and abstract for the May 2022 field period, selected outlet counts, modified WHO/HAI method, generic availability, price ratios, and affordability calculation. Classified the study as a worked local measurement example that can inform a source inventory and measure dictionary.",
+    "limitations": [
+      "Selected pharmacies in Addis Ababa do not represent Ethiopia nationally or other low-income countries.",
+      "A one-day outlet-availability measure does not show stock continuity, dispensing, patient possession, adherence, or clinical response.",
+      "The affordability result depends on the study's reference wage and standard-treatment assumptions."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "singh-home-based-epilepsy-care-2022",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "claim": "In a 24-cluster randomized trial in resource-limited communities in India, a home-based care model delivered by community and primary-care-equivalent workers improved antiseizure-medicine use and seizure outcomes compared with usual clinic care over 24 months, showing that a delivery model can be evaluated through observed adherence and seizure measures in one setting.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "A cluster-randomized trial comparing home-based primary health care and usual clinic care for epilepsy in a resource-limited country",
+      "url": "https://doi.org/10.1002/epi4.12659",
+      "doi": "10.1002/epi4.12659"
+    },
+    "source_date": "2022-10-26",
+    "access_date": "2026-08-07",
+    "method": "Reviewed the open article abstract and methods/results summary for cluster randomization, intervention components, 24-month follow-up, medication-use measure, seizure outcome, and attrition. Classified the result as evidence that a delivery pathway is testable, not as proof that the model should be scaled elsewhere.",
+    "limitations": [
+      "The trial was conducted in one resource-limited Indian setting and cannot establish effects in other countries or health systems.",
+      "The intervention bundled medicine provision, home visits, adherence support, and education, so the causal contribution of any single component is not isolated.",
+      "COVID-19 affected part of the follow-up period, and the study population was identified through a local population survey rather than a national registry."
+    ],
+    "confidence": "high"
+  }
+]
