@@ -1,0 +1,49 @@
+{
+  "id": "public-health/epilepsy-treatment-access-global",
+  "title": "Epilepsy Treatment Access And Primary-Care Cascade Gaps In Low- And Middle-Income Countries",
+  "status": "scoped",
+  "domain": ["public-health", "health-systems"],
+  "region": ["global"],
+  "summary": "Build a verified way to measure where people with epilepsy are lost between active disease, diagnosis, antiseizure-medicine initiation, uninterrupted refills, seizure control, and appropriate referral in low- and middle-income countries.",
+  "why_it_matters": "Ministries of health, essential-medicines procurement authorities, and primary-care programme managers must decide whether scarce resources should first repair antiseizure-medicine continuity, task-shared diagnosis and follow-up, referral capacity, or community support. WHO reports around 50 million people living with epilepsy, nearly 80% in low- and middle-income countries, and a treatment gap of about three quarters in low-income countries, while up to 70% could become seizure-free with appropriate treatment. Yet a policy-maker cannot safely allocate against those figures unless observed data separate the active-epilepsy denominator from diagnosis, medicine possession, refill continuity, seizure control, and referral. A reviewed and replicated cascade would change that allocation decision without turning a modeled burden estimate, a medicine outlet survey, or a clinic registry into patient-level advice.",
+  "success_metrics": [
+    {
+      "metric": "Cascade measurement integrity",
+      "target": "Every country or district artifact separates active-epilepsy definition, diagnosis, medicine initiation, refill continuity, seizure control, referral, and loss to follow-up with stage-specific denominators.",
+      "validation_method": "A domain reviewer checks event grain, case definition, numerator, denominator, time reference, missingness, and whether each stage observes delivered care rather than policy or supply capacity."
+    },
+    {
+      "metric": "Medicine-access provenance",
+      "target": "Every antiseizure-medicine access result distinguishes policy listing, procurement, facility stock, dispensing, affordability, possession, and adherence rather than collapsing them into availability.",
+      "validation_method": "A data reviewer maps each measure to a named source field and verifies that stock, dispensing, possession, and clinical outcome are not silently substituted for one another."
+    },
+    {
+      "metric": "Allocation usefulness without clinical overreach",
+      "target": "At least one independently replicated cascade artifact identifies a measurable programme bottleneck in a named setting without issuing patient-level diagnosis, prescription, or seizure-risk advice.",
+      "validation_method": "A replicator reruns the documented analysis and red-team and field-reality reviewers confirm that the output remains within the observed setting and cannot be read as individual clinical guidance."
+    },
+    {
+      "metric": "Evidence traceability",
+      "target": "Every burden, pathway, medicine-access, or implementation claim links to a dated evidence record with method and explicit limitations.",
+      "validation_method": "Run pnpm validate and spot-check every claim-to-source mapping in evidence.json and evidence.md."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 3,
+    "replication_required": true,
+    "merge_gate": "Schema validation, public-health and health-systems domain review, red-team review of clinical, privacy, and allocation misuse, field-reality review of the care pathway, and independent replication for quantitative outputs."
+  }
+}
