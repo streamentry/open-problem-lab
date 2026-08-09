@@ -9,9 +9,9 @@
 | Total packs | 115 |
 | Packs with claims | 13 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 373 |
+| Total evidence records | 378 |
 | Total tasks | 592 |
-| Scoped tasks (ready for work) | 106 |
+| Scoped tasks (ready for work) | 105 |
 | High-risk tasks | 311 |
 
 ## All Problem Packs
@@ -88,7 +88,7 @@
 | [public-health/disability-access-barriers-global](../../problem-packs/public-health/disability-access-barriers-global/problem.md) | Disability Access Barriers To Health And Education In Low- And Middle-Income Countries | scoped | public-health, education | global | medium | 2 ev; 5 tasks | needs evidence |
 | [public-health/drowning-prevention-south-asia](../../problem-packs/public-health/drowning-prevention-south-asia/problem.md) | Child Drowning Mortality And Supervision Gaps In South Asia | scoped | public-health | south-asia | medium | 2 ev; 5 tasks | needs evidence |
 | [public-health/emergency-obstetric-transport-global](../../problem-packs/public-health/emergency-obstetric-transport-global/problem.md) | Emergency Obstetric Transport Access And Ambulance Coverage Gaps In Low-Income Countries | scoped | public-health | global | high | 2 ev; 5 tasks | needs evidence |
-| [public-health/epilepsy-treatment-access-global](../../problem-packs/public-health/epilepsy-treatment-access-global/problem.md) | Epilepsy Treatment Access And Primary-Care Cascade Gaps In Low- And Middle-Income Countries | scoped | public-health, health-systems | global | high | 6 ev; 5 tasks | ready |
+| [public-health/epilepsy-treatment-access-global](../../problem-packs/public-health/epilepsy-treatment-access-global/problem.md) | Epilepsy Treatment Access And Primary-Care Cascade Gaps In Low- And Middle-Income Countries | scoped | public-health, health-systems | global | high | 11 ev; 5 tasks | needs triage |
 | [public-health/health-insurance-coverage-global](../../problem-packs/public-health/health-insurance-coverage-global/problem.md) | Health Insurance Coverage And Financial Protection Gaps In Low-Income Countries | scoped | public-health | global | medium | 1 ev; 5 tasks | needs evidence |
 | [public-health/health-workforce-density-global](../../problem-packs/public-health/health-workforce-density-global/problem.md) | Health Workforce Density And Skill-Mix Gaps In Low-Income Countries | scoped | public-health | global | medium | 1 ev; 5 tasks | needs evidence |
 | [public-health/hearing-loss-care-access-global](../../problem-packs/public-health/hearing-loss-care-access-global/problem.md) | Hearing Loss Care Access And Hearing Aid Coverage Gaps In Low- And Middle-Income Countries | scoped | public-health | global | medium | 9 ev; 5 tasks | needs triage |

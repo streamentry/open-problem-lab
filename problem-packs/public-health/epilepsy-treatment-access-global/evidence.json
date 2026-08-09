@@ -115,5 +115,107 @@
       "COVID-19 affected part of the follow-up period, and the study population was identified through a local population survey rather than a national registry."
     ],
     "confidence": "high"
+  },
+  {
+    "id": "gbd-epilepsy-burden-2021",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "claim": "The Global Burden of Disease Study 2021 estimated 51.7 million people with combined idiopathic and secondary epilepsy in 2021, using population-representative prevalence inputs and modeled estimates for 204 countries and territories.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Global, regional, and national burden of epilepsy, 1990-2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "url": "https://doi.org/10.1016/S2468-2667(24)00302-5",
+      "doi": "10.1016/S2468-2667(24)00302-5"
+    },
+    "source_date": "2025-02-24",
+    "access_date": "2026-08-09",
+    "method": "Reviewed the DOI-linked article record and open-access methods and results for the case categories, prevalence inputs, modeled estimation approach, geographic coverage, and 2021 global result. Classified this as a burden-framing source and preserved the distinction between modeled estimates and observed setting-level denominators.",
+    "limitations": [
+      "The estimates are model outputs and do not provide an observed active-epilepsy denominator for a named district or facility catchment.",
+      "The study does not observe diagnosis, medicine stock, dispensing, possession, adherence, seizure control, referral, or follow-up continuity.",
+      "Input availability and case-definition harmonization can vary by location, so a country estimate is not a substitute for local ascertainment or linkage audit."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bangladesh-national-epilepsy-survey-2017",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "claim": "A WHO Bangladesh summary reports a 2017 two-stage, population-based household survey of 10,080 people from 72 primary sampling units, with 9,839 respondents, an observed epilepsy prevalence of 8.6 per 1,000, and 66 of 85 confirmed cases classified as active epilepsy.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "National Prevalence of Epilepsy Survey: Summary",
+      "url": "https://cdn.who.int/media/docs/default-source/searo/bangladesh/pdf-reports/epilepsy-executive-summary.pdf?sfvrsn=64815ecd_2"
+    },
+    "source_date": "2017-01-01",
+    "access_date": "2026-08-09",
+    "method": "Reviewed all three pages of the WHO South-East Asia Regional Office PDF for survey year, sampling frame, urban-rural allocation, response rate, prevalence denominator, active-epilepsy classification, treatment-gap calculation, and stated policy use. The PDF identifies the survey year but not an exact publication day, so the source date uses the schema's year-only convention.",
+    "limitations": [
+      "The summary does not expose the full questionnaire, clinical confirmation protocol, or record-level data needed to reproduce every case classification.",
+      "The active-epilepsy and treatment-gap results use a small confirmed-case denominator of 85 and are not directly interchangeable with modeled estimates, clinic registers, or medicine-outlet surveys.",
+      "The PDF notes an imbalance in female participation among respondents under 18, and it does not provide longitudinal diagnosis, refill, referral, or seizure-control follow-up.",
+      "The PDF identifies the survey year but not an exact publication day; source_date uses the schema's year-only placeholder."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "wagner-epilepsy-care-cascade-rural-south-africa-2020",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "claim": "A population-based rural South African study combined a cohort of 311 people with active convulsive epilepsy, questionnaire measures of diagnosis and health-facility contact, and blood antiseizure-medicine levels to characterize distinct care-cascade and adherence gaps.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Epilepsy care cascade, treatment gap and its determinants in rural South Africa",
+      "url": "https://doi.org/10.1016/j.seizure.2020.06.013",
+      "doi": "10.1016/j.seizure.2020.06.013"
+    },
+    "source_date": "2020-08-01",
+    "access_date": "2026-08-09",
+    "method": "Reviewed the DOI-linked article record and open-access methods and results for the Agincourt population frame, active-convulsive-epilepsy case ascertainment, questionnaire stages, health-facility contact, blood antiseizure-medicine measurement, and treatment-gap definition. Classified it as a setting-specific cascade design example rather than a general LMIC estimate.",
+    "limitations": [
+      "The study covers a rural South African surveillance area and cannot establish a national or cross-country cascade.",
+      "It focuses on active convulsive epilepsy and does not supply a complete pathway for all epilepsy types, referral completion, medicine stock continuity, or refill persistence.",
+      "Questionnaire responses, blood levels, and the surveillance catchment each have different missingness and selection mechanisms that must be retained in any replication.",
+      "The journal record identifies August 2020 rather than an exact publication day; source_date uses the first day of that month."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "primary-care-epilepsy-follow-up-rural-ethiopia-2009",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "claim": "A rural Ethiopian nurse-led epilepsy-clinic study used a clinic register and tracing of patients who met a predefined default criterion of three missed visits or at least six months without attendance, distinguishing death, migration, treatment from another source, remission, and ongoing seizures among traced defaulters.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Primary care treatment of epilepsy in rural Ethiopia: Causes of default from follow-up",
+      "url": "https://doi.org/10.1016/j.seizure.2008.07.002",
+      "doi": "10.1016/j.seizure.2008.07.002"
+    },
+    "source_date": "2009-03-01",
+    "access_date": "2026-08-09",
+    "method": "Reviewed the DOI-linked article abstract and full methods and results for the rural health-centre catchment, register-based default definition, number of eligible and traced patients, tracing procedure, alternative treatment sources, seizure status, and reasons for default. Classified this as a longitudinal follow-up and loss-to-follow-up measurement example, not as evidence of current Ethiopian performance.",
+    "limitations": [
+      "The study is from one rural health centre and its clinic register excludes people who were never diagnosed or registered and people receiving care elsewhere from the outset.",
+      "Only 113 of 165 identified defaulters were traced, and death causes and patient-reported reasons were not independently confirmed in every case.",
+      "The 1998-2005 care pathway and phenobarbital context are not current evidence about medicine availability, referral completion, or seizure outcomes in other settings.",
+      "The journal record identifies March 2009 rather than an exact publication day; source_date uses the first day of that month."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-igap-epilepsy-2023",
+    "problem_id": "public-health/epilepsy-treatment-access-global",
+    "claim": "WHO's 2023 Intersectoral global action plan on epilepsy and other neurological disorders establishes a 2022-2031 target and indicator framework spanning diagnosis, treatment and care, information systems, and public-health action, providing a policy reference for mapping a local epilepsy cascade to a named programme decision.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Intersectoral global action plan on epilepsy and other neurological disorders 2022–2031",
+      "url": "https://iris.who.int/bitstream/handle/10665/371495/9789240076624-eng.pdf"
+    },
+    "source_date": "2023-01-01",
+    "access_date": "2026-08-09",
+    "method": "Reviewed the official WHO PDF front matter, strategic objectives on timely diagnosis and treatment, research and information systems, public-health response to epilepsy, and the annex of targets and indicators. Used the plan to classify the policy and monitoring source family, not as evidence of local service coverage or intervention effect.",
+    "limitations": [
+      "The action plan is normative and global; it does not provide observed country, district, facility, patient, or medicine-continuity data.",
+      "Its targets and indicators do not by themselves harmonize active-epilepsy denominators, diagnosis definitions, stock measures, possession, adherence, seizure outcomes, or referral completion.",
+      "The source cannot show that a local cascade artifact changes procurement or primary-care planning without field-reality review.",
+      "The publication record identifies the 2023 publication year rather than an exact publication day; source_date uses the schema's year-only placeholder."
+    ],
+    "confidence": "high"
   }
 ]

@@ -11,7 +11,7 @@ flowchart TD
 
 | Task                                  | Role                   | Status       | Output                                            | Gate                   |
 | ------------------------------------- | ---------------------- | ------------ | ------------------------------------------------- | ---------------------- |
-| `source-inventory`                    | Literature Scout       | Scoped       | Dated source classification plus evidence records | Domain review          |
+| `source-inventory`                    | Literature Scout       | Needs review | Dated source classification plus evidence records | Domain review          |
 | `cascade-measure-dictionary`          | Data Cleaner           | Needs triage | Stage definitions and denominator rules           | Replicator             |
 | `cascade-baseline`                    | Implementation Planner | Needs triage | Reproducible setting-specific baseline            | Replicator             |
 | `red-team-clinical-allocation-misuse` | Red-Team Reviewer      | Needs triage | Failure-mode review and publication blocks        | Field-reality reviewer |
