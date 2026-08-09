@@ -3,7 +3,7 @@
     "id": "source-inventory",
     "problem_id": "public-health/epilepsy-treatment-access-global",
     "title": "Inventory epilepsy burden, diagnosis, medicine-access, and primary-care cascade sources",
-    "status": "scoped",
+    "status": "needs-review",
     "owner_role": "literature-scout",
     "outcome": "A dated source inventory separating household surveys, facility and primary-care records, medicine-access surveys, procurement and stock data, registries, implementation studies, and unusable sources by the stage they can observe.",
     "inputs": [
