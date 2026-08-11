@@ -2,34 +2,34 @@
   "summary": {
     "generated_by": "scripts/generate-agent-radar.mjs",
     "schema_version": 1,
-    "total_packs": 115,
-    "total_tasks": 592,
-    "scoped_tasks": 105,
-    "latent_tasks": 487,
+    "total_packs": 116,
+    "total_tasks": 598,
+    "scoped_tasks": 106,
+    "latent_tasks": 492,
     "status_counts": {
-      "scoped": 105,
-      "needs-triage": 477,
+      "scoped": 106,
+      "needs-triage": 482,
       "needs-review": 10
     },
     "owner_role_counts": {
-      "literature-scout": 115,
-      "data-cleaner": 112,
-      "implementation-planner": 135,
-      "red-team-reviewer": 115,
-      "field-reality-reviewer": 115
+      "literature-scout": 116,
+      "data-cleaner": 114,
+      "implementation-planner": 136,
+      "red-team-reviewer": 116,
+      "field-reality-reviewer": 116
     },
     "scoped_role_counts": {
-      "literature-scout": 105
+      "literature-scout": 106
     },
     "reviewer_needed_counts": {
-      "domain-reviewer": 239,
-      "replicator": 120,
-      "red-team-reviewer": 116,
-      "field-reality-reviewer": 117
+      "domain-reviewer": 240,
+      "replicator": 123,
+      "red-team-reviewer": 117,
+      "field-reality-reviewer": 118
     },
     "safety_risk_counts": {
-      "medium": 263,
-      "high": 311,
+      "medium": 265,
+      "high": 315,
       "low": 18
     },
     "protocol_alert_count": 0
@@ -150,6 +150,22 @@
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 3 additional roles."
       },
       {
+        "pack_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+        "pack_title": "Hepatitis B Perinatal Prevention Cascade In High-Burden Countries",
+        "task_id": "source-inventory",
+        "title": "Inventory hepatitis B perinatal prevention data sources and measures",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "medium",
+        "done_condition": "At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering maternal screening, prophylaxis, birth-dose timing, infant-series completion, impact validation, linkage, and missingness.",
+        "evidence_count": 7,
+        "downstream_tasks_unlocked": 5,
+        "downstream_high_risk_tasks": 4,
+        "problem_file": "problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/problem.md",
+        "tasks_file": "problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
+      },
+      {
         "pack_id": "air-quality/pm25-monitoring-south-asia",
         "pack_title": "PM2.5 Monitoring Gaps And Health Impact In South Asia",
         "task_id": "source-inventory",
@@ -211,22 +227,6 @@
         "downstream_high_risk_tasks": 4,
         "problem_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md",
         "tasks_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
-      },
-      {
-        "pack_id": "public-health/substandard-falsified-medicines-global",
-        "pack_title": "Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries",
-        "task_id": "source-inventory",
-        "title": "Inventory quality-surveillance, field-survey, market-distribution, and regulatory data sources for SF medicines analysis",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "medium",
-        "done_condition": "At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering sampling frame, test method, geographic grain, supply-chain tier, and substandard-versus-falsified disaggregation status.",
-        "evidence_count": 4,
-        "downstream_tasks_unlocked": 5,
-        "downstream_high_risk_tasks": 3,
-        "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md",
-        "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json",
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       }
     ],
@@ -294,6 +294,27 @@
         "evidence_count": 8,
         "problem_file": "problem-packs/biodiversity/deforestation-amazon/problem.md",
         "tasks_file": "problem-packs/biodiversity/deforestation-amazon/tasks.json"
+      },
+      {
+        "pack_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+        "pack_title": "Hepatitis B Perinatal Prevention Cascade In High-Burden Countries",
+        "scoped_tasks": 1,
+        "downstream_tasks": 5,
+        "downstream_high_risk_tasks": 4,
+        "downstream_by_role": {
+          "data-cleaner": 2,
+          "implementation-planner": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_reviewers_needed": {
+          "replicator": 3,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "evidence_count": 7,
+        "problem_file": "problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/problem.md",
+        "tasks_file": "problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/tasks.json"
       },
       {
         "pack_id": "public-health/antimicrobial-resistance-surveillance-global",
@@ -470,28 +491,6 @@
         "evidence_count": 4,
         "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md",
         "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json"
-      },
-      {
-        "pack_id": "biodiversity/coral-bleaching-great-barrier-reef",
-        "pack_title": "Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef",
-        "scoped_tasks": 1,
-        "downstream_tasks": 5,
-        "downstream_high_risk_tasks": 3,
-        "downstream_by_role": {
-          "data-cleaner": 1,
-          "implementation-planner": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "evidence_count": 3,
-        "problem_file": "problem-packs/biodiversity/coral-bleaching-great-barrier-reef/problem.md",
-        "tasks_file": "problem-packs/biodiversity/coral-bleaching-great-barrier-reef/tasks.json"
       }
     ],
     "reviewer_hotspots": [
@@ -655,37 +654,37 @@
       {
         "owner_role": "implementation-planner",
         "scoped_tasks": 0,
-        "latent_tasks": 135,
-        "share_of_all_tasks": 0.228,
-        "share_of_latent_tasks": 0.277
+        "latent_tasks": 136,
+        "share_of_all_tasks": 0.227,
+        "share_of_latent_tasks": 0.276
       },
       {
         "owner_role": "field-reality-reviewer",
         "scoped_tasks": 0,
-        "latent_tasks": 115,
+        "latent_tasks": 116,
         "share_of_all_tasks": 0.194,
         "share_of_latent_tasks": 0.236
       },
       {
         "owner_role": "red-team-reviewer",
         "scoped_tasks": 0,
-        "latent_tasks": 115,
+        "latent_tasks": 116,
         "share_of_all_tasks": 0.194,
         "share_of_latent_tasks": 0.236
       },
       {
         "owner_role": "data-cleaner",
         "scoped_tasks": 0,
-        "latent_tasks": 112,
-        "share_of_all_tasks": 0.189,
-        "share_of_latent_tasks": 0.23
+        "latent_tasks": 114,
+        "share_of_all_tasks": 0.191,
+        "share_of_latent_tasks": 0.232
       },
       {
         "owner_role": "literature-scout",
-        "scoped_tasks": 105,
+        "scoped_tasks": 106,
         "latent_tasks": 10,
         "share_of_all_tasks": 0.194,
-        "share_of_latent_tasks": 0.021
+        "share_of_latent_tasks": 0.02
       }
     ]
   }

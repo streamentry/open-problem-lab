@@ -530,6 +530,16 @@ Build a verified facility-level evidence workflow for measuring whether women wi
 
 Build a verified, country-comparable way to measure the gap from maternal Trypanosoma cruzi screening through newborn confirmation, treatment, and follow-up without mistaking infection estimates for completed prevention coverage.
 
+## Hepatitis B Perinatal Prevention Cascade In High-Burden Countries
+
+- ID: `infectious-disease/hepatitis-b-perinatal-prevention-global`
+- Status: `scoped`
+- Domain: `infectious-disease`, `public-health`
+- Region: `global`, `sub-saharan-africa`
+- Source: [problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global](../../problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/problem.md)
+
+Build a verified way to measure the hepatitis B perinatal prevention cascade from maternal HBsAg screening through prophylaxis, timely birth dose, infant-series completion, and impact validation without confusing policy or any-dose coverage with timely protection.
+
 ## Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change
 
 - ID: `occupational-health/heat-stress-outdoor-workers-global`

@@ -13,13 +13,13 @@ Without routing, a new agent sees a flat task list and misses the actual shape o
 
 ## Current Shape
 
-- **115 problem packs**
-- **592 total tasks**
-- **105 scoped now**
-- **487 follow-on tasks still latent**
-- **Owner roles:** `data-cleaner`: 112, `field-reality-reviewer`: 115, `implementation-planner`: 135, `literature-scout`: 115, `red-team-reviewer`: 115
-- **Reviewer demand:** `domain-reviewer`: 239, `field-reality-reviewer`: 117, `red-team-reviewer`: 116, `replicator`: 120
-- **Safety mix:** `high`: 311, `low`: 18, `medium`: 263
+- **116 problem packs**
+- **598 total tasks**
+- **106 scoped now**
+- **492 follow-on tasks still latent**
+- **Owner roles:** `data-cleaner`: 114, `field-reality-reviewer`: 116, `implementation-planner`: 136, `literature-scout`: 116, `red-team-reviewer`: 116
+- **Reviewer demand:** `domain-reviewer`: 240, `field-reality-reviewer`: 118, `red-team-reviewer`: 117, `replicator`: 123
+- **Safety mix:** `high`: 315, `low`: 18, `medium`: 265
 
 ## First Moves
 
@@ -109,7 +109,19 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 3 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 8. PM2.5 Monitoring Gaps And Health Impact In South Asia
+### 8. Hepatitis B Perinatal Prevention Cascade In High-Burden Countries
+
+- Pack: [`infectious-disease/hepatitis-b-perinatal-prevention-global`](../../problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/problem.md)
+- Task: `source-inventory` — Inventory hepatitis B perinatal prevention data sources and measures
+- Risk: `medium`
+- Reviewer needed: `domain-reviewer`
+- Existing evidence records: 7
+- Downstream tasks unlocked: 5
+- Downstream high-risk tasks: 4
+- Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
+- Done condition: At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering maternal screening, prophylaxis, birth-dose timing, infant-series completion, impact validation, linkage, and missingness.
+
+### 9. PM2.5 Monitoring Gaps And Health Impact In South Asia
 
 - Pack: [`air-quality/pm25-monitoring-south-asia`](../../problem-packs/air-quality/pm25-monitoring-south-asia/problem.md)
 - Task: `source-inventory` — Inventory PM2.5 monitoring and air quality data sources for South Asia
@@ -121,7 +133,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 9. Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
+### 10. Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
 
 - Pack: [`public-health/antimicrobial-resistance-surveillance-global`](../../problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md)
 - Task: `source-inventory` — Inventory AMR surveillance data
@@ -133,7 +145,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: Five sources classified as usable, limited, or rejected.
 
-### 10. Malaria Early Warning Signals In Sub-Saharan Africa
+### 11. Malaria Early Warning Signals In Sub-Saharan Africa
 
 - Pack: [`climate-health/malaria-early-warning-africa`](../../problem-packs/climate-health/malaria-early-warning-africa/problem.md)
 - Task: `source-inventory` — Inventory malaria and climate data sources for Sub-Saharan Africa
@@ -145,7 +157,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 11. Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
+### 12. Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
 
 - Pack: [`food-safety/aflatoxin-exposure-sub-saharan-africa`](../../problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md)
 - Task: `source-inventory` — Inventory mycotoxin test data, climate suitability models, and post-harvest practice surveys for SSA aflatoxin risk mapping
@@ -156,18 +168,6 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Downstream high-risk tasks: 4
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering contamination test method, geographic grain, crop specificity, sampling frame adequacy, and intervention-relevance.
-
-### 12. Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries
-
-- Pack: [`public-health/substandard-falsified-medicines-global`](../../problem-packs/public-health/substandard-falsified-medicines-global/problem.md)
-- Task: `source-inventory` — Inventory quality-surveillance, field-survey, market-distribution, and regulatory data sources for SF medicines analysis
-- Risk: `medium`
-- Reviewer needed: `domain-reviewer`
-- Existing evidence records: 4
-- Downstream tasks unlocked: 5
-- Downstream high-risk tasks: 3
-- Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
-- Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering sampling frame, test method, geographic grain, supply-chain tier, and substandard-versus-falsified disaggregation status.
 
 ## Unlock Paths
 
@@ -202,6 +202,16 @@ These packs have a scoped front door and the deepest follow-on queue behind it. 
 - Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
 - Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
 - Existing evidence records: 8
+
+### Hepatitis B Perinatal Prevention Cascade In High-Burden Countries
+
+- Pack: [`infectious-disease/hepatitis-b-perinatal-prevention-global`](../../problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/problem.md)
+- Scoped tasks at front door: 1
+- Follow-on tasks behind it: 5
+- High-risk follow-on tasks: 4
+- Follow-on roles: `data-cleaner`: 2, `field-reality-reviewer`: 1, `implementation-planner`: 1, `red-team-reviewer`: 1
+- Reviewer types needed later: `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 3
+- Existing evidence records: 7
 
 ### Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
 
@@ -282,16 +292,6 @@ These packs have a scoped front door and the deepest follow-on queue behind it. 
 - Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
 - Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
 - Existing evidence records: 4
-
-### Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef
-
-- Pack: [`biodiversity/coral-bleaching-great-barrier-reef`](../../problem-packs/biodiversity/coral-bleaching-great-barrier-reef/problem.md)
-- Scoped tasks at front door: 1
-- Follow-on tasks behind it: 5
-- High-risk follow-on tasks: 3
-- Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
-- Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
-- Existing evidence records: 3
 
 ## Reviewer Hotspots
 
@@ -387,11 +387,11 @@ This is the actual pipeline shape. The flat scoped list hides it.
 
 | Role                     | Scoped now | Latent backlog | Share of all tasks | Share of latent tasks |
 | ------------------------ | ---------- | -------------- | ------------------ | --------------------- |
-| `implementation-planner` | 0          | 135            | 0.228              | 0.277                 |
-| `field-reality-reviewer` | 0          | 115            | 0.194              | 0.236                 |
-| `red-team-reviewer`      | 0          | 115            | 0.194              | 0.236                 |
-| `data-cleaner`           | 0          | 112            | 0.189              | 0.23                  |
-| `literature-scout`       | 105        | 10             | 0.194              | 0.021                 |
+| `implementation-planner` | 0          | 136            | 0.227              | 0.276                 |
+| `field-reality-reviewer` | 0          | 116            | 0.194              | 0.236                 |
+| `red-team-reviewer`      | 0          | 116            | 0.194              | 0.236                 |
+| `data-cleaner`           | 0          | 114            | 0.191              | 0.232                 |
+| `literature-scout`       | 106        | 10             | 0.194              | 0.02                  |
 
 ## Protocol Alerts
 

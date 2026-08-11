@@ -2,19 +2,19 @@
   "summary": {
     "generated_by": "scripts/generate-task-index.mjs",
     "schema_version": 1,
-    "total_packs": 115,
-    "total_scoped_tasks": 105,
+    "total_packs": 116,
+    "total_scoped_tasks": 106,
     "by_role": {
-      "literature-scout": 105
+      "literature-scout": 106
     },
     "by_risk": {
-      "medium": 100,
+      "medium": 101,
       "high": 1,
       "low": 4
     },
     "by_domain": {
       "air-quality": 6,
-      "public-health": 68,
+      "public-health": 69,
       "climate-health": 13,
       "biodiversity": 7,
       "food-security": 18,
@@ -26,7 +26,7 @@
       "energy-access": 6,
       "food-safety": 1,
       "health-systems": 3,
-      "infectious-disease": 1,
+      "infectious-disease": 2,
       "water-security": 6
     }
   },
@@ -897,6 +897,23 @@
       "done_condition": "At least six candidate source families are classified as usable, limited, or rejected, with explicit reasons covering numerator, denominator, test timing, linkage, migration, and follow-up.",
       "tasks_file": "problem-packs/infectious-disease/congenital-chagas-cascade-global/tasks.json",
       "problem_file": "problem-packs/infectious-disease/congenital-chagas-cascade-global/problem.md"
+    },
+    {
+      "pack_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+      "pack_title": "Hepatitis B Perinatal Prevention Cascade In High-Burden Countries",
+      "pack_status": "scoped",
+      "domain": ["infectious-disease", "public-health"],
+      "region": ["global", "sub-saharan-africa"],
+      "task_id": "source-inventory",
+      "title": "Inventory hepatitis B perinatal prevention data sources and measures",
+      "owner_role": "literature-scout",
+      "reviewer_needed": "domain-reviewer",
+      "safety_risk": "medium",
+      "outcome": "A dated source inventory and measure dictionary separating maternal HBsAg screening, prophylaxis events, birth-dose timing, infant-series completion, and impact validation.",
+      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source family.",
+      "done_condition": "At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering maternal screening, prophylaxis, birth-dose timing, infant-series completion, impact validation, linkage, and missingness.",
+      "tasks_file": "problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/tasks.json",
+      "problem_file": "problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/problem.md"
     },
     {
       "pack_id": "public-health/alcohol-harm-reduction-global",

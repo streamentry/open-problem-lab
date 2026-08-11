@@ -1,0 +1,136 @@
+[
+  {
+    "id": "who-hepatitis-b-fact-sheet-2026",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "claim": "WHO estimates that 240 million people were living with chronic hepatitis B in 2024, that about 0.9 million new infections occur each year, and that hepatitis B caused an estimated 1.1 million deaths in 2024; infection acquired in infancy or early childhood becomes chronic in about 95% of cases.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Hepatitis B",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b"
+    },
+    "source_date": "2026-07-28",
+    "access_date": "2026-08-11",
+    "method": "Reviewed the WHO key facts, overview, transmission, diagnosis, and prevention sections, retaining the source's modeled-estimate language and separating chronic burden from the perinatal prevention pathway.",
+    "limitations": [
+      "The burden figures are WHO estimates and are not direct counts of current cases or deaths in a named country.",
+      "The fact sheet does not provide an end-to-end maternal screening, prophylaxis, birth-dose timing, and infant-outcome denominator.",
+      "The approximately 95% chronicity statement applies to infection acquired in infancy or early childhood, not to all newborns or all vaccine failures."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-global-hepatitis-report-2024",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "claim": "WHO's 2024 global hepatitis report compiles disease-burden and essential-service coverage information from 187 countries and product-access information from 38 countries representing nearly 80% of global viral-hepatitis infections and deaths, making it useful for global framing and country selection.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Global hepatitis report 2024: action for access in low- and middle-income countries",
+      "url": "https://iris.who.int/bitstream/handle/10665/376461/9789240091672-eng.pdf"
+    },
+    "source_date": "2024-04-09",
+    "access_date": "2026-08-11",
+    "method": "Reviewed the WHO report landing page and the report overview, country-coverage description, hepatitis B service-coverage framing, and web-annex description; treated reported service coverage as a separate evidence family from linked delivery episodes.",
+    "limitations": [
+      "The report's global and country summaries do not by themselves establish a linked maternal-newborn cascade denominator.",
+      "Reported service coverage may combine heterogeneous country data sources and does not necessarily distinguish timely birth dose from a later dose.",
+      "The report does not prove that a recorded policy, procurement, stock, or reported dose produced infant protection."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hepatitis-b-guideline-2024",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "claim": "WHO's 2024 chronic-hepatitis-B guideline expands eligibility for antiviral prophylaxis among pregnant women to prevent mother-to-child transmission and updates testing and high-quality service-delivery recommendations.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection",
+      "url": "https://www.who.int/publications/i/item/9789240090903"
+    },
+    "source_date": "2024-03-29",
+    "access_date": "2026-08-11",
+    "method": "Reviewed the WHO guideline overview and recommendation domains covering pregnant-woman prophylaxis, HBV diagnostics, service delivery, adherence, and retention; recorded the guideline as a normative pathway rather than observed implementation evidence.",
+    "limitations": [
+      "A guideline describes recommended care and eligibility; it does not measure country or facility implementation.",
+      "The source cannot establish local test availability, stock, referral completion, adherence, or infant outcomes.",
+      "Any analysis must verify the national policy and effective dates before comparing programme records."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hepatitis-b-birth-dose-coverage-2024",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "claim": "WHO reported in March 2024 that hepatitis B birth-dose immunization coverage was 45% globally and below 20% in the WHO African Region, identifying a large gap between the recommended prevention pathway and reported delivery.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO publishes new guidelines on hepatitis B",
+      "url": "https://www.who.int/news/item/29-03-2024-who-publishes-updated-guidelines-on-hepatitis-b"
+    },
+    "source_date": "2024-03-29",
+    "access_date": "2026-08-11",
+    "method": "Reviewed the WHO departmental update's birth-dose coverage statement and the adjacent sections describing mother-to-child transmission and expanded antiviral prophylaxis; retained the reported regional comparison without treating it as an independently harmonized facility numerator.",
+    "limitations": [
+      "The update is a summary page and does not expose every country denominator or the underlying timing metadata in the statement itself.",
+      "The coverage figure cannot show whether a country recorded doses within 24 hours, later birth doses, or both unless the underlying indicator definition is checked.",
+      "The page does not identify which cascade stage caused the gap."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hepatitis-b-position-paper-2017",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "claim": "WHO recommends a monovalent hepatitis B vaccine birth dose for all infants as soon as possible after birth, ideally within 24 hours, and recommends recording timely and late birth doses separately for monitoring.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Hepatitis B vaccines: WHO position paper – July 2017",
+      "url": "https://www.who.int/publications/i/item/WER9227"
+    },
+    "source_date": "2017-07-07",
+    "access_date": "2026-08-11",
+    "method": "Reviewed the position paper's recommendations, implementation considerations, and monitoring sections, including its distinction between timely and late birth doses and its call to strengthen reporting systems.",
+    "limitations": [
+      "The position paper is a global recommendation and does not establish that a national programme has adopted or implemented it.",
+      "The recommended timing is not a substitute for observed birth and administration timestamps.",
+      "The source predates the 2024 HBV guideline update and should not be used to override newer national or WHO guidance."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "moturi-hepb-birth-dose-africa-2018",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "claim": "A five-country African facility assessment found that total hepatitis B birth-dose coverage could be substantially higher than timely coverage and identified missing timing fields, absent written procedures, limited daily vaccination services, and no assessed outreach programme for home births as implementation barriers.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Implementing a Birth Dose of Hepatitis B Vaccine in Africa: Findings from Assessments in 5 Countries",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6436721/"
+    },
+    "source_date": "2018-07-02",
+    "access_date": "2026-08-11",
+    "method": "Reviewed the article's abstract, methods, facility sample, coverage calculations, reporting-tool assessment, barrier findings, discussion, and stated sampling limitations; kept facility observations separate from national coverage estimates.",
+    "limitations": [
+      "The 78-facility assessment used a convenience sample in five countries and is not nationally representative.",
+      "The fieldwork occurred in 2015–2016, so current policy, delivery practice, and coverage may differ.",
+      "The study documents implementation barriers and coverage measurement differences but does not establish population-level infection outcomes."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "png-hepatitis-b-birth-dose-assessment-2016",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "claim": "A 2014 Papua New Guinea field assessment found that 81% of sampled facilities provided hepatitis B birth dose while timely coverage was 31%, and identified vaccine or cold-chain gaps, supervision, outreach, and data-management weaknesses as obstacles to higher timely coverage.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Assessment of the hepatitis B birth dose vaccination program, Papua New Guinea, 2014",
+      "url": "https://doi.org/10.1016/j.vaccine.2015.11.044",
+      "doi": "10.1016/j.vaccine.2015.11.044"
+    },
+    "source_date": "2016-01-12",
+    "access_date": "2026-08-11",
+    "method": "Reviewed the study abstract and reported facility, caregiver, health-worker, data-recording, vaccine-management, and coverage findings; treated the result as a country case study that motivates measurement replication rather than as a current global estimate.",
+    "limitations": [
+      "The study is limited to sampled facilities and caregivers in Papua New Guinea and cannot establish current national or global coverage.",
+      "The field assessment is from 2014 and may not reflect present vaccine supply, policy, or service arrangements.",
+      "Associations between programme features and timely coverage do not prove that any single feature caused the observed difference."
+    ],
+    "confidence": "high"
+  }
+]
