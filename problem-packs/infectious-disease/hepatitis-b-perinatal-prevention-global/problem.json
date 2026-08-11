@@ -1,0 +1,49 @@
+{
+  "id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+  "title": "Hepatitis B Perinatal Prevention Cascade In High-Burden Countries",
+  "status": "scoped",
+  "domain": ["infectious-disease", "public-health"],
+  "region": ["global", "sub-saharan-africa"],
+  "summary": "Build a verified way to measure the hepatitis B perinatal prevention cascade from maternal HBsAg screening through prophylaxis, timely birth dose, infant-series completion, and impact validation without confusing policy or any-dose coverage with timely protection.",
+  "why_it_matters": "Ministries of health, immunization technical advisory groups, maternal-newborn programme directors, and funders must decide whether to finance universal timely birth-dose delivery, maternal testing and antiviral prophylaxis, outreach for home births, or EPI-maternity data linkage. Verified cascade evidence would show which bottleneck deserves the next dollar while preventing procurement, stock, or policy records from being counted as delivered prevention.",
+  "success_metrics": [
+    {
+      "metric": "Cascade measurement integrity",
+      "target": "Every output separates maternal screening, prophylaxis, birth-dose timing, infant-series completion, and impact validation denominators.",
+      "validation_method": "Domain reviewer checks each measure dictionary and output table for event definition, numerator, denominator, time window, and missingness handling."
+    },
+    {
+      "metric": "Evidence traceability",
+      "target": "Every burden, pathway, or coverage statement links to a dated evidence record with method and explicit limitations.",
+      "validation_method": "Run pnpm validate and spot-check each source identity, evidence type, date, method, and limitation in evidence.json."
+    },
+    {
+      "metric": "Allocation usefulness",
+      "target": "At least one named country or health-system analysis identifies a replicated cascade bottleneck without issuing clinical instructions.",
+      "validation_method": "Independent replicator reruns the analysis from documented inputs and confirms that the result is suitable only for reviewed programme or funding decisions."
+    },
+    {
+      "metric": "Safe contribution surface",
+      "target": "No canonical output exposes personal data or ranks facilities, countries, or mothers before safety review.",
+      "validation_method": "Red-team and field-reality reviewers check outputs.md, validation.md, and each proposed artifact for privacy, stigma, coercion, and misuse risks."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 3,
+    "replication_required": true,
+    "merge_gate": "Schema validation, infectious-disease domain review, red-team review of clinical and stigma misuse, field-reality review of immunization and maternal-newborn workflows, and independent replication for quantitative outputs."
+  }
+}

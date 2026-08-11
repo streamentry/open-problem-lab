@@ -1,0 +1,115 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "title": "Inventory hepatitis B perinatal prevention data sources and measures",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory and measure dictionary separating maternal HBsAg screening, prophylaxis events, birth-dose timing, infant-series completion, and impact validation.",
+    "inputs": [
+      "WHO global hepatitis report and current hepatitis B fact sheet",
+      "WHO hepatitis B vaccine position paper and 2024 chronic-HBV guideline",
+      "national antenatal-care and maternity records",
+      "laboratory, birth-registration, and EPI dose records",
+      "representative HBsAg serosurveys"
+    ],
+    "expected_artifact": "datasets.md update plus evidence.json records for each accepted source family.",
+    "validation_method": "Domain reviewer checks each source for URL, title identity, date, event grain, numerator, denominator, timing field, missingness, access conditions, and an explicit non-use boundary.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "medium",
+    "done_condition": "At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering maternal screening, prophylaxis, birth-dose timing, infant-series completion, impact validation, linkage, and missingness."
+  },
+  {
+    "id": "cascade-measure-dictionary",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "title": "Define a hepatitis B perinatal cascade measure dictionary",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A reproducible stage-level data dictionary for maternal screening, prophylaxis, timely birth dose, infant-series completion, and impact validation.",
+    "inputs": [
+      "accepted source inventory",
+      "WHO hepatitis B definitions and recommendations",
+      "one named country's antenatal, maternity, laboratory, and EPI data dictionary"
+    ],
+    "expected_artifact": "validation.md update with stage definitions, numerator and denominator rules, timing windows, and missingness categories.",
+    "validation_method": "Replicator reconstructs each stage from a de-identified sample and confirms that policy, stock, late doses, and unknown timing cannot enter a timely-dose numerator.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "A reviewer can reconstruct every cascade stage from a de-identified sample and identify the denominator, time window, exclusion rule, and missingness category for every included or excluded episode."
+  },
+  {
+    "id": "linkage-missingness-audit",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "title": "Audit linkage and missingness in hepatitis B birth-dose records",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A documented audit of duplicate tests, unmatched maternal-infant episodes, missing birth or dose times, private-sector omissions, and home-birth coverage.",
+    "inputs": [
+      "cascade measure dictionary",
+      "de-identified antenatal, maternity, laboratory, birth, and EPI tables",
+      "data-protection and linkage constraints"
+    ],
+    "expected_artifact": "outputs.md and validation.md linkage-audit sections.",
+    "validation_method": "Replicator reruns duplicate, match-rate, timing-window, private-sector, home-birth, and missingness calculations from the documented input hash and environment.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "high",
+    "done_condition": "The audit reports match rates and missingness by cascade stage and shows how at least one plausible linkage failure changes the estimated bottleneck without exposing identifiable records."
+  },
+  {
+    "id": "birth-dose-bottleneck-analysis",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "title": "Test a country-level timely birth-dose bottleneck",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A reproducible, country-level comparison of timely birth-dose delivery pathways with uncertainty, alternative explanations, and a named programme decision.",
+    "inputs": [
+      "validated cascade measure dictionary",
+      "linkage and missingness audit",
+      "country EPI and maternity records",
+      "facility, home-birth, stock, and service-hour context"
+    ],
+    "expected_artifact": "outputs.md bottleneck analysis with an input hash, environment, rerun command, uncertainty, and non-use statement.",
+    "validation_method": "Independent replicator reruns the analysis and confirms the comparison preserves timely-versus-late dosing, reports missing timing separately, and does not interpret stock or policy as administration.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "high",
+    "done_condition": "No bottleneck is described as allocation-relevant until the result is independently reproduced, its strongest alternative explanation is tested, and its named programme decision and non-use cases are recorded."
+  },
+  {
+    "id": "red-team-stigma-and-misuse",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "title": "Red-team stigma and misuse in hepatitis B cascade outputs",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review covering stigma, coercive screening, facility blame, privacy loss, migrant exclusion, and clinical overreach.",
+    "inputs": [
+      "draft cascade output",
+      "data-protection constraints",
+      "field-reality notes",
+      "SAFETY.md and pack non-use rules"
+    ],
+    "expected_artifact": "outputs.md safety-gate update and a structured red-team review record.",
+    "validation_method": "Red-team reviewer documents concrete misuse paths and a second reviewer independently replicates the failure-mode check, confirming that each path has a mitigation or publication block.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every proposed public or allocation-facing output is either blocked or has named safeguards for stigma, privacy, coercion, denominator error, and clinical misinterpretation."
+  },
+  {
+    "id": "field-reality-programme-decision",
+    "problem_id": "infectious-disease/hepatitis-b-perinatal-prevention-global",
+    "title": "Test the cascade output against a programme decision",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing review that names the responsible immunization or maternal-newborn programme user, decision, timing, data burden, appeal path, and non-use cases.",
+    "inputs": [
+      "replicated cascade table",
+      "country immunization and maternity workflow",
+      "programme reporting constraints",
+      "red-team findings"
+    ],
+    "expected_artifact": "playbooks.md field-reality section update with a decision-use test.",
+    "validation_method": "Field-reality reviewer records the workflow and a second reviewer independently replicates the check that the output does not bypass clinical, privacy, or national immunization governance.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "A named programme decision-maker can identify one responsible use, one explicit non-use, and the minimum evidence needed before acting on the output."
+  }
+]
