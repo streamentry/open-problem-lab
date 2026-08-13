@@ -186,5 +186,24 @@
       "The page states that underreporting remains possible and does not expose record-level completeness checks for each country."
     ],
     "confidence": "high"
+  },
+  {
+    "id": "who-icd-pm-2016",
+    "problem_id": "public-health/stillbirth-measurement-quality-global",
+    "claim": "WHO's 2016 ICD-PM guideline defines a standardized classification approach for stillbirths and neonatal deaths that links perinatal death records to contributing maternal conditions, allowing coded patterns to be compared when the underlying records are complete and compatible.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "The WHO application of ICD-10 to deaths during the perinatal period: ICD-PM",
+      "url": "https://www.who.int/publications/i/item/9789241549752"
+    },
+    "source_date": "2016-09-27",
+    "access_date": "2026-08-13",
+    "method": "Reviewed the official WHO publication page and overview, including the guideline's classification scope, maternal-condition linkage, comparison purpose, publication metadata, and stated 71-page document. Treated it as a classification standard rather than a prevalence dataset.",
+    "limitations": [
+      "The guideline defines a coding and classification approach but does not provide country or facility prevalence, completeness, or denominator data.",
+      "Comparisons remain invalid when jurisdictions use incompatible stillbirth thresholds, case-finding, referral populations, or missing clinical fields.",
+      "Maternal-condition linkage and cause coding cannot by themselves establish preventability, intrapartum timing, or poor quality of care."
+    ],
+    "confidence": "high"
   }
 ]

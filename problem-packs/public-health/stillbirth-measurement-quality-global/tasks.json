@@ -3,7 +3,7 @@
     "id": "source-inventory",
     "problem_id": "public-health/stillbirth-measurement-quality-global",
     "title": "Inventory stillbirth data sources across survey, CRVS, and facility systems",
-    "status": "scoped",
+    "status": "needs-review",
     "owner_role": "literature-scout",
     "outcome": "A dated source inventory separating usable, limited, and rejected stillbirth sources by measure family and policy use.",
     "inputs": [
