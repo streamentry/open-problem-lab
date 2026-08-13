@@ -15,8 +15,8 @@ Without routing, a new agent sees a flat task list and misses the actual shape o
 
 - **116 problem packs**
 - **598 total tasks**
-- **106 scoped now**
-- **492 follow-on tasks still latent**
+- **105 scoped now**
+- **493 follow-on tasks still latent**
 - **Owner roles:** `data-cleaner`: 114, `field-reality-reviewer`: 116, `implementation-planner`: 136, `literature-scout`: 116, `red-team-reviewer`: 116
 - **Reviewer demand:** `domain-reviewer`: 240, `field-reality-reviewer`: 118, `red-team-reviewer`: 117, `replicator`: 123
 - **Safety mix:** `high`: 315, `low`: 18, `medium`: 265
@@ -25,19 +25,7 @@ Without routing, a new agent sees a flat task list and misses the actual shape o
 
 These are the best entry tasks for a fresh contributor. Ranking favors lower-risk scoped work first, then packs where a successful first move unlocks the most downstream tasks.
 
-### 1. Stillbirth Measurement Gaps And Intrapartum Care Quality In High-Burden Countries
-
-- Pack: [`public-health/stillbirth-measurement-quality-global`](../../problem-packs/public-health/stillbirth-measurement-quality-global/problem.md)
-- Task: `source-inventory` — Inventory stillbirth data sources across survey, CRVS, and facility systems
-- Risk: `low`
-- Reviewer needed: `domain-reviewer`
-- Existing evidence records: 10
-- Downstream tasks unlocked: 4
-- Downstream high-risk tasks: 2
-- Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
-- Done condition: At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering definition threshold, measure family, time reference, geographic grain, and relevance to intrapartum versus counting-system interpretation.
-
-### 2. Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries
+### 1. Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries
 
 - Pack: [`public-health/obstetric-fistula-repair-access-global`](../../problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md)
 - Task: `source-inventory` — Inventory obstetric fistula prevalence, repair, and prevention data sources
@@ -49,7 +37,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measurement family, numerator, denominator, time reference, geographic grain, case-finding method, and backlog-versus-incidence relevance.
 
-### 3. Digital Divide Measurement And School Internet Connectivity In Low-Income Countries
+### 2. Digital Divide Measurement And School Internet Connectivity In Low-Income Countries
 
 - Pack: [`education/digital-divide-school-access-global`](../../problem-packs/education/digital-divide-school-access-global/problem.md)
 - Task: `source-inventory` — Inventory school connectivity, mobile-network, and digital-learning data sources for low-income countries
@@ -61,7 +49,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering connectivity-classification methodology, data currency, and cross-validation status.
 
-### 4. Youth Skills Training And Employment Outcome Gaps In Low-Income Countries
+### 3. Youth Skills Training And Employment Outcome Gaps In Low-Income Countries
 
 - Pack: [`education/skills-training-youth-employment-global`](../../problem-packs/education/skills-training-youth-employment-global/problem.md)
 - Task: `source-inventory` — Inventory training-provider, employment-outcome, labor-market, and skills-mismatch data sources for LMICs
@@ -73,7 +61,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering provider-data fragmentation, outcome-tracking rates, and informal-sector measurement gaps.
 
-### 5. Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin
+### 4. Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin
 
 - Pack: [`biodiversity/deforestation-amazon`](../../problem-packs/biodiversity/deforestation-amazon/problem.md)
 - Task: `source-inventory` — Inventory deforestation and biodiversity data sources for Amazon basin
@@ -85,7 +73,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 6. Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States
+### 5. Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States
 
 - Pack: [`climate-adaptation/sea-level-rise-small-islands`](../../problem-packs/climate-adaptation/sea-level-rise-small-islands/problem.md)
 - Task: `source-inventory` — Inventory SLR projection and coastal exposure data sources for SIDS
@@ -97,7 +85,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 7. Cyclone Early Warning And Evacuation Signal Verification In Bangladesh
+### 6. Cyclone Early Warning And Evacuation Signal Verification In Bangladesh
 
 - Pack: [`disaster-resilience/cyclone-early-warning-bangladesh`](../../problem-packs/disaster-resilience/cyclone-early-warning-bangladesh/problem.md)
 - Task: `source-inventory` — Inventory cyclone data sources for Bay of Bengal
@@ -109,7 +97,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 3 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 8. Hepatitis B Perinatal Prevention Cascade In High-Burden Countries
+### 7. Hepatitis B Perinatal Prevention Cascade In High-Burden Countries
 
 - Pack: [`infectious-disease/hepatitis-b-perinatal-prevention-global`](../../problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/problem.md)
 - Task: `source-inventory` — Inventory hepatitis B perinatal prevention data sources and measures
@@ -121,7 +109,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering maternal screening, prophylaxis, birth-dose timing, infant-series completion, impact validation, linkage, and missingness.
 
-### 9. PM2.5 Monitoring Gaps And Health Impact In South Asia
+### 8. PM2.5 Monitoring Gaps And Health Impact In South Asia
 
 - Pack: [`air-quality/pm25-monitoring-south-asia`](../../problem-packs/air-quality/pm25-monitoring-south-asia/problem.md)
 - Task: `source-inventory` — Inventory PM2.5 monitoring and air quality data sources for South Asia
@@ -133,7 +121,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 10. Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
+### 9. Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
 
 - Pack: [`public-health/antimicrobial-resistance-surveillance-global`](../../problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md)
 - Task: `source-inventory` — Inventory AMR surveillance data
@@ -145,7 +133,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: Five sources classified as usable, limited, or rejected.
 
-### 11. Malaria Early Warning Signals In Sub-Saharan Africa
+### 10. Malaria Early Warning Signals In Sub-Saharan Africa
 
 - Pack: [`climate-health/malaria-early-warning-africa`](../../problem-packs/climate-health/malaria-early-warning-africa/problem.md)
 - Task: `source-inventory` — Inventory malaria and climate data sources for Sub-Saharan Africa
@@ -157,7 +145,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 12. Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
+### 11. Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
 
 - Pack: [`food-safety/aflatoxin-exposure-sub-saharan-africa`](../../problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md)
 - Task: `source-inventory` — Inventory mycotoxin test data, climate suitability models, and post-harvest practice surveys for SSA aflatoxin risk mapping
@@ -168,6 +156,18 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Downstream high-risk tasks: 4
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering contamination test method, geographic grain, crop specificity, sampling frame adequacy, and intervention-relevance.
+
+### 12. Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries
+
+- Pack: [`public-health/substandard-falsified-medicines-global`](../../problem-packs/public-health/substandard-falsified-medicines-global/problem.md)
+- Task: `source-inventory` — Inventory quality-surveillance, field-survey, market-distribution, and regulatory data sources for SF medicines analysis
+- Risk: `medium`
+- Reviewer needed: `domain-reviewer`
+- Existing evidence records: 4
+- Downstream tasks unlocked: 5
+- Downstream high-risk tasks: 3
+- Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
+- Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering sampling frame, test method, geographic grain, supply-chain tier, and substandard-versus-falsified disaggregation status.
 
 ## Unlock Paths
 
@@ -388,10 +388,10 @@ This is the actual pipeline shape. The flat scoped list hides it.
 | Role                     | Scoped now | Latent backlog | Share of all tasks | Share of latent tasks |
 | ------------------------ | ---------- | -------------- | ------------------ | --------------------- |
 | `implementation-planner` | 0          | 136            | 0.227              | 0.276                 |
-| `field-reality-reviewer` | 0          | 116            | 0.194              | 0.236                 |
-| `red-team-reviewer`      | 0          | 116            | 0.194              | 0.236                 |
-| `data-cleaner`           | 0          | 114            | 0.191              | 0.232                 |
-| `literature-scout`       | 106        | 10             | 0.194              | 0.02                  |
+| `field-reality-reviewer` | 0          | 116            | 0.194              | 0.235                 |
+| `red-team-reviewer`      | 0          | 116            | 0.194              | 0.235                 |
+| `data-cleaner`           | 0          | 114            | 0.191              | 0.231                 |
+| `literature-scout`       | 105        | 11             | 0.194              | 0.022                 |
 
 ## Protocol Alerts
 

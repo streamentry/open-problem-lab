@@ -30,6 +30,10 @@ The interviewer manual documents the pregnancy-outcome question, pregnancy durat
 
 WHO's indicator metadata specifies facility stillbirth measurement, including antepartum versus intrapartum timing, gestational age, birthweight, facility denominator, and the recommended 28-week threshold for international reporting. It is the strongest source here for defining what a facility indicator must contain. It does not prove that a country collects those fields completely or that a facility rate is causal evidence of poor care.
 
+### WHO ICD-PM perinatal death classification
+
+The WHO ICD-PM guideline adds a classification layer that links stillbirth and neonatal-death records to contributing maternal conditions. It is useful for specifying the coding and audit fields needed to move from a count toward a reviewable perinatal-death record. It is not a prevalence dataset, does not repair missing denominators or referral bias, and cannot by itself establish preventability, intrapartum timing, or poor quality of care.
+
 ### UNICEF stillbirth definition and HMIS data-quality assessment
 
 The UNICEF assessment is usable as a data-quality audit framework for health-management information systems. It identifies vital status at birth, gestational age, and birthweight as core classification fields and links data quality to program use. It cannot produce a comparable rate for a country without the underlying record-level data, and it does not remove referral or case-mix bias from facility observations.
