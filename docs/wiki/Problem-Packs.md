@@ -500,6 +500,16 @@ Build a verified workflow for assessing where vegetation, soil moisture, and win
 
 Build a verified workflow for mapping urban food deserts and fresh-food access gaps in LMIC cities, linking market-location data, food-price data, and population data.
 
+## Health-Facility Electricity Reliability In Low- And Middle-Income Countries
+
+- ID: `health-systems/health-facility-electricity-reliability-global`
+- Status: `scoped`
+- Domain: `health-systems`, `energy-access`
+- Region: `global`, `sub-saharan-africa`, `south-asia`, `low-and-middle-income-countries`
+- Source: [problem-packs/health-systems/health-facility-electricity-reliability-global](../../problem-packs/health-systems/health-facility-electricity-reliability-global/problem.md)
+
+Build a verified workflow for measuring whether health facilities have electricity that is present, functional, reliable, backup-capable, and sufficient for named services without treating a connection or solar installation as proof of safe care.
+
 ## Reliable Medical Oxygen Systems In Low- And Middle-Income Hospitals
 
 - ID: `health-systems/medical-oxygen-reliability-lmics`

@@ -1,0 +1,54 @@
+{
+  "id": "health-systems/health-facility-electricity-reliability-global",
+  "title": "Health-Facility Electricity Reliability In Low- And Middle-Income Countries",
+  "status": "scoped",
+  "domain": ["health-systems", "energy-access"],
+  "region": [
+    "global",
+    "sub-saharan-africa",
+    "south-asia",
+    "low-and-middle-income-countries"
+  ],
+  "summary": "Build a verified workflow for measuring whether health facilities have electricity that is present, functional, reliable, backup-capable, and sufficient for named services without treating a connection or solar installation as proof of safe care.",
+  "why_it_matters": "A ministry of health infrastructure director, rural electrification agency, or health funder deciding between a new connection, backup power, battery or generator maintenance, load upgrades, and measurement-system support cannot allocate well from a binary electricity-access count. Verified facility- and service-area evidence could change which bottleneck receives the next infrastructure or maintenance dollar while preventing electricity access from being misrepresented as quality of care or mortality benefit.",
+  "success_metrics": [
+    {
+      "metric": "Reliability-definition integrity",
+      "target": "Every output separates connection, current function, outage duration, backup availability, load capacity, service-area coverage, and maintenance status.",
+      "validation_method": "Domain reviewer checks every measure against the source instrument, observation window, denominator, and missingness rule."
+    },
+    {
+      "metric": "Evidence coverage and missingness",
+      "target": "A source inventory records facility level, sampling frame, geography, source date, access conditions, outage definition, and which services or devices are observed.",
+      "validation_method": "Run pnpm validate and have a second reviewer reconstruct each classification from evidence.md and the cited source."
+    },
+    {
+      "metric": "Allocation usefulness",
+      "target": "At least one named setting yields a reviewed and independently replicated bottleneck table that can distinguish connection, backup, repair, or load-assessment needs without issuing a procurement order.",
+      "validation_method": "Replicator reruns the table from a documented input hash and domain and field reviewers confirm that the decision boundary is explicit."
+    },
+    {
+      "metric": "Safe interpretation",
+      "target": "No canonical output claims that electricity reliability alone proves clinical quality, patient outcomes, or cost-effectiveness.",
+      "validation_method": "Red-team and field-reality reviewers inspect outputs.md, validation.md, and each proposed use before publication."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 3,
+    "replication_required": true,
+    "merge_gate": "Schema validation, health-systems and energy-domain review, red-team review of procurement and clinical overreach, field-reality review of infrastructure decisions, and independent replication before any financing or service recommendation."
+  }
+}

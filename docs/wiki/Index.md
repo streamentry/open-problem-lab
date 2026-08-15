@@ -6,13 +6,13 @@
 
 | Metric | Value |
 |---|---|
-| Total packs | 116 |
+| Total packs | 117 |
 | Packs with claims | 13 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 386 |
-| Total tasks | 598 |
-| Scoped tasks (ready for work) | 105 |
-| High-risk tasks | 315 |
+| Total evidence records | 393 |
+| Total tasks | 603 |
+| Scoped tasks (ready for work) | 106 |
+| High-risk tasks | 318 |
 
 ## All Problem Packs
 
@@ -68,6 +68,7 @@
 | [food-security/livestock-disease-surveillance-east-africa](../../problem-packs/food-security/livestock-disease-surveillance-east-africa/problem.md) | Livestock Disease Surveillance And Pastoralist Livelihood Risk In East Africa | scoped | food-security, public-health | east-africa | medium | 7 ev; 6 tasks; 1 claims | has claims |
 | [food-security/locust-outbreak-east-africa](../../problem-packs/food-security/locust-outbreak-east-africa/problem.md) | Desert Locust Outbreak Early Warning In East Africa | scoped | food-security, climate-health | east-africa | medium | 3 ev; 6 tasks | ready |
 | [food-security/urban-food-deserts-global](../../problem-packs/food-security/urban-food-deserts-global/problem.md) | Urban Food Desert Mapping And Fresh-Food Access Gaps In LMIC Cities | scoped | food-security, public-health | global | medium | 1 ev; 5 tasks | needs evidence |
+| [health-systems/health-facility-electricity-reliability-global](../../problem-packs/health-systems/health-facility-electricity-reliability-global/problem.md) | Health-Facility Electricity Reliability In Low- And Middle-Income Countries | scoped | health-systems, energy-access | global, sub-saharan-africa, south-asia, low-and-middle-income-countries | high | 7 ev; 5 tasks | ready |
 | [health-systems/medical-oxygen-reliability-lmics](../../problem-packs/health-systems/medical-oxygen-reliability-lmics/problem.md) | Reliable Medical Oxygen Systems In Low- And Middle-Income Hospitals | scoped | health-systems, public-health | low-and-middle-income-countries | high | 5 ev; 3 tasks | ready |
 | [health-systems/obstetric-blood-availability-lmics](../../problem-packs/health-systems/obstetric-blood-availability-lmics/problem.md) | Obstetric Blood Availability And Time-To-Transfusion Gaps In LMICs | scoped | health-systems, public-health | global, low-and-middle-income-countries | high | 6 ev; 4 tasks | ready |
 | [infectious-disease/congenital-chagas-cascade-global](../../problem-packs/infectious-disease/congenital-chagas-cascade-global/problem.md) | Congenital Chagas Detection And Treatment Cascade In Endemic And Migrant-Serving Systems | scoped | infectious-disease, public-health | global, latin-america | high | 5 ev; 5 tasks | ready |
