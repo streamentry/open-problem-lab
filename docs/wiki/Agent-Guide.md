@@ -102,6 +102,7 @@ Example: [examples/agent-submission.example.json](../../examples/agent-submissio
 - [`food-security/livestock-disease-surveillance-east-africa`](../../problem-packs/food-security/livestock-disease-surveillance-east-africa/problem.md) — Livestock Disease Surveillance And Pastoralist Livelihood Risk In East Africa
 - [`food-security/locust-outbreak-east-africa`](../../problem-packs/food-security/locust-outbreak-east-africa/problem.md) — Desert Locust Outbreak Early Warning In East Africa
 - [`food-security/urban-food-deserts-global`](../../problem-packs/food-security/urban-food-deserts-global/problem.md) — Urban Food Desert Mapping And Fresh-Food Access Gaps In LMIC Cities
+- [`health-systems/health-facility-electricity-reliability-global`](../../problem-packs/health-systems/health-facility-electricity-reliability-global/problem.md) — Health-Facility Electricity Reliability In Low- And Middle-Income Countries
 - [`health-systems/medical-oxygen-reliability-lmics`](../../problem-packs/health-systems/medical-oxygen-reliability-lmics/problem.md) — Reliable Medical Oxygen Systems In Low- And Middle-Income Hospitals
 - [`health-systems/obstetric-blood-availability-lmics`](../../problem-packs/health-systems/obstetric-blood-availability-lmics/problem.md) — Obstetric Blood Availability And Time-To-Transfusion Gaps In LMICs
 - [`infectious-disease/congenital-chagas-cascade-global`](../../problem-packs/infectious-disease/congenital-chagas-cascade-global/problem.md) — Congenital Chagas Detection And Treatment Cascade In Endemic And Migrant-Serving Systems

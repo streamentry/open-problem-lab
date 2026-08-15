@@ -1,0 +1,34 @@
+# Dataset Inventory
+
+## Candidate Sources
+
+| Source                                                                 | Grain                                                                | Classification                                                              | What it can support                                                                                                        | Main limitation                                                                                                                       |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| WHO Global Health Observatory HCF_REL_ELECTRICITY                      | Country and regional summary from facility surveys/censuses          | Usable for cross-country framing with caveats                               | Reported reliable, unreliable, or absent electricity; hospital/non-hospital and urban/rural splits where available         | Only countries with qualifying data; missing reliability responses are excluded from the denominator; outage windows and wording vary |
+| WHO Harmonized Health Facility Assessment (HHFA)                       | Facility and service area                                            | Usable as a standardized instrument and, where released, a source dataset   | Current electricity function, backup availability, service readiness, facility characteristics, and selected device fields | A questionnaire is not a dataset; country adaptations, survey year, sampling frame, and access conditions require audit               |
+| WHO Service Availability and Readiness Assessment (SARA)               | Facility                                                             | Usable as a legacy instrument and field crosswalk                           | Main and secondary electricity source, uses of electricity, basic amenities, equipment, and readiness                      | Older rounds and local adaptations do not necessarily use the same reliability definition or service-area grain                       |
+| National SPA, SDI, HHFA, EmONC, or facility-census datasets            | Facility, country-specific                                           | Potentially usable after source and denominator audit                       | Facility-level electricity, backup, service, equipment, and geography fields                                               | Public access, private-facility coverage, survey weights, missingness, and field wording vary by country and round                    |
+| WHO/World Bank/IRENA/SEforALL Energizing Health report and web annexes | Country, facility-type, and modeled planning outputs                 | Usable for methods and investment context; limited for observed reliability | Energy-needs characterization, technology and planning categories, modeled population and investment framing               | Modeled planning outputs are not observed uptime, maintenance response, or patient-level delivery                                     |
+| Reuland et al. Malawi facility assessment                              | 44 public facilities across four facility types                      | Usable as setting-specific primary evidence                                 | Outage duration, backup function, service constraints, water and sterilization links, qualitative failure modes            | Small clustered sample, recall and self-report, Malawi-only, no continuous telemetry or causal clinical outcome                       |
+| Javadi et al. Ghana/Uganda implementation study                        | Electrified rural primary-care facilities and community participants | Usable for implementation and measurement design                            | Adapted SARA readiness checks, facility records, implementation factors, and separation of readiness from service use      | Selected intervention sites, one-year follow-up, mixed designs, no general mortality or cost-effectiveness estimate                   |
+| Ngongoma et al. Malawi HHFA analysis                                   | 596 facilities, mostly primary-level, Malawi 2019                    | Usable for electricity-to-device measurement calibration                    | Stable/unstable/non-grid categories and ultrasound availability/functionality denominators                                 | Cross-sectional, device-specific, 2019 data, and stable power is not sufficient for clinical readiness                                |
+
+## Required Dataset Properties
+
+Any source used for a facility-reliability analysis must document:
+
+- Facility identifier, facility type, ownership, location, urban/rural status, and sampling frame.
+- Service area or department observed, not only a facility-wide label.
+- Measurement mode: direct observation, respondent report, outage log, smart meter, generator/battery record, or device function test.
+- Primary and backup source, fuel or battery status, capacity, repair history, maintenance responsibility, and observation window.
+- Reliability definition, including outage duration threshold, regular service hours, and look-back period.
+- Numerator, denominator, missingness, exclusions, weights, and any duplicate or transferred facility records.
+- Date, season, administrative-boundary version, access conditions, license, and reuse permission.
+
+## Classification Rules
+
+Classify a source as **usable** only for the exact fields and grain it observes. A reliable-facility percentage cannot be reused as a service-area uptime percentage. Classify a source as **limited** when the fields are useful for hypotheses or method design but lack current coverage, comparable definitions, or an auditable denominator. Classify a source as **rejected for canonical reliability** when it reports only household electricity, a connection, equipment procurement, a donor installation, or a written electrification plan without a function test, observation window, or facility denominator.
+
+## Rejection Rule
+
+Do not construct a canonical reliability estimate from an installed solar system, generator ownership, grid connection, facility presence, or donor delivery alone. Do not substitute household electricity access for health-facility service reliability. Do not infer clinical quality, patient safety, or mortality from a facility electricity indicator without an outcome design and the required high-safety reviews.

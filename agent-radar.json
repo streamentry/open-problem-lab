@@ -2,34 +2,34 @@
   "summary": {
     "generated_by": "scripts/generate-agent-radar.mjs",
     "schema_version": 1,
-    "total_packs": 116,
-    "total_tasks": 598,
-    "scoped_tasks": 105,
-    "latent_tasks": 493,
+    "total_packs": 117,
+    "total_tasks": 603,
+    "scoped_tasks": 106,
+    "latent_tasks": 497,
     "status_counts": {
-      "scoped": 105,
-      "needs-triage": 482,
+      "scoped": 106,
+      "needs-triage": 486,
       "needs-review": 11
     },
     "owner_role_counts": {
-      "literature-scout": 116,
-      "data-cleaner": 114,
-      "implementation-planner": 136,
-      "red-team-reviewer": 116,
-      "field-reality-reviewer": 116
+      "literature-scout": 117,
+      "data-cleaner": 115,
+      "implementation-planner": 137,
+      "red-team-reviewer": 117,
+      "field-reality-reviewer": 117
     },
     "scoped_role_counts": {
-      "literature-scout": 105
+      "literature-scout": 106
     },
     "reviewer_needed_counts": {
-      "domain-reviewer": 240,
-      "replicator": 123,
-      "red-team-reviewer": 117,
-      "field-reality-reviewer": 118
+      "domain-reviewer": 241,
+      "replicator": 125,
+      "red-team-reviewer": 118,
+      "field-reality-reviewer": 119
     },
     "safety_risk_counts": {
-      "medium": 265,
-      "high": 315,
+      "medium": 267,
+      "high": 318,
       "low": 18
     },
     "protocol_alert_count": 0
@@ -654,34 +654,34 @@
       {
         "owner_role": "implementation-planner",
         "scoped_tasks": 0,
-        "latent_tasks": 136,
+        "latent_tasks": 137,
         "share_of_all_tasks": 0.227,
         "share_of_latent_tasks": 0.276
       },
       {
         "owner_role": "field-reality-reviewer",
         "scoped_tasks": 0,
-        "latent_tasks": 116,
+        "latent_tasks": 117,
         "share_of_all_tasks": 0.194,
         "share_of_latent_tasks": 0.235
       },
       {
         "owner_role": "red-team-reviewer",
         "scoped_tasks": 0,
-        "latent_tasks": 116,
+        "latent_tasks": 117,
         "share_of_all_tasks": 0.194,
         "share_of_latent_tasks": 0.235
       },
       {
         "owner_role": "data-cleaner",
         "scoped_tasks": 0,
-        "latent_tasks": 114,
+        "latent_tasks": 115,
         "share_of_all_tasks": 0.191,
         "share_of_latent_tasks": 0.231
       },
       {
         "owner_role": "literature-scout",
-        "scoped_tasks": 105,
+        "scoped_tasks": 106,
         "latent_tasks": 11,
         "share_of_all_tasks": 0.194,
         "share_of_latent_tasks": 0.022

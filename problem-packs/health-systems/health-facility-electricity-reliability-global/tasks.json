@@ -1,0 +1,98 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "title": "Inventory health-facility electricity reliability data sources",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory classifies health-facility electricity sources by facility and service-area grain, reliability definition, backup and load fields, geography, access, and measurement limits.",
+    "inputs": [
+      "WHO electricity in health-care facilities fact sheet",
+      "WHO Global Health Observatory HCF_REL_ELECTRICITY metadata",
+      "WHO Harmonized Health Facility Assessment and SARA instruments",
+      "WHO/World Bank/IRENA/SEforALL Energizing Health report",
+      "Primary facility studies from Malawi, Ghana, and Uganda"
+    ],
+    "expected_artifact": "datasets.md update plus evidence.json records for each accepted source family.",
+    "validation_method": "Domain reviewer checks each source URL, source date, sampling frame or instrument scope, facility and service-area grain, reliability definition, measurement mode, access conditions, and explicit limitations; a second reviewer reconstructs each classification from evidence.md.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "medium",
+    "done_condition": "At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering facility grain, service-area or device coverage, outage window, primary and backup source, load or function, geography, missingness, access, and whether the source observes service or only capacity."
+  },
+  {
+    "id": "reliability-definition-audit",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "title": "Audit definitions of reliable and functional facility electricity",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A reproducible crosswalk separates electricity presence, current function, reliability, backup, load capacity, service-area reach, maintenance, device function, and patient outcome.",
+    "inputs": [
+      "accepted electricity source inventory",
+      "WHO GHO HCF_REL_ELECTRICITY metadata",
+      "HHFA and SARA electricity fields",
+      "de-identified or synthetic facility records"
+    ],
+    "expected_artifact": "validation.md definition crosswalk and exclusion rules.",
+    "validation_method": "Replicator applies the crosswalk to a sample of source fields and confirms that each field has one declared interpretation, denominator, measurement mode, and observation window.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "No field labelled connected, available, functional, reliable, backup, or ready remains unclassified or without a stated denominator, observation window, and non-use boundary."
+  },
+  {
+    "id": "facility-reliability-baseline",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "title": "Build one country or network facility-reliability baseline",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A documented baseline shows where a named health-facility electricity pathway loses observable reliability without issuing a procurement or clinical recommendation.",
+    "inputs": [
+      "accepted measurement crosswalk",
+      "public or reviewer-provided facility assessment records",
+      "facility master list and sampling frame",
+      "service-area, outage, backup, device, and maintenance fields"
+    ],
+    "expected_artifact": "outputs.md baseline specification plus a rerunnable analysis artifact and input hash.",
+    "validation_method": "Replicator reruns the baseline from the documented input hash and environment, verifies every numerator and denominator, and checks that all conclusions remain within the observed setting.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "high",
+    "done_condition": "The baseline reports presence, current function, outage reliability, backup function, service-area or load coverage, missingness, and facility selection for one named setting, and a reviewer can identify the exact observation that would overturn the proposed bottleneck."
+  },
+  {
+    "id": "red-team-allocation-misuse",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "title": "Red-team electricity reliability findings before allocation use",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review blocks unsupported facility rankings, technology prescriptions, clinical interpretations, and blame from electricity-reliability findings.",
+    "inputs": [
+      "source inventory",
+      "definition crosswalk",
+      "candidate facility baseline",
+      "SAFETY.md and health-systems agent guide"
+    ],
+    "expected_artifact": "outputs.md red-team section with blocked uses and required review gates.",
+    "validation_method": "Red-team reviewer tests each proposed use against self-report bias, missingness, seasonal outage, load mismatch, maintenance incentives, privacy, and facility blame; a second reviewer independently repeats the failure-mode check.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every candidate financing, procurement, clinical, or facility-ranking interpretation is either supported by a named denominator and replicated review status or explicitly blocked with a documented failure mode."
+  },
+  {
+    "id": "field-reality-decision-check",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "title": "Check reliability outputs against a real infrastructure decision",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing review names the responsible infrastructure user, decision timing, minimum evidence, maintenance pathway, data burden, and non-use cases.",
+    "inputs": [
+      "replicated facility-reliability baseline",
+      "local health and energy planning workflow",
+      "maintenance and accountability map",
+      "red-team failure-mode review"
+    ],
+    "expected_artifact": "playbooks.md field-reality section update and a structured review record.",
+    "validation_method": "Field-reality reviewer records one responsible use and one explicit non-use; a red-team reviewer independently replicates the governance check and confirms that the artifact cannot bypass technical, clinical, privacy, or equity safeguards.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "A named decision-maker can identify one responsible use, one non-use, the minimum evidence needed before acting, who owns repair or monitoring, and how facilities or populations missing from the data are protected from adverse decisions; the governance check is independently replicated."
+  }
+]

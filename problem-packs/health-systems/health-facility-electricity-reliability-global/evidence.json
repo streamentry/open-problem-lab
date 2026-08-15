@@ -1,0 +1,138 @@
+[
+  {
+    "id": "who-hcf-electricity-fact-sheet-2023",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "claim": "WHO estimates that close to 1 billion people in low- and lower-middle-income countries are served by health-care facilities without reliable electricity or with no electricity access; its available survey set reports no electricity in 12% of South Asian facilities and 15% of sub-Saharan African facilities, with reliable electricity in 40% of sub-Saharan African facilities.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Electricity in health-care facilities",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/electricity-in-health-care-facilities"
+    },
+    "source_date": "2023-08-31",
+    "access_date": "2026-08-15",
+    "method": "Reviewed the WHO fact sheet key facts, overview, and global access status sections. Preserved the available-survey framing and separated people served from facility percentages rather than treating either as a direct patient-outcome estimate.",
+    "limitations": [
+      "The people-served estimate is modeled from facility access data and is not a count of patient visits or people harmed by outages.",
+      "The regional percentages are based on available national survey data from 27 low- and lower-middle-income countries collected between 2015 and 2022.",
+      "The fact sheet does not measure service-area load, outage logs, maintenance delay, clinical quality, or mortality outcomes."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-energizing-health-report-2023",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "claim": "The WHO, World Bank, IRENA, and Sustainable Energy for All report describes tools for characterizing health-care-facility energy requirements, technical and economic considerations for electrification, investment estimates, and policy frameworks for accelerating reliable electricity access.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Energizing health: accelerating electricity access in health-care facilities",
+      "url": "https://www.who.int/westernpacific/publications/i/item/9789240066960"
+    },
+    "source_date": "2023-01-14",
+    "access_date": "2026-08-15",
+    "method": "Reviewed the official publication overview and the report's stated scope, audiences, methods, investment, and policy sections. Classified it as decision-context and measurement-method evidence, not as a facility-level outcome dataset.",
+    "limitations": [
+      "The report combines available survey evidence and modeled investment requirements; it does not provide a globally complete facility uptime panel.",
+      "Investment estimates depend on assumptions about facility types, energy needs, technology, costs, and implementation conditions.",
+      "The report cannot establish that electrification alone improves clinical outcomes or that one technology is appropriate for every facility."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-gho-hcf-reliable-electricity-metadata-2026",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "claim": "WHO's HCF_REL_ELECTRICITY metadata defines reliable electricity as no interruption longer than two hours at a time during regular service hours in the prior week or two weeks, compiles national surveys and censuses, excludes facilities without reliability information from the denominator, and notes variation in outage windows and question wording.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Electrification of health-care facilities: Percentage of health-care facilities with reliable electricity supply (%)",
+      "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/hcf-electricity--percentage-of-health-care-facilities-with-access-to-reliable-electricity-%28-%29"
+    },
+    "source_date": "2026-08-15",
+    "access_date": "2026-08-15",
+    "method": "Reviewed the living indicator page's definition, disaggregation, method of measurement, preferred sources, denominator rule, and limitations. Because the page does not expose a stable source-version date, source_date is set to the access date and the record treats it as living metadata.",
+    "limitations": [
+      "The page is living metadata and its content or source inventory may change after this access date.",
+      "The indicator is reported only where national coverage and robust sampling are available; it is not a complete global facility census.",
+      "A one- or two-week self-report threshold does not measure continuous power quality, service-area load, device function, maintenance response, or patient outcomes."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hhfa-combined-core-2021",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "claim": "WHO's Harmonized Health Facility Assessment combined core questionnaire provides standardized facility-survey modules and includes observed questions about whether electricity is functioning in a service area and whether backup power is available when the primary supply has a gap.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Harmonized health facility assessment (HHFA) – Combined questionnaire (Core)",
+      "url": "https://cdn.who.int/media/docs/default-source/world-health-data-platform/hhfa/hhfa_-questionnaire_combined_core_2021.03.07.pdf?download=true&sfvrsn=698754fa_5"
+    },
+    "source_date": "2021-03-09",
+    "access_date": "2026-08-15",
+    "method": "Reviewed the combined core questionnaire's electricity questions in the facility/service-area infrastructure section, including current function and backup availability, and cross-checked the associated HHFA publication page for the module and standardization scope.",
+    "limitations": [
+      "A questionnaire is an assessment instrument, not a dataset or evidence that a country implemented every item.",
+      "Point-in-time observation and respondent answers do not replace outage logs, sensor data, fuel records, or load tests.",
+      "Countries may adapt the HHFA, so cross-country comparability requires field-level and version-level auditing."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "reuland-malawi-hcf-energy-2020",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "claim": "A mixed-methods assessment of 44 public health-care facilities in Malawi found weekly electricity interruptions averaging about 10 hours and fewer than one-third of facilities with a functional backup source, and linked inadequate energy conditions with irregular water supply, sterilization problems, and unsafe working conditions in that setting.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Energy access in Malawian healthcare facilities: consequences for health service delivery and environmental health conditions",
+      "url": "https://doi.org/10.1093/heapol/czz118",
+      "doi": "10.1093/heapol/czz118"
+    },
+    "source_date": "2020-03-01",
+    "access_date": "2026-08-15",
+    "method": "Reviewed the study design, facility sample, energy-supply tables, backup-function questions, service and environmental-health findings, interview methods, and limitations. Kept the estimates at the 44-facility Malawi study grain and treated the reported relationships as associative.",
+    "limitations": [
+      "The sample covered 44 public facilities in Malawi and used clustered selection around district hospitals; it is not a representative global or national estimate.",
+      "Several measures relied on administrator or worker recall over a stated window and did not use continuous outage telemetry.",
+      "The study cannot establish that electricity conditions caused deaths, quality-of-care changes, or cost-effective intervention effects."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "javadi-ghana-uganda-electrification-2020",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "claim": "A mixed-methods implementation study of rural solar electrification in Ghana and Uganda used adapted facility checklists, records, interviews, and community groups; it observed improvements in selected electricity, equipment, and service-readiness measures but did not observe statistically significant changes in recorded antenatal visits and deliveries over the study period.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Implementation research on sustainable electrification of rural primary care facilities in Ghana and Uganda",
+      "url": "https://doi.org/10.1093/heapol/czaa077",
+      "doi": "10.1093/heapol/czaa077"
+    },
+    "source_date": "2020-11-06",
+    "access_date": "2026-08-15",
+    "method": "Reviewed the intervention selection, Ghana and Uganda facility samples, adapted SARA checklist, baseline/endline tables, health-facility records, qualitative methods, and authors' interpretation of service-use results.",
+    "limitations": [
+      "The intervention sites were selected rather than randomized, and the Ghana and Uganda designs and facility contexts were not identical.",
+      "The study is a one-year implementation case study with small facility samples and cannot estimate a general population or mortality effect.",
+      "Improved readiness or satisfaction does not prove that electricity was the sole cause or that the intervention is affordable or sustainable elsewhere."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ngongoma-malawi-ultrasound-electricity-2026",
+    "problem_id": "health-systems/health-facility-electricity-reliability-global",
+    "claim": "A 2026 analysis of Malawi's 2019 Harmonized Health Facility Assessment included 596 facilities and reported 24.66% with stable grid electricity, 46.14% with unstable grid electricity, and 29.20% using non-grid sources; ultrasound was available in 9.9% of facilities and 93% of the available ultrasound equipment was functional.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Power supply and ultrasound functionality in Malawi: findings from the 2019 harmonised health facility assessment",
+      "url": "https://doi.org/10.1038/s44401-025-00055-y",
+      "doi": "10.1038/s44401-025-00055-y"
+    },
+    "source_date": "2026-01-09",
+    "access_date": "2026-08-15",
+    "method": "Reviewed the article's abstract, 596-facility sample, electricity categories, ultrasound availability and functionality denominators, stratified results, and limitations. Preserved the distinction between electricity category, device availability, and functionality among devices present.",
+    "limitations": [
+      "The underlying HHFA data were collected in 2019 and cover Malawi, not current global facility conditions.",
+      "The cross-sectional analysis is device-specific and observational; stable power is not a causal estimate of ultrasound availability or clinical benefit.",
+      "The 93% functionality percentage uses only facilities with available ultrasound equipment and cannot be interpreted as a facility-wide readiness rate."
+    ],
+    "confidence": "high"
+  }
+]
