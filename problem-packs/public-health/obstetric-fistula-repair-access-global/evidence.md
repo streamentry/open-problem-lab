@@ -34,6 +34,10 @@ Use this source as a concrete program-output example for identified cases, surge
 
 Use this source to define the prevention-capacity family around functioning emergency obstetric signal functions and the continuum from availability to use and quality. It cannot supply current observations or a fistula numerator.
 
+### Bangladesh national survey with clinical validation correction
+
+Use this primary study as a validated-prevalence and measurement-error source. It connects a national survey module to clinical examinations in a validation sample, then corrects the survey estimate for verification and reporting error. Its result is stronger than an unvalidated symptom prevalence estimate, but it remains a 2016 prevalence estimate rather than a registry of untreated survivors, a repair-access measure, or an incident-fistula estimate. The correction was estimated in two upazilas in Sylhet and transferred to the national survey; that transportability assumption must remain visible in any cross-country or current allocation analysis.
+
 ## Evidence Quality Rule
 
 Obstetric fistula evidence is easy to overstate because stigma, isolation, survey wording, diagnosis access, repair follow-up, and recurrence all distort the numerator. An evidence record is useful only if it says which measurement family it supports and what it cannot prove.
