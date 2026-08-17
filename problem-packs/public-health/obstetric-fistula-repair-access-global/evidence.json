@@ -134,5 +134,27 @@
       "A facility assessment can miss referral delay, transport failure, informal care, and variation between assessment and service date."
     ],
     "confidence": "high"
+  },
+  {
+    "id": "bangladesh-fistula-clinical-validation-2022",
+    "problem_id": "public-health/obstetric-fistula-repair-access-global",
+    "claim": "A 2016 Bangladesh Maternal Morbidity Validation Study clinically examined women identified by survey screening and supplied diagnostic values used to correct a nationally representative survey estimate; the study estimated 17,457 women aged 15-64 living with obstetric fistula in Bangladesh, while showing that self-reported symptom positives had a positive predictive value of 31.6% among women aged 15-49.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Obstetric fistula in Bangladesh: estimates from a national survey with clinical validation correction",
+      "url": "https://doi.org/10.1016/S2214-109X(22)00276-5",
+      "doi": "10.1016/S2214-109X(22)00276-5"
+    },
+    "source_date": "2022-09-01",
+    "access_date": "2026-08-17",
+    "method": "Reviewed the article's study design, validation-sample methods, diagnostic-value analysis, national-survey adjustment, results, and limitations. Classified it as a clinically validated prevalence-measurement source because it links survey screening to examination by female physicians and applies verification-bias and misclassification corrections; did not treat its prevalence estimate as a direct untreated-backlog or repair-capacity measure.",
+    "limitations": [
+      "The clinical validation sample was drawn from two upazilas in Sylhet and its diagnostic values were applied to the national survey, so external validity of the correction across Bangladesh is an assumption rather than a directly observed national property.",
+      "Only 19 obstetric fistula cases were confirmed in the validation sample, leaving substantial uncertainty around diagnostic statistics and the corrected estimates.",
+      "The source uses 2016 survey and validation data and does not link prevalent cases to repair history, current untreated status, recurrence, or access to a functioning repair pathway.",
+      "The national 15-64 estimate extrapolates the 50-64 age group from the validation study because the national survey interviewed women aged 15-49 for the fistula module; it should not be compared with another age band without adjustment.",
+      "The source_date records the September 2022 journal issue month; the evidence record does not assert a more precise publication day."
+    ],
+    "confidence": "high"
   }
 ]

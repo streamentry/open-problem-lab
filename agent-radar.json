@@ -4,12 +4,12 @@
     "schema_version": 1,
     "total_packs": 117,
     "total_tasks": 603,
-    "scoped_tasks": 106,
-    "latent_tasks": 497,
+    "scoped_tasks": 105,
+    "latent_tasks": 498,
     "status_counts": {
-      "scoped": 106,
+      "scoped": 105,
       "needs-triage": 486,
-      "needs-review": 11
+      "needs-review": 12
     },
     "owner_role_counts": {
       "literature-scout": 117,
@@ -19,7 +19,7 @@
       "field-reality-reviewer": 117
     },
     "scoped_role_counts": {
-      "literature-scout": 106
+      "literature-scout": 105
     },
     "reviewer_needed_counts": {
       "domain-reviewer": 241,
@@ -37,22 +37,6 @@
   "protocol_alerts": [],
   "contributor_lanes": {
     "first_moves": [
-      {
-        "pack_id": "public-health/obstetric-fistula-repair-access-global",
-        "pack_title": "Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries",
-        "task_id": "source-inventory",
-        "title": "Inventory obstetric fistula prevalence, repair, and prevention data sources",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "low",
-        "done_condition": "At least six candidate sources are classified as usable, limited, or rejected with explicit reasons covering measurement family, numerator, denominator, time reference, geographic grain, case-finding method, and backlog-versus-incidence relevance.",
-        "evidence_count": 7,
-        "downstream_tasks_unlocked": 4,
-        "downstream_high_risk_tasks": 2,
-        "problem_file": "problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md",
-        "tasks_file": "problem-packs/public-health/obstetric-fistula-repair-access-global/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 4 follow-on tasks across 4 additional roles."
-      },
       {
         "pack_id": "education/digital-divide-school-access-global",
         "pack_title": "Digital Divide Measurement And School Internet Connectivity In Low-Income Countries",
@@ -227,6 +211,22 @@
         "downstream_high_risk_tasks": 3,
         "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md",
         "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
+      },
+      {
+        "pack_id": "biodiversity/coral-bleaching-great-barrier-reef",
+        "pack_title": "Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef",
+        "task_id": "source-inventory",
+        "title": "Inventory coral bleaching data sources",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "medium",
+        "done_condition": "At least five sources classified as usable, limited, or rejected.",
+        "evidence_count": 3,
+        "downstream_tasks_unlocked": 5,
+        "downstream_high_risk_tasks": 3,
+        "problem_file": "problem-packs/biodiversity/coral-bleaching-great-barrier-reef/problem.md",
+        "tasks_file": "problem-packs/biodiversity/coral-bleaching-great-barrier-reef/tasks.json",
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       }
     ],
@@ -656,7 +656,7 @@
         "scoped_tasks": 0,
         "latent_tasks": 137,
         "share_of_all_tasks": 0.227,
-        "share_of_latent_tasks": 0.276
+        "share_of_latent_tasks": 0.275
       },
       {
         "owner_role": "field-reality-reviewer",
@@ -681,10 +681,10 @@
       },
       {
         "owner_role": "literature-scout",
-        "scoped_tasks": 106,
-        "latent_tasks": 11,
+        "scoped_tasks": 105,
+        "latent_tasks": 12,
         "share_of_all_tasks": 0.194,
-        "share_of_latent_tasks": 0.022
+        "share_of_latent_tasks": 0.024
       }
     ]
   }
