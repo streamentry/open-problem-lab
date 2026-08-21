@@ -9,9 +9,9 @@
 | Total packs | 117 |
 | Packs with claims | 13 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 394 |
+| Total evidence records | 398 |
 | Total tasks | 603 |
-| Scoped tasks (ready for work) | 105 |
+| Scoped tasks (ready for work) | 104 |
 | High-risk tasks | 318 |
 
 ## All Problem Packs
@@ -46,7 +46,7 @@
 | [disaster-resilience/tsunami-early-warning-indian-ocean](../../problem-packs/disaster-resilience/tsunami-early-warning-indian-ocean/problem.md) | Tsunami Early Warning System Coverage And Community Preparedness In Indian Ocean Countries | scoped | disaster-resilience | indian-ocean | high | 1 ev; 5 tasks | needs evidence |
 | [disaster-resilience/urban-flooding-south-asia](../../problem-packs/disaster-resilience/urban-flooding-south-asia/problem.md) | Urban Pluvial Flooding Risk In South Asian Megacities | scoped | disaster-resilience, climate-adaptation | south-asia | high | 3 ev; 6 tasks | ready |
 | [disaster-resilience/volcanic-ash-aviation-global](../../problem-packs/disaster-resilience/volcanic-ash-aviation-global/problem.md) | Volcanic Ash Aviation Hazard Detection And Airspace Management Gaps | scoped | disaster-resilience | global | high | 3 ev; 5 tasks | ready |
-| [education/digital-divide-school-access-global](../../problem-packs/education/digital-divide-school-access-global/problem.md) | Digital Divide Measurement And School Internet Connectivity In Low-Income Countries | scoped | education | global | low | 6 ev; 5 tasks | ready |
+| [education/digital-divide-school-access-global](../../problem-packs/education/digital-divide-school-access-global/problem.md) | Digital Divide Measurement And School Internet Connectivity In Low-Income Countries | scoped | education | global | low | 10 ev; 5 tasks | needs triage |
 | [education/early-childhood-development-global](../../problem-packs/education/early-childhood-development-global/problem.md) | Early Childhood Development Measurement And Intervention Coverage Gaps In Low-Income Countries | scoped | education, public-health | global | medium | 2 ev; 5 tasks | needs evidence |
 | [education/girls-education-sub-saharan-africa](../../problem-packs/education/girls-education-sub-saharan-africa/problem.md) | Girls Secondary Education Enrollment And Retention Barriers In Sub-Saharan Africa | scoped | education | sub-saharan-africa | medium | 2 ev; 5 tasks | needs evidence |
 | [education/learning-loss-post-pandemic](../../problem-packs/education/learning-loss-post-pandemic/problem.md) | Post-Pandemic Learning Loss Measurement And Recovery Tracking In Low-Income Countries | scoped | education | global | medium | 3 ev; 6 tasks | ready |

@@ -3,7 +3,7 @@
     "id": "source-inventory",
     "problem_id": "education/digital-divide-school-access-global",
     "title": "Inventory school connectivity, mobile-network, and digital-learning data sources for low-income countries",
-    "status": "scoped",
+    "status": "needs-review",
     "owner_role": "literature-scout",
     "outcome": "A dated source inventory that separates Giga school-connectivity data, national school census ICT indicators, mobile-network coverage maps, and connectivity-quality studies into usable, limited, and rejected categories with explicit connectivity-classification methodology and data-currency assessment.",
     "inputs": [
