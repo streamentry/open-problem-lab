@@ -42,21 +42,20 @@
   {
     "id": "school-census-ict-data-limitations",
     "problem_id": "education/digital-divide-school-access-global",
-    "claim": "School census data in many low-income countries includes ICT indicators — computer availability, internet connectivity, electricity — but data currency varies widely (some countries use census data from 5+ years ago) and is not systematically cross-validated against connectivity measurements.",
-    "evidence_type": "expert-review",
+    "claim": "UNESCO UIS SDG 4.a.1 metadata keeps electricity, internet for pedagogical purposes, and computers for pedagogical purposes as separate school-service indicators, so a school-connectivity inventory must not treat an internet flag as a complete digital-learning-readiness measure.",
+    "evidence_type": "primary-source",
     "source": {
-      "title": "UNESCO Education Sector",
-      "url": "https://www.unesco.org/en/education"
+      "title": "SDG 4 Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all — Metadata: 4.a.1 Proportion of schools offering basic services, by type of service",
+      "url": "https://tcg.uis.unesco.org/wp-content/uploads/sites/4/2021/02/Metadata-4.a.1.pdf"
     },
-    "source_date": "2023-06-01",
-    "access_date": "2026-06-28",
-    "method": "Reviewed school census documentation, ICT-indicator availability, data-currency assessment, and cross-validation methodology across low-income countries.",
+    "source_date": "2024-12-14",
+    "access_date": "2026-08-21",
+    "method": "Reviewed the metadata definition, the separate concepts for electricity, internet for pedagogical purposes, and computers for pedagogical purposes, and the sample school-questionnaire items used for SDG 4.a.1.",
     "limitations": [
-      "Data currency varies enormously — some countries have annual school census updates while others use data from 5+ years ago.",
-      "ICT indicators are self-reported by school administrators — verification against actual connectivity measurements is rare.",
-      "Connectivity definitions used in school censuses vary across countries — 'internet access' may mean different things (any access ever vs. regular usable connection).",
-      "Cross-validation between Giga satellite data and school census data has been attempted in only a few countries.",
-      "URL changed from the UNESCO EMIS page (404 as of 2026-06-28) to the UNESCO Education Sector page; EMIS content may have been reorganized."
+      "The metadata defines indicators and questionnaire concepts; it does not provide current school-level observations for a target country.",
+      "The indicator does not establish bandwidth, uptime, latency, or whether pupils actually use the connection for learning.",
+      "It does not validate the completeness, currency, or independent ground truth of any national school census.",
+      "Cross-validation against Giga or performance measurements remains a country-specific task, not a property of this metadata document."
     ],
     "confidence": "high"
   },
@@ -109,14 +108,95 @@
       "title": "Guide to Measuring Information and Communication Technologies (ICT) in Education",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000186547"
     },
-    "source_date": "2024-01-01",
-    "access_date": "2026-07-20",
-    "method": "Reviewed the guide's recommended data-collection setting, indicator definitions, administrative-record basis, and distinction between measurement guidance and observed country data.",
+    "source_date": "2011-01-01",
+    "access_date": "2026-08-21",
+    "method": "Reviewed the guide's recommended administrative-data collection setting, indicator definitions, proposed questionnaire items, and distinction between measurement guidance and observed country data.",
     "limitations": [
+      "The guide was published in 2011; it is a historical measurement standard and may not reflect later platform, device, or connectivity changes.",
       "The guide does not supply current school-level observations for a target country.",
       "Following a measurement standard does not establish that a national school census is complete, current, or independently validated.",
       "Cross-country comparability still depends on implementation, response completeness, and metadata from each education system.",
       "The guide cannot measure bandwidth, reliability, or actual educational use by itself."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "giga-mapping-service-api-2025",
+    "problem_id": "education/digital-divide-school-access-global",
+    "claim": "Giga's mapping service combines official school and connectivity data from government partners with open data, uses satellite imagery, machine learning, and open-source mapping tools for data refinement, and exposes API access to school location, connectivity status, and internet-quality layers; it is therefore a multi-source compilation rather than a single ground-truth measurement.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "How we work | Mapping School Connectivity | Giga",
+      "url": "https://giga.global/what-we-do/how-we-work/mapping/"
+    },
+    "source_date": "2025-01-01",
+    "access_date": "2026-08-21",
+    "method": "Reviewed the mapping page sections on source integration, API downloads, data-quality assessment, satellite and machine-learning refinement, and local validation campaigns; recorded the page's year only because it does not expose an exact publication or update date.",
+    "limitations": [
+      "The page does not expose an exact publication or update date; 2025-01-01 is a year-level source-date proxy and must not be read as a precise release date.",
+      "Government, open-map, and other partner layers can have different definitions, update cycles, and missingness; the API does not make them homogeneous ground truth.",
+      "The page does not provide country-specific sensitivity, specificity, sampling-frame, or independent validation estimates for every connectivity classification.",
+      "School-location refinement and connectivity status do not establish bandwidth, uptime, electricity reliability, device access, or educational use."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "giga-meter-school-performance-2026",
+    "problem_id": "education/digital-divide-school-access-global",
+    "claim": "Giga Meter describes school-level end-user performance monitoring through up to four automated daily tests of download speed, upload speed, latency, and uptime, with ISP network-edge data as a complementary vantage point; it can supply a quality layer beyond a connected/not-connected flag but cannot measure pedagogical use.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Monitoring School Connectivity | Giga Meter | Giga",
+      "url": "https://giga.global/what-we-do/our-solutions/monitoring/"
+    },
+    "source_date": "2026-01-01",
+    "access_date": "2026-08-21",
+    "method": "Reviewed the monitoring documentation's stated test cadence, measured performance fields, data access path, ISP integration, and multi-vantage-point cross-referencing language; recorded the year only because the page does not expose an exact publication or update date.",
+    "limitations": [
+      "The page does not expose an exact publication or update date; 2026-01-01 is a year-level catalog date for the current page, not a dated measurement release.",
+      "The documentation does not establish country-wide school coverage, a representative sample, or completeness of the participating-school panel.",
+      "Up to four tests per day may not represent all-day reliability, peak congestion, outages outside the test windows, or service experienced on other devices.",
+      "Performance tests do not observe electricity continuity, device availability, teacher capability, relevant content, or actual educational use."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "uis-world-education-statistics-2024",
+    "problem_id": "education/digital-divide-school-access-global",
+    "claim": "UNESCO UIS World Education Statistics 2024 reports that the latest available SDG 4.a.1 school-facility data are from 2023 while noting that the 2022 sample is more representative, demonstrating why school-connectivity analyses must retain both observation year and representativeness metadata.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "World Education Statistics 2024",
+      "url": "https://tcg.uis.unesco.org/wp-content/uploads/sites/4/2024/09/World-Education-Statistics-2024.pdf"
+    },
+    "source_date": "2024-09-01",
+    "access_date": "2026-08-21",
+    "method": "Reviewed the school-facilities section covering SDG 4.a.1 and recorded the document's explicit distinction between the latest 2023 data and the more representative 2022 sample; treated the URL path as month-level publication evidence.",
+    "limitations": [
+      "The report presents global and regional aggregates, not a school-level or district-level connectivity map.",
+      "The latest year and the more representative sample are not necessarily the same observation frame; they must not be silently combined.",
+      "The report does not cross-validate national administrative records against Giga or repeated performance measurements.",
+      "School internet availability is not equivalent to bandwidth, uptime, electricity reliability, device access, or actual learning use."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "giga-maps-backend-data-sources-2024",
+    "problem_id": "education/digital-divide-school-access-global",
+    "claim": "The pinned Giga Maps backend data-source configuration separates a boolean connectivity field and connectivity type from school-level quality-of-service fields for download speed, upload speed, and latency, while marking the configuration draft; it is useful for provenance and schema inspection, not for validating observed coverage.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Giga Maps backend data source configuration (data_sources.json)",
+      "url": "https://github.com/unicef/giga-maps-backend/blob/d90e91645eb0f6853120c8544456513b8e3f14b6/data_sources.json"
+    },
+    "source_date": "2024-07-16",
+    "access_date": "2026-08-21",
+    "method": "Reviewed the pinned configuration entries for the Daily Check App and QoS sources, including field names, units, access requirements, and the explicit DRAFT status; used the commit-pinned URL to prevent branch drift.",
+    "limitations": [
+      "This is a source configuration file, not an observation dataset and not evidence of country coverage or school-level prevalence.",
+      "The pinned configuration marks the listed sources as DRAFT, so field definitions require confirmation against the live API before extraction.",
+      "The file does not provide ground-truth accuracy, missingness rates, or cross-validation results against school census data.",
+      "The configuration is historical as of 2024-07-16; current APIs or schemas may have changed."
     ],
     "confidence": "high"
   }

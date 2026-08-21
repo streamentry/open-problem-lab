@@ -3,14 +3,14 @@
     "generated_by": "scripts/generate-task-index.mjs",
     "schema_version": 1,
     "total_packs": 117,
-    "total_scoped_tasks": 105,
+    "total_scoped_tasks": 104,
     "by_role": {
-      "literature-scout": 105
+      "literature-scout": 104
     },
     "by_risk": {
       "medium": 102,
       "high": 1,
-      "low": 2
+      "low": 1
     },
     "by_domain": {
       "air-quality": 6,
@@ -22,7 +22,7 @@
       "disaster-resilience": 10,
       "chemical-safety": 1,
       "sanitation": 5,
-      "education": 9,
+      "education": 8,
       "energy-access": 7,
       "food-safety": 1,
       "health-systems": 4,
@@ -506,23 +506,6 @@
       "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering detection capability, regional coverage, false-positive documentation, and monitoring-network density.",
       "tasks_file": "problem-packs/disaster-resilience/volcanic-ash-aviation-global/tasks.json",
       "problem_file": "problem-packs/disaster-resilience/volcanic-ash-aviation-global/problem.md"
-    },
-    {
-      "pack_id": "education/digital-divide-school-access-global",
-      "pack_title": "Digital Divide Measurement And School Internet Connectivity In Low-Income Countries",
-      "pack_status": "scoped",
-      "domain": ["education"],
-      "region": ["global"],
-      "task_id": "source-inventory",
-      "title": "Inventory school connectivity, mobile-network, and digital-learning data sources for low-income countries",
-      "owner_role": "literature-scout",
-      "reviewer_needed": "domain-reviewer",
-      "safety_risk": "low",
-      "outcome": "A dated source inventory that separates Giga school-connectivity data, national school census ICT indicators, mobile-network coverage maps, and connectivity-quality studies into usable, limited, and rejected categories with explicit connectivity-classification methodology and data-currency assessment.",
-      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
-      "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering connectivity-classification methodology, data currency, and cross-validation status.",
-      "tasks_file": "problem-packs/education/digital-divide-school-access-global/tasks.json",
-      "problem_file": "problem-packs/education/digital-divide-school-access-global/problem.md"
     },
     {
       "pack_id": "education/early-childhood-development-global",
