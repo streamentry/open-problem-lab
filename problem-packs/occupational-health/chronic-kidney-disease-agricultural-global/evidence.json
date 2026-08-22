@@ -1,0 +1,147 @@
+[
+  {
+    "id": "who-kidney-disease-fact-sheet-2026",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "claim": "WHO estimates that 674 million people have chronic kidney disease worldwide, most in low- and middle-income countries, and states that persistent eGFR or albuminuria can identify CKD using blood and urine testing.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Kidney disease",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/kidney-disease"
+    },
+    "source_date": "2026-04-20",
+    "access_date": "2026-08-22",
+    "method": "Reviewed WHO sections on global CKD burden, LMIC distribution, CKD diagnostic criteria, primary-care testing, AKI/CKD distinction, and the WHO response. Recorded only the general CKD burden and diagnostic rules; did not convert them into a CKDu prevalence estimate.",
+    "limitations": [
+      "The 674 million estimate covers CKD of all causes and is not a denominator for CKDu or agricultural-worker disease.",
+      "The fact sheet does not provide occupational, agricultural, or sub-national prevalence estimates.",
+      "Blood and urine testing can identify kidney disease but does not establish etiology or causality.",
+      "The source is a global fact sheet and does not specify assay calibration, sampling frames, or missingness for the burden estimate."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "isn-ckdu-consortium-measurement-gaps-2026",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "claim": "The ISN i3C report identifies poorly described cross-region CKDu burden, inconsistent terminology, difficulty distinguishing disease onset from progression, and the need for alternatives to self-reported exposure measurement as field-wide obstacles.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Taking the ‘unknown’ out of CKDu – Optimising approaches to uncover the cause(s) of epidemic-level kidney disease in low- and middle-income settings: A report from the ISN’s International Consortium of CKDu collaborators (ISN i3C)",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10220673",
+      "doi": "10.1016/j.kint.2025.12.027"
+    },
+    "source_date": "2026-04-01",
+    "access_date": "2026-08-22",
+    "method": "Reviewed the UCL-hosted accepted manuscript landing page and abstract for the consortium's stated obstacles and recommendations. Used the repository URL for stable access and retained the publisher DOI for source identity.",
+    "limitations": [
+      "This is a consortium report and field synthesis, not a new population-representative CKDu prevalence study.",
+      "It identifies measurement and research obstacles but does not establish which exposure causes CKDu.",
+      "The exact issue publication date is not exposed on the repository landing page; 2026-04-01 is a month-level proxy based on the reported Kidney International issue.",
+      "Recommendations from the report require country-specific implementation and independent replication."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "isn-global-kidney-health-atlas-2023",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "claim": "The ISN Global Kidney Health Atlas 2023 provides a country- and income-group survey layer for kidney-care readiness and reports an estimated kidney-disease population of more than 850 million, making health-system diagnostic capacity a necessary context layer for CKDu surveillance.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "ISN–Global Kidney Health Atlas 2023",
+      "url": "https://www.theisn.org/wp-content/uploads/media/ISN%20Atlas_2023%20Digital_REV_2023_10_03.pdf"
+    },
+    "source_date": "2023-10-03",
+    "access_date": "2026-08-22",
+    "method": "Reviewed the Atlas overview and sections describing its global survey design, kidney-disease burden framing, country readiness, diagnostic capacity, and kidney-replacement-therapy access. Classified it as health-system context rather than CKDu-specific epidemiology.",
+    "limitations": [
+      "The more than 850 million estimate covers kidney disease broadly and cannot quantify CKDu or agricultural-worker disease.",
+      "Atlas indicators depend on country participation and may not represent countries or facilities without reliable reporting.",
+      "Health-system capacity indicators do not show whether an agricultural community has persistent CKD or a specific exposure.",
+      "Survey readiness is not the same as functioning service availability at the time of an individual test."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sri-lanka-ckdu-case-definition-2019",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "claim": "A Sri Lankan study proposes a multilevel clinical case-definition framework for CKDu surveillance and epidemiological studies, demonstrating that case-definition design can be treated as a reviewable measurement artifact rather than an implicit label.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "CKD of Unknown Etiology (CKDu) in Sri Lanka: A Multilevel Clinical Case Definition for Surveillance and Epidemiological Studies",
+      "url": "https://doi.org/10.1016/j.ekir.2019.03.020",
+      "doi": "10.1016/j.ekir.2019.03.020"
+    },
+    "source_date": "2019-04-03",
+    "access_date": "2026-08-22",
+    "method": "Reviewed the article title, abstract, case-definition framework, and surveillance-oriented classification logic. Classified the paper as a regional method source that can inform a crosswalk but cannot be silently adopted as a universal case definition.",
+    "limitations": [
+      "The framework was developed for Sri Lankan CKDu and may not transfer unchanged to Mesoamerican, African, or other settings.",
+      "A case definition does not establish the disease cause or the effectiveness of a prevention measure.",
+      "The paper cannot by itself quantify current national prevalence or validate exposure measurement.",
+      "Different studies may apply the same label with different laboratory, exclusion, and repeat-testing rules."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "manos-ckdu-workers-2022",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "claim": "The MANOS prospective cohort enrolled workers in El Salvador and Nicaragua, used repeated eGFR measurements six months apart, and reported 7.4% baseline CKD overall with the highest age-standardized prevalence in Salvadoran sugarcane workers at 14.1%.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "High prevalence of chronic kidney disease of unknown etiology among workers in the Mesoamerican Nephropathy Occupational Study",
+      "url": "https://doi.org/10.1186/s12882-022-02861-0",
+      "doi": "10.1186/s12882-022-02861-0"
+    },
+    "source_date": "2022-07-07",
+    "access_date": "2026-08-22",
+    "method": "Reviewed the cohort recruitment, industry and country coverage, repeated serum collection, eGFR definition, baseline prevalence results, and limitations. Recorded the study as an occupational surveillance template and did not treat all observed CKD as proven CKDu.",
+    "limitations": [
+      "The cohort covered selected workers and industries in two Central American countries and is not globally representative.",
+      "The reported baseline CKD prevalence is not a global CKDu estimate and cannot be transferred without a definition and sampling audit.",
+      "Workers with known diabetes, hypertension, or CKD were excluded from recruitment, which changes the denominator.",
+      "Observed associations with heat, agrochemicals, or other exposures do not establish a single cause."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ckdu-agri-tamil-nadu-2025",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "claim": "The CKDu-AGRI statewide study screened 3,350 agricultural workers in Tamil Nadu, estimated CKD prevalence at 5.31% and CKDu prevalence at 2.66% after repeat testing, and found 406 participants whose low first eGFR was normal at remeasurement.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "CKDu-AGRI Study—a population-based cross-sectional study of chronic kidney disease and chronic kidney disease of unknown aetiology among agricultural workers in Tamil Nadu, India",
+      "url": "https://doi.org/10.1016/j.lansea.2025.100683",
+      "doi": "10.1016/j.lansea.2025.100683"
+    },
+    "source_date": "2025-10-28",
+    "access_date": "2026-08-22",
+    "method": "Reviewed the population-based sampling design, two-phase kidney-function testing, prevalence estimates, covariates, and the transient low-eGFR finding. Classified this as primary evidence that repeat testing and AKI separation materially change the measured CKDu denominator.",
+    "limitations": [
+      "The study is statewide in Tamil Nadu but cannot establish prevalence in other Indian states or countries.",
+      "The cross-sectional design identifies prevalence and associations, not longitudinal causality or intervention effect.",
+      "Exposure measures and CKDu classification are specific to the study protocol and require field-level harmonization before comparison.",
+      "The participant data are not a public individual-level dataset; replication requires documented access and privacy controls."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sri-lanka-rural-ckdu-prevalence-2022",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "claim": "A selected rural Sri Lankan study found suspected CKDu in 30 of 352 participants, or 8.5%, and reported that suspected CKDu represented 63.8% of the CKD cases observed in that sample.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Prevalence of CKD of Unknown Etiology and its Potential Risk Factors in a Rural Population in Sri Lanka",
+      "url": "https://doi.org/10.1016/j.ekir.2022.07.012",
+      "doi": "10.1016/j.ekir.2022.07.012"
+    },
+    "source_date": "2022-08-03",
+    "access_date": "2026-08-22",
+    "method": "Reviewed the study population, CKD and suspected CKDu counts, biomarker and exposure measurements, and local sampling context. Recorded the estimate as a bounded regional signal and not as a national prevalence result.",
+    "limitations": [
+      "The sample covered six selected administrative areas and is not nationally representative.",
+      "The study reports suspected CKDu, not a universally validated confirmed case category.",
+      "Associations with pesticides, heavy metals, water, or agricultural work cannot establish causation in this cross-sectional design.",
+      "The small sample and local exposure profile limit cross-country comparability without a formal measurement crosswalk."
+    ],
+    "confidence": "high"
+  }
+]

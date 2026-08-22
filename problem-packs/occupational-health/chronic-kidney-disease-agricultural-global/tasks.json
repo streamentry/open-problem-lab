@@ -1,0 +1,102 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "title": "Inventory CKDu case-definition, kidney-function, and occupational-exposure data sources",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory separating CKDu/CINAC case definitions, repeated kidney-function studies, occupational cohorts, environmental exposure measurements, kidney-care capacity data, and unusable single-screen or self-report sources.",
+    "inputs": [
+      "WHO kidney disease diagnostic and burden guidance",
+      "ISN i3C CKDu measurement-gap report",
+      "ISN Global Kidney Health Atlas",
+      "Sri Lankan CKDu case-definition and prevalence studies",
+      "MANOS occupational cohort in El Salvador and Nicaragua",
+      "CKDu-AGRI statewide agricultural-worker study in Tamil Nadu"
+    ],
+    "expected_artifact": "discovery-ranking.md plus datasets.md update and evidence.json records for each accepted source.",
+    "validation_method": "Reviewer checks each source for stable URL, date, kidney-function persistence rule, phenotype, case-definition boundary, denominator, exposure measurement mode, access status, and specific limitations.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "medium",
+    "done_condition": "At least seven candidate sources are classified as usable, limited, or rejected with explicit reasons covering persistence, CKDu definition, phenotype, worker sampling frame, exposure measurement, missingness, and cross-setting comparability."
+  },
+  {
+    "id": "case-definition-crosswalk",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "title": "Build a cross-setting CKDu case-definition and persistence crosswalk",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A reproducible crosswalk for at least three studies that separates persistent CKD, transient AKI or low eGFR, traditional CKD, suspected CKDu, and confirmed or higher-confidence CKDu categories.",
+    "inputs": [
+      "source inventory",
+      "WHO CKD persistence criteria",
+      "Sri Lankan multilevel case definition",
+      "MANOS repeated eGFR protocol",
+      "CKDu-AGRI two-phase testing protocol",
+      "at least one additional regional study"
+    ],
+    "expected_artifact": "validation.md update with a field-level case-definition crosswalk and non-comparability log.",
+    "validation_method": "Replicator reruns the crosswalk from the cited methods sections and confirms every category, repeat interval, exclusion rule, and missing-data decision.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "Three or more studies are mapped field by field, and every prevalence comparison is either supported by compatible persistence and classification fields or explicitly blocked as non-comparable."
+  },
+  {
+    "id": "surveillance-feasibility-audit",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "title": "Audit objective exposure and sentinel-surveillance feasibility in two settings",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A bounded feasibility plan for two named agricultural or manual-worker settings that specifies kidney testing, exposure measurement, sampling frame, referral, privacy, missingness, and the decision the resulting evidence could inform.",
+    "inputs": [
+      "case-definition crosswalk",
+      "candidate kidney laboratories and primary-care pathways",
+      "worker and community sampling frames",
+      "heat, water, agrochemical, medication, infection, and nutrition exposure instruments",
+      "field and privacy constraints"
+    ],
+    "expected_artifact": "validation.md and outputs.md update with a feasibility matrix, stop conditions, and non-use cases.",
+    "validation_method": "Domain reviewer checks whether each proposed field has a source, owner, collection timing, privacy boundary, missingness rule, and explicit decision use; no intervention is authorized by the artifact.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Two settings have a documented feasible or infeasible surveillance pathway, with no causal exposure conclusion and a named decision that can be informed only after independent replication."
+  },
+  {
+    "id": "red-team-causal-overreach",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "title": "Red-team CKDu causal, worker-protection, and exposure-ban misuse",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review identifying how CKDu surveillance outputs could be misused as causal proof, worker-blame evidence, employment-exclusion criteria, or justification for unsupported pesticide or water restrictions.",
+    "inputs": [
+      "draft cross-setting matrix",
+      "evidence ledger",
+      "validation requirements",
+      "safety policy"
+    ],
+    "expected_artifact": "outputs.md and validation.md linked red-team review note.",
+    "validation_method": "Red-team reviewer enumerates misuse paths and required safeguards; a second reviewer independently reproduces the check before any field-facing output is published.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every field-facing CKDu output is blocked or qualified with explicit non-causal language and safeguards against worker blame, employment exclusion, unsupported exposure bans, and clinical misuse, with replicated red-team review."
+  },
+  {
+    "id": "field-reality-surveillance-decision",
+    "problem_id": "occupational-health/chronic-kidney-disease-agricultural-global",
+    "title": "Check whether CKDu surveillance evidence changes a real ministry or funder decision",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing review of whether a replicated CKDu measurement matrix would change a named surveillance, screening, occupational-health, water-investigation, or research-funding decision without creating harmful incentives.",
+    "inputs": [
+      "replicated cross-setting matrix",
+      "Ministry of Health NCD and occupational-health workflow",
+      "labor ministry or worker-organization context",
+      "funder or research-program decision criteria"
+    ],
+    "expected_artifact": "playbooks.md update with named user, decision, timing, use case, and non-use case.",
+    "validation_method": "Field reviewer documents the actual decision, evidence threshold, workflow, and misuse risk; a second reviewer replicates the non-use-case check.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "The artifact names a user and decision, states what evidence would change the allocation, and records explicit non-use cases with replicated field-reality review before publication."
+  }
+]

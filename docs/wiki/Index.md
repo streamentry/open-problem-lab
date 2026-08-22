@@ -6,13 +6,13 @@
 
 | Metric | Value |
 |---|---|
-| Total packs | 117 |
+| Total packs | 118 |
 | Packs with claims | 13 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 398 |
-| Total tasks | 603 |
-| Scoped tasks (ready for work) | 104 |
-| High-risk tasks | 318 |
+| Total evidence records | 405 |
+| Total tasks | 608 |
+| Scoped tasks (ready for work) | 105 |
+| High-risk tasks | 321 |
 
 ## All Problem Packs
 
@@ -73,6 +73,7 @@
 | [health-systems/obstetric-blood-availability-lmics](../../problem-packs/health-systems/obstetric-blood-availability-lmics/problem.md) | Obstetric Blood Availability And Time-To-Transfusion Gaps In LMICs | scoped | health-systems, public-health | global, low-and-middle-income-countries | high | 6 ev; 4 tasks | ready |
 | [infectious-disease/congenital-chagas-cascade-global](../../problem-packs/infectious-disease/congenital-chagas-cascade-global/problem.md) | Congenital Chagas Detection And Treatment Cascade In Endemic And Migrant-Serving Systems | scoped | infectious-disease, public-health | global, latin-america | high | 5 ev; 5 tasks | ready |
 | [infectious-disease/hepatitis-b-perinatal-prevention-global](../../problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/problem.md) | Hepatitis B Perinatal Prevention Cascade In High-Burden Countries | scoped | infectious-disease, public-health | global, sub-saharan-africa | high | 7 ev; 6 tasks | ready |
+| [occupational-health/chronic-kidney-disease-agricultural-global](../../problem-packs/occupational-health/chronic-kidney-disease-agricultural-global/problem.md) | Chronic Kidney Disease Of Uncertain Etiology In Agricultural Communities | scoped | occupational-health, public-health | global, low-and-middle-income-countries | high | 7 ev; 5 tasks | ready |
 | [occupational-health/heat-stress-outdoor-workers-global](../../problem-packs/occupational-health/heat-stress-outdoor-workers-global/problem.md) | Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change | scoped | occupational-health, climate-health, public-health | global | high | 10 ev; 6 tasks; 1 claims | has claims |
 | [public-health/alcohol-harm-reduction-global](../../problem-packs/public-health/alcohol-harm-reduction-global/problem.md) | Alcohol Harm Reduction Policy Gaps And Heavy Episodic Drinking In Low- And Middle-Income Countries | scoped | public-health | global | medium | 1 ev; 4 tasks | needs evidence |
 | [public-health/anemia-women-adolescents-global](../../problem-packs/public-health/anemia-women-adolescents-global/problem.md) | Anemia Prevalence And Iron Supplementation Coverage In Women And Adolescents | scoped | public-health, food-security | global | medium | 6 ev; 5 tasks | ready |
