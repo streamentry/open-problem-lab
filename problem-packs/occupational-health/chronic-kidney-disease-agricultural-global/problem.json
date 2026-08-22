@@ -1,0 +1,49 @@
+{
+  "id": "occupational-health/chronic-kidney-disease-agricultural-global",
+  "title": "Chronic Kidney Disease Of Uncertain Etiology In Agricultural Communities",
+  "status": "scoped",
+  "domain": ["occupational-health", "public-health"],
+  "region": ["global", "low-and-middle-income-countries"],
+  "summary": "Build a verified measurement workflow for identifying chronic kidney disease of uncertain etiology in agricultural and other manual-worker communities, separating persistent kidney disease from transient acute kidney injury and traditional causes before any exposure or prevention decision is made.",
+  "why_it_matters": "A Ministry of Health NCD or occupational-health director, labor ministry, or health funder must decide whether to invest in sentinel kidney surveillance, primary-care screening, worker heat and hydration protections, safe-water investigation, or broader exposure studies. WHO estimates 674 million people live with chronic kidney disease, most in low- and middle-income countries, while recent CKDu work reports that cross-region burden is poorly described, terminology is inconsistent, and exposure measurement often relies on self-report. Regional primary studies found CKDu in 2.66% of 3,350 agricultural workers in Tamil Nadu and suspected CKDu in 8.5% of a selected rural Sri Lankan population, but these estimates are not interchangeable. A verified cross-setting measurement layer could change which surveillance and prevention evidence a decision-maker funds; it must not be converted into a causal attribution or worker-protection order before replication.",
+  "success_metrics": [
+    {
+      "metric": "Persistent kidney-disease classification",
+      "target": "Every analyzed setting records whether CKD was confirmed with repeat kidney-function testing at least 90 days apart and how transient AKI or single low eGFR results were handled.",
+      "validation_method": "Reviewer checks the case-definition crosswalk against source methods, laboratory timing, and exclusion rules."
+    },
+    {
+      "metric": "Etiology and phenotype separation",
+      "target": "Every CKDu/CINAC label records the operational definition, traditional-risk-factor exclusions, proteinuria or albuminuria field, and whether the label is suspected, probable, or confirmed.",
+      "validation_method": "Domain reviewer compares each classification field with the original study protocol and records non-comparable definitions."
+    },
+    {
+      "metric": "Objective exposure measurement",
+      "target": "Heat, hydration, water, agrochemical, medication, and infection exposures are separated by instrument, timing, and measurement mode; self-report is never treated as objective exposure proof.",
+      "validation_method": "Data-quality review checks exposure provenance, recall window, missingness, and whether biological or environmental measurements were actually collected."
+    },
+    {
+      "metric": "Allocation restraint",
+      "target": "No causal, clinical, worker-protection, or resource-allocation output is published without domain review, red-team review, and independent replication.",
+      "validation_method": "Review records and replication artifacts are checked before any output moves beyond discovery or analytic framing."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 2,
+    "replication_required": true,
+    "merge_gate": "Schema validation, nephrology or occupational-health domain review, red-team review for causal or worker-protection interpretation, field-reality review for operational outputs, and independent replication for quantitative results."
+  }
+}

@@ -550,6 +550,16 @@ Build a verified, country-comparable way to measure the gap from maternal Trypan
 
 Build a verified way to measure the hepatitis B perinatal prevention cascade from maternal HBsAg screening through prophylaxis, timely birth dose, infant-series completion, and impact validation without confusing policy or any-dose coverage with timely protection.
 
+## Chronic Kidney Disease Of Uncertain Etiology In Agricultural Communities
+
+- ID: `occupational-health/chronic-kidney-disease-agricultural-global`
+- Status: `scoped`
+- Domain: `occupational-health`, `public-health`
+- Region: `global`, `low-and-middle-income-countries`
+- Source: [problem-packs/occupational-health/chronic-kidney-disease-agricultural-global](../../problem-packs/occupational-health/chronic-kidney-disease-agricultural-global/problem.md)
+
+Build a verified measurement workflow for identifying chronic kidney disease of uncertain etiology in agricultural and other manual-worker communities, separating persistent kidney disease from transient acute kidney injury and traditional causes before any exposure or prevention decision is made.
+
 ## Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change
 
 - ID: `occupational-health/heat-stress-outdoor-workers-global`
