@@ -9,9 +9,9 @@
 | Total packs | 118 |
 | Packs with claims | 13 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 405 |
+| Total evidence records | 412 |
 | Total tasks | 608 |
-| Scoped tasks (ready for work) | 105 |
+| Scoped tasks (ready for work) | 104 |
 | High-risk tasks | 321 |
 
 ## All Problem Packs
@@ -51,7 +51,7 @@
 | [education/girls-education-sub-saharan-africa](../../problem-packs/education/girls-education-sub-saharan-africa/problem.md) | Girls Secondary Education Enrollment And Retention Barriers In Sub-Saharan Africa | scoped | education | sub-saharan-africa | medium | 2 ev; 5 tasks | needs evidence |
 | [education/learning-loss-post-pandemic](../../problem-packs/education/learning-loss-post-pandemic/problem.md) | Post-Pandemic Learning Loss Measurement And Recovery Tracking In Low-Income Countries | scoped | education | global | medium | 3 ev; 6 tasks | ready |
 | [education/school-feeding-coverage-global](../../problem-packs/education/school-feeding-coverage-global/problem.md) | School Feeding Program Coverage And Nutritional Impact Gaps In Low-Income Countries | scoped | education, food-security | global | medium | 2 ev; 5 tasks | needs evidence |
-| [education/skills-training-youth-employment-global](../../problem-packs/education/skills-training-youth-employment-global/problem.md) | Youth Skills Training And Employment Outcome Gaps In Low-Income Countries | scoped | education | global | low | 2 ev; 5 tasks | needs evidence |
+| [education/skills-training-youth-employment-global](../../problem-packs/education/skills-training-youth-employment-global/problem.md) | Youth Skills Training And Employment Outcome Gaps In Low-Income Countries | scoped | education | global | low | 9 ev; 5 tasks | needs triage |
 | [education/teacher-quality-distribution-global](../../problem-packs/education/teacher-quality-distribution-global/problem.md) | Teacher Qualification Distribution And Deployment Equity Gaps In Low-Income Countries | scoped | education | global | low | 3 ev; 5 tasks | ready |
 | [energy-access/clean-cooking-sub-saharan-africa](../../problem-packs/energy-access/clean-cooking-sub-saharan-africa/problem.md) | Clean Cooking Adoption Barriers And Health Impact In Sub-Saharan Africa | scoped | energy-access, public-health | sub-saharan-africa | medium | 3 ev; 6 tasks | ready |
 | [energy-access/clean-energy-financing-global](../../problem-packs/energy-access/clean-energy-financing-global/problem.md) | Clean Energy Financing Access Gaps In Low-Income Countries | scoped | energy-access, climate-adaptation | global | medium | 3 ev; 5 tasks | ready |
@@ -164,7 +164,6 @@ These packs have scoped tasks but fewer than 3 evidence records. The source-inve
 | [education/early-childhood-development-global](../../problem-packs/education/early-childhood-development-global/problem.md) | 2 | 5 | 0 | medium |
 | [education/girls-education-sub-saharan-africa](../../problem-packs/education/girls-education-sub-saharan-africa/problem.md) | 2 | 5 | 3 | medium |
 | [education/school-feeding-coverage-global](../../problem-packs/education/school-feeding-coverage-global/problem.md) | 2 | 5 | 0 | medium |
-| [education/skills-training-youth-employment-global](../../problem-packs/education/skills-training-youth-employment-global/problem.md) | 2 | 5 | 0 | low |
 | [energy-access/mini-grid-rural-sub-saharan-africa](../../problem-packs/energy-access/mini-grid-rural-sub-saharan-africa/problem.md) | 2 | 5 | 3 | medium |
 | [energy-access/productive-use-energy-global](../../problem-packs/energy-access/productive-use-energy-global/problem.md) | 2 | 5 | 0 | medium |
 | [energy-access/renewable-energy-grid-integration-global](../../problem-packs/energy-access/renewable-energy-grid-integration-global/problem.md) | 2 | 5 | 3 | medium |

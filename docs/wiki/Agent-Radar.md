@@ -15,8 +15,8 @@ Without routing, a new agent sees a flat task list and misses the actual shape o
 
 - **118 problem packs**
 - **608 total tasks**
-- **105 scoped now**
-- **503 follow-on tasks still latent**
+- **104 scoped now**
+- **504 follow-on tasks still latent**
 - **Owner roles:** `data-cleaner`: 116, `field-reality-reviewer`: 118, `implementation-planner`: 138, `literature-scout`: 118, `red-team-reviewer`: 118
 - **Reviewer demand:** `domain-reviewer`: 243, `field-reality-reviewer`: 120, `red-team-reviewer`: 119, `replicator`: 126
 - **Safety mix:** `high`: 321, `low`: 18, `medium`: 269
@@ -25,19 +25,7 @@ Without routing, a new agent sees a flat task list and misses the actual shape o
 
 These are the best entry tasks for a fresh contributor. Ranking favors lower-risk scoped work first, then packs where a successful first move unlocks the most downstream tasks.
 
-### 1. Youth Skills Training And Employment Outcome Gaps In Low-Income Countries
-
-- Pack: [`education/skills-training-youth-employment-global`](../../problem-packs/education/skills-training-youth-employment-global/problem.md)
-- Task: `source-inventory` — Inventory training-provider, employment-outcome, labor-market, and skills-mismatch data sources for LMICs
-- Risk: `low`
-- Reviewer needed: `domain-reviewer`
-- Existing evidence records: 2
-- Downstream tasks unlocked: 4
-- Downstream high-risk tasks: 0
-- Why pick now: Completing this scoped task opens 4 follow-on tasks across 4 additional roles.
-- Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering provider-data fragmentation, outcome-tracking rates, and informal-sector measurement gaps.
-
-### 2. Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin
+### 1. Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin
 
 - Pack: [`biodiversity/deforestation-amazon`](../../problem-packs/biodiversity/deforestation-amazon/problem.md)
 - Task: `source-inventory` — Inventory deforestation and biodiversity data sources for Amazon basin
@@ -49,7 +37,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 3. Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States
+### 2. Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States
 
 - Pack: [`climate-adaptation/sea-level-rise-small-islands`](../../problem-packs/climate-adaptation/sea-level-rise-small-islands/problem.md)
 - Task: `source-inventory` — Inventory SLR projection and coastal exposure data sources for SIDS
@@ -61,7 +49,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 4. Cyclone Early Warning And Evacuation Signal Verification In Bangladesh
+### 3. Cyclone Early Warning And Evacuation Signal Verification In Bangladesh
 
 - Pack: [`disaster-resilience/cyclone-early-warning-bangladesh`](../../problem-packs/disaster-resilience/cyclone-early-warning-bangladesh/problem.md)
 - Task: `source-inventory` — Inventory cyclone data sources for Bay of Bengal
@@ -73,7 +61,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 3 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 5. Hepatitis B Perinatal Prevention Cascade In High-Burden Countries
+### 4. Hepatitis B Perinatal Prevention Cascade In High-Burden Countries
 
 - Pack: [`infectious-disease/hepatitis-b-perinatal-prevention-global`](../../problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/problem.md)
 - Task: `source-inventory` — Inventory hepatitis B perinatal prevention data sources and measures
@@ -85,7 +73,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering maternal screening, prophylaxis, birth-dose timing, infant-series completion, impact validation, linkage, and missingness.
 
-### 6. PM2.5 Monitoring Gaps And Health Impact In South Asia
+### 5. PM2.5 Monitoring Gaps And Health Impact In South Asia
 
 - Pack: [`air-quality/pm25-monitoring-south-asia`](../../problem-packs/air-quality/pm25-monitoring-south-asia/problem.md)
 - Task: `source-inventory` — Inventory PM2.5 monitoring and air quality data sources for South Asia
@@ -97,7 +85,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 7. Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
+### 6. Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
 
 - Pack: [`public-health/antimicrobial-resistance-surveillance-global`](../../problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md)
 - Task: `source-inventory` — Inventory AMR surveillance data
@@ -109,7 +97,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: Five sources classified as usable, limited, or rejected.
 
-### 8. Malaria Early Warning Signals In Sub-Saharan Africa
+### 7. Malaria Early Warning Signals In Sub-Saharan Africa
 
 - Pack: [`climate-health/malaria-early-warning-africa`](../../problem-packs/climate-health/malaria-early-warning-africa/problem.md)
 - Task: `source-inventory` — Inventory malaria and climate data sources for Sub-Saharan Africa
@@ -121,7 +109,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 9. Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
+### 8. Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
 
 - Pack: [`food-safety/aflatoxin-exposure-sub-saharan-africa`](../../problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md)
 - Task: `source-inventory` — Inventory mycotoxin test data, climate suitability models, and post-harvest practice surveys for SSA aflatoxin risk mapping
@@ -133,7 +121,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering contamination test method, geographic grain, crop specificity, sampling frame adequacy, and intervention-relevance.
 
-### 10. Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries
+### 9. Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries
 
 - Pack: [`public-health/substandard-falsified-medicines-global`](../../problem-packs/public-health/substandard-falsified-medicines-global/problem.md)
 - Task: `source-inventory` — Inventory quality-surveillance, field-survey, market-distribution, and regulatory data sources for SF medicines analysis
@@ -145,7 +133,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering sampling frame, test method, geographic grain, supply-chain tier, and substandard-versus-falsified disaggregation status.
 
-### 11. Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef
+### 10. Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef
 
 - Pack: [`biodiversity/coral-bleaching-great-barrier-reef`](../../problem-packs/biodiversity/coral-bleaching-great-barrier-reef/problem.md)
 - Task: `source-inventory` — Inventory coral bleaching data sources
@@ -157,7 +145,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five sources classified as usable, limited, or rejected.
 
-### 12. Urban Pluvial Flooding Risk In South Asian Megacities
+### 11. Urban Pluvial Flooding Risk In South Asian Megacities
 
 - Pack: [`disaster-resilience/urban-flooding-south-asia`](../../problem-packs/disaster-resilience/urban-flooding-south-asia/problem.md)
 - Task: `source-inventory` — Inventory satellite impervious-surface, drainage, rainfall, flood-extent, and population data sources for South Asian megacities
@@ -168,6 +156,18 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Downstream high-risk tasks: 4
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering resolution, urban accuracy, and drainage-data availability.
+
+### 12. Post-Pandemic Learning Loss Measurement And Recovery Tracking In Low-Income Countries
+
+- Pack: [`education/learning-loss-post-pandemic`](../../problem-packs/education/learning-loss-post-pandemic/problem.md)
+- Task: `source-inventory` — Inventory learning assessment data sources for low-income countries
+- Risk: `medium`
+- Reviewer needed: `domain-reviewer`
+- Existing evidence records: 3
+- Downstream tasks unlocked: 5
+- Downstream high-risk tasks: 2
+- Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
+- Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit data-quality tier assignments.
 
 ## Unlock Paths
 
@@ -388,10 +388,10 @@ This is the actual pipeline shape. The flat scoped list hides it.
 | Role                     | Scoped now | Latent backlog | Share of all tasks | Share of latent tasks |
 | ------------------------ | ---------- | -------------- | ------------------ | --------------------- |
 | `implementation-planner` | 0          | 138            | 0.227              | 0.274                 |
-| `field-reality-reviewer` | 0          | 118            | 0.194              | 0.235                 |
-| `red-team-reviewer`      | 0          | 118            | 0.194              | 0.235                 |
-| `data-cleaner`           | 0          | 116            | 0.191              | 0.231                 |
-| `literature-scout`       | 105        | 13             | 0.194              | 0.026                 |
+| `field-reality-reviewer` | 0          | 118            | 0.194              | 0.234                 |
+| `red-team-reviewer`      | 0          | 118            | 0.194              | 0.234                 |
+| `data-cleaner`           | 0          | 116            | 0.191              | 0.23                  |
+| `literature-scout`       | 104        | 14             | 0.194              | 0.028                 |
 
 ## Protocol Alerts
 

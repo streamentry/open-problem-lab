@@ -3,14 +3,13 @@
     "generated_by": "scripts/generate-task-index.mjs",
     "schema_version": 1,
     "total_packs": 118,
-    "total_scoped_tasks": 105,
+    "total_scoped_tasks": 104,
     "by_role": {
-      "literature-scout": 105
+      "literature-scout": 104
     },
     "by_risk": {
       "medium": 103,
-      "high": 1,
-      "low": 1
+      "high": 1
     },
     "by_domain": {
       "air-quality": 6,
@@ -22,7 +21,7 @@
       "disaster-resilience": 10,
       "chemical-safety": 1,
       "sanitation": 5,
-      "education": 8,
+      "education": 7,
       "energy-access": 7,
       "food-safety": 1,
       "health-systems": 4,
@@ -575,23 +574,6 @@
       "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering sub-national coverage, meal-quality data, and nutritional-outcome measurement.",
       "tasks_file": "problem-packs/education/school-feeding-coverage-global/tasks.json",
       "problem_file": "problem-packs/education/school-feeding-coverage-global/problem.md"
-    },
-    {
-      "pack_id": "education/skills-training-youth-employment-global",
-      "pack_title": "Youth Skills Training And Employment Outcome Gaps In Low-Income Countries",
-      "pack_status": "scoped",
-      "domain": ["education"],
-      "region": ["global"],
-      "task_id": "source-inventory",
-      "title": "Inventory training-provider, employment-outcome, labor-market, and skills-mismatch data sources for LMICs",
-      "owner_role": "literature-scout",
-      "reviewer_needed": "domain-reviewer",
-      "safety_risk": "low",
-      "outcome": "A dated source inventory that separates training-provider registries, employment-outcome survey data, labor-force surveys, enterprise surveys, and skills-mismatch assessments into usable, limited, and rejected categories with explicit provider-data fragmentation and outcome-tracking documentation.",
-      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
-      "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering provider-data fragmentation, outcome-tracking rates, and informal-sector measurement gaps.",
-      "tasks_file": "problem-packs/education/skills-training-youth-employment-global/tasks.json",
-      "problem_file": "problem-packs/education/skills-training-youth-employment-global/problem.md"
     },
     {
       "pack_id": "education/teacher-quality-distribution-global",
