@@ -36,6 +36,150 @@
       "This report describes TVET system fragmentation broadly; it does not quantify provider-registry coverage country by country.",
       "A dedicated source is still needed to substantiate the 'no single dataset' claim for any specific country."
     ],
-    "confidence": "low"
+    "confidence": "medium"
+  },
+  {
+    "id": "ilo-swts-microdata-2014",
+    "problem_id": "education/skills-training-youth-employment-global",
+    "claim": "ILO's School-to-Work Transition Survey microdata collection covers more than 30 countries surveyed between 2012 and 2016, with individual youth variables and derived employment, unemployment, and school-enrolment measures; an employer labour-demand survey was conducted in seven countries.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "School-to-work transition survey (SWTS) micro data files",
+      "url": "https://www.ilo.org/resource/school-work-transition-survey-swts-micro-data-files"
+    },
+    "source_date": "2014-12-31",
+    "access_date": "2026-08-23",
+    "method": "Reviewed the ILO dataset landing page for survey years, country coverage, youth age range, derived variables, employer-survey linkage, geographic coverage fields, and access instructions.",
+    "limitations": [
+      "The collection is historical, with fieldwork from 2012 to 2016, and cannot represent current labour-market conditions without a newer survey.",
+      "Microdata access requires a request to ILOSTAT, so a reviewer cannot assume immediate public download or unrestricted replication.",
+      "SWTS measures youth labour-market transitions and training participation but is not a complete training-provider registry.",
+      "Country samples and geographic coverage differ; cross-country or sub-national comparisons require survey-specific weights and documentation.",
+      "The exact page publication date is used as source_date because the page does not expose a separate dataset release date."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ilo-youthstats-methodology-2022",
+    "problem_id": "education/skills-training-youth-employment-global",
+    "claim": "ILO's YouthSTATS database defines youth as ages 15 to 29 and publishes indicators covering labour force participation, employment, unemployment, school-to-work transitions, working time, and earnings, using labour-force and household survey sources.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Youth Labour Market Statistics (YouthSTATS database)",
+      "url": "https://ilostat.ilo.org/methods/concepts-and-definitions/description-youth-labour-market-statistics/"
+    },
+    "source_date": "2022-01-01",
+    "access_date": "2026-08-23",
+    "method": "Reviewed the YouthSTATS scope, youth-age definition, listed indicators, data-source description, school-to-work survey history, and stated policy use before classifying it as a labour-market outcome layer.",
+    "limitations": [
+      "The page does not expose a precise last-updated date; 2022-01-01 is a year-level source-date proxy and must be replaced if metadata becomes available.",
+      "YouthSTATS does not enumerate training providers, programme capacity, course content, or provider-level outcome-tracking rates.",
+      "Indicators are country or survey based and may not support sub-national analysis in every country.",
+      "Definitions and comparability depend on the source survey, national implementation, and the applicable statistical standards."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ilostat-informal-employment-methods-2023",
+    "problem_id": "education/skills-training-youth-employment-global",
+    "claim": "ILOSTAT derives harmonized informal-employment indicators by processing national household-survey microdata using production-unit and job-formality classifications, generally for the main job; this provides an informal-sector outcome context but does not identify whether a training graduate received or benefited from a specific programme.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Labour Force Statistics (LFS and RURBAN databases)",
+      "url": "https://ilostat.ilo.org/methods/concepts-and-definitions/description-labour-force-statistics/"
+    },
+    "source_date": "2023-01-01",
+    "access_date": "2026-08-23",
+    "method": "Reviewed the ILOSTAT informality concepts, 21st International Conference of Labour Statisticians reference, processing path, main-job limitation, and stated policy uses for training and skills development.",
+    "limitations": [
+      "The page does not expose a precise publication or update date; 2023-01-01 is a year-level proxy tied to the cited 2023 statistical resolution.",
+      "Informal-employment statistics are not a training-graduate tracer system and cannot attribute outcomes to a provider or programme.",
+      "The main-job focus can miss informal second jobs, seasonal work, and mixed livelihoods.",
+      "National survey questions, coverage, weights, and adoption of the latest standards vary across countries.",
+      "Country-level or modeled estimates must not be presented as sub-national outcome data without the underlying microdata and metadata."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "worldbank-step-skills-measurement-2017",
+    "problem_id": "education/skills-training-youth-employment-global",
+    "claim": "The World Bank STEP Skills Measurement Program combines household and employer surveys to measure cognitive, socio-emotional, job-relevant, training, compensation, and employer-demand indicators, with available data collected from 2012 to 2017 in a defined set of economies and an urban adult target population.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "The STEP Skills Measurement Program",
+      "url": "https://microdata.worldbank.org/index.php/collections/step"
+    },
+    "source_date": "2017-08-01",
+    "access_date": "2026-08-23",
+    "method": "Reviewed the STEP collection description for survey components, measured constructs, employer modules, collection dates, country list, target population, and accompanying methodology documentation.",
+    "limitations": [
+      "The listed data were collected between 2012 and August 2017 and may not represent current skills demand or training provision.",
+      "The target population is urban adults aged 15 to 64, so rural youth, younger adolescents, and many informal workers are outside the core frame.",
+      "STEP does not provide a complete sub-national training-provider registry or programme-level graduate tracer.",
+      "Employer and household surveys are separate instruments; linking skills supply, provider participation, and employment outcomes requires additional identifiers or design assumptions.",
+      "The source page does not expose a single dataset release date; source_date records the end of the listed collection window."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "unesco-unevoc-tvet-country-profiles-2026",
+    "problem_id": "education/skills-training-youth-employment-global",
+    "claim": "UNESCO-UNEVOC TVET country profiles provide concise system-level information and comparative statistical context for TVET systems worldwide, making them a useful national policy and provider-system context layer rather than a complete sub-national provider census.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "UNESCO-UNEVOC TVET country profiles - SDG 4 Knowledge Hub",
+      "url": "https://www.unesco.org/sdg4education2030/en/knowledge-hub/unesco-unevoc-tvet-country-profiles"
+    },
+    "source_date": "2026-01-01",
+    "access_date": "2026-08-23",
+    "method": "Reviewed the UNESCO SDG 4 Knowledge Hub description of the country profiles, dynamic system diagrams, comparative statistical function, data-monitoring classification, and global scope.",
+    "limitations": [
+      "The page does not expose a precise update date; 2026-01-01 is a year-level proxy for the current dynamic resource.",
+      "Country profiles describe TVET systems and indicators but do not enumerate every government, NGO, private, or informal training provider.",
+      "System-level statistical context does not provide provider-level enrollment, completion, graduate employment, or outcome-tracking rates.",
+      "Comparability depends on the national and international sources integrated into each profile and their update cycles."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "worldbank-enterprise-surveys-2024",
+    "problem_id": "education/skills-training-youth-employment-global",
+    "claim": "The World Bank Enterprise Surveys provide nationally representative firm-level data across more than 150 economies, with public aggregated indicators and registered-user microdata covering business performance and employer-side constraints relevant to skills-demand analysis; the catalog records national granularity and 2006-2023 temporal coverage.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "Enterprise Surveys - World Bank Data Catalog",
+      "url": "https://datacatalog.worldbank.org/search/dataset/0037947/enterprise-surveys"
+    },
+    "source_date": "2024-11-26",
+    "access_date": "2026-08-23",
+    "method": "Reviewed the World Bank catalog metadata for survey population, economy coverage, national granularity, temporal coverage, public license, indicator files, and microdata access conditions; cross-checked the Enterprise Surveys methodology for formal-firm sampling boundaries.",
+    "limitations": [
+      "The catalog records national granularity, so the dataset cannot automatically locate sub-national training demand or provider gaps.",
+      "Formal-sector surveys target registered private firms and therefore omit many informal businesses and own-account activities; separate informal surveys are not interchangeable.",
+      "Firm-reported skills constraints measure employer perception and demand, not verified youth skill proficiency or programme effectiveness.",
+      "The dataset does not link firms to training providers or individual graduates.",
+      "Survey years and question modules vary by economy, so cross-country comparisons require survey-version and indicator audits."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "worldbank-benin-youth-employment-rct-2026",
+    "problem_id": "education/skills-training-youth-employment-global",
+    "claim": "World Bank metadata for Benin's 2017 Youth Employment Project describes a public multi-arm randomized evaluation comparing a comprehensive package, a cash-only arm, and a training-only arm using vulnerable employment, earnings, business profits, and job creation outcomes, with heterogeneity by gender and cognitive and non-cognitive skills.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "Benin - Projet Emploi Jeune Impact Evaluation 2017, Baseline Survey",
+      "url": "https://datacatalog.worldbank.org/search/dataset/0044195/benin-projet-emploi-jeune-impact-evaluation-2017-baseline-survey"
+    },
+    "source_date": "2026-06-13",
+    "access_date": "2026-08-23",
+    "method": "Reviewed the World Bank metadata for study design, treatment arms, outcome fields, heterogeneity dimensions, geographic and temporal coverage, public classification, and research-data license. Treated the record as evaluation-design evidence, not as a result estimate.",
+    "limitations": [
+      "The metadata describes a Benin project and does not establish effects for other countries or training systems.",
+      "The catalog entry is labeled a baseline survey and reports no resources available; outcome-file access and follow-up completeness require separate verification.",
+      "The trial compares bundled interventions, so a training-only result cannot automatically identify the effect of provider quality or curriculum.",
+      "The listed outcomes do not by themselves establish durable employment, informal-sector success, or cost-effectiveness."
+    ],
+    "confidence": "high"
   }
 ]

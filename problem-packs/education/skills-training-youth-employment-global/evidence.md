@@ -10,18 +10,28 @@ The machine-readable ledger is `evidence.json`.
 
 Use this source for the global youth unemployment baseline. The 67 million figure excludes discouraged workers and underemployed youth — the actual challenge is larger. Youth unemployment definitions vary across countries. Sub-national data is not systematically reported. Skills-mismatch is identified as a barrier but measured through employer surveys, not direct skill-gap assessment. Always document these limitations in sub-national analyses.
 
-### Youth Training Effectiveness Review
+### Training Outcome Evaluation Design
 
-Use this source for the best available evidence on training-program employment effects. The 2-5 percentage point average masks enormous heterogeneity — employer-linked programs show 8-12 percentage point gains while standalone programs show near-zero. Publication bias cannot be excluded. Employment-outcome measurement varies (formal vs. informal). Follow-up periods are typically 6-18 months. Always present with heterogeneity documentation and program-design context.
+Use the Benin Youth Employment Project metadata as an example of a reviewable evaluation design: it separates a comprehensive package, cash-only arm, and training-only arm and names vulnerable employment, earnings, profits, and job creation outcomes. It does not provide a global effect estimate, durable outcome result, or provider-quality measure. Do not reconstruct a pooled effect from this source.
 
 ### Training Provider Data Fragmentation
 
-Use this source (World Bank/ILO/UNESCO TVET systems report, 2023) to document that TVET provision in most LMICs is diverse and fragmented across government ministries, private providers, and NGOs, complicating system-wide data on providers and outcomes. (Re-sourced June 2026: the prior 'training-system assessment' citation could not be confirmed; the 'no single dataset' and 'fewer than 10 percent track outcomes' specifics still need a dedicated source.)
+Use the World Bank/ILO/UNESCO TVET systems report together with UNESCO-UNEVOC country profiles to document system-level fragmentation and policy context. Neither source proves country-wide provider-registry completeness or a specific outcome-tracking rate. Treat the absence of a verified denominator as a data-quality finding.
 
-### Informal Sector Training Outcome Gap
+### Informal Sector Training Outcome Boundary
 
-Use this source to document that formal employment statistics are incomplete — many training graduates enter informal work not captured in outcome data. The direction of the bias is uncertain. Informal employment definitions vary across countries. Self-employment success depends on capital, markets, and networks beyond training. Always document the informal-sector measurement gap.
+Use ILOSTAT's labour-force and informality methodology to define what formal and informal employment indicators can capture. The series generally focus on the main job and do not identify whether a person completed training or attribute earnings to a provider. Informal employment definitions, survey questions, weights, and second-job coverage vary across countries. Always document this boundary in outcome analysis.
+
+### Source Inventory Additions
+
+- **ILO SWTS microdata:** Use for historical youth transition and training-participation pathways where access is granted; document survey year, country, weights, and missingness.
+- **ILO YouthSTATS:** Use for standardized youth labour-market indicator definitions and country-level context, not provider availability.
+- **ILOSTAT informal-employment methods:** Use for formal/informal outcome definitions and main-job limitations.
+- **World Bank STEP:** Use for skills supply-demand and employer-training context, with an urban 2012-2017 coverage caveat.
+- **UNESCO-UNEVOC TVET profiles:** Use for national TVET system and statistical context, not a complete provider census or tracer system.
+- **World Bank Enterprise Surveys:** Use for employer-side demand and formal-firm training indicators; keep formal-firm and informal-enterprise sources separate.
+- **Benin Youth Employment Project metadata:** Use as a country-specific evaluation-design source; verify follow-up data before citing any result.
 
 ## Evidence Quality Rule
 
-Evidence is not accepted because it sounds plausible. It is accepted when the source, method, limitations, and confidence are explicit enough for a reviewer to attack.
+Evidence is not accepted because it sounds plausible. It is accepted when the source, method, limitations, and confidence are explicit enough for a reviewer to attack. No source in this inventory currently establishes a cross-country provider outcome-tracking rate.
