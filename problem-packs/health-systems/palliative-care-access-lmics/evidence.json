@@ -1,0 +1,142 @@
+[
+  {
+    "id": "who-palliative-care-burden-access-2020",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "WHO's palliative-care fact sheet estimates that 56.8 million people need palliative care each year, including 25.7 million in the last year of life, and reports that about 14% of people who need it receive it; it also reports country responses on funding and reach from a 2019 survey of 194 Member States.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Palliative care",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/palliative-care"
+    },
+    "source_date": "2020-08-05",
+    "access_date": "2026-08-31",
+    "method": "Reviewed the WHO page's key facts and insufficient-access sections, including the need estimate, receipt estimate, the 194-Member-State survey description, the definition of palliative care, and the stated service-system components.",
+    "limitations": [
+      "The page does not expose the underlying country-level microdata, survey instrument, weighting, uncertainty interval, or the operational definition used for the 56.8-million estimate.",
+      "The 14% figure is a global estimate reported in a 2020 fact sheet and is not a current country- or district-level coverage rate.",
+      "Country-reported funding or reach categories do not establish patient-level access, continuity, quality, symptom relief, or equitable distribution.",
+      "The source combines adults and children and multiple conditions; its aggregate cannot be used as a local denominator without definition and population-frame review."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-palliative-care-actionable-indicators-2021",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "WHO's actionable-indicator report provides a country- and subnationally adaptable framework for monitoring palliative-care policy, service provision, essential medicines, education and training, people and communities, and research.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Assessing the development of palliative care worldwide: a set of actionable indicators",
+      "url": "https://www.who.int/publications/i/item/9789240033351"
+    },
+    "source_date": "2021-09-29",
+    "access_date": "2026-08-31",
+    "method": "Reviewed the publication overview and the linked report's indicator sections, including programme counts, policy, medicine, education, community, research, geography, and recommended data-source fields.",
+    "limitations": [
+      "The report is a measurement and implementation framework, not evidence that a country has implemented the indicators or that a listed service benefits patients.",
+      "Several indicators rely on national directories, key informants, facility records, or reported consumption and therefore require source-specific validation and missingness checks.",
+      "The framework does not create a universal palliative-care need denominator or make all countries comparable without local adaptation.",
+      "Indicator presence cannot be interpreted as a recommendation to expand services or alter controlled-medicine rules without domain, safety, and field review."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-primary-care-palliative-guide-2018",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "WHO's primary-health-care guide frames palliative care and symptom relief as functions that can be integrated into community and primary care, with referral to higher levels when necessary, while emphasizing continuity, patient values, equity, and family support.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Integrating palliative care and symptom relief into primary health care: a WHO guide for planners, implementers and managers",
+      "url": "https://www.who.int/publications-detail-redirect/integrating-palliative-care-and-symptom-relief-into-primary-health-care"
+    },
+    "source_date": "2018-10-16",
+    "access_date": "2026-08-31",
+    "method": "Reviewed the WHO publication overview and its stated scope, including primary-care integration, community and home delivery, referral, continuity, patient values, equity, family attention, essential medicines, and quality improvement.",
+    "limitations": [
+      "The guide is practical systems guidance, not a country-specific implementation evaluation or causal estimate.",
+      "Its statement that primary-care providers can respond to most needs is a general planning proposition and cannot establish workforce competence or safe scope in a named setting.",
+      "The guide does not identify which country facilities are staffed, reachable, supplied, supervised, or able to accept referrals.",
+      "Clinical decisions, prescribing, and controlled-medicine handling require applicable national guidance and qualified reviewers."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-quality-palliative-care-2021",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "WHO's quality-health-services resource identifies effectiveness, safety, people-centredness, timeliness, equity, integration, and efficiency as quality domains that must be considered when designing and measuring palliative-care services.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Quality health services and palliative care: practical approaches and resources to support policy, strategy and practice",
+      "url": "https://www.who.int/publications/i/item/9789240035164"
+    },
+    "source_date": "2021-10-04",
+    "access_date": "2026-08-31",
+    "method": "Reviewed the WHO overview for the named quality domains, the intended policy and service-planning audience, and the stated measurement and quality-improvement scope.",
+    "limitations": [
+      "The resource does not supply a validated outcome dataset or establish performance thresholds for every setting.",
+      "Quality domains require operational definitions, patient-reported measures, record review, and context-specific sampling before comparison.",
+      "A quality framework cannot show that a service is available, affordable, continuous, or safe in a named district without field verification.",
+      "The source does not support mortality, hospitalization, cost-effectiveness, or medicine-policy claims by itself."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-morphine-access-2023",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "WHO's 2023 morphine-access report treats morphine as an essential medicine for moderate-to-severe pain and refractory breathlessness, including in palliative care, and analyzes barriers to safe medical access.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Left behind in pain: Extent and causes of global variations in access to morphine for medical use and actions to improve safe access",
+      "url": "https://www.who.int/publications/i/item/9789240075269"
+    },
+    "source_date": "2023-06-15",
+    "access_date": "2026-08-31",
+    "method": "Reviewed the publication overview and linked annex references for the stated medical uses, survey scope, and distinction between safe access, availability, and policy barriers.",
+    "limitations": [
+      "The report concerns morphine for medical use across several clinical contexts, not palliative-care coverage alone.",
+      "National or facility availability can vary by formulation, level of care, stock date, price, prescriber authorization, and dispensing practice; the report does not make those dimensions interchangeable.",
+      "Morphine availability or consumption cannot establish appropriate prescribing, symptom relief, patient preference, or continuity of care.",
+      "Any local policy use must assess diversion prevention, regulation, training, procurement, and patient safety together."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "incb-narcotic-drugs-2019",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "The International Narcotics Control Board reported that in 2018 the 79% of the world's population living mainly in low- and middle-income countries consumed 13% of morphine used for pain and suffering, while the remaining consumption was concentrated in a small number of countries.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Narcotic Drugs — Estimated World Requirements for 2020 — Statistics for 2018",
+      "url": "https://www.incb.org/documents/Narcotic-Drugs/Technical-Publications/2019/Narcotic_Drugs_Technical_Publication_2019_web.pdf"
+    },
+    "source_date": "2019-01-01",
+    "access_date": "2026-08-31",
+    "method": "Reviewed the report's section on morphine consumption and the associated distribution figure, retaining the reported population-share and consumption-share distinction and not converting it into a care-coverage estimate.",
+    "limitations": [
+      "The PDF metadata exposes the publication year but not a more precise publication date, so 2019-01-01 is a year proxy.",
+      "Consumption data are aggregated and do not identify the indication, formulation, patient group, prescribing quality, or distribution within a country.",
+      "The reference year is 2018 and is not a current estimate of medicine availability or palliative-care access.",
+      "The statistic is a distributional signal and cannot by itself identify whether regulation, procurement, affordability, clinical training, or service absence is the binding constraint."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hhfa-comprehensive-guide-2023",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "WHO's Harmonized Health Facility Assessment is a facility-survey framework that can measure service availability, readiness, quality, management, and finance through facility visits using interviews, observation, and record review, with representative-sample or census designs.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Harmonized health facility assessment (HHFA): comprehensive guide",
+      "url": "https://www.who.int/publications/i/item/9789240060302"
+    },
+    "source_date": "2023-01-09",
+    "access_date": "2026-08-31",
+    "method": "Reviewed the WHO publication overview and the HHFA resource description for the four modules, facility-level collection modes, sampling options, indicator inventory, and stated uses in health-sector planning.",
+    "limitations": [
+      "HHFA measures facility capacity and selected service processes; it does not by itself estimate population need, patient preference, household access, continuity, or clinical outcomes.",
+      "A facility's reported service availability is not equivalent to an open, staffed, reachable, supplied, or referral-capable service at every time point.",
+      "Palliative-care indicators must be selected and adapted; the generic HHFA framework does not automatically provide a complete palliative-care module.",
+      "Results require sampling-frame, non-response, observation, record-quality, privacy, and temporal-stability checks before cross-country comparison."
+    ],
+    "confidence": "high"
+  }
+]

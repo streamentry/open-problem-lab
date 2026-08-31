@@ -1,0 +1,54 @@
+{
+  "id": "health-systems/palliative-care-access-lmics",
+  "title": "Palliative Care Access And Continuity Gaps In Low- And Middle-Income Countries",
+  "status": "scoped",
+  "domain": ["health-systems", "public-health"],
+  "region": ["global", "low-and-middle-income-countries"],
+  "summary": "Build a verified measurement layer for palliative-care need, referral, service delivery, medicine access, caregiver support, and continuity across primary, community, home, and specialist care in low- and middle-income countries.",
+  "why_it_matters": "A Ministry of Health universal-health-coverage director, national medicines regulator, or health funder must decide whether to finance palliative care in the primary-care benefits package, district and home services, workforce training, and an essential-medicine supply line. WHO's 2020 fact sheet estimates that 56.8 million people need palliative care each year and that about 14% receive it; the same source reports that only 40% of 194 Member States said services reached at least half of patients in need in a 2019 survey (evidence: who-palliative-care-burden-access-2020). WHO has since published actionable indicators, but countries still need a comparable, decision-ready cascade that separates population need from referral, contact, symptom support, caregiver support, medicine availability, and continuity (evidence: who-palliative-care-actionable-indicators-2021). Verified country or district evidence could change a real benefits-package, workforce, service-location, or procurement allocation; it must not be converted into a clinical-effect or opioid-policy recommendation without domain, red-team, field-reality, and independent replication review.",
+  "success_metrics": [
+    {
+      "metric": "Need-denominator integrity",
+      "target": "Every palliative-care need estimate records its age, diagnosis or serious-health-related-suffering definition, reference year, population frame, numerator, denominator, uncertainty, and missingness; terminal-care counts are not silently substituted for all need.",
+      "validation_method": "A replicator reconstructs the denominator from the cited source methods and blocks estimates whose definition, grain, or reference year is not recoverable."
+    },
+    {
+      "metric": "Continuity-cascade integrity",
+      "target": "Every setting separates policy and financing, service availability, referral, first contact, ongoing symptom support, caregiver support, transfer, and documented closure or loss to follow-up.",
+      "validation_method": "A domain reviewer traces each cascade field to a source measure and records where the source observes only capacity, not patient-level access or continuity."
+    },
+    {
+      "metric": "Medicine-access integrity",
+      "target": "Morphine or other medicine indicators distinguish legal authorization, procurement, facility-day availability, stock continuity, affordability, dispensing, and clinically appropriate use; consumption is never treated as a complete palliative-care coverage measure.",
+      "validation_method": "A medicines-access reviewer reruns the indicator definitions and checks availability, affordability, consumption, and service records as separate measurement families."
+    },
+    {
+      "metric": "Person and caregiver outcomes",
+      "target": "Any future field artifact records consent, patient-defined goals, symptom or function measures, caregiver burden, equity, complaints, and attrition without claiming mortality or hospitalization effects.",
+      "validation_method": "A field-reality and red-team review checks that outcome fields are collected with appropriate consent and that operational contact is not misreported as clinical benefit."
+    },
+    {
+      "metric": "Allocation restraint",
+      "target": "No resource-allocation, clinical, controlled-medicine, or service-expansion recommendation advances beyond measurement framing without the required domain, red-team, field-reality, and replication reviews.",
+      "validation_method": "Review records and an independent replication are checked before any country-facing or operational output is published."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 3,
+    "replication_required": true,
+    "merge_gate": "Schema validation, palliative-care and health-systems domain review, red-team review for controlled-medicine and clinical overreach, field-reality review for country allocation use, and independent replication before any quantitative or operational recommendation."
+  }
+}
