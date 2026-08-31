@@ -530,6 +530,16 @@ Measure whether health facilities can deliver quality-assured oxygen continuousl
 
 Build a verified facility-level evidence workflow for measuring whether women with life-threatening obstetric haemorrhage can obtain safe, compatible blood in time, separating national donation volume from real service availability, stock interruption, referral delay, and transfusion readiness.
 
+## Palliative Care Access And Continuity Gaps In Low- And Middle-Income Countries
+
+- ID: `health-systems/palliative-care-access-lmics`
+- Status: `scoped`
+- Domain: `health-systems`, `public-health`
+- Region: `global`, `low-and-middle-income-countries`
+- Source: [problem-packs/health-systems/palliative-care-access-lmics](../../problem-packs/health-systems/palliative-care-access-lmics/problem.md)
+
+Build a verified measurement layer for palliative-care need, referral, service delivery, medicine access, caregiver support, and continuity across primary, community, home, and specialist care in low- and middle-income countries.
+
 ## Congenital Chagas Detection And Treatment Cascade In Endemic And Migrant-Serving Systems
 
 - ID: `infectious-disease/congenital-chagas-cascade-global`

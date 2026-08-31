@@ -1,0 +1,156 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "title": "Inventory palliative-care need, service, medicine, and continuity data sources in LMICs",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory that classifies usable, limited, and rejected sources for population need, service supply, facility readiness, referral and continuity, medicines, patient and caregiver outcomes, equity, and missingness.",
+    "inputs": [
+      "WHO palliative-care fact sheet and actionable-indicator framework",
+      "WHO primary-care and quality-health-services palliative-care guidance",
+      "WHO morphine-access report and INCB narcotic statistics",
+      "WHO HHFA or SARA facility-assessment methods",
+      "National palliative-care directories, routine health information, medicine logistics, and patient/caregiver data documentation"
+    ],
+    "expected_artifact": "discovery-ranking.md plus datasets.md update and evidence.json records for each accepted source.",
+    "validation_method": "A palliative-care domain reviewer checks every source for stable URL, source date, observed measure family, population or facility grain, access conditions, denominator, missingness, and explicit non-use cases.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "low",
+    "done_condition": "At least seven candidate source families are classified with explicit reasons covering need, service supply, readiness, referral or continuity, medicine access, patient or caregiver outcomes, and equity or missingness, with no source promoted beyond what it observes."
+  },
+  {
+    "id": "need-denominator-crosswalk",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "title": "Build a reproducible palliative-care need denominator for one LMIC setting",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A field-level denominator specification separating serious-health-related suffering, diagnosis, age, last-year-of-life, population frame, equity strata, and missingness for one named country or district.",
+    "inputs": [
+      "reviewed source inventory",
+      "WHO need and indicator definitions",
+      "national mortality, disease, household, or population survey documentation",
+      "country population frame, weights, and administrative boundaries"
+    ],
+    "expected_artifact": "validation.md update with a need-denominator crosswalk, inclusion and exclusion rules, and missingness log.",
+    "validation_method": "An independent replicator reconstructs the denominator from the cited source fields and confirms that death, diagnosis, or last-year-of-life proxies are not silently substituted for the stated need definition.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "A reviewer can reproduce every numerator, denominator, stratum, exclusion, and missingness decision for one named setting, or the proposed estimate is explicitly blocked as non-comparable."
+  },
+  {
+    "id": "service-referral-cascade",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "title": "Map palliative-care service availability and referral continuity in one LMIC setting",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A verified service map that distinguishes policy, financing, operating service, readiness, referral, first contact, continuing support, transfer, closure, and loss to follow-up.",
+    "inputs": [
+      "reviewed source inventory and need denominator",
+      "national master facility list or palliative-care directory",
+      "facility assessment and routine health information documentation",
+      "primary-care, community, home-based, specialist, and emergency referral contacts"
+    ],
+    "expected_artifact": "playbooks.md service and referral workflow plus datasets.md source-field update.",
+    "validation_method": "A field-reality reviewer verifies each named service and referral owner, while a second reviewer checks that no directory, appointment, or referral record is counted as care receipt or continuity; an independent replicator reruns the pathway verification from the locked source record or records why replication is not possible.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every mapped pathway has a dated owner, operating status, referral destination, first-contact measure, continuity field, fallback, closure state, and explicit non-use case, or is marked unavailable; an independent replication either confirms the map or blocks field-facing use."
+  },
+  {
+    "id": "medicine-access-crosswalk",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "title": "Separate palliative-care medicine authorization, supply, affordability, and use measures",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A medicine-access crosswalk that keeps legal authorization, procurement, formulation, facility availability, stock continuity, price, dispensing, indication, and controlled-medicine safeguards distinct.",
+    "inputs": [
+      "WHO morphine-access report",
+      "INCB narcotic statistics",
+      "national essential-medicines list and controlled-medicine regulations",
+      "procurement, LMIS, facility stock, price, dispensing, and prescribing documentation"
+    ],
+    "expected_artifact": "validation.md medicine-access section plus evidence records or a documented blocked-source log.",
+    "validation_method": "A medicines-access reviewer reruns the field mapping and confirms that no consumption, availability, or legal-status variable is interpreted as palliative-care coverage or appropriate clinical use; an independent replicator reproduces the classification from locked source records or records the material divergence.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "high",
+    "done_condition": "At least five medicine-data source families are classified by observed field and non-use case, with diversion, privacy, stockout-duration, and formulation limitations recorded, and independent replication either confirms the classifications or blocks allocation-facing use."
+  },
+  {
+    "id": "country-measurement-protocol",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "title": "Specify a country-bounded palliative-care measurement protocol for an allocation decision",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A preregistered measurement protocol that names the health-system decision, data owners, sampling frame, consent, indicators, costs, timing, and stop conditions without promising clinical benefit.",
+    "inputs": [
+      "need-denominator crosswalk",
+      "service and referral cascade",
+      "medicine-access crosswalk",
+      "patient and caregiver outcome instruments",
+      "named Ministry of Health or funder allocation process"
+    ],
+    "expected_artifact": "playbooks.md country protocol and outputs.md decision-use specification.",
+    "validation_method": "Domain, field-reality, and red-team reviewers inspect each field, owner, consent boundary, burden, missingness rule, and non-use case; a replicator reproduces the planned metric calculations on synthetic records.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "high",
+    "done_condition": "The protocol names one real allocation decision and has a reproducible measurement path, consent and safety boundaries, explicit unresolved states, and a pre-specified rule for stopping when evidence is incomplete or unsafe."
+  },
+  {
+    "id": "independent-cascade-replication",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "title": "Independently replicate a palliative-care access cascade calculation",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "An independent replication record showing whether the need, service, medicine, continuity, equity, and missingness metrics can be regenerated from the locked inputs.",
+    "inputs": [
+      "country-bounded measurement protocol",
+      "locked input files and checksums",
+      "field dictionary and synthetic test fixtures",
+      "original analysis artifact"
+    ],
+    "expected_artifact": "replication record linked from outputs.md and the relevant claim or analysis artifact.",
+    "validation_method": "The replicator runs the documented commands in an independent environment, compares outputs and input hashes, and records every divergence without silently correcting the original.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "high",
+    "done_condition": "The independent run either reproduces every reported metric within pre-specified tolerances or records a material divergence that blocks allocation-facing publication."
+  },
+  {
+    "id": "red-team-clinical-medicine-overreach",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "title": "Red-team clinical, opioid, privacy, and stigma misuse of palliative-care data",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review covering clinical overreach, controlled-medicine diversion, undertreatment, provider blame, patient exclusion, coercive consent, privacy leakage, and false reassurance.",
+    "inputs": [
+      "country-bounded measurement protocol",
+      "medicine-access crosswalk",
+      "consent and data-governance materials",
+      "palliative-care and health-systems safety policy"
+    ],
+    "expected_artifact": "outputs.md and validation.md red-team review with blocks and mitigations.",
+    "validation_method": "A second red-team reviewer independently tests each high-severity misuse path and confirms that it is mitigated, explicitly accepted by an authorized reviewer, or blocks field-facing use.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "No high-severity misuse path is hidden behind a coverage metric, and every residual risk has a named owner, mitigation, non-use rule, and replicated red-team decision."
+  },
+  {
+    "id": "field-reality-allocation-review",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "title": "Check whether the verified palliative-care cascade changes a real allocation decision",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing decision review showing whether a named Ministry of Health, payer, or funder could act on the cascade without creating unsafe clinical or controlled-medicine incentives.",
+    "inputs": [
+      "replicated country-bounded cascade",
+      "Ministry of Health UHC, primary-care, NCD, or medicines-budget process",
+      "patient, caregiver, provider, and community perspectives",
+      "procurement, referral, safeguarding, and exit constraints"
+    ],
+    "expected_artifact": "playbooks.md allocation decision memo and outputs.md use and non-use guidance.",
+    "validation_method": "A field-reality reviewer documents the actual decision, timing, evidence threshold, burden, beneficiary, risk bearer, and fallback; an independent reviewer replicates the non-use-case check.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "The memo names a decision-maker and decision, shows exactly which replicated evidence would change the allocation, records who could be harmed, and gives a stop, iterate, or proceed decision."
+  }
+]
