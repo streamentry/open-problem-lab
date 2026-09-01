@@ -138,5 +138,105 @@
       "Results require sampling-frame, non-response, observation, record-quality, privacy, and temporal-stability checks before cross-country comparison."
     ],
     "confidence": "high"
+  },
+  {
+    "id": "who-palliative-care-planning-2016",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "WHO's programme-management guide identifies policy, education, service provision, medicine, and outcome indicators for planning palliative-care services and states that programmes should include an evaluation method from the beginning.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Planning and implementing palliative care services: a guide for programme managers",
+      "url": "https://iris.who.int/bitstream/handle/10665/250584/9789241565417-eng.pdf"
+    },
+    "source_date": "2016-01-01",
+    "access_date": "2026-09-01",
+    "method": "Reviewed the WHO guide's indicator table and planning sections for policy, education, service, medicine, patient, and evaluation fields, and classified it as a design source rather than a current service dataset.",
+    "limitations": [
+      "The publication page and PDF identify the year but not a more precise publication date, so 2016-01-01 is a year proxy.",
+      "Sample indicators are not evidence that a named country collects them, that a service is operating, or that patients receive benefit.",
+      "The guide does not provide current country or district values, sampling frames, non-response information, or a validated global coverage denominator.",
+      "Its medicine and service guidance cannot authorize prescribing, controlled-medicine changes, or clinical action in a specific jurisdiction."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-palliative-care-paediatrics-2018",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "WHO's paediatric palliative-care guide separates child-specific need and service planning from adult care, proposes an essential paediatric package, and identifies Ministry of Health and service-planning audiences in LMICs.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Integrating palliative care and symptom relief into paediatrics: a WHO guide for health care planners, implementers and managers",
+      "url": "https://www.who.int/publications/i/item/integrating-palliative-care-and-symptom-relief-into-paediatrics"
+    },
+    "source_date": "2018-08-08",
+    "access_date": "2026-09-01",
+    "method": "Reviewed the WHO publication overview for the paediatric age boundary, stated need estimates, service-development description, intended users, essential-package scope, and explicit statement that the document is not a clinical manual.",
+    "limitations": [
+      "The page presents different published paediatric need estimates, including an upper estimate and a serious-health-related-suffering estimate; they must not be combined into one denominator.",
+      "The source describes guidance and historical evidence, not current country-level access, service reach, or patient outcomes.",
+      "Its statements about limited service integration and country access are not a representative contemporary survey of all LMICs.",
+      "The guide cannot replace local clinical guidance, safeguarding, consent, or controlled-medicine review."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "whpca-global-atlas-2020",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "The Worldwide Hospice Palliative Care Alliance's 2020 Global Atlas provides a dated global baseline with serious-health-related-suffering need estimates, country-level development categories, provider and patient-count tables, and a methodology that distinguishes decedent from non-decedent need.",
+    "evidence_type": "expert-review",
+    "source": {
+      "title": "Global Atlas of Palliative Care 2nd Edition",
+      "url": "https://cdn.who.int/media/docs/default-source/integrated-health-services-(ihs)/csy/palliative-care/whpca_global_atlas_p5_digital_final.pdf?sfvrsn=1b54423a_34"
+    },
+    "source_date": "2020-01-01",
+    "access_date": "2026-09-01",
+    "method": "Reviewed the atlas executive summary, methodology, need-definition sections, country-development categories, provider and patient tables, and limitations implied by the 2017 reference data and mixed source inputs.",
+    "limitations": [
+      "The atlas is a 2020 synthesis using mostly 2017 estimates and cannot be treated as a current country-level access dataset.",
+      "Serious-health-related suffering is explicitly a proxy for palliative-care need; it is not a direct patient-level assessment of preferences, service receipt, or symptom outcomes.",
+      "Country development categories, service counts, and patient counts combine heterogeneous reports and do not establish comparable operating capacity or continuity.",
+      "The atlas is not a causal evaluation and cannot justify a country ranking, budget reallocation, clinical recommendation, or medicine-policy change."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hhfa-indicator-reference-2024",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "WHO's HHFA indicator reference questionnaire includes palliative-care facility fields for any service, inpatient and outpatient provision, home care, linkages with home-based organizations, observed versus reported guidelines, and provider training in the prior two years.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "HHFA Indicator reference questionnaire October 2023",
+      "url": "https://www.who.int/publications/m/item/hhfa-indicator-reference-questionnaire-october-2023"
+    },
+    "source_date": "2024-02-22",
+    "access_date": "2026-09-01",
+    "method": "Reviewed the WHO questionnaire page and its linked indicator reference PDF, including the palliative-care section (questions 1700–1705) for service type, home-care linkage, guideline observation, and recent training fields.",
+    "limitations": [
+      "The reference questionnaire is a country-adaptation resource, not a completed national or facility dataset.",
+      "The palliative-care fields are facility-reported or observed at one assessment and do not establish population need, patient access, continuity, quality, or clinical benefit.",
+      "The questionnaire page instructs countries to adapt the relevant questionnaire; deletions or adaptations can reduce comparability and must be recorded.",
+      "A service or training response does not establish competency, safe medicine use, referral completion, or patient-defined outcomes."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-global-health-estimates-methods-2024",
+    "problem_id": "health-systems/palliative-care-access-lmics",
+    "claim": "WHO's 2024 Global Health Estimates methods page documents that country life tables draw on population projections, Member State death-registration data, inter-agency child-mortality estimates, and GBD 2021 inputs, providing a reproducible mortality-context source for palliative-care denominator scaffolding.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO methods and data sources for life tables 2000-2021",
+      "url": "https://www.who.int/publications/m/item/who-methods-and-data-sources-for-life-tables-2000-2021"
+    },
+    "source_date": "2024-08-21",
+    "access_date": "2026-09-01",
+    "method": "Reviewed the WHO technical-document overview for the reference period, data inputs, Member State consultation, and role of the life tables in country and global mortality estimates; classified it as mortality context only.",
+    "limitations": [
+      "Mortality and life-table inputs are not palliative-care need, service receipt, symptom relief, or continuity measures.",
+      "The methods page describes modeled and consolidated estimates that may differ from official national estimates and are not directly comparable with older WHO releases after methodological revision.",
+      "The reference series ends in 2021 and may be stale for a current allocation without a documented refresh.",
+      "A mortality denominator must not be used as a proxy for all serious-health-related suffering without an explicit, reviewed mapping."
+    ],
+    "confidence": "high"
   }
 ]
