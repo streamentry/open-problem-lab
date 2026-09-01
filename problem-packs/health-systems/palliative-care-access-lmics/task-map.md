@@ -2,7 +2,7 @@
 
 ## Active Work Claim
 
-The machine-readable task list is `tasks.json`. `source-inventory` is the first scoped task; all downstream tasks remain blocked until its source boundaries are reviewed.
+The machine-readable task list is `tasks.json`. `source-inventory` is submitted for review; all downstream tasks remain blocked until its source boundaries are reviewed.
 
 ## Work Sequence
 

@@ -4,12 +4,12 @@
     "schema_version": 1,
     "total_packs": 119,
     "total_tasks": 616,
-    "scoped_tasks": 105,
-    "latent_tasks": 511,
+    "scoped_tasks": 104,
+    "latent_tasks": 512,
     "status_counts": {
-      "scoped": 105,
+      "scoped": 104,
       "needs-triage": 497,
-      "needs-review": 14
+      "needs-review": 15
     },
     "owner_role_counts": {
       "literature-scout": 119,
@@ -19,7 +19,7 @@
       "field-reality-reviewer": 119
     },
     "scoped_role_counts": {
-      "literature-scout": 105
+      "literature-scout": 104
     },
     "reviewer_needed_counts": {
       "domain-reviewer": 246,
@@ -37,22 +37,6 @@
   "protocol_alerts": [],
   "contributor_lanes": {
     "first_moves": [
-      {
-        "pack_id": "health-systems/palliative-care-access-lmics",
-        "pack_title": "Palliative Care Access And Continuity Gaps In Low- And Middle-Income Countries",
-        "task_id": "source-inventory",
-        "title": "Inventory palliative-care need, service, medicine, and continuity data sources in LMICs",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "low",
-        "done_condition": "At least seven candidate source families are classified with explicit reasons covering need, service supply, readiness, referral or continuity, medicine access, patient or caregiver outcomes, and equity or missingness, with no source promoted beyond what it observes.",
-        "evidence_count": 7,
-        "downstream_tasks_unlocked": 7,
-        "downstream_high_risk_tasks": 6,
-        "problem_file": "problem-packs/health-systems/palliative-care-access-lmics/problem.md",
-        "tasks_file": "problem-packs/health-systems/palliative-care-access-lmics/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 7 follow-on tasks across 4 additional roles."
-      },
       {
         "pack_id": "biodiversity/deforestation-amazon",
         "pack_title": "Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin",
@@ -228,31 +212,25 @@
         "problem_file": "problem-packs/disaster-resilience/urban-flooding-south-asia/problem.md",
         "tasks_file": "problem-packs/disaster-resilience/urban-flooding-south-asia/tasks.json",
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
+      },
+      {
+        "pack_id": "education/learning-loss-post-pandemic",
+        "pack_title": "Post-Pandemic Learning Loss Measurement And Recovery Tracking In Low-Income Countries",
+        "task_id": "source-inventory",
+        "title": "Inventory learning assessment data sources for low-income countries",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "medium",
+        "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit data-quality tier assignments.",
+        "evidence_count": 3,
+        "downstream_tasks_unlocked": 5,
+        "downstream_high_risk_tasks": 2,
+        "problem_file": "problem-packs/education/learning-loss-post-pandemic/problem.md",
+        "tasks_file": "problem-packs/education/learning-loss-post-pandemic/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       }
     ],
     "unlock_paths": [
-      {
-        "pack_id": "health-systems/palliative-care-access-lmics",
-        "pack_title": "Palliative Care Access And Continuity Gaps In Low- And Middle-Income Countries",
-        "scoped_tasks": 1,
-        "downstream_tasks": 7,
-        "downstream_high_risk_tasks": 6,
-        "downstream_by_role": {
-          "data-cleaner": 3,
-          "implementation-planner": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_reviewers_needed": {
-          "replicator": 2,
-          "field-reality-reviewer": 2,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1
-        },
-        "evidence_count": 7,
-        "problem_file": "problem-packs/health-systems/palliative-care-access-lmics/problem.md",
-        "tasks_file": "problem-packs/health-systems/palliative-care-access-lmics/tasks.json"
-      },
       {
         "pack_id": "climate-adaptation/sea-level-rise-small-islands",
         "pack_title": "Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States",
@@ -491,6 +469,28 @@
         "evidence_count": 2,
         "problem_file": "problem-packs/public-health/lead-exposure-urban-global/problem.md",
         "tasks_file": "problem-packs/public-health/lead-exposure-urban-global/tasks.json"
+      },
+      {
+        "pack_id": "public-health/substandard-falsified-medicines-global",
+        "pack_title": "Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries",
+        "scoped_tasks": 1,
+        "downstream_tasks": 5,
+        "downstream_high_risk_tasks": 3,
+        "downstream_by_role": {
+          "implementation-planner": 2,
+          "data-cleaner": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_reviewers_needed": {
+          "domain-reviewer": 2,
+          "replicator": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "evidence_count": 4,
+        "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md",
+        "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json"
       }
     ],
     "reviewer_hotspots": [
@@ -498,13 +498,13 @@
         "pack_id": "health-systems/palliative-care-access-lmics",
         "pack_title": "Palliative Care Access And Continuity Gaps In Low- And Middle-Income Countries",
         "downstream_reviewers_needed": {
+          "domain-reviewer": 3,
           "replicator": 2,
           "field-reality-reviewer": 2,
-          "domain-reviewer": 2,
           "red-team-reviewer": 1
         },
         "downstream_high_risk_tasks": 6,
-        "downstream_tasks": 7,
+        "downstream_tasks": 8,
         "problem_file": "problem-packs/health-systems/palliative-care-access-lmics/problem.md"
       },
       {
@@ -656,35 +656,35 @@
         "scoped_tasks": 0,
         "latent_tasks": 140,
         "share_of_all_tasks": 0.227,
-        "share_of_latent_tasks": 0.274
+        "share_of_latent_tasks": 0.273
       },
       {
         "owner_role": "data-cleaner",
         "scoped_tasks": 0,
         "latent_tasks": 119,
         "share_of_all_tasks": 0.193,
-        "share_of_latent_tasks": 0.233
+        "share_of_latent_tasks": 0.232
       },
       {
         "owner_role": "field-reality-reviewer",
         "scoped_tasks": 0,
         "latent_tasks": 119,
         "share_of_all_tasks": 0.193,
-        "share_of_latent_tasks": 0.233
+        "share_of_latent_tasks": 0.232
       },
       {
         "owner_role": "red-team-reviewer",
         "scoped_tasks": 0,
         "latent_tasks": 119,
         "share_of_all_tasks": 0.193,
-        "share_of_latent_tasks": 0.233
+        "share_of_latent_tasks": 0.232
       },
       {
         "owner_role": "literature-scout",
-        "scoped_tasks": 105,
-        "latent_tasks": 14,
+        "scoped_tasks": 104,
+        "latent_tasks": 15,
         "share_of_all_tasks": 0.193,
-        "share_of_latent_tasks": 0.027
+        "share_of_latent_tasks": 0.029
       }
     ]
   }

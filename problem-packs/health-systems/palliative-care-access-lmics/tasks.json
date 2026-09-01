@@ -3,7 +3,7 @@
     "id": "source-inventory",
     "problem_id": "health-systems/palliative-care-access-lmics",
     "title": "Inventory palliative-care need, service, medicine, and continuity data sources in LMICs",
-    "status": "scoped",
+    "status": "needs-review",
     "owner_role": "literature-scout",
     "outcome": "A dated source inventory that classifies usable, limited, and rejected sources for population need, service supply, facility readiness, referral and continuity, medicines, patient and caregiver outcomes, equity, and missingness.",
     "inputs": [
