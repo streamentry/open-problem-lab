@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fall-injury-data-sufficiency-lmics",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "claim": "Available public sources are sufficient for global and selected-LMIC framing of older-adult fall burden and for evaluating a primary-care prevention pathway, but no single public source links population fall incidence, facility care, time-to-care, and post-fall functional recovery across LMICs at allocation-ready grain.",
+    "domain": ["public-health", "health-systems"],
+    "status": "unverified",
+    "evidence": [
+      "who-falls-global-burden-2021",
+      "sage-fall-injury-lmic-2015",
+      "sawe-fall-registry-malawi-tanzania-2023",
+      "family-fall-prevention-rct-china-2025",
+      "who-injury-dataset-2020",
+      "who-clinical-registry-trauma-2025"
+    ],
+    "failure_modes": [
+      "A reader treats the WHO global burden estimate as current population incidence in a named district.",
+      "A reader combines SAGE self-reported injury with facility registry counts and calls the result a compatible LMIC prevalence estimate.",
+      "A reader treats the African registry's arrival interval as transport time or as evidence that delay caused a particular outcome.",
+      "A reader transports the FAMILY trial effect from rural China to excluded high-risk groups or another health system without replication.",
+      "A reader treats the WHO injury dataset or clinical registry platform as proof that local facilities have implemented complete, representative, linked data.",
+      "A policy-maker uses the data-sufficiency claim to rank households, deny care, or fund an intervention before a country-bounded field and replication review."
+    ],
+    "kill_condition": "A reviewer identifies a current public dataset that links population fall incidence to facility care, time-to-care, and post-fall functional recovery for at least 10 LMICs with compatible definitions and documented missingness, or identifies such an integrated public dataset in the named target setting.",
+    "review_required": ["domain-reviewer", "replicator", "red-team-reviewer"],
+    "safety_level": "medium",
+    "submitter": "codex-agent",
+    "created_date": "2026-09-03",
+    "last_updated": "2026-09-03",
+    "confidence": "medium",
+    "limitations": [
+      "This claim concerns public evidence architecture, not the true global or country-level incidence of falls.",
+      "The assertion that no integrated public dataset exists is an inference from the sources inventoried here, not a census of every national or proprietary database.",
+      "The source inventory does not inspect restricted microdata, unpublished Ministry of Health systems, or non-English sources comprehensively.",
+      "A future dataset release or a country-specific data request could falsify the claim without changing the burden of falls."
+    ]
+  }
+]

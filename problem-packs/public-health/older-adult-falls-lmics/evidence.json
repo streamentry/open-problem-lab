@@ -1,0 +1,165 @@
+[
+  {
+    "id": "who-falls-global-burden-2021",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "claim": "WHO estimates 684,000 fatal falls and 37.3 million falls requiring medical attention each year, with over 80% of fall-related fatalities in low- and middle-income countries and the highest death rates among adults over 60.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Falls",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/falls"
+    },
+    "source_date": "2021-04-26",
+    "access_date": "2026-09-03",
+    "method": "Reviewed the WHO fact sheet key facts, problem definition, global burden, age pattern, DALY context, exclusions, and listed prevention strategies.",
+    "limitations": [
+      "The page reports global estimates and does not provide a current older-adult incidence denominator for a named LMIC district.",
+      "The fall-related death and non-fatal injury estimates use WHO Global Health Estimates and exclude specified assault, self-harm, transport, fire, water, and machinery circumstances.",
+      "The 37.3-million medically attended figure is not a count of unique older adults and cannot be used to infer rehabilitation need or treatment effectiveness.",
+      "The fact sheet does not establish that any listed prevention strategy reduces mortality or disability in a particular setting."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-step-safely-2021",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "claim": "WHO's Step Safely technical package organizes fall-prevention and management evidence for children and adolescents, workers, community-dwelling older people, older people in residential care, and older people receiving hospital care.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Step safely: strategies for preventing and managing falls across the life-course",
+      "url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/step-safely"
+    },
+    "source_date": "2021-04-27",
+    "access_date": "2026-09-03",
+    "method": "Reviewed the WHO package description, publication date, named population groups, examples of prevention strategies, and description of the commissioned evidence-synthesis process.",
+    "limitations": [
+      "The package is a synthesis and technical resource, not a country implementation evaluation or local effect estimate.",
+      "Evidence quality and transferability differ by population group, intervention, health system, and setting; the package does not authorize a universal programme.",
+      "The page does not establish that LMIC facilities can deliver every recommended component or sustain follow-up.",
+      "Any clinical or community intervention use requires local domain, safeguarding, feasibility, and replication review."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-older-adult-falls-report-2008",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "claim": "WHO's global report on falls prevention in older age reports that approximately 28–35% of people aged 65 years and over fall each year, increasing to 32–42% among people over 70, and links allocation to better knowledge of scale, nature, and intervention effectiveness.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO global report on falls prevention in older age",
+      "url": "https://www.who.int/publications-detail-redirect/9789241563536"
+    },
+    "source_date": "2008-03-17",
+    "access_date": "2026-09-03",
+    "method": "Reviewed the WHO report overview for the age-specific fall estimates, rationale for prevention, resource-targeting requirement, framework, and stated scope.",
+    "limitations": [
+      "The report is historical and does not provide current country- or district-specific estimates.",
+      "The reported ranges are not a substitute for a compatible LMIC sampling frame, local fall definition, recurrence rule, or injury threshold.",
+      "The report does not establish current intervention effect sizes, workforce feasibility, or post-fall rehabilitation capacity.",
+      "The source is a global planning report and cannot justify individual assessment or treatment decisions."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sage-fall-injury-lmic-2015",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "claim": "A nationally representative WHO SAGE Wave 1 analysis of adults aged 50 years and older in China, Ghana, India, Mexico, the Russian Federation, and South Africa reported a 4.0% pooled prevalence of self-reported past-year fall-related injury and an association with disability.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Prevalence, risk factors and disability associated with fall-related injury in older adults in low- and middle-income countries: results from the WHO Study on global AGEing and adult health (SAGE)",
+      "url": "https://doi.org/10.1186/s12916-015-0390-8",
+      "doi": "10.1186/s12916-015-0390-8"
+    },
+    "source_date": "2015-06-23",
+    "access_date": "2026-09-03",
+    "method": "Reviewed the peer-reviewed article abstract and methods for the six-country SAGE sampling frame, age threshold, fall-related injury definition, self-reported past-year window, WHODAS disability measure, and regression analysis.",
+    "limitations": [
+      "The data are from SAGE Wave 1 and largely reflect 2007–2010 collection periods, so they are not current surveillance.",
+      "The study includes adults aged 50 years and older, not only adults aged 60 years and older, and the pooled estimate should not be relabelled as an older-old or district rate.",
+      "Fall-related injury and disability are self-reported and cross-sectional; the association is not evidence of causation or intervention effect.",
+      "National representativeness within six countries does not establish comparability for other LMICs or for facility-based care pathways."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sawe-fall-registry-malawi-tanzania-2023",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "claim": "A prospective injury-registry study across 23 health facilities in Malawi and Tanzania recorded 93,178 trauma patients, including 44,609 with fall-related complaints; median arrival time was 10 hours and 3,275 fall patients had potentially serious injuries in the registry population.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Fall injuries in Sub-Saharan Africa: analysis of prospective injury registry from 23 health facilities in Malawi and Tanzania",
+      "url": "https://doi.org/10.1186/s12873-023-00805-x",
+      "doi": "10.1186/s12873-023-00805-x"
+    },
+    "source_date": "2023-04-10",
+    "access_date": "2026-09-03",
+    "method": "Reviewed the article abstract and methods for the number and type of facilities, registry periods, trauma denominator, fall-complaint count, arrival-time definition, serious-injury definition, and facility selection.",
+    "limitations": [
+      "The registry covers selected facilities along highway and emergency-service corridors and is not a population incidence denominator.",
+      "The reported arrival interval includes both travel time and time before deciding to seek care, so it cannot be treated as prehospital transport time alone.",
+      "The registry population is predominantly young and male; it does not isolate older-adult prevention or functional recovery.",
+      "The observational design and differing registry emphasis between Malawi and Tanzania do not identify a causal effect of emergency or prevention interventions."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "family-fall-prevention-rct-china-2025",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "claim": "The FAMILY cluster randomized clinical trial evaluated a primary-care-integrated fall-prevention programme in 128 rural Chinese villages, randomized 2,610 adults aged 60 years and older, and reported at least one self-reported fall in 29.7% of intervention participants versus 38.3% of controls over 12 months.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "A Fall Prevention Program Integrated in Primary Health Care for Older People in Rural China: The FAMILY Cluster Randomized Clinical Trial",
+      "url": "https://doi.org/10.1001/jama.2025.12724",
+      "doi": "10.1001/jama.2025.12724"
+    },
+    "source_date": "2025-09-23",
+    "access_date": "2026-09-03",
+    "method": "Reviewed the PubMed abstract and linked full text for cluster count, eligibility, randomization, intervention components, follow-up, primary outcome, functional measures, attrition before randomization, and reported odds ratio.",
+    "limitations": [
+      "The trial was conducted in four rural Chinese provinces within a specific primary-care system and cannot establish transportability to other LMICs.",
+      "The primary fall outcome was self-reported and collected quarterly with a calendar; it is not a blinded clinical or population surveillance measure.",
+      "Eligibility excluded people unable to walk without assistance, some neurodegenerative conditions, short life expectancy, and speech or hearing limitations, limiting generalizability to higher-risk groups.",
+      "The trial estimates one bundled intervention effect and does not show which component caused the result or establish mortality, fracture, hospitalization, or long-term functional benefit."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-injury-dataset-2020",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "claim": "WHO's Data Set for Injury provides a standardized set of core and extended variables for systematic injury-care documentation and quality improvement, intended to support aggregation and comparison across hospitals, regions, and countries.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO dataset for injury",
+      "url": "https://www.who.int/publications/m/item/who-dataset-for-injury"
+    },
+    "source_date": "2020-06-01",
+    "access_date": "2026-09-03",
+    "method": "Reviewed the WHO publication overview for the dataset's purpose, stakeholder consultation, core and extended element structure, clinical-form linkage, and intended comparison grain.",
+    "limitations": [
+      "The dataset is designed for injury-care documentation and does not estimate unobserved community falls or population incidence.",
+      "A standardized variable list does not ensure complete reporting, compatible implementation, reliable timestamps, or representative facility coverage.",
+      "The source does not provide older-adult fall-specific functional follow-up, prevention exposure, home hazards, or rehabilitation completion by itself.",
+      "Clinical data collection requires local governance, qualified staff, privacy safeguards, and a reviewed use case."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-clinical-registry-trauma-2025",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "claim": "WHO's Clinical Registry provides a web and Android platform for structured emergency and injury data collection, with a WHO Data Set for Injury of 41 core and 27 extended elements and an emergency-care dataset that includes prehospital time metrics.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO Clinical Registry",
+      "url": "https://www.who.int/tools/clinical-registry"
+    },
+    "source_date": "2025-06-23",
+    "access_date": "2026-09-03",
+    "method": "Reviewed the WHO registry page for platform purpose, offline and Android operation, clinical modules, Data Set for Injury element counts, emergency-care prehospital fields, and quality-improvement use.",
+    "limitations": [
+      "The registry is a facility-based platform and cannot establish population incidence, community fall exposure, or people who never seek care.",
+      "Platform availability does not prove local implementation, data completeness, staff training, referral closure, rehabilitation follow-up, or patient consent.",
+      "The injury elements are not a complete older-adult fall-prevention or functional-recovery protocol and require country adaptation.",
+      "Use of person-level clinical data requires lawful governance, privacy protection, qualified clinical ownership, and an explicit non-use boundary."
+    ],
+    "confidence": "high"
+  }
+]

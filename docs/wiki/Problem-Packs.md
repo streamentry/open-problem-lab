@@ -930,6 +930,16 @@ Build a verified workflow for identifying where NTD mass drug administration cov
 
 Build a verified workflow for separating obstetric fistula repair backlog, incident prevention, and measurement artifacts so funders and maternal-newborn programs can decide where surgical repair capacity, referral strengthening, and prevalence measurement are each the right next move.
 
+## Older-Adult Fall Injury Prevention And Post-Fall Function In Low- And Middle-Income Countries
+
+- ID: `public-health/older-adult-falls-lmics`
+- Status: `scoped`
+- Domain: `public-health`, `health-systems`
+- Region: `global`, `low-and-middle-income-countries`
+- Source: [problem-packs/public-health/older-adult-falls-lmics](../../problem-packs/public-health/older-adult-falls-lmics/problem.md)
+
+Build a verified measurement workflow for older-adult falls in low- and middle-income countries that separates event incidence, injury severity, time-to-care, rehabilitation access, functional recovery, prevention fidelity, and equity before any scale-up decision.
+
 ## Oral Health Service Access And Dental Workforce Gaps In Low-Income Countries
 
 - ID: `public-health/oral-health-access-global`
