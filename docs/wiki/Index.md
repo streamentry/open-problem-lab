@@ -6,13 +6,13 @@
 
 | Metric | Value |
 |---|---|
-| Total packs | 119 |
-| Packs with claims | 13 |
+| Total packs | 120 |
+| Packs with claims | 14 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 424 |
-| Total tasks | 616 |
-| Scoped tasks (ready for work) | 104 |
-| High-risk tasks | 327 |
+| Total evidence records | 432 |
+| Total tasks | 622 |
+| Scoped tasks (ready for work) | 105 |
+| High-risk tasks | 331 |
 
 ## All Problem Packs
 
@@ -111,6 +111,7 @@
 | [public-health/neonatal-mortality-quality-care-global](../../problem-packs/public-health/neonatal-mortality-quality-care-global/problem.md) | Neonatal Mortality And Quality Of Inpatient Newborn Care In Low-Income Countries | scoped | public-health | global | medium | 1 ev; 5 tasks | needs evidence |
 | [public-health/ntd-mass-drug-administration-global](../../problem-packs/public-health/ntd-mass-drug-administration-global/problem.md) | Neglected Tropical Disease Mass Drug Administration Coverage Gaps In Sub-Saharan Africa | scoped | public-health | sub-saharan-africa | medium | 2 ev; 5 tasks | needs evidence |
 | [public-health/obstetric-fistula-repair-access-global](../../problem-packs/public-health/obstetric-fistula-repair-access-global/problem.md) | Obstetric Fistula Repair Backlog And Prevention Access In High-Burden Countries | scoped | public-health | global | medium | 8 ev; 5 tasks | needs triage |
+| [public-health/older-adult-falls-lmics](../../problem-packs/public-health/older-adult-falls-lmics/problem.md) | Older-Adult Fall Injury Prevention And Post-Fall Function In Low- And Middle-Income Countries | scoped | public-health, health-systems | global, low-and-middle-income-countries | high | 8 ev; 6 tasks; 1 claims | has claims |
 | [public-health/oral-health-access-global](../../problem-packs/public-health/oral-health-access-global/problem.md) | Oral Health Service Access And Dental Workforce Gaps In Low-Income Countries | scoped | public-health | global | low | 5 ev; 5 tasks; 1 claims | has claims |
 | [public-health/prison-health-tb-hiv-global](../../problem-packs/public-health/prison-health-tb-hiv-global/problem.md) | Prison Health Tuberculosis And HIV Service Gaps In Low- And Middle-Income Countries | scoped | public-health | global | high | 1 ev; 5 tasks | needs evidence |
 | [public-health/rabies-pep-access-global](../../problem-packs/public-health/rabies-pep-access-global/problem.md) | Rabies Post-Exposure Prophylaxis Access And Bite-Risk Triage In Endemic Countries | scoped | public-health | global | medium | 10 ev; 5 tasks | needs triage |

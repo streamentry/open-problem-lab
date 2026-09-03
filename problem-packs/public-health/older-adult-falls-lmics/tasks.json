@@ -1,0 +1,117 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "title": "Inventory older-adult fall, injury, care, rehabilitation, and prevention data sources in LMICs",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory separating usable, limited, and rejected sources for population falls, injury severity, time-to-care, prevention exposure, functional recovery, service capacity, equity, and missingness.",
+    "inputs": [
+      "WHO falls fact sheet, Step Safely package, and older-adult falls report",
+      "WHO SAGE fall-related injury analysis",
+      "Prospective fall-injury registry from Malawi and Tanzania",
+      "FAMILY primary-care cluster randomized trial in rural China",
+      "WHO Data Set for Injury, Clinical Registry, national ageing surveys, and rehabilitation records"
+    ],
+    "expected_artifact": "discovery-ranking.md plus datasets.md update, evidence.json records for each accepted source, and one claims.json data-sufficiency claim.",
+    "validation_method": "An injury-prevention or healthy-ageing domain reviewer checks every source for stable URL, source date, observed measure family, population or facility grain, case definition, access conditions, missingness, and explicit non-use cases.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "medium",
+    "done_condition": "At least seven candidate source families are classified with explicit reasons covering population falls, injury severity, time-to-care, prevention exposure, functional recovery, service capacity, and equity or missingness, with no source promoted beyond what it observes."
+  },
+  {
+    "id": "event-denominator-crosswalk",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "title": "Build a reproducible older-adult fall-event denominator for one LMIC setting",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A field-level event denominator that separates age, fall definition, recurrence, setting, recall window, case-finding source, injury threshold, population frame, weights, and missingness.",
+    "inputs": [
+      "reviewed source inventory",
+      "one named LMIC household, ageing, disability, or health survey",
+      "mortality and facility catchment documentation",
+      "fall-event dictionary and missingness rules"
+    ],
+    "expected_artifact": "validation.md update with an event-denominator crosswalk and non-comparability log.",
+    "validation_method": "An independent replicator reconstructs the numerator and denominator from locked source fields and confirms that facility presentations, self-reports, and mortality are not silently combined.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "A reviewer can reproduce every inclusion, exclusion, age stratum, recurrence rule, sampling weight, and missingness decision for one named setting, or the estimate is explicitly blocked as non-comparable."
+  },
+  {
+    "id": "care-pathway-linkage",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "title": "Map fall injury time-to-care and rehabilitation continuity in one LMIC setting",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A verified pathway from fall event through care-seeking, transport, facility assessment, treatment, transfer, rehabilitation, functional follow-up, and unresolved or lost-to-follow-up states.",
+    "inputs": [
+      "reviewed event denominator",
+      "WHO injury data elements and clinical registry fields",
+      "named emergency, orthopaedic, rehabilitation, and community services",
+      "transport and referral documentation"
+    ],
+    "expected_artifact": "playbooks.md time-to-care and post-fall workflow plus datasets.md source-field update.",
+    "validation_method": "A field-reality reviewer verifies each named service and timestamp owner, while an independent replicator reruns the pathway map from locked records and blocks any link that is inferred rather than observed.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "Every mapped pathway has a dated event owner, start and end timestamps, referral destination, clinical or rehabilitation handoff, closure state, fallback, and explicit non-use case, or is marked unavailable; replication either confirms the map or blocks field-facing use."
+  },
+  {
+    "id": "prevention-effect-crosswalk",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "title": "Crosswalk fall-prevention intervention fidelity and outcome measures across LMIC studies",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A study-level crosswalk separating cluster allocation, eligibility, intervention components, exposure or attendance, co-interventions, fall reporting, injury, function, quality of life, attrition, and follow-up.",
+    "inputs": [
+      "FAMILY cluster randomized trial",
+      "WHO Step Safely evidence framework",
+      "at least one additional LMIC prevention or care study",
+      "trial registries, protocols, and reported outcome tables"
+    ],
+    "expected_artifact": "validation.md intervention crosswalk and outputs.md non-transportability note.",
+    "validation_method": "An independent replicator reruns the reported effect calculations from the primary study tables, records missing outcomes and attrition, and tests whether any cross-study comparison uses compatible definitions.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "high",
+    "done_condition": "At least two LMIC studies are mapped component by component, and every claimed comparison either passes a prespecified compatibility check or is explicitly blocked with the reason and replicated calculation."
+  },
+  {
+    "id": "red-team-fall-risk-misuse",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "title": "Red-team fall-risk, home-safety, medication, and disability-targeting misuse",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review covering automated risk scores, unsafe home entry, medication changes, age or disability discrimination, victim blame, privacy leakage, false reassurance, and denial of care.",
+    "inputs": [
+      "event-denominator and care-pathway artifacts",
+      "prevention-effect crosswalk",
+      "consent, safeguarding, and data-governance materials",
+      "national clinical and social-care boundaries"
+    ],
+    "expected_artifact": "outputs.md and validation.md red-team review with blocks and mitigations.",
+    "validation_method": "A second red-team reviewer independently tests each high-severity misuse path and confirms that it is mitigated, explicitly accepted by an authorized reviewer, or blocks field-facing use.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "No high-severity misuse path remains hidden behind a fall-risk or programme metric, and every residual risk has a named owner, mitigation, non-use rule, and replicated red-team decision."
+  },
+  {
+    "id": "field-reality-allocation-review",
+    "problem_id": "public-health/older-adult-falls-lmics",
+    "title": "Check whether a verified fall-to-function pathway changes a real allocation decision",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing decision review showing whether a named Ministry of Health, district, housing, transport, or funder can act on the verified fall pathway without unsafe incentives.",
+    "inputs": [
+      "replicated event and care-pathway crosswalk",
+      "named Ministry of Health or district healthy-ageing, injury, rehabilitation, or transport budget process",
+      "older adults, caregivers, community workers, emergency providers, and rehabilitation perspectives",
+      "cost, consent, safeguarding, and exit constraints"
+    ],
+    "expected_artifact": "playbooks.md allocation decision memo and outputs.md use and non-use guidance.",
+    "validation_method": "A field-reality reviewer documents the decision, timing, evidence threshold, burden, beneficiary, risk bearer, and fallback; an independent reviewer replicates the non-use-case check before any recommendation.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "The memo names one decision-maker and decision, shows which replicated evidence would change the allocation, records who could be harmed or excluded, and gives a stop, iterate, or proceed decision."
+  }
+]

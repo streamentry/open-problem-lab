@@ -1,0 +1,54 @@
+{
+  "id": "public-health/older-adult-falls-lmics",
+  "title": "Older-Adult Fall Injury Prevention And Post-Fall Function In Low- And Middle-Income Countries",
+  "status": "scoped",
+  "domain": ["public-health", "health-systems"],
+  "region": ["global", "low-and-middle-income-countries"],
+  "summary": "Build a verified measurement workflow for older-adult falls in low- and middle-income countries that separates event incidence, injury severity, time-to-care, rehabilitation access, functional recovery, prevention fidelity, and equity before any scale-up decision.",
+  "why_it_matters": "A Ministry of Health healthy-ageing or injury-prevention director, a district health authority, or a development funder must decide whether to finance community fall prevention, safer-home work, injury surveillance, emergency referral, fracture care, or rehabilitation capacity. WHO estimates 684,000 fatal falls and 37.3 million falls requiring medical attention each year, with over 80% of fall-related fatalities in low- and middle-income countries and the highest death rates among adults over 60 (evidence: who-falls-global-burden-2021). A six-country nationally representative SAGE analysis found a 4.0% pooled prevalence of self-reported past-year fall-related injury among adults aged 50 years and older, while a prospective registry across 23 facilities in Malawi and Tanzania found long arrival delays and substantial differences between facility populations (evidence: sage-fall-injury-lmic-2015, sawe-fall-registry-malawi-tanzania-2023). A rural-China cluster trial shows that an integrated primary-care fall-prevention programme can be evaluated, but not that its effect transports to other settings (evidence: family-fall-prevention-rct-china-2025). A verified country-level cascade from fall to function could change a real prevention, referral, rehabilitation, or data-system allocation; it must not become an individual risk score, treatment order, or universal intervention recommendation without domain, red-team, field-reality, and independent replication review.",
+  "success_metrics": [
+    {
+      "metric": "Fall-event denominator integrity",
+      "target": "Every estimate records the fall definition, age band, setting, recall or observation window, case-finding source, recurrence rule, injury threshold, numerator, denominator, sampling frame, and missingness; facility presentations are not treated as population incidence.",
+      "validation_method": "A replicator reconstructs the event denominator from the cited source methods and blocks comparisons when definitions, catchment, recall, or case-finding are incompatible."
+    },
+    {
+      "metric": "Injury and care-pathway separation",
+      "target": "Every setting separates fall occurrence, injury severity, transport, time-to-care, facility assessment, admission, surgery or fracture care, transfer, rehabilitation, functional outcome, and death.",
+      "validation_method": "A health-systems reviewer traces each pathway field to a source or timestamped record and records whether it observes the population, the facility, or the patient episode."
+    },
+    {
+      "metric": "Prevention and intervention fidelity",
+      "target": "Any prevention result reports allocation, cluster or participant eligibility, intervention components, exposure or attendance, co-interventions, follow-up, attrition, and prespecified fall and functional outcomes.",
+      "validation_method": "An independent replicator reruns the reported effect calculation and checks that self-reported falls and functional measures are not silently substituted for one another."
+    },
+    {
+      "metric": "Equity and older-person autonomy",
+      "target": "Every output preserves age, sex, rurality, poverty, disability, living arrangement, home and work setting, transport access, language, consent, refusal, and safeguarding fields where relevant.",
+      "validation_method": "A field-reality and red-team review checks that risk factors are not converted into blame, exclusion, coercive home access, or automated denial of care."
+    },
+    {
+      "metric": "Allocation restraint",
+      "target": "No fall-prevention, fracture-care, rehabilitation, or resource-allocation recommendation advances beyond measurement framing without domain review, red-team review, field-reality review, and independent replication.",
+      "validation_method": "Review records, input hashes, and replication results are checked before any country-facing or operational output is published."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 3,
+    "replication_required": true,
+    "merge_gate": "Schema validation, injury-prevention and health-systems domain review, red-team review for clinical, home-safety, medication, and targeting overreach, field-reality review for prevention and care pathways, and independent replication before any quantitative or operational recommendation."
+  }
+}
