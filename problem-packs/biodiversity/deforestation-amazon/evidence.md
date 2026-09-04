@@ -12,7 +12,7 @@ Use this source as the gold-standard reference dataset for Amazon deforestation.
 
 ### Barlow et al. 2016 Nature
 
-Use this source for the combined effect of deforestation and disturbance on Amazon biodiversity across multiple taxonomic groups. The original evidence record for this slot (Albert et al. 2021, DOI 10.1126/science.abf3872) was found to have a broken URL during verify:sources on 2026-06-07 and was replaced. This is the verify:sources protocol working correctly — broken URLs are caught and evidence records are updated.
+Use this source for the combined effect of deforestation and disturbance on Amazon biodiversity across multiple taxonomic groups. The record now uses the primary DOI `10.1038/nature18326`; the previously stored `nature19305` URL was the wrong article identifier and returned 404 during source verification. This is the verify:sources protocol working correctly — broken source identity was corrected rather than silently retained.
 
 ### Hansen/GLAD Alerts
 
@@ -37,6 +37,18 @@ Use this source as the global 30 m forest change baseline. Measures tree cover l
 ### Global Forest Watch Platform
 
 Use this source for integrated access to multiple forest monitoring datasets. Aggregates Hansen loss maps, GLAD alerts, GLAD-S2 alerts, and fire alerts with different definitions, resolutions, and update frequencies. These products must not be conflated in analysis. Does not provide land cover classification.
+
+### Global Forest Watch Driver-Aware Alerts
+
+Use this source for the current driver-aware alert layer as a model-assisted candidate for separating natural and human-caused disturbance. The source reports 11 driver classes at 10 m across the Amazon, Congo, and Indonesia basins. Driver labels are not legal attribution, confirmed land-use change, or biodiversity impact; the production URL currently redirects to the Global Nature Watch surface and should be rechecked before long-term citation.
+
+### MapBiomas Amazon Collection 10
+
+Use this source for annual Amazon biome land-use and land-cover classification from 1985–2024 and for its documented class, sample, and accuracy fields. Collection 10 reports aggregate Level 1 and Level 2 accuracy, but those values are not deforestation-specific precision and do not make the product comparable to PRODES, Hansen, GLAD, or species-range data without a temporal and definition crosswalk.
+
+## Source-Inventory Handoff
+
+The source-inventory task now includes the corrected Barlow primary DOI and two current method/data records. `datasets.md` classifies annual reference maps, near-real-time alerts, driver models, occurrence points, range polygons, and land-cover classes as separate measurement families. The task is ready for domain review; no species-range ranking or extinction-risk claim is being advanced by this inventory.
 
 ## Evidence Quality Rule
 

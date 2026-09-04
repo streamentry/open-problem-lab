@@ -4,12 +4,12 @@
     "schema_version": 1,
     "total_packs": 120,
     "total_tasks": 622,
-    "scoped_tasks": 105,
-    "latent_tasks": 517,
+    "scoped_tasks": 104,
+    "latent_tasks": 518,
     "status_counts": {
-      "scoped": 105,
+      "scoped": 104,
       "needs-triage": 502,
-      "needs-review": 15
+      "needs-review": 16
     },
     "owner_role_counts": {
       "literature-scout": 120,
@@ -19,7 +19,7 @@
       "field-reality-reviewer": 120
     },
     "scoped_role_counts": {
-      "literature-scout": 105
+      "literature-scout": 104
     },
     "reviewer_needed_counts": {
       "domain-reviewer": 247,
@@ -37,22 +37,6 @@
   "protocol_alerts": [],
   "contributor_lanes": {
     "first_moves": [
-      {
-        "pack_id": "biodiversity/deforestation-amazon",
-        "pack_title": "Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin",
-        "task_id": "source-inventory",
-        "title": "Inventory deforestation and biodiversity data sources for Amazon basin",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "medium",
-        "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.",
-        "evidence_count": 8,
-        "downstream_tasks_unlocked": 5,
-        "downstream_high_risk_tasks": 4,
-        "problem_file": "problem-packs/biodiversity/deforestation-amazon/problem.md",
-        "tasks_file": "problem-packs/biodiversity/deforestation-amazon/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
-      },
       {
         "pack_id": "climate-adaptation/sea-level-rise-small-islands",
         "pack_title": "Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States",
@@ -228,6 +212,22 @@
         "problem_file": "problem-packs/disaster-resilience/urban-flooding-south-asia/problem.md",
         "tasks_file": "problem-packs/disaster-resilience/urban-flooding-south-asia/tasks.json",
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
+      },
+      {
+        "pack_id": "education/learning-loss-post-pandemic",
+        "pack_title": "Post-Pandemic Learning Loss Measurement And Recovery Tracking In Low-Income Countries",
+        "task_id": "source-inventory",
+        "title": "Inventory learning assessment data sources for low-income countries",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "medium",
+        "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit data-quality tier assignments.",
+        "evidence_count": 3,
+        "downstream_tasks_unlocked": 5,
+        "downstream_high_risk_tasks": 2,
+        "problem_file": "problem-packs/education/learning-loss-post-pandemic/problem.md",
+        "tasks_file": "problem-packs/education/learning-loss-post-pandemic/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       }
     ],
     "unlock_paths": [
@@ -272,28 +272,6 @@
         "evidence_count": 7,
         "problem_file": "problem-packs/disaster-resilience/cyclone-early-warning-bangladesh/problem.md",
         "tasks_file": "problem-packs/disaster-resilience/cyclone-early-warning-bangladesh/tasks.json"
-      },
-      {
-        "pack_id": "biodiversity/deforestation-amazon",
-        "pack_title": "Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin",
-        "scoped_tasks": 1,
-        "downstream_tasks": 5,
-        "downstream_high_risk_tasks": 4,
-        "downstream_by_role": {
-          "data-cleaner": 1,
-          "implementation-planner": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "evidence_count": 8,
-        "problem_file": "problem-packs/biodiversity/deforestation-amazon/problem.md",
-        "tasks_file": "problem-packs/biodiversity/deforestation-amazon/tasks.json"
       },
       {
         "pack_id": "public-health/older-adult-falls-lmics",
@@ -490,6 +468,28 @@
         "evidence_count": 2,
         "problem_file": "problem-packs/public-health/lead-exposure-urban-global/problem.md",
         "tasks_file": "problem-packs/public-health/lead-exposure-urban-global/tasks.json"
+      },
+      {
+        "pack_id": "public-health/substandard-falsified-medicines-global",
+        "pack_title": "Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries",
+        "scoped_tasks": 1,
+        "downstream_tasks": 5,
+        "downstream_high_risk_tasks": 3,
+        "downstream_by_role": {
+          "implementation-planner": 2,
+          "data-cleaner": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_reviewers_needed": {
+          "domain-reviewer": 2,
+          "replicator": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "evidence_count": 4,
+        "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md",
+        "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json"
       }
     ],
     "reviewer_hotspots": [
@@ -505,6 +505,19 @@
         "downstream_high_risk_tasks": 6,
         "downstream_tasks": 8,
         "problem_file": "problem-packs/health-systems/palliative-care-access-lmics/problem.md"
+      },
+      {
+        "pack_id": "biodiversity/deforestation-amazon",
+        "pack_title": "Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin",
+        "downstream_reviewers_needed": {
+          "domain-reviewer": 3,
+          "replicator": 1,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_high_risk_tasks": 4,
+        "downstream_tasks": 6,
+        "problem_file": "problem-packs/biodiversity/deforestation-amazon/problem.md"
       },
       {
         "pack_id": "food-security/fisheries-overexploitation-west-africa",
@@ -597,19 +610,6 @@
         "problem_file": "problem-packs/disaster-resilience/cyclone-early-warning-bangladesh/problem.md"
       },
       {
-        "pack_id": "biodiversity/deforestation-amazon",
-        "pack_title": "Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin",
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_high_risk_tasks": 4,
-        "downstream_tasks": 5,
-        "problem_file": "problem-packs/biodiversity/deforestation-amazon/problem.md"
-      },
-      {
         "pack_id": "climate-health/malaria-early-warning-africa",
         "pack_title": "Malaria Early Warning Signals In Sub-Saharan Africa",
         "downstream_reviewers_needed": {
@@ -655,7 +655,7 @@
         "scoped_tasks": 0,
         "latent_tasks": 141,
         "share_of_all_tasks": 0.227,
-        "share_of_latent_tasks": 0.273
+        "share_of_latent_tasks": 0.272
       },
       {
         "owner_role": "data-cleaner",
@@ -680,10 +680,10 @@
       },
       {
         "owner_role": "literature-scout",
-        "scoped_tasks": 105,
-        "latent_tasks": 15,
+        "scoped_tasks": 104,
+        "latent_tasks": 16,
         "share_of_all_tasks": 0.193,
-        "share_of_latent_tasks": 0.029
+        "share_of_latent_tasks": 0.031
       }
     ]
   }
