@@ -3,19 +3,19 @@
     "generated_by": "scripts/generate-task-index.mjs",
     "schema_version": 1,
     "total_packs": 120,
-    "total_scoped_tasks": 105,
+    "total_scoped_tasks": 104,
     "by_role": {
-      "literature-scout": 105
+      "literature-scout": 104
     },
     "by_risk": {
-      "medium": 104,
+      "medium": 103,
       "high": 1
     },
     "by_domain": {
       "air-quality": 6,
       "public-health": 69,
-      "climate-health": 13,
-      "biodiversity": 7,
+      "climate-health": 12,
+      "biodiversity": 6,
       "food-security": 18,
       "climate-adaptation": 11,
       "disaster-resilience": 10,
@@ -115,23 +115,6 @@
       "done_condition": "At least five sources classified as usable, limited, or rejected.",
       "tasks_file": "problem-packs/biodiversity/coral-bleaching-great-barrier-reef/tasks.json",
       "problem_file": "problem-packs/biodiversity/coral-bleaching-great-barrier-reef/problem.md"
-    },
-    {
-      "pack_id": "biodiversity/deforestation-amazon",
-      "pack_title": "Satellite-Driven Deforestation Detection And Species Loss Risk In The Amazon Basin",
-      "pack_status": "scoped",
-      "domain": ["biodiversity", "climate-health"],
-      "region": ["amazon"],
-      "task_id": "source-inventory",
-      "title": "Inventory deforestation and biodiversity data sources for Amazon basin",
-      "owner_role": "literature-scout",
-      "reviewer_needed": "domain-reviewer",
-      "safety_risk": "medium",
-      "outcome": "A dated source inventory separating deforestation monitoring, species occurrence, range maps, and unusable sources.",
-      "expected_artifact": "datasets.md update plus evidence.json records for each accepted source.",
-      "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.",
-      "tasks_file": "problem-packs/biodiversity/deforestation-amazon/tasks.json",
-      "problem_file": "problem-packs/biodiversity/deforestation-amazon/problem.md"
     },
     {
       "pack_id": "biodiversity/grassland-degradation-central-asia",

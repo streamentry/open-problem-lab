@@ -24,15 +24,16 @@
     "evidence_type": "peer-reviewed-study",
     "source": {
       "title": "Anthropogenic disturbance in tropical forests can double biodiversity loss from deforestation",
-      "url": "https://www.nature.com/articles/nature19305"
+      "url": "https://doi.org/10.1038/nature18326",
+      "doi": "10.1038/nature18326"
     },
-    "source_date": "2016-09-14",
-    "access_date": "2026-06-07",
-    "method": "Reviewed abstract, methods, multi-taxa sampling approach, and results showing additive biodiversity loss from disturbance beyond deforestation frontier.",
+    "source_date": "2016-06-29",
+    "access_date": "2026-09-04",
+    "method": "Resolved the primary paper through its DOI and reviewed the abstract, methods, multi-taxa sampling approach, and results showing biodiversity loss from disturbance beyond direct forest loss.",
     "limitations": [
       "Multi-taxa sampling was conducted in the Brazilian Amazon; applicability to other Amazon sub-regions requires verification.",
       "Disturbance effects interact with deforestation proximity in ways that may not generalize across land-use gradients.",
-      "Original Science.org URL for prior evidence record (10.1126/science.abf3872) was found to return HTTP 404 during verify:sources on 2026-06-07 and was replaced with this alternative source."
+      "The study estimates conservation-value loss from sampled plants, birds, and dung beetles in 36 catchments; it does not provide a basin-wide population trend or validate species-specific extinction risk."
     ],
     "confidence": "high"
   },
@@ -157,6 +158,46 @@
       "GFW does not provide land cover classification; it cannot distinguish deforestation-to-pasture from forest degradation.",
       "API rate limits and data download sizes may require incremental processing for basin-wide Amazon analysis.",
       "GFW data is free but licensing terms vary by underlying dataset; some layers have commercial use restrictions."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "gfw-drivers-deforestation-alerts-2025",
+    "problem_id": "biodiversity/deforestation-amazon",
+    "claim": "Global Forest Watch's driver-aware deforestation-alert documentation describes an alert product that classifies 11 natural and human-caused driver classes at 10-meter resolution across the Amazon, Congo, and Indonesia forest basins, while distinguishing model-assigned drivers from confirmed land-use change.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "See What’s Driving Deforestation Alerts for the First Time on GFW",
+      "url": "https://www.globalforestwatch.org/blog/data-and-tools/drivers-deforestation-alerts/"
+    },
+    "source_date": "2025-10-20",
+    "access_date": "2026-09-04",
+    "method": "Reviewed the Global Forest Watch documentation for the driver-alert model, 11 driver classes, 10-meter resolution, three tropical basin coverage, model training data, and distinction between probable drivers and independently confirmed land-use change.",
+    "limitations": [
+      "The source describes a Global Forest Watch product and model, not an independent validation of every driver label in the Amazon.",
+      "A model-assigned driver is not proof of legal responsibility, land tenure, permanence, or causal biodiversity impact.",
+      "The production Global Forest Watch URL redirected to the Global Nature Watch surface during review; the canonical host and title should be rechecked before long-term citation.",
+      "The product does not measure species abundance, population change, or extinction risk without separate ecological data."
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mapbiomas-amazon-collection-10-2025",
+    "problem_id": "biodiversity/deforestation-amazon",
+    "claim": "MapBiomas Amazon Collection 10 reconstructs an annual land-use and land-cover time series for the Amazon biome from 1985 through 2024 using Landsat imagery and Random Forest classification, and reports Collection 10 global accuracy of 97.5% at Level 1 and 96.5% at Level 2.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "Amazon Appendix: Algorithm Theoretical Basis Document Collection 10",
+      "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Amazon-Appendix-ATBD-Collection-10-v1.pdf"
+    },
+    "source_date": "2025-08-01",
+    "access_date": "2026-09-04",
+    "method": "Reviewed the Collection 10 Amazon ATBD for the 1985–2024 period, Landsat sensors and cloud filtering, Random Forest classification, class scheme, path-row mapping unit, reference samples, accuracy-analysis design, and reported Level 1 and Level 2 accuracy.",
+    "limitations": [
+      "The source date is inferred from the August 2025 publication path because the PDF does not expose a more precise release date.",
+      "Reported global accuracy is an aggregate classification metric and does not establish class-specific accuracy for deforestation, small clearings, wetlands, or species habitat.",
+      "The map covers the Amazon biome but is a land-use and land-cover classification, not an independent deforestation-rate estimate or causal driver assessment.",
+      "Collection 10 ends in 2024; comparisons with 2025 alert products require a documented temporal bridge and must not mix annual and alert definitions."
     ],
     "confidence": "high"
   }

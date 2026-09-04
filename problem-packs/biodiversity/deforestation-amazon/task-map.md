@@ -2,7 +2,7 @@
 
 ## Active Work Claims
 
-The machine-readable task list is `tasks.json`.
+The machine-readable task list is `tasks.json`. `source-inventory` is submitted for review after correcting the broken Barlow source identity and adding current driver-alert and Amazon Collection 10 records.
 
 ## Work Sequence
 

@@ -3,7 +3,7 @@
     "id": "source-inventory",
     "problem_id": "biodiversity/deforestation-amazon",
     "title": "Inventory deforestation and biodiversity data sources for Amazon basin",
-    "status": "scoped",
+    "status": "needs-review",
     "owner_role": "literature-scout",
     "outcome": "A dated source inventory separating deforestation monitoring, species occurrence, range maps, and unusable sources.",
     "inputs": [
