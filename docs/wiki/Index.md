@@ -6,13 +6,13 @@
 
 | Metric | Value |
 |---|---|
-| Total packs | 120 |
-| Packs with claims | 14 |
+| Total packs | 121 |
+| Packs with claims | 15 |
 | Packs with accepted claims | 0 |
-| Total evidence records | 434 |
-| Total tasks | 622 |
-| Scoped tasks (ready for work) | 104 |
-| High-risk tasks | 331 |
+| Total evidence records | 446 |
+| Total tasks | 629 |
+| Scoped tasks (ready for work) | 105 |
+| High-risk tasks | 335 |
 
 ## All Problem Packs
 
@@ -72,6 +72,7 @@
 | [health-systems/medical-oxygen-reliability-lmics](../../problem-packs/health-systems/medical-oxygen-reliability-lmics/problem.md) | Reliable Medical Oxygen Systems In Low- And Middle-Income Hospitals | scoped | health-systems, public-health | low-and-middle-income-countries | high | 5 ev; 3 tasks | ready |
 | [health-systems/obstetric-blood-availability-lmics](../../problem-packs/health-systems/obstetric-blood-availability-lmics/problem.md) | Obstetric Blood Availability And Time-To-Transfusion Gaps In LMICs | scoped | health-systems, public-health | global, low-and-middle-income-countries | high | 6 ev; 4 tasks | ready |
 | [health-systems/palliative-care-access-lmics](../../problem-packs/health-systems/palliative-care-access-lmics/problem.md) | Palliative Care Access And Continuity Gaps In Low- And Middle-Income Countries | scoped | health-systems, public-health | global, low-and-middle-income-countries | high | 12 ev; 8 tasks | needs triage |
+| [health-systems/primary-care-wash-continuity-lmics](../../problem-packs/health-systems/primary-care-wash-continuity-lmics/problem.md) | Primary-Care Water And Hand-Hygiene Continuity In Low- And Middle-Income Health Facilities | scoped | health-systems, water-security, public-health | global, low-and-middle-income-countries | high | 12 ev; 7 tasks; 1 claims | has claims |
 | [infectious-disease/congenital-chagas-cascade-global](../../problem-packs/infectious-disease/congenital-chagas-cascade-global/problem.md) | Congenital Chagas Detection And Treatment Cascade In Endemic And Migrant-Serving Systems | scoped | infectious-disease, public-health | global, latin-america | high | 5 ev; 5 tasks | ready |
 | [infectious-disease/hepatitis-b-perinatal-prevention-global](../../problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/problem.md) | Hepatitis B Perinatal Prevention Cascade In High-Burden Countries | scoped | infectious-disease, public-health | global, sub-saharan-africa | high | 7 ev; 6 tasks | ready |
 | [occupational-health/chronic-kidney-disease-agricultural-global](../../problem-packs/occupational-health/chronic-kidney-disease-agricultural-global/problem.md) | Chronic Kidney Disease Of Uncertain Etiology In Agricultural Communities | scoped | occupational-health, public-health | global, low-and-middle-income-countries | high | 7 ev; 5 tasks | ready |

@@ -540,6 +540,16 @@ Build a verified facility-level evidence workflow for measuring whether women wi
 
 Build a verified measurement layer for palliative-care need, referral, service delivery, medicine access, caregiver support, and continuity across primary, community, home, and specialist care in low- and middle-income countries.
 
+## Primary-Care Water And Hand-Hygiene Continuity In Low- And Middle-Income Health Facilities
+
+- ID: `health-systems/primary-care-wash-continuity-lmics`
+- Status: `scoped`
+- Domain: `health-systems`, `water-security`, `public-health`
+- Region: `global`, `low-and-middle-income-countries`
+- Source: [problem-packs/health-systems/primary-care-wash-continuity-lmics](../../problem-packs/health-systems/primary-care-wash-continuity-lmics/problem.md)
+
+Build a verified facility-level measurement workflow for primary-care water and hand-hygiene continuity that separates static infrastructure, point-of-care function, quantity, quality, stock-outs, downtime, repair, and missingness before any infrastructure or quality-of-care allocation.
+
 ## Congenital Chagas Detection And Treatment Cascade In Endemic And Migrant-Serving Systems
 
 - ID: `infectious-disease/congenital-chagas-cascade-global`

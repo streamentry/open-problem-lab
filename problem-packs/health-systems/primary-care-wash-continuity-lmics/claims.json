@@ -1,0 +1,39 @@
+[
+  {
+    "id": "primary-care-wash-continuity-data-sufficiency",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "Current public global sources can quantify selected health-care-facility WASH service levels and define facility-audit and improvement methods, but do not yet provide a current, comparable measure of continuously available water and hand hygiene at primary-care facilities across low- and middle-income countries with facility frames, point-of-care observations, quality or quantity, repair or stock-out, and missingness fields.",
+    "domain": ["health-systems", "water-security", "public-health"],
+    "status": "unverified",
+    "evidence": [
+      "jmp-wash-hcf-2024",
+      "who-hcf-wash-core-2018",
+      "who-hhfa-comprehensive-guide-2023",
+      "who-hhfa-combined-questionnaire-2023",
+      "guo-rural-hcf-wash-2017",
+      "kanyangarara-wash-hcf-2021",
+      "who-unicef-wash-hcf-tracker-2025"
+    ],
+    "failure_modes": [
+      "A reader treats the JMP no-service estimate as a current primary-care facility denominator or as proof that every person served by a facility experiences the same failure.",
+      "A reader treats an improved or on-premises water source as safe, sufficient, continuously available, or functional at every point of care.",
+      "A reader combines HHFA, SARA, SPA, WASH FIT, and JMP fields without reconciling facility frames, observation windows, definitions, or missingness.",
+      "A reader uses WASH FIT score changes or facility observations as proof of reduced infections, mortality, or improved clinical quality.",
+      "A reader uses missing or refused facility records to rank, punish, exclude, or deprioritize facilities, workers, patients, or communities.",
+      "A policymaker treats the data-sufficiency claim as proof that a compatible national or proprietary facility dataset does not exist and skips a local data-owner search."
+    ],
+    "kill_condition": "A public or authorized-for-analysis dataset is identified that covers at least 10 low- or middle-income countries with a reconstructable primary-care facility frame, standardized water and hand-hygiene definitions, repeated or explicitly time-windowed availability observations, point-of-care fields, relevant quality or quantity measures, repair or stock-out states, and documented missingness.",
+    "review_required": ["domain-reviewer", "replicator", "red-team-reviewer"],
+    "safety_level": "medium",
+    "submitter": "codex-agent",
+    "created_date": "2026-09-05",
+    "last_updated": "2026-09-05",
+    "confidence": "medium",
+    "limitations": [
+      "This claim concerns the public evidence architecture reviewed here, not the true global prevalence of unsafe or unavailable WASH services.",
+      "The reviewed sources do not include every national, proprietary, unpublished, or non-English facility dataset.",
+      "The distinction between primary-care and other health-care facilities is not consistently available in global sources.",
+      "A future release, data request, or country-specific search could falsify the claim without changing the underlying service problem."
+    ]
+  }
+]

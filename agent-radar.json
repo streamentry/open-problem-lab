@@ -2,34 +2,34 @@
   "summary": {
     "generated_by": "scripts/generate-agent-radar.mjs",
     "schema_version": 1,
-    "total_packs": 120,
-    "total_tasks": 622,
-    "scoped_tasks": 104,
-    "latent_tasks": 518,
+    "total_packs": 121,
+    "total_tasks": 629,
+    "scoped_tasks": 105,
+    "latent_tasks": 524,
     "status_counts": {
-      "scoped": 104,
-      "needs-triage": 502,
+      "scoped": 105,
+      "needs-triage": 508,
       "needs-review": 16
     },
     "owner_role_counts": {
-      "literature-scout": 120,
-      "data-cleaner": 121,
-      "implementation-planner": 141,
-      "red-team-reviewer": 120,
-      "field-reality-reviewer": 120
+      "literature-scout": 121,
+      "data-cleaner": 123,
+      "implementation-planner": 143,
+      "red-team-reviewer": 121,
+      "field-reality-reviewer": 121
     },
     "scoped_role_counts": {
-      "literature-scout": 104
+      "literature-scout": 105
     },
     "reviewer_needed_counts": {
-      "domain-reviewer": 247,
-      "replicator": 130,
-      "red-team-reviewer": 121,
-      "field-reality-reviewer": 124
+      "domain-reviewer": 248,
+      "replicator": 133,
+      "red-team-reviewer": 122,
+      "field-reality-reviewer": 126
     },
     "safety_risk_counts": {
-      "medium": 272,
-      "high": 331,
+      "medium": 275,
+      "high": 335,
       "low": 19
     },
     "protocol_alert_count": 0
@@ -37,6 +37,22 @@
   "protocol_alerts": [],
   "contributor_lanes": {
     "first_moves": [
+      {
+        "pack_id": "health-systems/primary-care-wash-continuity-lmics",
+        "pack_title": "Primary-Care Water And Hand-Hygiene Continuity In Low- And Middle-Income Health Facilities",
+        "task_id": "source-inventory",
+        "title": "Inventory primary-care water and hand-hygiene continuity data sources in LMICs",
+        "owner_role": "literature-scout",
+        "reviewer_needed": "domain-reviewer",
+        "safety_risk": "medium",
+        "done_condition": "At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering static service, continuity, quality, point-of-care function, operational improvement, clinical outcomes, and missingness, with no source promoted beyond what it observes.",
+        "evidence_count": 12,
+        "downstream_tasks_unlocked": 6,
+        "downstream_high_risk_tasks": 4,
+        "problem_file": "problem-packs/health-systems/primary-care-wash-continuity-lmics/problem.md",
+        "tasks_file": "problem-packs/health-systems/primary-care-wash-continuity-lmics/tasks.json",
+        "why_pick_now": "Completing this scoped task opens 6 follow-on tasks across 4 additional roles."
+      },
       {
         "pack_id": "climate-adaptation/sea-level-rise-small-islands",
         "pack_title": "Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States",
@@ -212,25 +228,30 @@
         "problem_file": "problem-packs/disaster-resilience/urban-flooding-south-asia/problem.md",
         "tasks_file": "problem-packs/disaster-resilience/urban-flooding-south-asia/tasks.json",
         "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
-      },
-      {
-        "pack_id": "education/learning-loss-post-pandemic",
-        "pack_title": "Post-Pandemic Learning Loss Measurement And Recovery Tracking In Low-Income Countries",
-        "task_id": "source-inventory",
-        "title": "Inventory learning assessment data sources for low-income countries",
-        "owner_role": "literature-scout",
-        "reviewer_needed": "domain-reviewer",
-        "safety_risk": "medium",
-        "done_condition": "At least five candidate data sources are classified as usable, limited, or rejected with explicit data-quality tier assignments.",
-        "evidence_count": 3,
-        "downstream_tasks_unlocked": 5,
-        "downstream_high_risk_tasks": 2,
-        "problem_file": "problem-packs/education/learning-loss-post-pandemic/problem.md",
-        "tasks_file": "problem-packs/education/learning-loss-post-pandemic/tasks.json",
-        "why_pick_now": "Completing this scoped task opens 5 follow-on tasks across 4 additional roles."
       }
     ],
     "unlock_paths": [
+      {
+        "pack_id": "health-systems/primary-care-wash-continuity-lmics",
+        "pack_title": "Primary-Care Water And Hand-Hygiene Continuity In Low- And Middle-Income Health Facilities",
+        "scoped_tasks": 1,
+        "downstream_tasks": 6,
+        "downstream_high_risk_tasks": 4,
+        "downstream_by_role": {
+          "data-cleaner": 2,
+          "implementation-planner": 2,
+          "red-team-reviewer": 1,
+          "field-reality-reviewer": 1
+        },
+        "downstream_reviewers_needed": {
+          "replicator": 3,
+          "field-reality-reviewer": 2,
+          "red-team-reviewer": 1
+        },
+        "evidence_count": 12,
+        "problem_file": "problem-packs/health-systems/primary-care-wash-continuity-lmics/problem.md",
+        "tasks_file": "problem-packs/health-systems/primary-care-wash-continuity-lmics/tasks.json"
+      },
       {
         "pack_id": "climate-adaptation/sea-level-rise-small-islands",
         "pack_title": "Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States",
@@ -468,28 +489,6 @@
         "evidence_count": 2,
         "problem_file": "problem-packs/public-health/lead-exposure-urban-global/problem.md",
         "tasks_file": "problem-packs/public-health/lead-exposure-urban-global/tasks.json"
-      },
-      {
-        "pack_id": "public-health/substandard-falsified-medicines-global",
-        "pack_title": "Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries",
-        "scoped_tasks": 1,
-        "downstream_tasks": 5,
-        "downstream_high_risk_tasks": 3,
-        "downstream_by_role": {
-          "implementation-planner": 2,
-          "data-cleaner": 1,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_reviewers_needed": {
-          "domain-reviewer": 2,
-          "replicator": 1,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "evidence_count": 4,
-        "problem_file": "problem-packs/public-health/substandard-falsified-medicines-global/problem.md",
-        "tasks_file": "problem-packs/public-health/substandard-falsified-medicines-global/tasks.json"
       }
     ],
     "reviewer_hotspots": [
@@ -544,6 +543,18 @@
         "downstream_high_risk_tasks": 4,
         "downstream_tasks": 6,
         "problem_file": "problem-packs/food-security/livestock-disease-surveillance-east-africa/problem.md"
+      },
+      {
+        "pack_id": "health-systems/primary-care-wash-continuity-lmics",
+        "pack_title": "Primary-Care Water And Hand-Hygiene Continuity In Low- And Middle-Income Health Facilities",
+        "downstream_reviewers_needed": {
+          "replicator": 3,
+          "field-reality-reviewer": 2,
+          "red-team-reviewer": 1
+        },
+        "downstream_high_risk_tasks": 4,
+        "downstream_tasks": 6,
+        "problem_file": "problem-packs/health-systems/primary-care-wash-continuity-lmics/problem.md"
       },
       {
         "pack_id": "occupational-health/heat-stress-outdoor-workers-global",
@@ -634,55 +645,42 @@
         "downstream_high_risk_tasks": 4,
         "downstream_tasks": 5,
         "problem_file": "problem-packs/disaster-resilience/urban-flooding-south-asia/problem.md"
-      },
-      {
-        "pack_id": "food-safety/aflatoxin-exposure-sub-saharan-africa",
-        "pack_title": "Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa",
-        "downstream_reviewers_needed": {
-          "replicator": 1,
-          "domain-reviewer": 2,
-          "red-team-reviewer": 1,
-          "field-reality-reviewer": 1
-        },
-        "downstream_high_risk_tasks": 4,
-        "downstream_tasks": 5,
-        "problem_file": "problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md"
       }
     ],
     "role_backlog": [
       {
         "owner_role": "implementation-planner",
         "scoped_tasks": 0,
-        "latent_tasks": 141,
+        "latent_tasks": 143,
         "share_of_all_tasks": 0.227,
-        "share_of_latent_tasks": 0.272
+        "share_of_latent_tasks": 0.273
       },
       {
         "owner_role": "data-cleaner",
         "scoped_tasks": 0,
-        "latent_tasks": 121,
-        "share_of_all_tasks": 0.195,
-        "share_of_latent_tasks": 0.234
+        "latent_tasks": 123,
+        "share_of_all_tasks": 0.196,
+        "share_of_latent_tasks": 0.235
       },
       {
         "owner_role": "field-reality-reviewer",
         "scoped_tasks": 0,
-        "latent_tasks": 120,
-        "share_of_all_tasks": 0.193,
-        "share_of_latent_tasks": 0.232
+        "latent_tasks": 121,
+        "share_of_all_tasks": 0.192,
+        "share_of_latent_tasks": 0.231
       },
       {
         "owner_role": "red-team-reviewer",
         "scoped_tasks": 0,
-        "latent_tasks": 120,
-        "share_of_all_tasks": 0.193,
-        "share_of_latent_tasks": 0.232
+        "latent_tasks": 121,
+        "share_of_all_tasks": 0.192,
+        "share_of_latent_tasks": 0.231
       },
       {
         "owner_role": "literature-scout",
-        "scoped_tasks": 104,
+        "scoped_tasks": 105,
         "latent_tasks": 16,
-        "share_of_all_tasks": 0.193,
+        "share_of_all_tasks": 0.192,
         "share_of_latent_tasks": 0.031
       }
     ]
