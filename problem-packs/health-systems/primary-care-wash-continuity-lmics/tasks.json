@@ -1,0 +1,136 @@
+[
+  {
+    "id": "source-inventory",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "title": "Inventory primary-care water and hand-hygiene continuity data sources in LMICs",
+    "status": "scoped",
+    "owner_role": "literature-scout",
+    "outcome": "A dated source inventory separating static service ladders, continuity, water quality, point-of-care function, operational improvement, clinical outcomes, and missingness into usable, limited, and rejected categories.",
+    "inputs": [
+      "WHO/UNICEF HCF 2023 data update and 2025 country progress tracker",
+      "WHO/UNICEF core WASH questions and indicators",
+      "WHO Harmonized Health Facility Assessment guide and combined questionnaire",
+      "WHO/UNICEF WASH FIT guide, global report, and 2024–2030 framework",
+      "Primary facility studies from six and 18 sub-Saharan African countries and the Togo WASH FIT pilot"
+    ],
+    "expected_artifact": "discovery-ranking.md plus datasets.md update, evidence.json records for each accepted source, and claims.json with one data-sufficiency claim.",
+    "validation_method": "A WASH or primary-care domain reviewer checks every source for stable URL, source date, observed unit, facility frame, service definition, continuity window, point-of-care grain, quality method, missingness, and explicit non-use cases.",
+    "reviewer_needed": "domain-reviewer",
+    "safety_risk": "medium",
+    "done_condition": "At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering static service, continuity, quality, point-of-care function, operational improvement, clinical outcomes, and missingness, with no source promoted beyond what it observes."
+  },
+  {
+    "id": "continuity-point-of-care-dictionary",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "title": "Build a primary-care water and hand-hygiene continuity measurement dictionary",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A field-level dictionary that separates source presence, on-premises location, availability when needed, quantity, quality, storage, pump function, hand-hygiene station function, supplies, stock-outs, repair, and observation timing.",
+    "inputs": [
+      "Reviewed source inventory",
+      "WHO/UNICEF core WASH questions and HHFA questionnaire",
+      "Guo rural-facility continuity and water-quality fields",
+      "Named primary-care facility frame and service-point list"
+    ],
+    "expected_artifact": "validation.md continuity dictionary and datasets.md field-level crosswalk.",
+    "validation_method": "An independent replicator traces each dictionary field to a source question or record, reruns one example tabulation, and blocks any composite field that cannot preserve its observation window or unit.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "Every water and hand-hygiene field in one named instrument has an observed unit, response state, time window, point-of-care rule, missingness code, and explicit non-use case, or is marked unavailable."
+  },
+  {
+    "id": "country-facility-frame-crosswalk",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "title": "Crosswalk one country primary-care facility frame to WASH observation records",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "A country-bounded crosswalk linking the facility census or sample frame to service level, managing authority, rurality, named care points, observation date, and missingness without exposing vulnerable infrastructure locations.",
+    "inputs": [
+      "Reviewed continuity measurement dictionary",
+      "One authorized national HHFA, SARA, SPA, WASH FIT, or equivalent facility frame",
+      "Facility type, managing authority, rurality, and service-area metadata",
+      "Data-ownership, authorization, disclosure, and de-identification rules"
+    ],
+    "expected_artifact": "playbooks.md country-frame workflow plus a de-identified validation.md crosswalk and non-comparability log.",
+    "validation_method": "A field-reality reviewer confirms the frame owner and service interpretation, while an independent replication reviewer reconstructs inclusion and exclusion decisions from the locked frame and records any inaccessible or omitted facility class.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "An independent replication can reproduce the included facility frame, service-point mapping, observation window, exclusions, missingness, and disclosure controls for one named setting, or the crosswalk is explicitly blocked as unavailable."
+  },
+  {
+    "id": "water-quality-maintenance-linkage",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "title": "Test water-quality, maintenance, stock-out, and repair linkage for primary-care facilities",
+    "status": "needs-triage",
+    "owner_role": "data-cleaner",
+    "outcome": "A reproducible linkage test showing whether source, storage, pump or pipe, water-quality, consumable, maintenance, and repair records refer to the same facility and time window.",
+    "inputs": [
+      "Country facility-frame crosswalk",
+      "Water-quality samples and test methods where authorized",
+      "Maintenance tickets, stock records, and replenishment logs",
+      "Continuity dictionary and facility identifier policy"
+    ],
+    "expected_artifact": "datasets.md linkage matrix plus validation.md reproducible join or blocked-join report.",
+    "validation_method": "An independent replicator reruns the join from locked identifiers and date rules, reports duplicate and unmatched records, and prevents inference of quality or uptime when the relevant record is absent.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "medium",
+    "done_condition": "At least one named facility-time linkage is reproduced end to end, or every failed join is documented with the missing identifier, time mismatch, quality limitation, and explicit non-use consequence."
+  },
+  {
+    "id": "red-team-targeting-privacy",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "title": "Red-team primary-care WASH targeting, blame, privacy, and false-reassurance risks",
+    "status": "needs-triage",
+    "owner_role": "red-team-reviewer",
+    "outcome": "A failure-mode review covering facility blame, worker punishment, community exclusion, sensitive water-source disclosure, proxy clinical-risk scores, missingness misuse, and false reassurance from static indicators.",
+    "inputs": [
+      "Country facility-frame and continuity artifacts",
+      "Data-ownership, consent, de-identification, and access-control rules",
+      "Proposed descriptive tables, maps, or allocation outputs",
+      "WHO/UNICEF non-use and quality-of-care boundaries"
+    ],
+    "expected_artifact": "outputs.md and validation.md red-team review with blocks, mitigations, and residual-risk owners.",
+    "validation_method": "A second red-team reviewer independently tests each high-severity misuse path against the proposed output and confirms that it is mitigated, explicitly accepted by an authorized reviewer, or blocks public or field-facing use.",
+    "reviewer_needed": "red-team-reviewer",
+    "safety_risk": "high",
+    "done_condition": "No high-severity path can turn missing or static facility data into blame, exclusion, unsafe disclosure, clinical action, or procurement without a named owner, mitigation, non-use rule, and replicated red-team decision."
+  },
+  {
+    "id": "field-reality-allocation-review",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "title": "Check whether a verified WASH continuity artifact changes a real allocation decision",
+    "status": "needs-triage",
+    "owner_role": "field-reality-reviewer",
+    "outcome": "A field-facing decision review showing whether a named Ministry of Health, district, WASH, or health-system funder can act on the verified facility artifact without unsafe incentives.",
+    "inputs": [
+      "Replicated facility-frame, continuity, and linkage artifacts",
+      "Named Ministry of Health, district, or funder budgeting and maintenance decision",
+      "Facility managers, cleaners, health workers, patients, caregivers, and WASH actors where consented",
+      "Cost, burden, disclosure, equity, and fallback constraints"
+    ],
+    "expected_artifact": "playbooks.md allocation-decision memo and outputs.md use/non-use guidance.",
+    "validation_method": "A field-reality reviewer documents the decision, timing, evidence threshold, burden, beneficiary, risk bearer, and fallback; an independent reviewer replicates the non-use-case check before any recommendation.",
+    "reviewer_needed": "field-reality-reviewer",
+    "safety_risk": "high",
+    "done_condition": "The memo names one decision-maker and decision, shows which replicated observation could change it, records who could be harmed or excluded, and gives a stop, iterate, or proceed decision."
+  },
+  {
+    "id": "independent-replication",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "title": "Independently replicate a primary-care WASH continuity artifact",
+    "status": "needs-triage",
+    "owner_role": "implementation-planner",
+    "outcome": "An independent rerun record with locked inputs, environment, field definitions, hashes, divergence notes, and a decision about whether the facility artifact is reproducible.",
+    "inputs": [
+      "Reviewed and versioned facility-frame, continuity dictionary, and linkage artifact",
+      "Authorized de-identified or synthetic input data",
+      "Reproducible tabulation code or documented manual procedure",
+      "Replication record template and domain-review comments"
+    ],
+    "expected_artifact": "replication.json or the repository's approved replication record, plus validation.md divergence log.",
+    "validation_method": "A replicator runs the exact command or procedure from a clean environment, compares hashes and outputs, and records every divergence or blocks the result when the input or method cannot be reproduced.",
+    "reviewer_needed": "replicator",
+    "safety_risk": "high",
+    "done_condition": "An independent rerun either reproduces the stated facility-level artifact and its non-use boundaries or records a specific divergence that blocks operational or allocation-facing use."
+  }
+]

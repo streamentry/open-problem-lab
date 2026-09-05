@@ -1,0 +1,245 @@
+[
+  {
+    "id": "jmp-wash-hcf-2024",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "The WHO/UNICEF 2023 data update reports approximately 743 million people served by health-care facilities with no water service in 2023, approximately 660 million with no sanitation service, and approximately 722 million with no hygiene service, while noting that ageing data prevented global estimates of basic service for the 2023 reference year.",
+    "evidence_type": "dataset",
+    "source": {
+      "title": "Water, sanitation, hygiene, environmental cleaning and waste management in health care facilities: 2023 data update and special focus on primary health care",
+      "url": "https://www.who.int/publications/i/item/9789240103924"
+    },
+    "source_date": "2024-12-30",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the WHO publication overview and the linked WHO/UNICEF report, including the global service-level table, 2023 no-service estimates, reference-year note, and data-coverage discussion. Preserved the distinction between population-weighted no-service estimates and facility-level basic-service coverage.",
+    "limitations": [
+      "The report covers health-care facilities broadly; its global figures are not primary-care-only estimates.",
+      "The 2023 no-service population estimates and 2022 basic-service estimates use different data availability and must not be treated as one current denominator.",
+      "No-service and basic-service ladders do not establish daily uptime, quantity, water safety, repair time, or hand-hygiene use.",
+      "The report does not identify a causal effect of WASH conditions on infection, mortality, care seeking, or quality of care."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-unicef-wash-hcf-tracker-2025",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "The WHO/UNICEF country progress tracker update covered 107 countries in 2025 and reported that only 17% had secured sufficient financing to improve and sustain WASH and waste services in health-care facilities.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "WHO, UNICEF update country tracker on water, sanitation and hygiene in health-care facilities, showing progress across 107 countries",
+      "url": "https://www.who.int/news/item/09-07-2025-who--unicef-update-country-tracker-on-water--sanitation-and-hygiene-in-health-care-facilities--showing-progress-across-107-countries"
+    },
+    "source_date": "2025-07-09",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the departmental update for tracker coverage, baseline and standards actions, financing status, and the stated relationship to the 2023 United Nations General Assembly resolution. Treated the tracker as a country-action and financing source, not as a facility uptime dataset.",
+    "limitations": [
+      "The tracker reports country-level actions and financing sufficiency as defined by the reporting process, not the amount, continuity, or effectiveness of expenditure.",
+      "Coverage of 107 countries is not the same as representative coverage of facilities or people in low- and middle-income countries.",
+      "The update does not link financing status to water availability, hand-hygiene continuity, patient experience, or clinical outcomes.",
+      "Country self-reporting, indicator interpretation, and subsequent tracker revisions may change the observed status."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hcf-wash-core-2018",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "The WHO/UNICEF core-question guideline provides harmonized candidate indicators for water, sanitation, hand hygiene, health-care waste, and environmental cleaning in health-care facilities, including service location, usability, and point-of-care distinctions.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Core questions and indicators for monitoring WASH in health care facilities in the Sustainable Development Goals",
+      "url": "https://www.who.int/publications/i/item/9789241514545"
+    },
+    "source_date": "2018-08-15",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the guideline's indicator definitions and question wording for water, sanitation, hand hygiene, waste, and environmental cleaning. Extracted which questions are suitable for a facility audit and which would require additional continuity, quality, or outcome data.",
+    "limitations": [
+      "This is a normative monitoring guideline, not a completed country dataset or estimate of current service coverage.",
+      "Core questions do not by themselves measure multi-day uptime, quantity, microbial safety, stock-out duration, or repair completion.",
+      "Country adaptations and survey modes can introduce non-comparability even when the indicator label is shared.",
+      "The guideline does not establish that meeting a service definition causes a specific clinical outcome."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hhfa-comprehensive-guide-2023",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "WHO's Harmonized Health Facility Assessment is a facility-survey framework covering service availability, readiness, quality, management, and finance through planned sampling, facility visits, interviews, observation, and record review.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Harmonized health facility assessment (HHFA): comprehensive guide",
+      "url": "https://www.who.int/publications/i/item/9789240060302"
+    },
+    "source_date": "2023-01-09",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the publication overview and guide description for HHFA modules, sampling and data-collection methods, indicator inventory, analysis platform, and interpretation guidance. Mapped the framework's observed facility states to the pack's continuity and missingness requirements.",
+    "limitations": [
+      "HHFA measures facility capacity and selected processes; it does not by itself estimate population need or patient-level outcomes.",
+      "A facility assessment is usually a point-in-time observation and does not establish continuity between visits.",
+      "Country adaptations, non-response, facility-frame omissions, and observer effects can limit cross-country comparability.",
+      "The generic framework does not automatically specify a complete primary-care water or hand-hygiene uptime module."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-hhfa-combined-questionnaire-2023",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "The WHO HHFA combined questionnaire collects health-facility availability, readiness, management, and finance information using interviews with providers and observation of items and conditions in facilities, with core and additional question versions.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "HHFA Combined questionnaire Availability, Readiness and Management and finance June 2023",
+      "url": "https://www.who.int/publications/m/item/hhfa-combined-questionnaire-availability--readiness--management-and-finance-june-2023"
+    },
+    "source_date": "2023-06-28",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the questionnaire landing page for the core/additional structure, facility-audit method, provider interviews, observation requirements, and CSPro implementation. Treated the questionnaire as an input instrument whose field selection must be checked against continuity and point-of-care questions.",
+    "limitations": [
+      "The questionnaire is an instrument, not evidence that any country has collected all relevant fields.",
+      "Observation and interview responses can disagree and do not substitute for repeated logs or direct water-quality testing.",
+      "Optional additional questions and local adaptations can make results non-comparable across settings.",
+      "The instrument does not by itself connect WASH conditions to patient outcomes or establish causality."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-wash-fit-guide-2022",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "The second edition of WHO's WASH FIT is a risk-based, facility-led quality-improvement tool covering water, sanitation, hand hygiene, environmental cleaning, health-care waste, and selected energy, building, and management elements.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Water and Sanitation for Health Facility Improvement Tool (WASH FIT): a practical guide for improving quality of care through water, sanitation and hygiene in health care facilities, second edition",
+      "url": "https://www.who.int/publications/i/item/9789240043237"
+    },
+    "source_date": "2022-01-01",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the WASH FIT guide metadata and description for its risk-based cycle, facility team, assessment domains, improvement planning, and climate, gender, and equity additions. Used it to identify an existing operational measurement path while retaining the guide's adaptation and evaluation limits.",
+    "limitations": [
+      "The publication exposes a quality-improvement method, not a representative estimate of facility service coverage.",
+      "The source gives 2022 as the publication year without a more precise date; 2022-01-01 is a year proxy.",
+      "WASH FIT scores and plans do not establish causal improvement in infection, mortality, service use, or patient satisfaction.",
+      "Facility-led implementation may select more motivated or accessible sites and may not capture the hardest-to-reach facilities."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "guo-rural-hcf-wash-2017",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "A primary cross-sectional study of 1,318 randomly selected rural health-care facilities in Ethiopia, Kenya, Mozambique, Rwanda, Uganda, and Zambia measured WASH access, continuity, quality, quantity, and reliability and tested drinking-water samples for Escherichia coli.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Water, Sanitation, and Hygiene in Rural Health-Care Facilities: A Cross-Sectional Study in Ethiopia, Kenya, Mozambique, Rwanda, Uganda, and Zambia",
+      "url": "https://doi.org/10.4269/ajtmh.17-0208",
+      "doi": "10.4269/ajtmh.17-0208"
+    },
+    "source_date": "2017-10-11",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the primary article's abstract, study population, sampling description, field instruments, water-quality testing, country table, and discussion of continuity and reliability. Preserved the rural facility grain and did not convert the findings into a current global estimate.",
+    "limitations": [
+      "The cross-sectional design cannot measure long-term uptime or establish causal effects on clinical outcomes.",
+      "The sample covers selected rural regions in six countries and is not a current global or primary-care-only denominator.",
+      "Reported availability and water-quality testing do not fully observe stock-out duration, repair time, or all points of care.",
+      "The study's instrument and thresholds predate later WHO/UNICEF service-ladder updates."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kanyangarara-wash-hcf-2021",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "A 2021 analysis of health-facility surveys from 18 sub-Saharan African countries estimated that 88% of facilities had an improved water source on premises, 94% an improved toilet, 74% soap plus running water or alcohol-based hand rub, and 17% standard infection-prevention precautions, but could not evaluate the newer WHO/UNICEF basic-service definitions.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Access to water, sanitation and hygiene services in health facilities in sub-Saharan Africa 2013–2018: Results of health facility surveys and implications for COVID-19 transmission",
+      "url": "https://doi.org/10.1186/s12913-021-06515-z",
+      "doi": "10.1186/s12913-021-06515-z"
+    },
+    "source_date": "2021-06-25",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the primary article's included countries, survey years, facility and population frames, indicator definitions, reported estimates, rural-urban comparisons, and stated inability to evaluate WHO/UNICEF basic services. Treated its estimates as a historical cross-country comparison, not current continuity evidence.",
+    "limitations": [
+      "Underlying surveys were conducted from 2013 through 2018 and may not represent current service conditions.",
+      "The indicators use improved-source and availability definitions that are not identical to later basic-service ladders.",
+      "The analysis is facility-level and does not measure daily continuity, water quality, repair completion, or patient outcomes.",
+      "Country survey frames and private, mobile, conflict-affected, or unlisted facilities may differ."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "washfit-togo-pilot-2018",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "A mixed-methods Togo pilot evaluated WASH FIT in three health-care facilities at baseline, midline, and endline, with the average percentage of assessed indicators meeting standards increasing from 18% at baseline to 44% after the evaluated period.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Strengthening Healthcare Facilities Through Water, Sanitation, and Hygiene (WASH) Improvements: A Pilot Evaluation of “WASH FIT” in Togo",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30480501/",
+      "doi": "10.1089/hs.2018.0042"
+    },
+    "source_date": "2018-01-01",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the primary article's facility selection, baseline assessment, repeated WASH FIT scores, interviews, document review, indicator weighting, and limitations. Reproduced the reported 18% to 44% descriptive change as an implementation observation, not an intervention effect.",
+    "limitations": [
+      "The publication metadata expose 2018 as the year but not a precise day; 2018-01-01 is a year proxy.",
+      "Only three non-randomly selected facilities near the capital were evaluated, so results are not representative of Togo or LMICs.",
+      "There was no randomized comparator and the study cannot identify a causal effect of WASH FIT.",
+      "One facility's hygiene and sanitation scores declined by endline, showing that improvement was not uniform or necessarily sustained."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-ipc-global-report-2024",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "WHO's 2024 global infection-prevention and control report treats WASH as a condition supporting IPC practice and reports a global analysis of IPC implementation at national and health-care-facility levels, while not isolating a primary-care WASH causal effect.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Global report on infection prevention and control 2024",
+      "url": "https://www.who.int/publications/i/item/9789240103986"
+    },
+    "source_date": "2024-11-29",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the report overview and its framing of health-care-associated infections, AMR, WASH, and IPC implementation. Recorded the report as contextual evidence for why WASH and IPC are connected, while checking that it does not supply a facility-level primary-care intervention estimate.",
+    "limitations": [
+      "The report is a global IPC synthesis and is not a primary-care WASH continuity dataset.",
+      "WASH conditions, IPC programme implementation, and health-care-associated infection outcomes are related but not interchangeable measures.",
+      "Global and national summaries can conceal facility type, rurality, missingness, and within-country variation.",
+      "The report does not determine which water, supply, maintenance, or hand-hygiene intervention is best for a named facility network."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "who-wash-hcf-framework-2024",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "The WHO/UNICEF 2024–2030 framework provides an operational roadmap for universal WASH, health-care waste, and electricity services in health-care facilities and names health leaders, policymakers, WASH and finance actors as target users.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Universal water, sanitation, hygiene, waste and electricity services in all health care facilities to achieve quality care: Global framework for action 2024–2030",
+      "url": "https://www.who.int/publications/i/item/9789240095366"
+    },
+    "source_date": "2024-06-22",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the framework's purpose, target audiences, service components, and relationship to the 2023 United Nations General Assembly resolution. Used it to establish that a real allocation and implementation pathway exists, without treating the framework as evidence of local performance.",
+    "limitations": [
+      "The framework is policy and implementation guidance, not a completed facility dataset or causal evaluation.",
+      "It combines WASH, waste, and electricity at the global-framework level; this pack keeps the selected water and hand-hygiene wedge narrower.",
+      "The framework does not guarantee country financing, facility adoption, continuity, or safe water quality.",
+      "It cannot substitute for a named country's facility frame, baseline, missingness, and independent replication."
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "washfit-global-report-2025",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "The 2025 WHO/UNICEF global WASH FIT report analyzes implementation and country case studies and identifies continuing gaps and challenges in adapting and scaling a facility-led WASH quality-improvement tool.",
+    "evidence_type": "primary-source",
+    "source": {
+      "title": "Implementation of the water and sanitation for health facility improvement tool (WASH FIT): global report",
+      "url": "https://www.who.int/publications/i/item/9789240104822"
+    },
+    "source_date": "2025-02-12",
+    "access_date": "2026-09-05",
+    "method": "Reviewed the WHO publication overview for the implementation analysis, country case studies, scaling focus, and stated continuing gaps. Used the report to document a plausible improvement pathway and an evidence gap around transportability and sustained performance.",
+    "limitations": [
+      "The report is an implementation analysis and selected case studies, not a representative estimate of facility continuity.",
+      "Country adoption and case-study selection may favor settings with existing leadership or partner support.",
+      "The report does not establish a causal effect on infections, mortality, care seeking, or cost-effectiveness.",
+      "WASH FIT adoption does not prove that water and hand-hygiene services remain available between assessments."
+    ],
+    "confidence": "high"
+  }
+]

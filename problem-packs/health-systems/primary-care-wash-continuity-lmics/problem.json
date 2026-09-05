@@ -1,0 +1,54 @@
+{
+  "id": "health-systems/primary-care-wash-continuity-lmics",
+  "title": "Primary-Care Water And Hand-Hygiene Continuity In Low- And Middle-Income Health Facilities",
+  "status": "scoped",
+  "domain": ["health-systems", "water-security", "public-health"],
+  "region": ["global", "low-and-middle-income-countries"],
+  "summary": "Build a verified facility-level measurement workflow for primary-care water and hand-hygiene continuity that separates static infrastructure, point-of-care function, quantity, quality, stock-outs, downtime, repair, and missingness before any infrastructure or quality-of-care allocation.",
+  "why_it_matters": "A Ministry of Health primary-health-care, WASH, or infection-prevention director, a district health manager, and a health-system funder must decide whether a named facility needs a water source, storage or pumping capacity, hand-hygiene supplies, maintenance, environmental support, or better monitoring. The WHO/UNICEF 2023 data update reports that about 743 million people were served by facilities with no water service in 2023, while about 660 million had no sanitation service and 722 million had no hygiene service; yet ageing data prevented global estimates of basic service for the report's 2023 reference year (evidence: `jmp-wash-hcf-2024`). The 2025 WHO/UNICEF country tracker covered 107 countries, but only 17% reported sufficient financing to improve and sustain these services (evidence: `who-unicef-wash-hcf-tracker-2025`). A verified country-bounded measure of when-needed water and hand-hygiene availability could change whether scarce funds target source infrastructure, storage, consumables, maintenance, or measurement. It must not convert a facility visit into a clinical-outcome claim, a blame list, or a procurement order without domain, red-team, field-reality, and independent replication review.",
+  "success_metrics": [
+    {
+      "metric": "Service-layer integrity",
+      "target": "Every estimate separates water source type and location, availability when needed, quantity, quality, storage, pump or pipe function, hand-hygiene station function, soap or alcohol-based rub availability, and the care point observed.",
+      "validation_method": "A domain reviewer reconstructs each numerator and denominator from the cited instrument and blocks comparisons when service definitions or observation points differ."
+    },
+    {
+      "metric": "Continuity and downtime visibility",
+      "target": "Every continuity result records the observation window, start and end event, outage or stock-out duration, repair or replenishment state, season, and whether the measure is observed, logged, or self-reported.",
+      "validation_method": "A replicator reruns the continuity tabulation from locked facility records or explicitly marks the estimate unavailable when no compatible time window exists."
+    },
+    {
+      "metric": "Facility and population-frame separation",
+      "target": "Facility service availability, facility catchment access, patient experience, and health-care-associated infection outcomes remain separate measurement families with facility type, managing authority, rurality, and sampling frame visible.",
+      "validation_method": "A data reviewer traces each field to its observed unit and refuses population or clinical interpretation from a facility-only sample."
+    },
+    {
+      "metric": "Equity, dignity, and missingness",
+      "target": "Reports preserve rurality, facility level, maternity or other point-of-care setting, disability access, sex-separated sanitation where observed, staff and patient use, refusal, non-response, and missing service records.",
+      "validation_method": "A field-reality and red-team review checks that missing data are not treated as adequate service and that facility or community groups are not blamed or excluded."
+    },
+    {
+      "metric": "Allocation restraint",
+      "target": "No infrastructure, financing, infection-prevention, or quality-of-care recommendation advances beyond measurement framing without domain review, red-team review, field-reality review, and independent replication.",
+      "validation_method": "Review records, source identities, input hashes, and replication results are checked before any country-facing or operational output is published."
+    }
+  ],
+  "safety_level": "high",
+  "canonical_files": [
+    "datasets.md",
+    "evidence.json",
+    "evidence.md",
+    "outputs.md",
+    "playbooks.md",
+    "problem.json",
+    "problem.md",
+    "task-map.md",
+    "tasks.json",
+    "validation.md"
+  ],
+  "review_policy": {
+    "required_reviews": 3,
+    "replication_required": true,
+    "merge_gate": "Schema validation, WASH and primary-care domain review, red-team review for facility targeting, privacy, blame, and clinical overreach, field-reality review with health-system and WASH actors, and independent replication before any operational or allocation-facing recommendation."
+  }
+}

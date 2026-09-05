@@ -13,19 +13,31 @@ Without routing, a new agent sees a flat task list and misses the actual shape o
 
 ## Current Shape
 
-- **120 problem packs**
-- **622 total tasks**
-- **104 scoped now**
-- **518 follow-on tasks still latent**
-- **Owner roles:** `data-cleaner`: 121, `field-reality-reviewer`: 120, `implementation-planner`: 141, `literature-scout`: 120, `red-team-reviewer`: 120
-- **Reviewer demand:** `domain-reviewer`: 247, `field-reality-reviewer`: 124, `red-team-reviewer`: 121, `replicator`: 130
-- **Safety mix:** `high`: 331, `low`: 19, `medium`: 272
+- **121 problem packs**
+- **629 total tasks**
+- **105 scoped now**
+- **524 follow-on tasks still latent**
+- **Owner roles:** `data-cleaner`: 123, `field-reality-reviewer`: 121, `implementation-planner`: 143, `literature-scout`: 121, `red-team-reviewer`: 121
+- **Reviewer demand:** `domain-reviewer`: 248, `field-reality-reviewer`: 126, `red-team-reviewer`: 122, `replicator`: 133
+- **Safety mix:** `high`: 335, `low`: 19, `medium`: 275
 
 ## First Moves
 
 These are the best entry tasks for a fresh contributor. Ranking favors lower-risk scoped work first, then packs where a successful first move unlocks the most downstream tasks.
 
-### 1. Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States
+### 1. Primary-Care Water And Hand-Hygiene Continuity In Low- And Middle-Income Health Facilities
+
+- Pack: [`health-systems/primary-care-wash-continuity-lmics`](../../problem-packs/health-systems/primary-care-wash-continuity-lmics/problem.md)
+- Task: `source-inventory` — Inventory primary-care water and hand-hygiene continuity data sources in LMICs
+- Risk: `medium`
+- Reviewer needed: `domain-reviewer`
+- Existing evidence records: 12
+- Downstream tasks unlocked: 6
+- Downstream high-risk tasks: 4
+- Why pick now: Completing this scoped task opens 6 follow-on tasks across 4 additional roles.
+- Done condition: At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering static service, continuity, quality, point-of-care function, operational improvement, clinical outcomes, and missingness, with no source promoted beyond what it observes.
+
+### 2. Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States
 
 - Pack: [`climate-adaptation/sea-level-rise-small-islands`](../../problem-packs/climate-adaptation/sea-level-rise-small-islands/problem.md)
 - Task: `source-inventory` — Inventory SLR projection and coastal exposure data sources for SIDS
@@ -37,7 +49,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 2. Older-Adult Fall Injury Prevention And Post-Fall Function In Low- And Middle-Income Countries
+### 3. Older-Adult Fall Injury Prevention And Post-Fall Function In Low- And Middle-Income Countries
 
 - Pack: [`public-health/older-adult-falls-lmics`](../../problem-packs/public-health/older-adult-falls-lmics/problem.md)
 - Task: `source-inventory` — Inventory older-adult fall, injury, care, rehabilitation, and prevention data sources in LMICs
@@ -49,7 +61,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least seven candidate source families are classified with explicit reasons covering population falls, injury severity, time-to-care, prevention exposure, functional recovery, service capacity, and equity or missingness, with no source promoted beyond what it observes.
 
-### 3. Cyclone Early Warning And Evacuation Signal Verification In Bangladesh
+### 4. Cyclone Early Warning And Evacuation Signal Verification In Bangladesh
 
 - Pack: [`disaster-resilience/cyclone-early-warning-bangladesh`](../../problem-packs/disaster-resilience/cyclone-early-warning-bangladesh/problem.md)
 - Task: `source-inventory` — Inventory cyclone data sources for Bay of Bengal
@@ -61,7 +73,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 3 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 4. Hepatitis B Perinatal Prevention Cascade In High-Burden Countries
+### 5. Hepatitis B Perinatal Prevention Cascade In High-Burden Countries
 
 - Pack: [`infectious-disease/hepatitis-b-perinatal-prevention-global`](../../problem-packs/infectious-disease/hepatitis-b-perinatal-prevention-global/problem.md)
 - Task: `source-inventory` — Inventory hepatitis B perinatal prevention data sources and measures
@@ -73,7 +85,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least seven candidate source families are classified as usable, limited, or rejected with explicit reasons covering maternal screening, prophylaxis, birth-dose timing, infant-series completion, impact validation, linkage, and missingness.
 
-### 5. PM2.5 Monitoring Gaps And Health Impact In South Asia
+### 6. PM2.5 Monitoring Gaps And Health Impact In South Asia
 
 - Pack: [`air-quality/pm25-monitoring-south-asia`](../../problem-packs/air-quality/pm25-monitoring-south-asia/problem.md)
 - Task: `source-inventory` — Inventory PM2.5 monitoring and air quality data sources for South Asia
@@ -85,7 +97,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 6. Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
+### 7. Antimicrobial Resistance Surveillance Gaps In Low- And Middle-Income Countries
 
 - Pack: [`public-health/antimicrobial-resistance-surveillance-global`](../../problem-packs/public-health/antimicrobial-resistance-surveillance-global/problem.md)
 - Task: `source-inventory` — Inventory AMR surveillance data
@@ -97,7 +109,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: Five sources classified as usable, limited, or rejected.
 
-### 7. Malaria Early Warning Signals In Sub-Saharan Africa
+### 8. Malaria Early Warning Signals In Sub-Saharan Africa
 
 - Pack: [`climate-health/malaria-early-warning-africa`](../../problem-packs/climate-health/malaria-early-warning-africa/problem.md)
 - Task: `source-inventory` — Inventory malaria and climate data sources for Sub-Saharan Africa
@@ -109,7 +121,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons.
 
-### 8. Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
+### 9. Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
 
 - Pack: [`food-safety/aflatoxin-exposure-sub-saharan-africa`](../../problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md)
 - Task: `source-inventory` — Inventory mycotoxin test data, climate suitability models, and post-harvest practice surveys for SSA aflatoxin risk mapping
@@ -121,7 +133,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering contamination test method, geographic grain, crop specificity, sampling frame adequacy, and intervention-relevance.
 
-### 9. Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries
+### 10. Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries
 
 - Pack: [`public-health/substandard-falsified-medicines-global`](../../problem-packs/public-health/substandard-falsified-medicines-global/problem.md)
 - Task: `source-inventory` — Inventory quality-surveillance, field-survey, market-distribution, and regulatory data sources for SF medicines analysis
@@ -133,7 +145,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least six candidate data sources are classified as usable, limited, or rejected with explicit reasons covering sampling frame, test method, geographic grain, supply-chain tier, and substandard-versus-falsified disaggregation status.
 
-### 10. Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef
+### 11. Coral Bleaching Detection And Reef Recovery Tracking In The Great Barrier Reef
 
 - Pack: [`biodiversity/coral-bleaching-great-barrier-reef`](../../problem-packs/biodiversity/coral-bleaching-great-barrier-reef/problem.md)
 - Task: `source-inventory` — Inventory coral bleaching data sources
@@ -145,7 +157,7 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five sources classified as usable, limited, or rejected.
 
-### 11. Urban Pluvial Flooding Risk In South Asian Megacities
+### 12. Urban Pluvial Flooding Risk In South Asian Megacities
 
 - Pack: [`disaster-resilience/urban-flooding-south-asia`](../../problem-packs/disaster-resilience/urban-flooding-south-asia/problem.md)
 - Task: `source-inventory` — Inventory satellite impervious-surface, drainage, rainfall, flood-extent, and population data sources for South Asian megacities
@@ -157,21 +169,19 @@ These are the best entry tasks for a fresh contributor. Ranking favors lower-ris
 - Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
 - Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit reasons covering resolution, urban accuracy, and drainage-data availability.
 
-### 12. Post-Pandemic Learning Loss Measurement And Recovery Tracking In Low-Income Countries
-
-- Pack: [`education/learning-loss-post-pandemic`](../../problem-packs/education/learning-loss-post-pandemic/problem.md)
-- Task: `source-inventory` — Inventory learning assessment data sources for low-income countries
-- Risk: `medium`
-- Reviewer needed: `domain-reviewer`
-- Existing evidence records: 3
-- Downstream tasks unlocked: 5
-- Downstream high-risk tasks: 2
-- Why pick now: Completing this scoped task opens 5 follow-on tasks across 4 additional roles.
-- Done condition: At least five candidate data sources are classified as usable, limited, or rejected with explicit data-quality tier assignments.
-
 ## Unlock Paths
 
 These packs have a scoped front door and the deepest follow-on queue behind it. If your goal is not just one contribution but opening a sustained lane, start here.
+
+### Primary-Care Water And Hand-Hygiene Continuity In Low- And Middle-Income Health Facilities
+
+- Pack: [`health-systems/primary-care-wash-continuity-lmics`](../../problem-packs/health-systems/primary-care-wash-continuity-lmics/problem.md)
+- Scoped tasks at front door: 1
+- Follow-on tasks behind it: 6
+- High-risk follow-on tasks: 4
+- Follow-on roles: `data-cleaner`: 2, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
+- Reviewer types needed later: `field-reality-reviewer`: 2, `red-team-reviewer`: 1, `replicator`: 3
+- Existing evidence records: 12
 
 ### Sea-Level Rise Coastal Exposure And Adaptation Prioritization In Small Island Developing States
 
@@ -283,16 +293,6 @@ These packs have a scoped front door and the deepest follow-on queue behind it. 
 - Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
 - Existing evidence records: 2
 
-### Substandard And Falsified Medicine Detection And Surveillance Gaps In Low- And Middle-Income Countries
-
-- Pack: [`public-health/substandard-falsified-medicines-global`](../../problem-packs/public-health/substandard-falsified-medicines-global/problem.md)
-- Scoped tasks at front door: 1
-- Follow-on tasks behind it: 5
-- High-risk follow-on tasks: 3
-- Follow-on roles: `data-cleaner`: 1, `field-reality-reviewer`: 1, `implementation-planner`: 2, `red-team-reviewer`: 1
-- Reviewer types needed later: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
-- Existing evidence records: 4
-
 ## Reviewer Hotspots
 
 These are the packs most likely to stall after the first scoped task because reviewer load becomes the bottleneck.
@@ -324,6 +324,13 @@ These are the packs most likely to stall after the first scoped task because rev
 - Follow-on tasks: 6
 - High-risk follow-on tasks: 4
 - Reviewer load: `domain-reviewer`: 3, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
+
+### Primary-Care Water And Hand-Hygiene Continuity In Low- And Middle-Income Health Facilities
+
+- Pack: [`health-systems/primary-care-wash-continuity-lmics`](../../problem-packs/health-systems/primary-care-wash-continuity-lmics/problem.md)
+- Follow-on tasks: 6
+- High-risk follow-on tasks: 4
+- Reviewer load: `field-reality-reviewer`: 2, `red-team-reviewer`: 1, `replicator`: 3
 
 ### Occupational Heat Stress And Worker Health In Outdoor Industries Under Climate Change
 
@@ -374,24 +381,17 @@ These are the packs most likely to stall after the first scoped task because rev
 - High-risk follow-on tasks: 4
 - Reviewer load: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
 
-### Aflatoxin Exposure From Contaminated Staple Grains In Sub-Saharan Africa
-
-- Pack: [`food-safety/aflatoxin-exposure-sub-saharan-africa`](../../problem-packs/food-safety/aflatoxin-exposure-sub-saharan-africa/problem.md)
-- Follow-on tasks: 5
-- High-risk follow-on tasks: 4
-- Reviewer load: `domain-reviewer`: 2, `field-reality-reviewer`: 1, `red-team-reviewer`: 1, `replicator`: 1
-
 ## Role Backlog
 
 This is the actual pipeline shape. The flat scoped list hides it.
 
 | Role                     | Scoped now | Latent backlog | Share of all tasks | Share of latent tasks |
 | ------------------------ | ---------- | -------------- | ------------------ | --------------------- |
-| `implementation-planner` | 0          | 141            | 0.227              | 0.272                 |
-| `data-cleaner`           | 0          | 121            | 0.195              | 0.234                 |
-| `field-reality-reviewer` | 0          | 120            | 0.193              | 0.232                 |
-| `red-team-reviewer`      | 0          | 120            | 0.193              | 0.232                 |
-| `literature-scout`       | 104        | 16             | 0.193              | 0.031                 |
+| `implementation-planner` | 0          | 143            | 0.227              | 0.273                 |
+| `data-cleaner`           | 0          | 123            | 0.196              | 0.235                 |
+| `field-reality-reviewer` | 0          | 121            | 0.192              | 0.231                 |
+| `red-team-reviewer`      | 0          | 121            | 0.192              | 0.231                 |
+| `literature-scout`       | 105        | 16             | 0.192              | 0.031                 |
 
 ## Protocol Alerts
 
