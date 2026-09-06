@@ -241,5 +241,27 @@
       "WASH FIT adoption does not prove that water and hand-hygiene services remain available between assessments."
     ],
     "confidence": "high"
+  },
+  {
+    "id": "ayalew-amhara-hcf-wash-continuity-2025",
+    "problem_id": "health-systems/primary-care-wash-continuity-lmics",
+    "claim": "A mixed-methods 2023 assessment of health centres in North Mecha, Dera, and Farta in Ethiopia used facility observation, desk review, interviews, focus groups, and 384 citizen report cards, and found that continuous functionality at each premises was part of the national water-service standard while continuity, adequacy, maintenance, water-quality capacity, and nonfunctional handwashing facilities remained reported bottlenecks.",
+    "evidence_type": "peer-reviewed-study",
+    "source": {
+      "title": "Beyond access: assessing WASH service delivery models in healthcare facilities of North Mecha, Dera, and Farta, Ethiopia",
+      "url": "https://link.springer.com/article/10.1186/s12913-025-13002-2",
+      "doi": "10.1186/s12913-025-13002-2"
+    },
+    "source_date": "2025-07-02",
+    "access_date": "2026-09-06",
+    "method": "Reviewed the primary article's abstract, setting, inclusion criteria, mixed-methods collection, health-centre observations, citizen report cards, water-service standards, hand-hygiene findings, maintenance bottlenecks, and data-availability statement. Retained the national 5–400 litres/person/day and continuous-functionality language as the study's reported standard, not as a universal causal threshold.",
+    "limitations": [
+      "The assessment covers health centres in three woredas of Ethiopia's Amhara Region and is not a national or cross-country denominator.",
+      "The 2023 assessment is cross-sectional and does not provide a continuous sensor or repair-log time series for each facility.",
+      "The study reports service standards and observed bottlenecks but does not establish that a delivery model caused better clinical outcomes or satisfaction.",
+      "Citizen report cards exclude people who did not visit the health centres and may not represent all patients or communities.",
+      "The authors state that the underlying datasets are available from the corresponding author on reasonable request; public rerun access is not guaranteed."
+    ],
+    "confidence": "high"
   }
 ]

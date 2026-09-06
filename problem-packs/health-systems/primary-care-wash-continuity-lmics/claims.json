@@ -12,7 +12,8 @@
       "who-hhfa-combined-questionnaire-2023",
       "guo-rural-hcf-wash-2017",
       "kanyangarara-wash-hcf-2021",
-      "who-unicef-wash-hcf-tracker-2025"
+      "who-unicef-wash-hcf-tracker-2025",
+      "ayalew-amhara-hcf-wash-continuity-2025"
     ],
     "failure_modes": [
       "A reader treats the JMP no-service estimate as a current primary-care facility denominator or as proof that every person served by a facility experiences the same failure.",

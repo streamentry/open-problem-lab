@@ -3,7 +3,7 @@
     "id": "source-inventory",
     "problem_id": "health-systems/primary-care-wash-continuity-lmics",
     "title": "Inventory primary-care water and hand-hygiene continuity data sources in LMICs",
-    "status": "scoped",
+    "status": "needs-review",
     "owner_role": "literature-scout",
     "outcome": "A dated source inventory separating static service ladders, continuity, water quality, point-of-care function, operational improvement, clinical outcomes, and missingness into usable, limited, and rejected categories.",
     "inputs": [

@@ -2,7 +2,7 @@
 
 ## Active Work Claim
 
-The machine-readable task list is `tasks.json`. `source-inventory` is the only scoped entry task; all downstream work remains blocked until source identity, facility-frame, point-of-care, continuity, quality, and missingness boundaries are reviewed.
+The machine-readable task list is `tasks.json`. `source-inventory` is submitted for review after adding a country-bounded Ethiopian primary study that directly measures continuity, adequacy, maintenance, point-of-care hygiene, and citizen report-card fields; all downstream work remains blocked until the source identity, facility-frame, point-of-care, continuity, quality, and missingness boundaries are reviewed.
 
 ## Work Sequence
 
